@@ -1,5 +1,11 @@
 # Матеріали для курсу NLP в Проджекторі
 
+## Організаційне
+
+- [Оцінювання](https://github.com/vseloved/prj-nlp/blob/master/grading.md)
+- [Курсові роботи](https://github.com/vseloved/prj-nlp/blob/master/course-project.md)
+- Ліцензія: матеріали курсу доступні під ліцензією [Creative Commons BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
+
 ## Книжки
 
 - найбільш доступна і практично-орієнтована: [Natural Language Processing with Python](http://www.nltk.org/book/)
