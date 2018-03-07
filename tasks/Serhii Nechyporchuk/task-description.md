@@ -75,7 +75,7 @@ Types and corresponding operations:
 
 There an ability to set scope of search:
 
-* for event: `Find attendees who attended AI Summit`, `Find attendees who wrote post about Andrew Ng at AI Summit`
+* for event: `Find attendees who attended AI Summit`, `Find attendees who wrote post about neural nets at AI Summit`
 * for date: `Find attendees who wrote post about AI since April 14`
 * or both 
  
