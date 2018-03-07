@@ -73,7 +73,7 @@ Types and corresponding operations:
 | PageType (Schedule, Sponsor, Speaker) | is, is not                   |
 | Sponsor                               | is, is not                   |
 
-There an ability to set scope of search:
+There is an ability to set scope of search:
 
 * for event: `Find attendees who attended AI Summit`, `Find attendees who wrote post about neural nets at AI Summit`
 * for date: `Find attendees who wrote post about AI since April 14`
@@ -89,7 +89,7 @@ There an ability to set scope of search:
     * Construct every possibble way to phrase queries with several attributes that are highly correleated (sentiment and post text, etc)
     * Construct rest queries by combining previous 2
 
-## Dificalties 
+## Difficulties 
 * There are many ways to phrase same query
 * Need to construct your own corpus
 * Posibility to implement `Did you mean ... ?` feature for error corrections or misleading queries
