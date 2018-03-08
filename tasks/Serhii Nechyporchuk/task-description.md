@@ -1,5 +1,5 @@
 # Create parser for queris in natural language to structured queries for event-tech domain
-At Attenedify we have the tool to analyze you audience. It allows you to create structured queries using fairly complex UI and then execute them
+At Attenedify we have the tool to analyze your audience. It allows you to create structured queries using fairly complex UI and then execute them
 using engine to retrieve attendees you care of. This queries have following form:
 
     (or (profile.email [contains "@abc.com"])
@@ -8,8 +8,8 @@ using engine to retrieve attendees you care of. This queries have following form
              (like.postText [contains "SpaceX"])))
       
 
-This query tries to find attendees that has '@abc.com' in theirs email or thoose who created posts with "Tesla" and positive sentiment and liked post with "SpaceX".
-The idea is to reduce cognitive work for the users by providing an ability to create this queries using natural language (English specifically). It is obvious, that
+This query tries to find attendees that has '@abc.com' in theirs email or thoose who created positive post with "Tesla" and liked post with "SpaceX".
+The idea of this task is to reduce cognitive work for the users by providing an ability to create this queries using natural language (English specifically). It is obvious, that
 it will be harder to handle such complex queries, but it will significally improve user experience for small queries (80% of user's needs).
 Examples of such queries:
 
@@ -53,13 +53,13 @@ Query parser must give an ability to search by this attributes:
 | comment.postSentiment | Sentiment | Attendees who wrote comment for negative post with Boring                     |
 | poll.questionText     | text      | Attendees who answered for poll 'Are you happy?'                              |
 | poll.answerText       | text      | Attendees who answered Yes for poll 'Are you happy?'                          |
-| appSessions.count     | int       | Attenddees with less than 10 app sessions                                     |
+| appSessions.count     | int       | Attendees with less than 10 app sessions                                     |
 | pageView.content      | text      | Attendees who viewed page with SpaceX                                         |
 | pageView.type         | PageType  | Attendees who viewed sponsor page                                             |
 | pageView.count        | int       | Attendees who viewed sponsor page with Tesla more than 5 times                |
 | ad.text               | text      | Attendees who clicked on ad with Tesla                                        |
 | ad.sponsor            | Sponsor   | Attendees who clicked Apply ad with 'Wanna new iPhone?'                       |
-| ad.count              | int       | Attendees who clicke on ad more than 2 times                                  |
+| ad.count              | int       | Attendees who clicked on ad more than 2 times                                  |
 
 Types and corresponding operations:
 
@@ -81,7 +81,7 @@ There is an ability to set scope of search:
  
 ## Dataset
 * Looks like I have to made it by myself
-  * Corpora
+  * 2 corpora
     * corpus with shallow queries
     * corpus with deep (2-3 levels) queries
   * How to construct:
