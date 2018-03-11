@@ -1,0 +1,14 @@
+Project Reasoning:
+International funds that give financial grants to civil socitey initiatives get lots of applications from non-govermental organizations and spend a lot of time to process them. One such US fund has approached me to help them test natural language processing tools in assessing pre-award applications and getting the Risk Assessment WOrksheet. Usually this is the task for their grant managers, but the fund hopes to get some of that done with NLP tools. Such risk determination can also be used to highlight areas where the fund will need to provide further technical assistance or oversight to a prospective subrecipient. Risk determination is not intended to disqualify a subreceipiet. Rather, the purpose is to assist in desisning a monitoring plan for a successful partnership. 
+
+Description: Each potential grantee fills in a Subresipient pre-award questionnaire, project and performance description, budget and auditor's report. Based on these documents, I will try to parse/extract information that include key elements of risk, such as accounting policies, procurement policies, segregation of duties, management turnover, annual audits performed, complexity of the award, cash management policy, travel policy etc. After that, the programm will fill in the RIsk Assessment form based on the detailed rubrics, and finally I will compare the results of the NLP analysis with the actual results done by humans (grant managers).
+
+Data: The data is provided by the fund, and it is private one, however I got permission to publish some part of data which will be anonymised along with a solution and an article about the solution. The data includes Subresipient pre-award questionnaire, project and performance description, budget and auditor's report for each organization. One more additional piece of data is Risk Assessment done by a independent organization, and my task is to decide whether this assessment has any added value to the risks assessment process, or the fund may omit it and save money. 
+
+Plan:
+- Study internal documents and procedures of the fund assessment and monitoring policies
+- Study the set of pre-award apllications
+- Get the necessary infromation from the pre-award set or prove that some of the questions can not be answered.
+- Check the code on other sets
+- Update the code, and check on new data.
+
