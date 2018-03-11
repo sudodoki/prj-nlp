@@ -29,7 +29,8 @@
 Universal:
 - [Universal POS tags](http://universaldependencies.org/u/pos/index.html)
 - [Universal POS features](http://universaldependencies.org/u/feat/index.html)
-- [Universal dependencies](http://universaldependencies.org/docs/en/dep/)
+- [Universal dependencies v2](http://universaldependencies.org/docs/en/dep/)
+- [Universal dependencies v1](http://universaldependencies.org/docsv1/u/dep/index.html)
 
 Penn:
 - [Penn Treebank POS tags](https://sites.google.com/site/partofspeechhelp/)
