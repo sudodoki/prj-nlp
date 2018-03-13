@@ -1,0 +1,65 @@
+### 4. Визначте частину мови виділеного слова, його лему і зв'язок до його батька (за зразком):
+
+1. Рада міністрів Європейського союзу затвердила угоду про спрощений порядок видачі {віз} для України.
+2. Батько Себастьяна {віз} на санях їх театральний гурт до Львова.
+3. А ще дивний елемент інтер’єру – {віз} із продукцією одного з херсонських виробників.
+4. У цю мить {повз} Євгена пролетів останній вагон товарняка.
+5. Кліпнув очима і побачив малого песика, який саме пробігав {повз} у бік села.
+6. Степанко перестав кричати, тільки ламкий стогін {повз} йому із грудей.
+7. Часу не {гай} – декларацію подай!
+8. І коляд заспівали, і {гай} врятували.
+9. {Гай}, чи ви забулися, братове?
+10. Ось присіла на {край} ліжка.
+11. Поставив ту кузню не {край} дороги, як було заведено, а на Красній горі, біля Прадуба.
+12. Розповідаючи про передній {край} лінґвістики, фон Лібіх, як завжди, мислив широко і глобально.
+13. Не {край} мені серце.
+14. І {щойно} тоді додаємо до борщу смажену цибулю.
+15. Бо {щойно} я задрімав, віддавши тіло подушці з периною, як мене розбудив поштовх у бік.
+
+1. іменник, віза, nmod(видачі, віз)
+2. дієслово, везти, root(ROOT, віз)
+3. іменник, віз, appos(елемент, віз)
+4. прийменник, повз, case(пролетів, повз) ??
+5. ??
+6. присліник, повзти, ccomp(перестав, повз)
+7. дієслово, гаяти, root(ROOT, гай)
+8. іменник, гай, dobj(врятували, гай)
+9. ??
+10. іменник, край, advmod(присіла, край)
+11. прийменник, край, case(дороги, край)
+12. іменник, край, dobj(розповідаючи, край)
+13. дієслово, краяти, root(ROOT, край)
+14. ??
+15. прислівник, щойно, advmod(задрімав, щойно)
+
+### 3. Визначте частину мови виділеного слова і зв'язок до його батька (за зразком):
+1. We can {but} hope that everything will be fine.
+2. It's sad {but} true.
+3. Jack brings nothing {but} trouble.
+4. {As} we were talking, I realised how to solve the issue.
+5. This hot dog isn't {as} big as usual.
+6. This hot dog isn't as big {as} usual.
+7. This hot dog isn't as big {as} I expected.
+8. I work {as} a teacher.
+9. Let's do it this {way}!
+10. This is {way} too much!
+11. The prices are going {down}.
+12. Someone pushed him and he fell {down} the stairs.
+13. I’ve been feeling rather {down} lately.
+14. It's not easy to {down} a cup of coffee in one gulp.
+15. Bring a {down} jacket and a pair of gloves, and you'll be fine.
+
+1. adverb, advmod(hope, but)
+2. conjunction, cc(sad, but)
+3. preposition, case(trouble, but)
+5. adverb, advmod(big, as-5) ??
+6. adverb, case(usual, as-7) ??
+7. ??
+8. ??
+9. noun, det(this, way)
+10. adverb, advmod(much, way)
+11. noun, prt(going, down)
+12. adverb, advmod(stairs, down)
+13. adverb, advmod(feeling, down)
+14. verb, ccomp(easy, down)
+15. ??
