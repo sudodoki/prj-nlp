@@ -10,6 +10,7 @@ name = "pypi"
 jupyter = "*"
 spacy = "*"
 pandas = "*"
+nltk = "*"
 
 
 [dev-packages]
