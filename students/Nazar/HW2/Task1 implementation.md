@@ -24,19 +24,6 @@ flaw, flaws, flawed, flawless, flawlessness, flawlessly,
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -139,19 +126,6 @@ flaw, flaws, flawed, flawless, flawlessness, flawlessly,
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -247,19 +221,6 @@ flaw, flaws, flawed, flawless, flawlessness, flawlessly,
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -341,19 +302,6 @@ flaw, flaws, flawed, flawless, flawlessness, flawlessly,
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -466,25 +414,25 @@ I {like} turtles.: verb, root(ROOT, like)
 I like {turtles}.: noun, dobj(like, turtles)
 
 by spacy:
-    I like turtles.: PRON, nsubj(like, I)
-    I like turtles.: VERB, root(ROOT, like)
-    We can but hope that everything will be fine.: CCONJ, cc(can, but)
-    It's sad but true.: CCONJ, cc(sad, but)
-    Jack brings nothing but trouble.: ADP, prep(nothing, but)
-    This hot dog isn't as big as usual.: ADV, advmod(big, as)
-    This hot dog isn't as big as usual.: ADP, prep(big, as)
-    This hot dog isn't as big as usual.: ADV, advmod(big, as)
-    This hot dog isn't as big as usual.: ADP, prep(big, as)
-    This hot dog isn't as big as I expected.: ADV, advmod(big, as)
-    This hot dog isn't as big as I expected.: ADP, mark(expected, as)
-    I work as a teacher.: ADP, prep(work, as)
-    Let's do it this way!: NOUN, npadvmod(do, way)
-    This is way too much!: ADV, advmod(much, way)
-    The prices are going down.: PART, prt(going, down)
-    Someone pushed him and he fell down the stairs.: ADP, prep(fell, down)
-    I’ve been feeling rather down lately.: ADV, advmod(feeling, down)
-    It's not easy to down a cup of coffee in one gulp.: VERB, xcomp('s, down)
-    Bring a down jacket and a pair of gloves, and you'll be fine.: ADJ, amod(jacket, down)
+I like turtles.: PRON, nsubj(like, I)
+I like turtles.: VERB, root(ROOT, like)
+We can but hope that everything will be fine.: CCONJ, cc(can, but)
+It's sad but true.: CCONJ, cc(sad, but)
+Jack brings nothing but trouble.: ADP, prep(nothing, but)
+This hot dog isn't as big as usual.: ADV, advmod(big, as)
+This hot dog isn't as big as usual.: ADP, prep(big, as)
+This hot dog isn't as big as usual.: ADV, advmod(big, as)
+This hot dog isn't as big as usual.: ADP, prep(big, as)
+This hot dog isn't as big as I expected.: ADV, advmod(big, as)
+This hot dog isn't as big as I expected.: ADP, mark(expected, as)
+I work as a teacher.: ADP, prep(work, as)
+Let's do it this way!: NOUN, npadvmod(do, way)
+This is way too much!: ADV, advmod(much, way)
+The prices are going down.: PART, prt(going, down)
+Someone pushed him and he fell down the stairs.: ADP, prep(fell, down)
+I’ve been feeling rather down lately.: ADV, advmod(feeling, down)
+It's not easy to down a cup of coffee in one gulp.: VERB, xcomp('s, down)
+Bring a down jacket and a pair of gloves, and you'll be fine.: ADJ, amod(jacket, down)
     
 
 by my self
