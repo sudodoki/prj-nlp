@@ -38,12 +38,11 @@ def get_avg_sent(word, pos = None):
 
 def is_prominent(headline):
     doc = nlp(headline);
+    if (len(doc.ents) > 0):
+        return True
     tks = [token for token in doc]
     sent = 0
     for token in tks:
-        # should be NER instead but I didn't find trained NER model
-        if token.pos_ == 'PROPN':
-            return True
         if token.tag_ in ['JJS', 'RBS']:
             return True
         sent += get_avg_sent(str(token), token.pos_)
