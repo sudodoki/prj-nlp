@@ -7,7 +7,7 @@ nlp = spacy.load('en_core_web_lg')
 # that is why, for example, we also capitalize all words more than 4 characters long
 
 # watch file location
-with open('examiner-headlines.txt') as f:
+with open('../../../tasks/02-structural-linguistics/examiner-headlines.txt') as f:
     headlines = [h.strip() for h in f]
 
 def first_and_last(res):
@@ -53,8 +53,14 @@ def AP_capitalize(h):
     return res
 
 def APize_headlines(headlines, filename):
+    correct_count = 0
     with open(filename, 'w') as f:
         for h in headlines:
+            improved = AP_capitalize(h)
+            if improved == h:
+                correct_count += 1
             f.write(AP_capitalize(h)+'\n')
-            
+    perc_correct = 100*(correct_count/len(headlines))
+    print("Out of {N} headlines, {P:.2f}% were correct".format(N=len(headlines), P=perc_correct))
+
 APize_headlines(headlines, 'formatted_examiner.txt')

@@ -11,7 +11,7 @@ verb_list = 'pronounce, articulate, enounce, enunciate, order, utter, state, nar
             interact, insist, postulate, say, tell, speak, claim, communicate'
 verb_list = [v.strip() for v in verb_list.split(', ')]
 
-with open('/home/igor/Dropbox/Code/NLP_COURSE/prj-nlp/tasks/02-structural-linguistics/blog2008.txt') as f:
+with open('/../../../tasks/02-structural-linguistics/blog2008.txt') as f:
     blogsents = [s.strip() for s in f]
 
 def find_dep_adverbs(sent, verb_list):
@@ -22,7 +22,7 @@ def find_dep_adverbs(sent, verb_list):
     for token in verb_tokens:
         res[token.lemma_] = Counter()
         for child in token.children:
-            if child.pos_ == 'ADV' and child.lemma_.endswith('ly'):
+            if child.dep_ == 'advmod' and child.lemma_.endswith('ly'):
                 res[token.lemma_][child.lemma_] += 1
     return res
 
@@ -42,7 +42,15 @@ def analyze_collocations(sents, verb_list):
         res[v] = counts[v].most_common(10)
     return res
 
-print(analyze_collocations(blogsents, verb_list))
+def print_collocations(resdic):
+    verbs = sorted(resdic.keys())
+    res = 'Counts for verbs:\n'
+    for v in verbs:
+        counts = [f'{adv}: {count}' for adv, count in resdic[v]]
+        res += v.upper() + ': ' + ', '.join(counts) + '\n'
+    return res
+
+print(print_collocations(analyze_collocations(blogsents, verb_list)))
 
 # in command line: python 3-collocations.py > collocations.txt
 # program takes a long time to complete

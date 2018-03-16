@@ -3,7 +3,7 @@ nlp = spacy.load('en_core_web_lg')
 from nltk.corpus import sentiwordnet as swn
 
 # watch for file location
-with open('examiner-headlines.txt') as f:
+with open('../../../tasks/02-structural-linguistics/examiner-headlines.txt') as f:
     headlines = [h.strip() for h in f]
     
 def is_prominent(doc):
