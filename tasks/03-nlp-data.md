@@ -13,7 +13,6 @@ Write scripts in your favourite language to perform the following tasks:
 2. Download and extract as separate texts all posts in an section of choice from <http://forum.lvivport.com> - requires web-scraping
 3. Write a query to collect all relations from dbpedia for every individual person listed in it - requires SPARQL
 4. Download and process an arbitrary file from Common Crawl, extract individual items, perform basic statistical analysis (distribution of hosts, words, etc.) and visualization (optional)
-5. Read a text from [ner-uk corpus](https://github.com/lang-uk/ner-uk/) and print it with each entity wrapped in a tag &lt;entity-type&gt;entity&lt;/entity-type&gt; (where entity-type is among ПЕРС, ОРГ, ГЕО, РАЗН).
 
 ## Project
 
