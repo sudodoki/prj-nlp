@@ -63,8 +63,9 @@ SnowballStemmer відрізає закінчення та суфікси, та�
 1. adverb, advmod(hope, but)
 2. conjunction, cc(sad, but)
 3. preposition, case(trouble, but)
-5. adverb, advmod(big, as-5) ??
-6. adverb, case(usual, as-7) ??
+4. conjunction, mark(talking, as)
+5. adverb, advmod(big, as-5)
+6. adverb, case(usual, as-7)
 7. conjunction, mark(exptected, as)
 8. conjunction, mark(teacher, as)
 9. noun, det(this, way)
