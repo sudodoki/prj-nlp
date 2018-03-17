@@ -16,15 +16,15 @@ students/oleg_m/02-sling/1-sling.md
 + Required external libraries: spacy, nltk
 + Script path: students/oleg_m/02-sling/2-2_headlines.py
 + agrs: [0] -input 'input/file/path' [1] -output 'output/file/path'
-+ Run command: python3 students/oleg_m/02-sling/2-1_headlines.py -input /Users/admin/PycharmProjects/prj-nlp/students/oleg_m/02-sling/files/examiner-headlines.txt -output /Users/admin/PycharmProjects/prj-nlp/students/oleg_m/02-sling/files/examiner-headlines-catchy.txt
++ Run command: python3 students/oleg_m/02-sling/2-1_headlines.py -input 'students/oleg_m/02-sling/files/examiner-headlines.txt' -output 'students/oleg_m/02-sling/files/examiner-headlines-catchy.txt'
 
 ### Task 3
 
 + Language: Python3
 + Required external libraries: spacy
 + Script path: students/oleg_m/02-sling/3-colocations.py
-+ agrs: [0] -input 'input/file/path'
-+ Run command: python3 students/oleg_m/02-sling/3-colocations.py -input 'tasks/02-structural-linguistics/blog2008.txt'
++ agrs: [0] -input 'input/file/path' [1] -output 'output/file/path'
++ Run command: python3 students/oleg_m/02-sling/3-colocations.py -input 'tasks/02-structural-linguistics/blog2008.txt' -output 'students/oleg_m/02-sling/files/synonyms_counter.txt'
 + Restriction: there is one sentence per row in the file
 
 ### Task 4

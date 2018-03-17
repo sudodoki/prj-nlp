@@ -34,20 +34,25 @@ def proceed_sentence(sentence):
                             adv_counter[word][child.text.lower()] += 1
 
 
-def print_result():
+def print_result(output_file):
     """
     Print the result in proper view
     """
-    for word, advs in adv_counter.items():
-        if advs:
-            print('{}: {}'.format(word, ', '.join(['({}, {})'.format(k, v) for k, v in advs.most_common(10)])))
+    with open(output_file, 'a') as o_f:
+        for word, advs in adv_counter.items():
+            if advs:
+                synonyms = '{}: {}'.format(word, ', '.join(['({}, {})'.format(k, v)
+                                                            for k, v in advs.most_common(10)]))
+                print(synonyms)
+                o_f.write(sentence)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Input file')
     parser.add_argument('-input', dest='input_path', help='path to input file')
+    parser.add_argument('-output', dest='output_path', help='path to output file')
     args = parser.parse_args()
     with open(args.input_path, 'r') as i_f:
         for sentence in i_f:
             proceed_sentence(sentence)
-    print_result()
+    print_result(args.output_path)
