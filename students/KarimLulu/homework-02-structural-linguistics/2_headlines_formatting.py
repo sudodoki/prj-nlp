@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 path = Path(__file__).resolve().parent
 data_dir = path.parents[2] / "tasks" / "02-structural-linguistics"
 filename = "examiner-headlines.txt"
-output_filename = "output-formatting-headlines.txt"
+output_filename = "formatting-headlines.txt"
 nlp = spacy.load('en')
 
 infixes = ('\\.\\.+',
@@ -52,22 +52,19 @@ def format_headline(text):
     return "".join(output)
 
 def main():
-    logger.info("Read data")
-    data = [line.strip() for line in (data_dir / filename).open().readlines()]
     i = 0
-    output = []
     logger.info("Start processing")
-    for k, line in enumerate(data):
-        formatted = format_headline(line)
-        if line == formatted:
-            i += 1
-        if (k+1) % 500 == 0:
-            logger.info(f"Processed: {k+1}")
-        output.append(f"{formatted}\n")
-    logger.info("Write results to the file")
-    with (path / output_filename).open("w+") as f:
-        f.writelines(output)
+    with (data_dir / filename).open() as f_in, (path / output_filename).open("w+") as f_out:
+        for k, line in enumerate(f_in):
+            line = line.strip()
+            formatted = format_headline(line)
+            if line == formatted:
+                i += 1
+            f_out.write(f"{formatted}\n")
+            if (k+1) % 500 == 0:
+                logger.info(f"Processed: {k+1}")
     logger.info(f"No. of proper headlines: {i}")
+    # Should output: 506 headlines
     return 0
 
 if __name__=="__main__":
