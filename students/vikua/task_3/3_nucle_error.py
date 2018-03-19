@@ -42,6 +42,18 @@ class DataSource(object):
 
 
 def xml_to_dataframe(list_of_files):
+    """ Parsing hierarchical XML file into flat pandas DataFrame.
+
+    Parameters
+    ----------
+    list_of_files : list of str
+        List of paths to sgml files with XML data
+
+    Returns
+    -------
+    result : pd.DataFrame
+        Flat DataFrame with annotations data
+    """
     all_corrections = []
 
     for file_path in list_of_files:
@@ -112,6 +124,19 @@ def get_full_agreement(s):
 
 
 def calculate_general_agreement(df):
+    """ Calculates general inter-annotator agreement, which is full agreement
+    between teachers across all docs and error types.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Flat DataFrame with annotations data
+
+    Returns
+    -------
+    result : float
+        Value of inter-annotator agreement
+    """
     df['hash'] = df.apply(lambda x: '{}:{}:{}:{}:{}:{}:{}'.format(x['doc_id'], x['start_par'],
                                                                   x['end_par'],
                                                                   x['start_off'], x['end_off'],
@@ -121,6 +146,22 @@ def calculate_general_agreement(df):
 
 
 def calculate_per_doc_agreement(df):
+    """ Calculates per doc inter-annotator agreement
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Flat DataFrame with annotations data
+
+    Returns
+    -------
+    result : pd.DataFrame
+        Keys:
+        doc_id - id of the doc
+        total_len - total number of unique mistakes for the doc
+        common_len - number of common mistakes between teaches
+        agreement - inter-annotator agreement
+    """
     df['hash'] = df.apply(lambda x: '{}:{}:{}:{}:{}:{}'.format(x['start_par'], x['end_par'],
                                                                x['start_off'], x['end_off'],
                                                                x['type'], x['correction']), axis=1)
@@ -137,6 +178,22 @@ def calculate_per_doc_agreement(df):
 
 
 def calculate_per_error_agreement(df):
+    """ Calculates per error type inter-annotator agreement
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Flat DataFrame with annotations data
+
+    Returns
+    -------
+    result : pd.DataFrame
+        Keys:
+        error_type - type of error
+        total_len - total number of unique mistakes for the doc
+        common_len - number of common mistakes between teaches
+        agreement - inter-annotator agreement
+    """
     df['hash'] = df.apply(
         lambda x: '{}:{}:{}:{}:{}:{}'.format(x['doc_id'], x['start_par'],
                                              x['end_par'], x['start_off'],
