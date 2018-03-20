@@ -71,3 +71,6 @@ target/
 
 # Environments
 hw3
+
+# WARC files
+*.warc*

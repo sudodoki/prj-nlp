@@ -26,4 +26,5 @@ six==1.11.0
 SPARQLWrapper==1.8.1
 Twisted==17.9.0
 w3lib==1.19.0
+warc3==0.2.1
 zope.interface==4.4.3
