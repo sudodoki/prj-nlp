@@ -17,7 +17,6 @@ pycparser==2.18
 PyDispatcher==2.0.5
 pyOpenSSL==17.5.0
 pyparsing==2.2.0
-pyspark==2.1.1+hadoop2.7
 queuelib==1.5.0
 rdflib==4.2.2
 Scrapy==1.5.0
