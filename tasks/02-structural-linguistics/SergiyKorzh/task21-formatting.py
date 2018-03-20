@@ -27,7 +27,7 @@ tokenizer = nltk.tokenize.TreebankWordTokenizer()
 
 src_filename = "examiner-headlines.txt"
 
-dest_filename = "examiner-headlines-processed.txt"
+dest_filename = "examiner-headlines-formatted.txt"
 
 line_count = 0
 fixed_count = 0
