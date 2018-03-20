@@ -1,0 +1,43 @@
+Counts for verbs:
+ADDRESS: directly: 16, actually: 6, publicly: 4, only: 4, really: 4, adequately: 3, forthrightly: 2, shortly: 2, properly: 2, fully: 2
+AFFIRM: simply: 3, repeatedly: 2, constantly: 1, falsely: 1
+ALLEGE: directly: 2, credibly: 1, officially: 1, hypocritically: 1, reportedly: 1, wrongly: 1, commonly: 1, finally: 1
+ANNOUNCE: recently: 15, officially: 11, publicly: 8, early: 5, proudly: 4, openly: 3, previously: 3, shortly: 3, quickly: 3, newly: 3
+ARTICULATE: clearly: 5, amazingly: 1, rarely: 1, proactively: 1, poorly: 1, fully: 1, astutely: 1, certainly: 1, simply: 1
+ASSERT: blithely: 4, forcefully: 2, falsely: 2, confidently: 2, repeatedly: 2, incorrectly: 1, publicly: 1, slowly: 1, merely: 1, convincingly: 1
+CHAT: directly: 1, coincidentally: 1
+CLAIM: falsely: 77, previously: 9, repeatedly: 8, recently: 4, initially: 3, actually: 3, absurdly: 3, credibly: 3, publicly: 3, ludicrously: 3
+COMMUNICATE: effectively: 3, directly: 3, freely: 1, really: 1, apparently: 1, loudly: 1, hopefully: 1, daily: 1, actually: 1, regularly: 1
+CONFESS: actually: 1, eventually: 1, readily: 1
+CONVERSE: 
+CONVEY: accurately: 3, usually: 2, fully: 2, sharply: 1, positively: 1, clearly: 1, only: 1, privately: 1, strongly: 1
+DECLARE: publicly: 13, suddenly: 4, recently: 4, officially: 3, openly: 3, proudly: 3, falsely: 3, triumphantly: 3, ominously: 2, famously: 2
+DISCLOSE: fully: 9, publicly: 7, newly: 3, unwittingly: 2, recently: 2, immediately: 2, anonymously: 2, frequently: 1, specifically: 1, directly: 1
+ENOUNCE: 
+ENUNCIATE: simply: 1
+EXPLAIN: clearly: 10, fully: 10, patiently: 6, probably: 6, certainly: 5, really: 5, easily: 4, exactly: 4, recently: 4, necessarily: 2
+EXPRESS: repeatedly: 6, actually: 3, privately: 3, freely: 3, openly: 2, publicly: 2, starkly: 2, finally: 2, only: 2, verbally: 1
+INSIST: repeatedly: 9, recently: 3, stubbornly: 2, publicly: 2, naturally: 2, additionally: 2, consistently: 2, testily: 2, angrily: 2, desperately: 2
+INTERACT: rarely: 1, intensively: 1, negatively: 1, socially: 1, really: 1
+MAINTAIN: actually: 2, probably: 1, legally: 1, consistently: 1, merely: 1, regularly: 1, carefully: 1, simultaneously: 1, oddly: 1, importantly: 1
+MENTION: barely: 7, specifically: 6, only: 6, briefly: 4, prominently: 4, certainly: 3, rarely: 3, hardly: 3, finally: 3, conspicuously: 2
+NARRATE: 
+NOTIFY: properly: 1
+ORDER: publicly: 2, immediately: 2, simply: 1, possibly: 1, merely: 1, blindly: 1, personally: 1, famously: 1, fully: 1, really: 1
+POSTULATE: notoriously: 1
+PROCLAIM: loudly: 4, piously: 2, publicly: 2, ardently: 1, proudly: 1, openly: 1, repeatedly: 1, joyously: 1, preposterously: 1, casually: 1
+PRONOUNCE: quickly: 1, officially: 1, suddenly: 1, only: 1, incorrectly: 1, correctly: 1
+RECITE: simply: 3, robotically: 1, rapidly: 1, properly: 1
+REPLY: simply: 9, only: 3, absolutely: 3, sarcastically: 2, flatly: 2, immediately: 2, dismissively: 2, usually: 1, sternly: 1, pointedly: 1
+REPORT: recently: 31, widely: 16, previously: 12, breathlessly: 10, directly: 8, only: 7, finally: 7, separately: 6, gleefully: 5, honestly: 4
+REVEAL: recently: 10, publicly: 3, unfortunately: 3, unwittingly: 2, eventually: 2, only: 2, simply: 2, finally: 2, officially: 2, accidentally: 2
+SAY: recently: 75, actually: 70, repeatedly: 49, simply: 38, explicitly: 36, publicly: 35, basically: 32, really: 26, only: 23, clearly: 20
+SPEAK: directly: 31, publicly: 15, only: 12, fiercely: 12, briefly: 8, recently: 8, generally: 8, openly: 8, politically: 7, loudly: 7
+STATE: publicly: 21, clearly: 19, explicitly: 13, unequivocally: 12, simply: 8, bluntly: 6, recently: 6, flatly: 6, only: 5, repeatedly: 5
+TALK: directly: 14, really: 12, only: 11, openly: 7, actually: 7, publicly: 6, specifically: 6, personally: 5, clearly: 5, constantly: 5
+TELL: recently: 23, reportedly: 14, privately: 12, finally: 10, basically: 9, repeatedly: 8, actually: 8, really: 8, probably: 7, specifically: 7
+TRANSMIT: sexually: 9, electronically: 2, securely: 1, directly: 1
+UTTER: actually: 2, casually: 1, pejoratively: 1, only: 1
+VERBALISE: 
+VERBALIZE: 
+
