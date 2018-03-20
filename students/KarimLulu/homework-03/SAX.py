@@ -4,7 +4,7 @@ import bz2
 import re
 from collections import defaultdict
 
-from config import wiki_filename, wiki_output, root_dir
+from config import wiki_filename, wiki_output, data_dir
 
 
 class WikiHandler(xml.sax.handler.ContentHandler):
@@ -52,7 +52,7 @@ class WikiHandler(xml.sax.handler.ContentHandler):
             self.text = self.text + content
 
     def endDocument(self):
-        with (root_dir / wiki_output).open("w+") as f:
+        with (data_dir / wiki_output).open("w+") as f:
             for key, value in self.data.items():
                 line = f"{key}: " + ", ".join(value) + "\n"
                 f.write(line)
@@ -63,5 +63,5 @@ if __name__=="__main__":
     handler = WikiHandler(patt_raw, patt_syns)
     parser = make_parser()
     parser.setContentHandler(handler)
-    with bz2.open(root_dir / wiki_filename, mode="rt") as f:
+    with bz2.open(data_dir / wiki_filename, mode="rt") as f:
         parser.parse(f)
