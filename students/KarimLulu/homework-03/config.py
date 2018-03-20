@@ -12,6 +12,8 @@ wiki_filename = "bgwiktionary-20180301-pages-articles-multistream.xml.bz2"
 wiki_output = "wiktionary.txt"
 hosts_output = "hosts.txt"
 servers_output = "servers.txt"
+annotated_data = "conll14st-test-data.tar.gz"
+annotations_output = "annotations.json"
 
 def init_dir(folder):
     Path.mkdir(folder, parents=True, exist_ok=True)
