@@ -41,6 +41,10 @@ waiting_ns = False
 waiting_text = False
 text = ''
 title = None
+all_count = 0
+bg_count = 0
+syn_count = 0
+lang_re = re.compile(r"\{\{-bg-\}\}|ЕЗИК\s*=\s*bg|ЕЗИК\s*=\s*български", re.M | re.UNICODE)
 with open('bg_wiktionary_syns.txt', 'w') as output_file:
     for (event, elem) in etree.iterparse(bz2.open("wiktionary.xml.bz2"), events=['start', 'end']):
         if (event == 'start' and elem.tag[-4:] == 'page'):
@@ -62,8 +66,17 @@ with open('bg_wiktionary_syns.txt', 'w') as output_file:
             text = elem.text
             if not text:
                 continue
+            all_count += 1
+            if not lang_re.search(text):
+                continue
+            bg_count += 1
+            if bg_count % 1000 == 1:
+                print('.', end='')
             (word, syns) = extract_word_and_syns(text)
             if not syns:
                 continue
+            syn_count += 1
             output_file.write("{} (https://bg.wiktionary.org/wiki/{}): {}\n".format(word, title, syns))
             continue
+print('Of {} total articles, {} were in bulgarian and only {} had synonyms'.format(all_count, bg_count, syn_count))
+# Of 787273 total articles, 20969 were in bulgarian and only 18253 had synonyms
