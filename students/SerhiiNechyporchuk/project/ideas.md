@@ -6,6 +6,7 @@ Jack Roe replied 'Thats true!' to the 'This autoshow is rocks! Especially the Te
 crowdsorcing:
 * Описать действия которые сделал attendee и попросить написать их поисковые запросы по отношению к attendee
 
+Something:
 * attendees/profiles/contacts
 * singular/plural
 * find/search all
