@@ -1,0 +1,19 @@
+- Open this DBPedia query editor http://dbpedia.org/sparql/
+- Execute following query:
+
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?name2 ?relationship ?name1 where {
+   ?person1 a foaf:Person .
+   ?person1 dbo:relation ?person2 .
+   ?person1 ?relationship ?person2 .
+   ?person1 foaf:name ?name1 .
+   ?person2 foaf:name ?name2 .
+   filter (?relationship != dbo:relation)
+}
+
+
+
+
