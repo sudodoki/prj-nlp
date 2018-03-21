@@ -42,10 +42,10 @@ Something:
 Find attendees [with ...] [from... ] [who ... ]
 
 
-Find attendees from Attendify company who liked post with 'marketing'
-Find attendees from Attendify company who liked posts with 'marketing'
-Find attendees who liked post with 'marketing' and are Attendify employees
-Find attendees who liked post with 'marketing' and are Attendify workers
+* Find attendees from Attendify company who liked post with 'marketing'
+* Find attendees from Attendify company who liked posts with 'marketing'
+* Find attendees who liked post with 'marketing' and are Attendify employees
+* Find attendees who liked post with 'marketing' and are Attendify workers
 
 ### Personal Info
 #### First name
