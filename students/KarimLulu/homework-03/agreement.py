@@ -57,7 +57,7 @@ class Handler(xml.sax.handler.ContentHandler):
 
     def endDocument(self):
         with (data_dir / annotations_output).open("w+") as f:
-            json.dump(self.data, f)
+            json.dump(self.data, f, indent=4)
 
 def main():
     handler = Handler()
