@@ -148,3 +148,9 @@ for include_type in (True, False):
 # Agremeent with location included in other location  ignoring types  same correction  agremenet is  67.89645332246229 %
 # Agremeent with exactly same location  ignoring types  ignoring correction  agremenet is  72.95225580376697 %
 # Agremeent with location included in other location  ignoring types  ignoring correction  agremenet is  72.95225580376697 %
+
+# Conclusions:
+# - the stricter criteria of agreements, the less agreement there is
+# - there's only 65% of cases of total inter-annotator agreement with exact match of location type and correction
+# - in 2% of corrections for same error and location annotators came up with different corrections
+# - in 72% of cases correction of one person would somewhat overlap other person correction, disregarding other error details
