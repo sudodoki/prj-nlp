@@ -8,7 +8,7 @@ to_lower = ["CCONJ", "ADP", "PART", "INTJ"]
 all_words = to_cap + to_lower
 super_tags = ["JJS", "RBS"]
 spacy_to_nltk = {"NOUN":"n", "VERB": "v", "ADJ": "a", "ADV": "r"}
-filepath = 'examiner-headlines.txt'
+filepath = '../../../../tasks/02-structural-linguistics/examiner-headlines.txt'
 
 
 class HeadlinesFormatter(object):

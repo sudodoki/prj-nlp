@@ -1,7 +1,7 @@
 from collections import defaultdict
 import spacy
 verbs = ("add", "announce", "answer", "assert", "claim", "convey", "declare", "deliver", "disclose", "estimate", "express", "maintain", "mention", "read", "repeat", "reply", "report", "respond", "reveal", "speak", "state", "suggest", "tell", "voice", "affirm", "allege", "communicate")
-filepath = 'blog2008.txt'
+filepath = '../../../../tasks/02-structural-linguistics/blog2008.txt'
 import operator
 
 def get_stat():
