@@ -28,6 +28,13 @@
     ```
 
 - Run cswiktionary dump parsing and synonyms extraction
+    Download [cswiktionary](https://s3.eu-central-1.amazonaws.com/vikua-wiki/cswiktionary-20180301-pages-articles-multistream.xml) file
     ```
     python 3_cswiktionary_parser.py -i ../path/to/cswiktionary.xml -o synonyms.txt
     ```
+
+- Run lviv forum crawler and save file to local file system: 
+    ```
+    scrapy runspider 3_forum_crawling.py -o lviv.json
+    ```
+    Output file can also be downloaded [here](https://s3.eu-central-1.amazonaws.com/vikua-wiki/task_3/lviv.json)
