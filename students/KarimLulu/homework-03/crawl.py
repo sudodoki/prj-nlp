@@ -39,7 +39,7 @@ def save_counter(counter, filename, folder=data_dir):
         for key,value in counter.most_common():
             f.write(f"{key}: {value}\n")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     host_counter, server_counter = process_files()
     save_counter(host_counter, filename=hosts_output)
     save_counter(server_counter, filename=servers_output)

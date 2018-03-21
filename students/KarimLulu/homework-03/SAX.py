@@ -57,7 +57,7 @@ class WikiHandler(xml.sax.handler.ContentHandler):
                 line = f"{key}: " + ", ".join(value) + "\n"
                 f.write(line)
 
-if __name__=="__main__":
+if __name__ == "__main__":
     patt_raw = r"(?:СИНОНИМИ =\s+([^|]*))"
     patt_syns = r"\[\[(.*?)\]\]"
     handler = WikiHandler(patt_raw, patt_syns)

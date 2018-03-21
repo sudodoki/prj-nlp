@@ -69,6 +69,6 @@ def main():
             xml.sax.parseString(f, handler)
     return 0
 
-if __name__=="__main__":
+if __name__ == "__main__":
     code = main()
     sys.exit(code)
