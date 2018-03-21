@@ -2,38 +2,39 @@ import xml.sax
 import tarfile
 import json
 import sys
-from itertools import groupby
+from itertools import groupby, product
 from operator import itemgetter
 
-from config import data_dir, annotated_data, annotations_output
+from config import data_dir, annotated_data, agreement_output, annotations_output
 
 PATT = "sgml"
 TYPE = "noalt"
+ROUND = 3
 
 def distance(a, b, start="start_off", end="end_off"):
     return max(abs(a[start]-b[start]), abs(a[end]-b[end]))
 
-def closeness(a, b, start="start_off", end="end_off"):
-    IOU = (min(a[end], b[end]) - max(a[start], b[start])) / (max(a[end], b[end]) - min(a[start], b[start]))
-    if IOU < 0:
+def IOU(a, b, start="start_off", end="end_off"):
+    intersection = min(a[end], b[end]) - max(a[start], b[start])
+    union = max(a[end], b[end]) - min(a[start], b[start])
+    if intersection < 0:
         return 0
-    return IOU
+    return intersection / union
 
 def estimate_agreement(data):
-    k = 0
-    for doc_id, doc_group in groupby(sorted(data, key=itemgetter("doc_id")), key=itemgetter("doc_id")):
-        for par_num, par_group in groupby(sorted(doc_group, key=itemgetter("start_par")), key=itemgetter("start_par")):
+    intersection = 0
+    for doc_id, doc_group in groupby(sorted(data, key=itemgetter("doc_id")), 
+                                     key=itemgetter("doc_id")):
+        for par_num, par_group in groupby(sorted(doc_group, key=itemgetter("start_par")), 
+                                          key=itemgetter("start_par")):
             chunk = sorted(par_group, key=itemgetter("teacher"))
             split = [list(gr) for key, gr in groupby(chunk, key=itemgetter("teacher"))]
             if len(split) > 1:
-                teacher_1, teacher_2 = split
-                for correction in teacher_1:
-                    closest_correction = min(teacher_2, key=lambda x: distance(x, correction))
-                    metric = closeness(correction, closest_correction)
-                    k += metric
+                for x, y in product(*split): #y = min(teacher_2, key=lambda x: distance(x, correction))
+                        intersection += IOU(x, y)
             else:
                 pass
-    return k * 100.0 / (len(data) - k)
+    return intersection * 100.0 / (len(data) - intersection)
 
 def estimate_agreement_by_type(data):
     split_by_type = [(key, list(gr)) for key, gr in groupby(sorted(data, key=itemgetter("type")),
@@ -46,7 +47,7 @@ def estimate_agreement_by_type(data):
 class Handler(xml.sax.handler.ContentHandler):
 
     def __init__(self):
-        self.inType, self.inCorrection = [False] * 2
+        self.inType = self.inCorrection = False
         self.data = []
 
     def add_mistake(self):
@@ -90,12 +91,6 @@ class Handler(xml.sax.handler.ContentHandler):
         if self.inCorrection:
             self.correction = self.correction + content
 
-    def endDocument(self):
-        with (data_dir / annotations_output).open("w+") as f:
-            json.dump(self.data, f, indent=4)
-        agreement = estimate_agreement_by_type(self.data)
-        print(json.dumps(agreement, indent=4))
-
 def main():
     handler = Handler()
     with tarfile.open(data_dir / annotated_data) as tar:
@@ -104,6 +99,15 @@ def main():
             f = tar.extractfile(filename).read()
             f = b"<root>" + f + b"</root>"
             xml.sax.parseString(f, handler)
+    # Dump parsed annotations
+    with (data_dir / annotations_output).open("w+") as f:
+        json.dump(handler.data, f, indent=4)
+    # Estimate and dump agreement
+    with (data_dir / agreement_output).open("w+") as f:
+        for key, value in estimate_agreement_by_type(handler.data).items():
+            f.write(f"{key}: {value:0.{ROUND}f}%\n")
+        agreement = estimate_agreement(handler.data)
+        f.write(f"\nTotal: {agreement:0.{ROUND}f}%\n")
     return 0
 
 if __name__ == "__main__":

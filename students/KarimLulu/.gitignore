@@ -74,3 +74,5 @@ hw3
 
 # WARC files
 *.warc*
+*.b2
+*.gz

@@ -14,6 +14,7 @@ hosts_output = "hosts.txt"
 servers_output = "servers.txt"
 annotated_data = "conll14st-test-data.tar.gz"
 annotations_output = "annotations.json"
+agreement_output = "agreement.txt"
 
 def init_dir(folder):
     Path.mkdir(folder, parents=True, exist_ok=True)
