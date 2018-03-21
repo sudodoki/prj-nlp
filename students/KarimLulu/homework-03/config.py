@@ -9,7 +9,7 @@ posts_dir = data_dir / "posts"
 persons_dir = data_dir / "persons"
 
 wiki_filename = "bgwiktionary-20180301-pages-articles-multistream.xml.bz2"
-wiki_output = "wiktionary.txt"
+wiki_output = "synonyms.txt"
 hosts_output = "hosts.txt"
 servers_output = "servers.txt"
 annotated_data = "conll14st-test-data.tar.gz"
