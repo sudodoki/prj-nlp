@@ -50,16 +50,18 @@
     aws s3 cp s3://commoncrawl/crawl-data/CC-NEWS/2018/02/CC-NEWS-20180228202022-00305.warc.gz ./students/vikua/task_3/ --no-sign-request
     aws s3 cp s3://vikua-wiki/warcbase-core-0.1.0-SNAPSHOT-fatjar.jar ./students/vikua/task_3/ --no-sign-request
     ```
-    Run pre-processing scala spark code (pandas takes forever)
+    Run pre-processing scala spark code. Using custom hadoop input format for warc files is faster 
+    then using warcio python lib:
     ```
     spark-shell -i warc_loader.scala --jars /path/to/warcbase-core-0.1.0-SNAPSHOT-fatjar.jar
     ```
-    This command will create `raw.parquet` directory with crawled data. Parquet format is used 
-    because it is impossible to save unstructured data like html page as csv. 
-    (well it is possible to save but impossible to read afterwards)
+    This command will create `raw.csv` directory with crawled data. 
     
-    Run pyspark code which will infer language, title and extract text:
+    Run script to infer language, run readability algorithm and extract title and text.
+    Note, this script takes a lot of time to finish. (I think it is better to do it in pyspark)
     ```
-
+    python3 3_common_crawl.py -i path/to/raw.csv/part-*.csv -o common_crawl.csv
     ```
+    
+    Analysis is done in common_crawl.ipynb notebook``
     
