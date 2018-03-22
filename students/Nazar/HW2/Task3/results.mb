@@ -1,0 +1,55 @@
+```
+initial word list: ["say", "tell", "speak", "claim", "communicate"]
+
+extended word list: ['advertise', 'suit', 'mention', 'instruct', 'say', 'respond', 'disclose', 'deliver', 'confess', 'reveal', 'convey', 'speak', 'requirement',
+ 'communicate', 'plea', 'disseminate', 'shout', 'express', 'suggest', 'claim', 'relate',
+ 'tell', 'connect', 'interest', 'case']
+ 
+ results:
+ claim:[('falsely', 68), ('previously', 9), ('repeatedly', 8), ('recently', 4), ('initially', 3), ('actually', 3), ('credibly', 3), ('publicly', 3), ('laughably', 3), ('ludicrously', 3)]
+------------------------------------
+say:[('actually', 75), ('recently', 74), ('repeatedly', 55), ('simply', 46), ('explicitly', 39), ('publicly', 37), ('basically', 32), ('really', 30), ('only', 25), ('previously', 22)]
+------------------------------------
+speak:[('directly', 34), ('publicly', 15), ('fiercely', 12), ('only', 10), ('briefly', 9), ('recently', 8), ('generally', 8), ('openly', 8), ('politically', 7), ('loudly', 7)]
+------------------------------------
+tell:[('recently', 26), ('reportedly', 14), ('privately', 12), ('finally', 10), ('only', 10), ('basically', 9), ('repeatedly', 8), ('actually', 8), ('specifically', 8), ('simply', 8)]
+------------------------------------
+respond:[('quickly', 12), ('immediately', 8), ('aggressively', 7), ('forcefully', 6), ('finally', 5), ('simply', 4), ('promptly', 3), ('personally', 3), ('directly', 3), ('effectively', 3)]
+------------------------------------
+suggest:[('strongly', 31), ('falsely', 7), ('certainly', 6), ('seriously', 4), ('recently', 4), ('clearly', 3), ('publicly', 2), ('only', 2), ('finally', 2), ('gently', 2)]
+------------------------------------
+deliver:[('directly', 5), ('really', 4), ('actually', 4), ('obviously', 2), ('recently', 2), ('finally', 2), ('quickly', 2), ('orally', 1), ('futily', 1), ('especially', 1)]
+------------------------------------
+connect:[('politically', 3), ('directly', 2), ('emotionally', 2), ('continually', 1), ('intimately', 1), ('explicitly', 1), ('intrinsically', 1), ('automatically', 1), ('skillfully', 1), ('specifically', 1)]
+------------------------------------
+express:[('repeatedly', 6), ('actually', 3), ('privately', 3), ('freely', 3), ('openly', 2), ('publicly', 2), ('starkly', 2), ('finally', 2), ('only', 2), ('verbally', 1)]
+------------------------------------
+relate:[('directly', 17), ('tangentially', 3), ('clearly', 3), ('specifically', 3), ('only', 2), ('distantly', 2), ('likely', 1), ('tellingly', 1), ('reasonably', 1), ('finally', 1)]
+------------------------------------
+communicate:[('effectively', 3), ('directly', 3), ('freely', 1), ('really', 1), ('apparently', 1), ('loudly', 1), ('hopefully', 1), ('daily', 1), ('actually', 1), ('regularly', 1)]
+------------------------------------
+disseminate:[('widely', 2), ('actually', 1), ('faithfully', 1), ('helpfully', 1), ('incessantly', 1), ('easily', 1)]
+------------------------------------
+mention:[('barely', 7), ('specifically', 6), ('only', 6), ('briefly', 5), ('prominently', 4), ('hardly', 4), ('certainly', 3), ('rarely', 3), ('finally', 3), ('conspicuously', 2)]
+------------------------------------
+reveal:[('recently', 10), ('publicly', 3), ('unfortunately', 3), ('unwittingly', 2), ('eventually', 2), ('only', 2), ('simply', 2), ('finally', 2), ('officially', 2), ('interestingly', 2)]
+------------------------------------
+disclose:[('fully', 9), ('publicly', 7), ('newly', 3), ('unwittingly', 2), ('recently', 2), ('immediately', 2), ('anonymously', 2), ('frequently', 1), ('specifically', 1), ('directly', 1)]
+------------------------------------
+suit:[('uniquely', 7), ('perfectly', 5), ('temperamentally', 3), ('only', 2), ('personally', 1), ('really', 1)]
+------------------------------------
+instruct:[('obviously', 1), ('endlessly', 1), ('erroneously', 1), ('naturally', 1), ('reportedly', 1), ('subliminally', 1), ('finally', 1), ('explicitly', 1)]
+------------------------------------
+convey:[('accurately', 3), ('usually', 2), ('fully', 2), ('sharply', 1), ('clearly', 1), ('only', 1), ('privately', 1), ('strongly', 1)]
+------------------------------------
+case:[('only', 1), ('legally', 1), ('nationally', 1)]
+------------------------------------
+advertise:[('heavily', 2), ('originally', 1), ('openly', 1), ('proudly', 1), ('aggressively', 1), ('largely', 1), ('previously', 1)]
+------------------------------------
+interest:[('stunningly', 1), ('actually', 1), ('really', 1)]
+------------------------------------
+shout:[('loudly', 2), ('reportedly', 2), ('quickly', 2), ('jubilantly', 1), ('really', 1), ('only', 1), ('spontaneously', 1), ('manically', 1)]
+------------------------------------
+confess:[('actually', 1), ('eventually', 1), ('readily', 1)]
+------------------------------------
+```

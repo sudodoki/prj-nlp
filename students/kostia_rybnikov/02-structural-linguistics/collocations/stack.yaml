@@ -1,0 +1,7 @@
+resolver: lts-11.0
+packages:
+- .
+extra-deps:
+- rocksdb-haskell-1.0.1
+- git: https://github.com/k-bx/corenlp-parser.git
+  commit: c549ddef7a95386c11a0861d5e259fc3159426ea
