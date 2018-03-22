@@ -63,5 +63,5 @@
     python3 3_common_crawl.py -i path/to/raw.csv/part-*.csv -o common_crawl.csv
     ```
     
-    Analysis is done in common_crawl.ipynb notebook``
+    Analysis is done in common_crawl.ipynb notebook
     
