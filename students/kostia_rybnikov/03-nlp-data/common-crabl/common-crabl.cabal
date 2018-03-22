@@ -1,0 +1,46 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 2176ecd887e5e0c4457efe4ea2aa9949f8c75b2a54d4a7632472a3066f57ee8c
+
+name:           common-crabl
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/common-crabl#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable common-crabl
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -funbox-strict-fields
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , cld2
+    , groom
+    , lens
+    , monoidal-containers
+    , network-uri
+    , pipes
+    , pipes-bytestring
+    , pipes-zlib
+    , safe-exceptions
+    , string-class
+    , text
+    , transformers
+    , unordered-containers
+    , warc
+  other-modules:
+      Paths_common_crabl
+  default-language: Haskell2010
