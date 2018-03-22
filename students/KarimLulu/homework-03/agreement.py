@@ -4,8 +4,15 @@ import json
 import sys
 from itertools import groupby, product
 from operator import itemgetter
+import logging
 
-from config import data_dir, annotated_data, agreement_output, annotations_output
+from config import (data_dir, annotated_data, agreement_output, annotations_output,
+                    date_fmt, log_fmt)
+
+logging.basicConfig(level=logging.INFO, 
+                    format=log_fmt,
+                    datefmt=date_fmt)
+logger = logging.getLogger(__name__)
 
 PATT = "sgml"
 TYPE = "noalt"
@@ -16,9 +23,9 @@ def distance(a, b, start="start_off", end="end_off"):
 
 def IOU(a, b, start="start_off", end="end_off"):
     intersection = min(a[end], b[end]) - max(a[start], b[start])
-    union = max(a[end], b[end]) - min(a[start], b[start])
     if intersection < 0:
         return 0
+    union = max(a[end], b[end]) - min(a[start], b[start])
     return intersection / union
 
 def estimate_agreement(data):
@@ -99,15 +106,20 @@ def main():
             f = tar.extractfile(filename).read()
             f = b"<root>" + f + b"</root>"
             xml.sax.parseString(f, handler)
+    logger.info("Parsed data")
     # Dump parsed annotations
     with (data_dir / annotations_output).open("w+") as f:
         json.dump(handler.data, f, indent=4)
     # Estimate and dump agreement
     with (data_dir / agreement_output).open("w+") as f:
         for key, value in estimate_agreement_by_type(handler.data).items():
-            f.write(f"{key}: {value:0.{ROUND}f}%\n")
+            line = f"{key}: {value:0.{ROUND}f}%"
+            f.write(line + "\n")
+            logger.info(line)
         agreement = estimate_agreement(handler.data)
-        f.write(f"\nTotal: {agreement:0.{ROUND}f}%\n")
+        line = f"Total: {agreement:0.{ROUND}f}%"
+        f.write("\n" + line + "\n")
+        logger.info(line)
     return 0
 
 if __name__ == "__main__":
