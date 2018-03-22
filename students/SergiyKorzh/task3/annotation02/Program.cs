@@ -50,7 +50,7 @@ namespace data01
             }
             
             Console.WriteLine($"Total annotations (made by {_teachers.Count} teachers): {total}");
-            Console.WriteLine($"From them agreements: {harmony}");
+            Console.WriteLine($"Agreements: {harmony}");
 
             Console.ReadKey();
         }
