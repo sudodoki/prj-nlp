@@ -17,10 +17,10 @@
 
 ### 2. Перевірте роботу [SnowballStem](http://snowballstem.org/) для спільнокореневих слів. Напишіть ваші спостереження.
 
-1. truth, truthful, truthfulness, countertruth, untruthful, truthology
-2. flaw, flaws, flawed, flawless, flawlessness, flawlessly, 
-2. лес, лесной, лесник, лесничий, лесничество, пролесье
-3. окно, окошко, подоконник, оконный, окнище
+1. truth+, truthful+, truthfulness+, countertruth-(as one stem), untruthful-(as one stem), truthology-(as one stem)
+2. flaw+, flaws+, flawed+,:here same stem flaw; flawless, flawlessness, flawlessly,- here same stem flawless 
+2. лес+, лесной, лесник, лесничий, лесничество, пролесье - all other except first лес stem defined incorrectly
+3. окно+, окошко+, подоконник-(all word), оконный+, окнище - 
 
 ### 3. Визначте частину мови виділеного слова і зв'язок до його батька (за зразком):
 
@@ -173,4 +173,15 @@ punct(чекали, '.')
 ### 6. Виберіть одне cлово зі списку та побудуйте лексико-семантичні зв'язки до трьох різних значень цього слова. Фактично, потрібно побудувати WordNet-подібні вузли. Значення слів можна перевірити у [СУМі](http://sum.in.ua/) та [Словниках України](http://lcorp.ulif.org.ua/dictua/).
 
 Слова на вибір: вік, стіна, добро, серце, центр, куля, міст, ланцюг, бік, дух.
+серце
+        1. орган
+        hypernyms: орган
+        meronym: тіло, організм
+        holonym: желудочок, клапан
+        2. центр
+        synonyms: осередо, зосередження
+        hypernoyms: система
+        3. душа
+        synonyms: дух, характер
+        myronym: тіло, людина
 
