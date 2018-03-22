@@ -2,6 +2,8 @@
 Process data from the [NUCLE Error Corpus]
 and analyze inter-annotator agreement in it (general and for each error type).
 """
+import os
+import zipfile
 from collections import Counter
 from bs4 import BeautifulSoup
 from students.oleg_m.utils.stack import Stack
@@ -18,6 +20,7 @@ class ComparisonDoc(object):
         mistake_stats (Counter): mistake stats
 
     """
+
     def __init__(self, this_doc, other_doc):
         self.doc_id = int(this_doc.attrs.get('nid', 0))
         self.this_doc = this_doc
@@ -126,6 +129,7 @@ class Mistake(object):
         end_pos (int): end number of position in the text of the mistake
         correction (str): corrected value
     """
+
     def __init__(self, mistake):
         self.mistake_type = mistake.type.text
         self.start_part = int(mistake.attrs.get('start_par', 0))
@@ -206,6 +210,11 @@ class Mistake(object):
         return str(self.__dict__)
 
 
+# read zip file with WikiDict xml
+zf = zipfile.ZipFile('files/official-2014.zip', 'r')
+teacher_8_file = zf.extract('official-2014.0.sgml', 'files/')
+teacher_9_file = zf.extract('official-2014.1.sgml', 'files/')
+
 with open('files/official-2014.0.sgml', 'r', encoding='utf-8') as f:
     soup_0 = BeautifulSoup(f, 'html.parser')
 
@@ -238,3 +247,9 @@ print('doc #25: ', stats_by_doc.get(25))
 print('doc #40: ', stats_by_doc.get(40))
 print('doc #50: ', stats_by_doc.get(50))
 print('total: ', stats_total)
+
+try:
+    os.remove('files/official-2014.0.sgml')
+    os.remove('files/official-2014.1.sgml')
+except OSError:
+    pass
