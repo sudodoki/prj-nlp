@@ -1,0 +1,5 @@
+SELECT ?person ?name ?related_person  WHERE {
+      ?person a dbo:Person .
+      ?person dbo:relation ?related_person .
+      ?person foaf:name ?name .
+} ORDER BY ?name LIMIT 100
