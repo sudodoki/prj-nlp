@@ -1,0 +1,6 @@
+Teacher 8 has made 2397 corrections, while teacher 9 has made 3331
+In 662 cases both teachers agreed on type, span and content of correction, which is 27.62% of all for first teacher and 19.87% for second
+In 813 cases both teachers agreed on type and span of correction, which is 33.92% of all for first teacher and 24.41% for second
+In 822 cases both teachers agreed on span and content of correction, which is 34.29% of all for first teacher and 24.68% for second
+In 1162 cases both teachers agreed that in a specific span there is a mistake, which is 48.48% of all for first teacher and 34.88% for second
+There are 1144 full overlaps, 390 partial ones, and 1079 cases where neighboring mistake spans of two teachers are not overlapping
