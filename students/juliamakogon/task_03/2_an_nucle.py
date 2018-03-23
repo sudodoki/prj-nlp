@@ -103,10 +103,6 @@ class Agreement():
         print("Overall precision (probability that error marked by both annotators):", self.count_agreed_total / self.count_mistakes_total)
         print("Average precision for the doc:", self.precision_sum / self.document_count)
         print("Annotators agreement (by-char Cohen's kappa):", Agreement.kappa(self.erchar1_sum, self.erchar2_sum, self.erchar_a_sum, self.textlen_sum))
-#        print("Annotators agreement by mistake type:")
-#        print("{}\t{}\t{}\t{}".format("Mistake", "Agreed", "Disagreed", "Precision"))
-#        for (m, stat) in self.mistakes.items():
-#            print("{}\t{}\t{}\t{}".format(m, stat[0], stat[1], stat[2]))
 
 class Annotation():
     def __init__(self):
@@ -129,7 +125,6 @@ class DocHandler(ContentHandler):
         pass
         
     def startElement(self, name, attrs):
-        #print(name)
         self.currentTag = name
         if name == 'DOC':
             self.ann = Annotation()
@@ -148,8 +143,6 @@ class DocHandler(ContentHandler):
         if name == 'DOC':
             self.agreement.add_annotation(self.ann)
         elif name == 'MISTAKE':
-#            print(self.ann.teacher_id, self.mistake.start_par, self.mistake.start_off, 
-#                  self.mistake.end_off, self.mistake.type_, self.mistake.correction)
             self.ann.add_mistake(self.mistake)
 
     def characters(self, content):
@@ -178,24 +171,19 @@ try:
     for fname in fnames:
         streams.append(open(os.path.join(path, fname),"r"))
     eof = False
-    #stream = streams[0]
     while not eof:
         for stream in streams:
             line = stream.readline()
-#            xmldoc = ''
             saxparser.reset()
             while line:
                 saxparser.feed(line)
-#                xmldoc = xmldoc + line
                 if line.strip() == '</DOC>':
                     saxparser.close()
                     break
                 line = stream.readline()
             if not line:
                 eof = True
-#            print(xmldoc[:30] + '...'+xmldoc[-30:])
 
-        
     agreement.print()
                 
 except Exception as error:
