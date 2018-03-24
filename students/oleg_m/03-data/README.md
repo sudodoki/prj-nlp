@@ -34,7 +34,8 @@ Full file can be downlaod from [wiktionary](https://dumps.wikimedia.org/ptwiktio
 
 ### Task 2.2
 
-### NOT FINISHED
+Extracts posts of the default thread on the lviv forum and prints first n posts
+I will implement this task with scrapy later
 
 + Language: Python3
 + Required external libraries: BeautifulSoap, scrapy
