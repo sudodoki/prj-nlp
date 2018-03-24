@@ -38,4 +38,4 @@ Please see [[common-crabl/README.md]]
 
 **Perform initial data collection for your project.**
 
-TODO
+Please see https://github.com/k-bx/rada-git for my progress.
