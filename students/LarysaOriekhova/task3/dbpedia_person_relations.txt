@@ -1,6 +1,6 @@
-SELECT DISTINCT ?person1 ?is ?person2
-WHERE {
-{?person1 a foaf:Person. 
-?person2 a foaf:Person. 
-?person1 ?is ?person2}
+SELECT DISTINCT *
+{
+?person1 a dbo:Person. 
+?person1 ?rel ?person2.
+?person2 a dbo:Person
 } LIMIT 1000
