@@ -1,0 +1,41 @@
+1. Побудуйте ланцюжок походження слів за зразком:
+
+оженитися: (о + (женити + ся))
+1. несприйнятливість: (не + сприйнятливість)
+2. атиповий: (а + (тип + овий))
+3. безвідповідально: (без + (відповід(ь) + ально))
+4. мореплавання: (море + плавання)
+5. оподаткувати: (о + подат(о)к +увати)
+6. перевтілитися: (пере + (втілити + ся))
+7. схилившись: (схиливши + сь)
+8. трьохярусний: (трьох + (ярус + ний))
+9. підсніжник: (під + сні(г) + жник)
+10. зужиткований: (з + (ужит(о)к + ова) + ний)
+2. Перевірте роботу SnowballStem для спільнокореневих слів. Напишіть ваші спостереження.
+Для англійської мовіи він відпрацьовує у половині випадків, відокремлює закінчення, але не суфікси з префіксами. Для російської виглядає ще жахливіше, а суть та сама - обрізаються закінчення. 
+3. Визначте частину мови виділеного слова і зв'язок до його батька (за зразком):
+
+{I} like turtles.: pronoun, nsubj(like, I)
+I {like} turtles.: verb, root(ROOT, like)
+I like {turtles}.: noun, dobj(like, turtles)
+1. We can {but} hope that everything will be fine.: coordinating conjunction, cc(can, but)
+2. It's sad {but} true.: coordinating conjunction, cc(sad, but)
+3. Jack brings nothing {but} trouble.: preposition, prep(nothing, but)
+4. {As} we were talking, I realised how to solve the issue.: subordinating conjunction, mark(talking, As)
+5. This hot dog isn't {as} big as usual.: adverb, advmod(big, as)
+6. This hot dog isn't as big {as} usual.: preposition, prep(big, as)
+7. This hot dog isn't as big {as} I expected.: subordinating conjunction, mark(expected, as)
+8. I work {as} a teacher.: preposition, prep(work, as)
+9. Let's do it this {way}!: noun, npadvmod(do, way)
+10. This is {way} too much!: adverb, advmod(much, way)
+11. The prices are going {down}.: particle, advmod(going, down)
+12. Someone pushed him and he fell {down} the stairs.: preposition, prep(fell, down)
+13. I’ve been feeling rather {down} lately.: adverb, advmod(feeling, down)
+14. It's not easy to {down} a cup of coffee in one gulp.: adverb, xcomp('s, down)
+15. Bring a {down} jacket and a pair of gloves, and you'll be fine.: adjective, amod(jacket, down)
+6. Виберіть одне cлово зі списку та побудуйте лексико-семантичні зв'язки до трьох різних значень цього слова. Фактично, потрібно побудувати WordNet-подібні вузли. Значення слів можна перевірити у СУМі та Словниках України.
+Слова на вибір: вік, стіна, добро, серце, центр, куля, міст, ланцюг, бік, дух.
+
+1. куля: синоніми: сфера, шар; гіпернім: геометричне тіло; гіпонім: м'яч, апельсин.
+2. куля: синонім: милиця; гіпернім: опора; гіпонім: милиця під пахву, ліктьова милиця.
+3. куля: синонім: набій; гіпернім: снаряд; гіпонім: дріб, картеч, шріт.

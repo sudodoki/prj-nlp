@@ -1,0 +1,8 @@
+tell: ('recently', 26), ('reportedly', 14), ('privately', 12), ('finally', 10), ('only', 9), ('basically', 9), ('repeatedly', 8), ('actually', 8), ('specifically', 8), ('simply', 8)
+say: ('actually', 75), ('recently', 74), ('repeatedly', 55), ('simply', 46), ('explicitly', 39), ('publicly', 37), ('basically', 32), ('really', 30), ('only', 25), ('previously', 22)
+declare: ('publicly', 13), ('falsely', 4), ('suddenly', 4), ('recently', 4), ('officially', 3), ('openly', 3), ('proudly', 3), ("o'reilly", 3), ('triumphantly', 3), ('ominously', 2)
+claim: ('falsely', 68), ('previously', 9), ('repeatedly', 8), ("o'reilly", 6), ('recently', 4), ('initially', 3), ('actually', 3), ('credibly', 3), ('publicly', 3), ('laughably', 3)
+respond: ('quickly', 12), ('immediately', 8), ('aggressively', 7), ('forcefully', 6), ('finally', 5), ('simply', 4), ('promptly', 3), ('personally', 3), ('directly', 3), ('effectively', 3)
+speak: ('directly', 34), ('publicly', 15), ('fiercely', 12), ('only', 10), ('recently', 8), ('generally', 8), ('openly', 8), ('politically', 7), ('loudly', 7), ('strictly', 7)
+communicate: ('effectively', 3), ('directly', 3), ('freely', 1), ('really', 1), ('apparently', 1), ('loudly', 1), ('hopefully', 1), ('daily', 1), ('actually', 1), ('regularly', 1)
+narrate: 
