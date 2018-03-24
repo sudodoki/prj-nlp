@@ -38,4 +38,4 @@ Please see [[common-crabl/README.md]]
 
 **Perform initial data collection for your project.**
 
-Please see https://github.com/k-bx/rada-git for my progress.
+Please see https://github.com/k-bx/rada-git for my progress and a repo https://github.com/k-bx/rada-git-data (its "cache") dir to see some Git LFS based files there which I downloaded (some are actually DOC/DOCX which I will need to work with).
