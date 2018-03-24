@@ -1,0 +1,8 @@
+resolver: lts-11.0
+packages:
+- .
+extra-deps:
+- sentiwordnet-parser-0.1.1.0
+- git: https://github.com/k-bx/corenlp-parser.git
+  commit: 14d40120f9b094a55c88c7b269bba6b3af02747b
+- rocksdb-haskell-1.0.1
