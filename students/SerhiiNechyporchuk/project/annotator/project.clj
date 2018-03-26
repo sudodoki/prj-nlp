@@ -17,7 +17,12 @@
                  [org.danielsz/system "0.4.0"]
                  [org.clojure/tools.namespace "0.2.11"]
                  [reagent "0.6.0"]
-                 [cljs-http "0.1.44"]]
+                 [cljs-http "0.1.44"]
+                 [org.clojure/java.jdbc "0.7.5"]
+                 [cheshire "5.8.0"]
+                 [bigml/sampling "3.2"]
+                 [com.andrewmcveigh/cljs-time "0.5.2"]
+                 [org.xerial/sqlite-jdbc "3.21.0.1"]]
 
   :plugins [[lein-cljsbuild "1.1.6"]
             [lein-environ "1.1.0"]]
