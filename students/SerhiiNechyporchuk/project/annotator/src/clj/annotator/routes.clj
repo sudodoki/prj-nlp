@@ -18,14 +18,23 @@
 (def number-of-tasks 20)
 (defn sample-attributes []
   (let [intp-search-attrs (->> com/search-attributes
-                               (map (fn [{:keys [human] :as attrs}]
-                                      (let [intp (reduce (fn [s [nm vs]]
-                                                           (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
-                                                         human
-                                                         com/values)]
+                               (map (fn [{:keys [human short] :as attrs}]
+                                      (let [human' (reduce (fn [s [nm vs]]
+                                                             (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
+                                                           human
+                                                           com/values)
+                                            short' (when short
+                                                     (reduce (fn [s [nm vs]]
+                                                              (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
+                                                            short
+                                                            com/values))]
 
-                                        (assoc attrs :human intp)))))]
-    (repeatedly number-of-tasks (fn [] (repeatedly 3 #(rand-nth intp-search-attrs))))))
+                                        (assoc attrs :human human'
+                                               :short short')))))]
+    (->> (range 20)
+         (map (fn [_]
+                (take 3 (ssample/sample intp-search-attrs)))))
+    #_(repeatedly number-of-tasks (fn [] (repeatedly 3 #(rand-nth intp-search-attrs))))))
 
 
 (defn rand-id []
@@ -82,8 +91,9 @@
 
 (defmethod handler "list-jobs"
   [comps _ args]
-  {:jobs (->> (jdbc/query db-spec ["select * from jobs"])
-              (map #(update % :tasks json/parse-string)))})
+  {:jobs (->> (jdbc/query db-spec ["select * from jobs order by created asc"])
+              (map #(update % :tasks json/parse-string true))
+              (map #(assoc % :progress (com/job-progress %))))})
 
 (defn call [components {:keys [body]}]
   (let [{:keys [args method]} (json/parse-stream (io/reader body) true)]

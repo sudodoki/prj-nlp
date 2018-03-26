@@ -6,6 +6,10 @@
   []
   (println "cljc!"))
 
+(defn job-progress [job]
+  (let [filled (count (filter (fn [task] (some seq (:phrases task))) (:tasks job)))]
+    (int (* 100 (/ filled (count (:tasks job)))))))
+
 (def number-of-attributes [3 4 5])
 
 (def values
@@ -25,6 +29,12 @@
    :freq           (map str (range 10))
    :mention        ["Clay Arnold" "Sheryl Bradley" "Steven Owens" "Kristin Hansen" "Stephanie Jenkins" "Michelle Neal" "Lindsey Holt" "Philip Stephens" "Delia Flores" "Caleb Ramirez" "Lynn Boyd" "Andy Chandler" "Estelle Jimenez" "Stacy Vaughn" "Dorothy Larson" "Shawna Potter" "Sherman Cooper" "Hope Griffith" "Connie Mitchell" "Dolores Cummings"]})
 
+(def section->human
+  {"profile" "has"
+   "post" "wrote post"
+   "like" "liked"
+   "comment" "replied"})
+
 (def search-attributes
   [{:name "profile.firstName" :human "has {first-name} as first name" :type "text" :example "Attendees with first name James"}
    {:name "profile.lastName" :human "has {last-name} as last name" :type "text" :example "Attendees with last name Bond"}
@@ -37,20 +47,20 @@
    {:name "profile.phone" :human "has {phone} as phone" :type "text" :example "1"}
    {:name "profile.website" :human "has '{website}' as website" :type "text" :example "1"}
    {:name "profile.social_network" :human "has connected {social-network}" :type "bool" :example "Attendees with connected linkedin"}
-   {:name "post.text" :human "wrote post '{post-text}'" :type "text" :example "Attendees who wrote post with Tesla, *Attendees who wrote post about Tesla"}
-   {:name "post.count" :human "wrote {freq} posts" :type "int" :example "Attendees who more than 10 posts"}
-   {:name "post.likesCount" :human "wrote post with {freq} likes" :type "int" :example "Attenddes who create post with more than 10 likes"}
-   {:name "post.mentions" :human "mentioned {mention} in a post" :type "Attendee" :example "Attendees who mentioned Elon Musk in post"}
-   {:name "post.commentsCount" :human "wrote post with {freq} replies" :type "int" :example "Attendees who create post with more than 10 comments"}
-   {:name "post.sentiment" :human "wrote {sentiment} post" :type "Sentiment" :example "Attendees who wrote positive post with Tesla"}
-   {:name "like.postText" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
-   {:name "like.postAuthor" :human "liked {mention}'s post" :type "Attendee" :example "Attendees who liked posts by Elon Musk"}
-   {:name "like.postSentiment" :human "liked {sentiment} post" :type "Sentiment" :example "Attendees who liked positive post with Tesla"}
-   {:name "like.count" :human "made {freq} likes" :type "int" :example "Attendees who made more than 30 likes"}
-   {:name "comment.text" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
-   {:name "comment.postText" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
-   {:name "comment.postAuthor" :human "wrote reply to {mention}'s post" :type "Attendee" :example "Attenddes who wrote comment for Elon Musk post"}
-   {:name "comment.postSentiment" :human "wrote reply to {sentiment} post" :type "Sentiment" :example "Attendees who wrote comment for negative post with Boring"}
+   {:name "post.text" :short "with text '{post-text}'" :human "wrote post '{post-text}'" :type "text" :example "Attendees who wrote post with Tesla, *Attendees who wrote post about Tesla"}
+   {:name "post.count" :short "{freq} times" :human "wrote {freq} posts" :type "int" :example "Attendees who more than 10 posts"}
+   {:name "post.likesCount" :short "with {freq} likes " :human "wrote post with {freq} likes" :type "int" :example "Attenddes who create post with more than 10 likes"}
+   {:name "post.mentions" :short "with {mention}'s mention " :human "mentioned {mention} in a post" :type "Attendee" :example "Attendees who mentioned Elon Musk in post"}
+   {:name "post.commentsCount" :short "with {freq} replies" :human "wrote post with {freq} replies" :type "int" :example "Attendees who create post with more than 10 comments"}
+   {:name "post.sentiment" :short "with {sentiment} sentiment" :human "wrote {sentiment} post" :type "Sentiment" :example "Attendees who wrote positive post with Tesla"}
+   {:name "like.postText" :short "post '{post-text}'" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
+   {:name "like.postAuthor" :short "{mention}'s post" :human "liked {mention}'s post" :type "Attendee" :example "Attendees who liked posts by Elon Musk"}
+   {:name "like.postSentiment" :short "{sentiment} post" :human "liked {sentiment} post" :type "Sentiment" :example "Attendees who liked positive post with Tesla"}
+   {:name "like.count" :short "{freq} times" :human "made {freq} likes" :type "int" :example "Attendees who made more than 30 likes"}
+   {:name "comment.text" :short "with '{post-text}'" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
+   {:name "comment.postText" :short "to post '{post-text}'" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
+   {:name "comment.postAuthor" :short "to {mention}'s post" :human "wrote reply to {mention}'s post" :type "Attendee" :example "Attenddes who wrote comment for Elon Musk post"}
+   {:name "comment.postSentiment" :short "to {sentiment} post" :human "wrote reply to {sentiment} post" :type "Sentiment" :example "Attendees who wrote comment for negative post with Boring"}
    #_#_#_#_#_#_#_#_#_
        {:name "poll.questionText" :type "text" :example "Attendees who answered for poll 'Are you happy?'"}
        {:name "poll.answerText" :type "text" :example "Attendees who answered Yes for poll 'Are you happy?'"}
