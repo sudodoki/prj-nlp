@@ -127,18 +127,20 @@
 
 (defn render-task [task]
   [:pre
+   #_(trace (->> (:search-attributes task) (group-by (fn [task] (first (str/split (:name task) #"\."))))))
    [:ul
     (->> (:search-attributes task)
          (group-by (fn [task] (first (str/split (:name task) #"\."))))
          (map (fn [[section tasks]]
-                (if (= section "profile")
-                  (for [{:keys [human]} tasks]
-                    [:li {:key human} human])
+                (if (com/top-level section)
+                  (for [{:keys [short]} tasks]
+                    [:li {:key short} short])
                  [:li {:key section}
-                  (com/section->human section)
+                  (or (com/section->human section)
+                      [:b section])
                   [:ul
                    (for [{:keys [human short]} tasks]
-                     [:li {:key human} (or short human)])]]))))]])
+                     [:li {:key short} (or short human)])]]))))]])
 
 
 (defn annotation-main []
@@ -172,7 +174,7 @@
        [:pre "Find attendees from Burkina who wrote 8 posts and make reply about 'pain'"]
        [:p "In the " [:code "Query #2"] " you have to write query for the same information but rephrased, e.g.:"]
        [:pre "Find attendees who posted 8 times, commented about 'pain' and is from Burkina"]
-       [:p "Attributes in the task may grouped:"]
+       [:p "Attributes in the task may be grouped:"]
        [:pre
         [:ul
          [:li "liked"
@@ -182,7 +184,7 @@
          [:li "wrote post"
           [:ul
            [:li "with Lynn Boyd's mention "]]]]]
-       [:p "Here we have group like with 2 attributes. Try to combine them so they will describe the same
+       [:p "Here we have grouped like with 2 attributes. Try to combine them so they will describe the same
             post/like/reply/etc, e.g.:"]
        [:pre "Find profiles who liked post about 'debt' by Sherman Cooper or mentioned Lynn Boyd"]
 
@@ -192,6 +194,7 @@
         [:ul
          [:li "All changes are saved after you press " [:code "<- Prev"] " or " [:code "-> Next"]]
          [:li "You can combine queries using " [:code "or/and"]]
+         [:li "Do not stick to the words in the information. It's even better if you use different words (rated page with type session => rated session)"]
          [:li "Provide as many phrases for each task as you can."]
          [:li "Try to write queries with following structure:" [:br]
           [:code "['Find'/'Search all'/'etc'] [Adverbs/Adjectives] [attendees/contacts/profiles/etc] [who ...]"]]
@@ -220,7 +223,7 @@
 
      [:p]
 
-     [:p.alert.alert-secondary
+     [:p.alert.alert-primary
 
       [:h4 "Write query to find attendees who"]
       (render-task task)
@@ -229,9 +232,9 @@
       #_(prev-next-buttons (:progress job))
       (for [[i phrase] (map-indexed vector (:phrases task))]
         [:div.form-group.row {:key (str (:id task) "-" i)}
-         [:label.col-sm-2.col-form-label {:for (str (:id task) "-" i)}
+         [:label.col-sm-3.col-form-label {:for (str (:id task) "-" i)}
           "Query #" (inc i)]
-         [:div.col-sm-10
+         [:div.col-sm-9
           [:textarea.form-control
            {:key          (str (:id task) "-" i)
             :id           (str (:id task) "-" i)
@@ -247,6 +250,13 @@
 
 (defn start-screen []
   [:div
+   [:div.alert.alert-info
+    [:h5 "Hi there!"]
+    [:p "Paraqueries is a tool for paraphrasing search queries written in English.
+         Here you will help us to collect as many paraphrased search queries as possible."]
+    [:p "To start working " [:b "enter your name"] " and press " [:b "Create"] " or
+         select previously created job in the list."]
+    [:p [:b "Please, read carefully instructions on the job page."]]]
    [:h3 "Create new job"]
    [:div.input-group
     [:input {:type        :text

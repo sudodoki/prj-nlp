@@ -16,21 +16,25 @@
 ;; * sampling with no duplicates
 
 (def number-of-tasks 20)
-(defn sample-attributes []
-  (let [intp-search-attrs (->> com/search-attributes
-                               (map (fn [{:keys [human short] :as attrs}]
-                                      (let [human' (reduce (fn [s [nm vs]]
-                                                             (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
-                                                           human
-                                                           com/values)
-                                            short' (when short
-                                                     (reduce (fn [s [nm vs]]
-                                                              (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
-                                                            short
-                                                            com/values))]
 
-                                        (assoc attrs :human human'
-                                               :short short')))))]
+(defn interpolate [sas]
+  (->> sas
+       (map (fn [{:keys [human short] :as attrs}]
+              (let [#_#_human' (reduce (fn [s [nm vs]]
+                                     (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
+                                   human
+                                   com/values)
+                    short' (when short
+                             (reduce (fn [s [nm vs]]
+                                       (str/replace s (str "{" (name nm) "}") (rand-nth vs)))
+                                     short
+                                     com/values))]
+
+                (assoc attrs #_#_ :human human'
+                       :short short'))))))
+
+(defn sample-attributes []
+  (let [intp-search-attrs (interpolate com/search-attributes)]
     (->> (range 20)
          (map (fn [_]
                 (take 3 (ssample/sample intp-search-attrs)))))
@@ -69,7 +73,9 @@
 
 (defmethod handler "create-job"
   [components _ {:keys [annotator]}]
-  (let [tasks (->> (sample-attributes)
+  (let [tasks (->> (if (= annotator "rootroot")
+                     [(interpolate com/search-attributes)]
+                     (sample-attributes))
                    (map #(-> {:search-attributes %
                               :id (rand-id)
                               :phrases (repeat max-phrases "")})))
