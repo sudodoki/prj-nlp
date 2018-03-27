@@ -160,7 +160,8 @@
 
 (defn leaderboard-component []
   [:div
-   [:h4 "Leaderboard"]
+   [:h4 "Leaderboard" [:code {:style {:cursor :pointer}
+                              :title "Show queries with the biggest numbder of paraphrases"} "  ?"]]
    [:table.table.table-striped
     [:thead
      [:tr
