@@ -254,7 +254,7 @@
           [:textarea.form-control
            {:key          (str (:id task) "-" i)
             :id           (str (:id task) "-" i)
-            :rows         1
+            :rows         2
             :defaultValue phrase
             :on-change    #(handler :update-phrase {:text       (-> % .-target .-value)
                                                     :task-no    task-no
