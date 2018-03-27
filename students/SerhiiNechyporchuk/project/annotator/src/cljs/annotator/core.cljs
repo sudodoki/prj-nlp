@@ -154,9 +154,9 @@
                       (->> (:tasks job)
                            (map #(count (filter seq (:phrases %))))
                            (remove zero?)
-                           (map #(hash-map :max % :annotator (:annotator job) :job-idx i))
-                           (sort-by :max (comp - compare)))))
-       (apply concat)))
+                           (map #(hash-map :max % :annotator (:annotator job) :job-idx i)))))
+       (apply concat)
+       (sort-by :max (comp - compare))))
 
 (defn leaderboard-component []
   [:div
