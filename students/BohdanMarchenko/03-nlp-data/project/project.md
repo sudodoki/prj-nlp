@@ -4,4 +4,7 @@ https://newsapi.org/,
 http://dlab.berkeley.edu/blog/scraping-new-york-times-articles-python-tutorial, 
 https://pypi.python.org/pypi/google_news_crawler/0.3.9
 https://github.com/codelucas/newspaper
-більшість з них, не підходить через нерелевантність результатів. Пробую знайти новини через кастомний гугл пошук https://support.google.com/customsearch/answer/70392?hl=en
+більшість з них, не підходить через нерелевантність результатів. 
+
+Пробую знайти новини через кастомний гугл пошук https://support.google.com/customsearch/answer/70392?hl=en 
+результати використання бібліотеки pattern знаходяться у папці scrape_result3  
