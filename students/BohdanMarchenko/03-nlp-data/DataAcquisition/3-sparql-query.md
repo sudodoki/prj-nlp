@@ -3,6 +3,6 @@
 
 PREFIX dbr: <http://dbpedia.org/resource/>
 select * { 
-  values ?person { dbr:Johnny_Cash }
+  values ?person { dbr:Elijah_Wood }
   ?person ?p ?o 
 }
