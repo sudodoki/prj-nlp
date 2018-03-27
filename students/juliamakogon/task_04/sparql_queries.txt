@@ -1,0 +1,32 @@
+
+# Database and positive wiki pages set
+SELECT 
+?movie ?cat ?movieLabel ?catLabel ?wiki
+WHERE {
+?movie a dbo:Film.
+?cat skos:broader <http://dbpedia.org/resource/Category:Films_based_on_fairy_tales>.
+?movie dct:subject ?cat.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en').
+
+?cat rdfs:label ?catLabel.
+FILTER (lang(?catLabel) = 'en').
+
+?movie foaf:isPrimaryTopicOf ?wiki
+
+} 
+
+# Negative wiki pages set
+SELECT 
+?movie ?movieLabel ?wiki
+WHERE {
+?movie a dbo:Film.
+?movie dct:subject dbc:Hippie_films.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en').
+
+?movie foaf:isPrimaryTopicOf ?wiki
+
+} 
