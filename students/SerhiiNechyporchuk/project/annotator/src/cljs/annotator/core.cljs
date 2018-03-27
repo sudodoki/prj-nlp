@@ -73,9 +73,7 @@
             :task-no (inc-task-no task-no (count tasks))
             :jobs (mapv (fn [job]
                           (if (= (:id job) job-id)
-                            (do
-                              (println (com/job-progress (assoc job :tasks tasks)))
-                             (assoc job :progress (com/job-progress (assoc job :tasks tasks))))
+                            (assoc job :progress (com/job-progress (assoc job :tasks tasks)))
                             job))
                         jobs)))))
 
@@ -252,6 +250,7 @@
          [:div.col-sm-9
           [:textarea.form-control
            {:key          (str (:id task) "-" i)
+            :read-only    (= (:readonly job) "true")
             :id           (str (:id task) "-" i)
             :rows         2
             :defaultValue phrase

@@ -53,6 +53,7 @@
                           [:annotator "varchar(50)" "not null"]
                           [:created "timestamp with timezone" "not null"]
                           [:modified "timestamp with timezone" "not null"]
+                          [:readonly "bool" "not null default false"]
                           [:tasks "text" "not null"]]
                          {:conditional? true})])
 
