@@ -155,7 +155,7 @@
                                    (map #(count (filter seq (:phrases %))))
                                    (reduce +))
                        :annotator (:annotator job) :job-idx i}))
-       (sort-by :max (comp - compare))))
+       (sort-by :score (comp - compare))))
 
 (defn leaderboard-component []
   [:div
