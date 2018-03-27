@@ -161,7 +161,7 @@
   [:div
    [:h4 "Leaderboard" [:code {:style {:cursor :pointer}
                               :title "Total number of paraphrases"} "  ?"]]
-   [:pre (trace (leaderboard (:jobs @app-state)))]
+   #_[:pre (trace (leaderboard (:jobs @app-state)))]
    [:table.table.table-striped
     [:thead
      [:tr
