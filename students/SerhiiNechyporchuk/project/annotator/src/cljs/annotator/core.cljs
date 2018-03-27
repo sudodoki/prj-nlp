@@ -34,13 +34,12 @@
 (defmethod handler :create-job
   [_ args]
   (go
-   (let [resp (<! (call "create-job" {:annotator (:annotator-email @app-state)}))
-         task-no (or (:task-no @app-state) 0)]
+   (let [resp (<! (call "create-job" {:annotator (:annotator-email @app-state)}))]
      (swap! app-state assoc
             :jobs (conj (:jobs @app-state) resp)
             :tasks (mapv #(update % :phrases vec) (:tasks resp))
             :job-id (:id resp)
-            :task-no task-no
+            :task-no 0
             :screen :annotation))))
 
 (defmethod handler :load-job
@@ -272,7 +271,8 @@
          Here you will help us to collect as many paraphrased search queries as possible."]
     [:p "To start working " [:b "enter your name"] " and press " [:b "Create"] " or
          select previously created job in the list."]
-    [:p [:b "Please, read carefully instructions on the job page."]]]
+    [:p [:b "Please, read carefully instructions on the job page."]]
+    [:p [:b "There is an example job annotated by 'Example' user. You should definitely check it."]]]
    [:h3 "Create new job"]
    [:div.input-group
     [:input {:type        :text
