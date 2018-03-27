@@ -151,24 +151,23 @@
 (defn leaderboard [jobs]
   (->> jobs
        (map-indexed (fn [i job]
-                      (->> (:tasks job)
-                           (map #(count (filter seq (:phrases %))))
-                           (remove zero?)
-                           (map #(hash-map :max % :annotator (:annotator job) :job-idx i)))))
-       (apply concat)
+                      {:score (->> (:tasks job)
+                                   (map #(count (filter seq (:phrases %))))
+                                   (reduce +))
+                       :annotator (:annotator job) :job-idx i}))
        (sort-by :max (comp - compare))))
 
 (defn leaderboard-component []
   [:div
    [:h4 "Leaderboard" [:code {:style {:cursor :pointer}
-                              :title "Show queries with the biggest numbder of paraphrases"} "  ?"]]
+                              :title "Total number of paraphrases"} "  ?"]]
+   [:pre (trace (leaderboard (:jobs @app-state)))]
    [:table.table.table-striped
     [:thead
      [:tr
       [:th "№ of paraphrases"]
       [:th "Annotator"]
       [:th "Job №"]]]
-    #_[:pre (trace (leaderboard (:jobs @app-state)))]
     [:tbody
      (for [[i row] (take 10 (map-indexed vector (leaderboard (:jobs @app-state))))]
        [:tr {:style {:background-color (case i
@@ -176,7 +175,7 @@
                                          1 "rgba(211,211,211, 0.3)"
                                          2 "rgba(80, 50, 20, 0.2)"
                                          "")}}
-        [:td (:max row)]
+        [:td (:score row)]
         [:td
          (case i
                 0 "\uD83E\uDD47"
