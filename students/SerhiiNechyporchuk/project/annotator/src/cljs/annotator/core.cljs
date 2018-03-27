@@ -148,6 +148,44 @@
                      [:li {:key short
                            :dangerouslySetInnerHTML {:__html (or short human)}} ])]]))))]])
 
+(defn leaderboard [jobs]
+  (->> jobs
+       (map-indexed (fn [i job]
+                      (->> (:tasks job)
+                           (map #(count (filter seq (:phrases %))))
+                           (remove zero?)
+                           (map #(hash-map :max % :annotator (:annotator job) :job-idx i))
+                           (sort-by :max (comp - compare)))))
+       (apply concat)))
+
+(defn leaderboard-component []
+  [:div
+   [:h4 "Leaderboard"]
+   [:table.table.table-striped
+    [:thead
+     [:tr
+      [:th "№ of paraphrases"]
+      [:th "Annotator"]
+      [:th "Job №"]]]
+    #_[:pre (trace (leaderboard (:jobs @app-state)))]
+    [:tbody
+     (for [[i row] (take 10 (map-indexed vector (leaderboard (:jobs @app-state))))]
+       [:tr {:style {:background-color (case i
+                                         0 "rgba(255,215,0, 0.3)"
+                                         1 "rgba(211,211,211, 0.3)"
+                                         2 "rgba(80, 50, 20, 0.2)"
+                                         "")}}
+        [:td (:max row)]
+        [:td
+         (case i
+                0 "\uD83E\uDD47"
+                1 "\uD83E\uDD48"
+                2 "\uD83E\uDD49"
+                "")
+         (:annotator row)]
+        [:td (:job-idx row)]])]]]
+  )
+
 
 (defn annotation-main []
   (let [{:keys [task-no tasks annotator-email jobs job-id show-ann-info show-tips]} @app-state
@@ -280,30 +318,40 @@
              :on-change   #(handler :update-email-field {:text (-> % .-target .-value)})}]
     [:div.input-group-append
      [:button.btn.btn-primary {:on-click #(handler :create-job {})} "Create"]]]
-   [:h3 "Select already created job"]
-   [:table.table.table-hover
-    [:thead
-     [:tr
-      [:th {:scope "col"} "#"]
-      [:th {:scope "col"} "Annotator"]
-      [:th {:scope "col"} "Created at"]
-      [:th {:scope "col"} "Modified at"]
-      [:th {:scope "col"} "Progress"]]]
-    [:tbody
-     (for [[i job] (map-indexed vector (:jobs @app-state))]
-       [:tr  {:key (:id job) :style {:cursor "pointer"} :on-click #(handler :load-job {:id (:id job)})}
-        [:th {:scope "row"} (str i)]
-        [:td (:annotator job)]
-        [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:created job)))]
-        [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:modified job)))]
-        [:td (let [p (:progress job)]
-               (if (= 100 p)
-                [:span.badge.badge-success "FINISHED"]
-                [:span.badge.badge-primary (str p "%")]))]]
-       #_[:li {:key (:id job)}
-        [:a {:href     "javascript:void(0)"
-             :on-click #(handler :load-job {:id (:id job)})}
-         (:annotator job) " " (str (js/Date. (:created job)))]])]]])
+
+   [:p]
+   [:br
+    ]
+
+   [:div.row
+    [:div.col-lg-4
+     (leaderboard-component)]
+
+    [:div.col-lg-8
+     [:h4 "Select already created job"]
+     [:table.table.table-hover
+      [:thead
+       [:tr
+        [:th {:scope "col"} "#"]
+        [:th {:scope "col"} "Annotator"]
+        [:th {:scope "col"} "Created at"]
+        [:th {:scope "col"} "Modified at"]
+        [:th {:scope "col"} "Progress"]]]
+      [:tbody
+       (for [[i job] (map-indexed vector (:jobs @app-state))]
+         [:tr {:key (:id job) :style {:cursor "pointer"} :on-click #(handler :load-job {:id (:id job)})}
+          [:th {:scope "row"} (str i)]
+          [:td (:annotator job)]
+          [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:created job)))]
+          [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:modified job)))]
+          [:td (let [p (:progress job)]
+                 (if (= 100 p)
+                   [:span.badge.badge-success "FINISHED"]
+                   [:span.badge.badge-primary (str p "%")]))]]
+         #_[:li {:key (:id job)}
+            [:a {:href     "javascript:void(0)"
+                 :on-click #(handler :load-job {:id (:id job)})}
+             (:annotator job) " " (str (js/Date. (:created job)))]])]]]]])
 
 (defn main-screen []
   (case (:screen @app-state)
