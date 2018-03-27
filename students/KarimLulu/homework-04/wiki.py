@@ -19,7 +19,7 @@ def add_section(section=None, path=None, content=None, parent="", output={}):
     start = content.index(text)
     end = start + len(text)
     hash_value = hashlib.md5(new_path.encode()).hexdigest()
-    output[hash_value] = {"parent": preprocess(parent),
+    output["sections"][hash_value] = {"parent": preprocess(parent),
                           "level": level,
                           "start": start,
                           "end": end,
@@ -29,7 +29,7 @@ def add_section(section=None, path=None, content=None, parent="", output={}):
 
 def parse_sections(data, content=None, output=None, parent="", path=""):
     if output is None:
-        output = {}
+        output = {"sections": {}}
     if isinstance(data, WikipediaPage):
         output, _ = add_section(data.summary, path, content, parent, output)
     for s in data.sections:
