@@ -34,7 +34,7 @@
 
 (defn sample-attributes []
   (let [intp-search-attrs (interpolate com/search-attributes)]
-    (->> (range 20)
+    (->> (range (:max-tasks (config/config)))
          (map (fn [_]
                 (take 3 (ssample/sample intp-search-attrs)))))
     #_(repeatedly number-of-tasks (fn [] (repeatedly 3 #(rand-nth intp-search-attrs))))))
