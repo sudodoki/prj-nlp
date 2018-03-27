@@ -3,19 +3,24 @@ import os
 from SPARQLWrapper import SPARQLWrapper, JSON
 from collections import defaultdict
 import json
-
-from config import (data_dir, init_dir, db_filename, log_fmt, date_fmt,
-                    ENDPOINT, QUERY)
 import logging
+
+from config import (data_dir, db_filename, log_fmt, date_fmt,
+                    ENDPOINT, QUERY, train_dir, test_dir)
+from helpers import  _zip, init_dir
+from wiki import get_wiki_json
 
 logging.basicConfig(level=logging.INFO,
                     format=log_fmt,
                     datefmt=date_fmt)
 logger = logging.getLogger(__name__)
 
-PIPELINE = {"get_data": {}}
-DISABLE = []#"get_data"]
+PIPELINE = {"get_data": {},
+            "train_test": {}}
+DISABLE = ["get_data"]
 RULES = ["rule_1"]
+TRAIN = ["Albrecht_Dürer"]
+TEST = []
 
 def get_data():
     logger.info("Fetching the ground truth data")
@@ -35,7 +40,12 @@ def get_data():
     return data
 
 def train_test():
-    pass
+    init_dir(train_dir)
+    init_dir(test_dir)
+    for key, value in _zip(TRAIN, "train") + _zip(TEST, "test"):
+        output = get_wiki_json(key)
+        with (data_dir / value / f"{key}.json").open("w+") as f:
+            json.dump(output, f, indent=4)
 
 def rule_1():
     pass

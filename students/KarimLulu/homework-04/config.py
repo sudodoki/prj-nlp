@@ -5,6 +5,8 @@ date_fmt="%Y-%m-%d %H:%M:%S"
 
 root_dir = Path(__file__).resolve().parent
 data_dir = root_dir / "data"
+train_dir = data_dir / "train"
+test_dir = data_dir / "test"
 db_filename = "db.json"
 
 # SPARQL
@@ -32,6 +34,3 @@ FILTER (lang(?name)="en")
 GROUP BY ?person ?picture
 ORDER BY ?name ?painting
 """
-
-def init_dir(folder):
-    Path.mkdir(folder, parents=True, exist_ok=True)
