@@ -15,6 +15,7 @@ scrapy = "*"
 jupyter = "*"
 "warc3" = "*"
 matplotlib = "*"
+scikit-learn = "*"
 
 
 [requires]
