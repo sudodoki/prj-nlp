@@ -26,6 +26,7 @@
    :website        ["mapy.cz" "ow.ly" "bbb.org" "mayoclinic.com" "soundcloud.com" "free.fr" "stumbleupon.com" "hugedomains.com" "apache.org" "wikia.com" "privacy.gov.au" "bandcamp.com" "sphinn.com" "deviantart.com" "berkeley.edu"]
    :social-network ["google plus" "twitter" "google+" "facebook" "linkedin" "linked in"]
    :post-text      ["My creativity is funky, and I want to run a marathon. You've got sick encounters, forever. #elbowism #randomtweet" "My job is debt free, and I want to pluck a cactus. Ridiculously good dinner dates, again." "My cooking is being a jerk, and I want to go swimming. A hint of stellar banjo music, IMHO." "My life is a pain, and I want to be heard. We need clammy candy, for the love of God." "My boss is a joy, and I want to study holistic medicine. We need insane lies, really." "My cat is debt free, and I want to level up. A clear case of better glitter, please." "My job is so robust, and I want to go swimming. A hint of specific make-up, I say." "My honesty is a pain, and I want to play hacky sack. A path towards creepy costumes, again."]
+   :post-word      ["mix" "finite" "phonograph" "fatal" "liver" "blizzard" "rare" "conqueror" "crawling" "accommodation" "gargoyle" "blackout" "coastal" "convulsion" "pragmatic" "beyond" "concussion" "free" "easy" "honey" "abomination" "eight" "captive" "big" "adsorbable" "airtight" "escapist" "feeling" "biplane"]
    :freq           (map str (range 10))
    :mention        ["Clay Arnold" "Sheryl Bradley" "Steven Owens" "Kristin Hansen" "Stephanie Jenkins" "Michelle Neal" "Lindsey Holt" "Philip Stephens" "Delia Flores" "Caleb Ramirez" "Lynn Boyd" "Andy Chandler" "Estelle Jimenez" "Stacy Vaughn" "Dorothy Larson" "Shawna Potter" "Sherman Cooper" "Hope Griffith" "Connie Mitchell" "Dolores Cummings"]
    :poll-answer   ["Yes" "No" "Maybe"]
@@ -56,24 +57,24 @@
    {:name "profile.company" :short "is working at {company}" :type "text" :example "Attendees who worked at Google, *Employees from Google"}
    {:name "profile.position" :short "has {position} position" :type "text" :example "Attendees with CEO position, *Find all CEO"}
    {:name "profile.location" :short "has {location} as location" :type "text" :example "Attendees with Ukraine location, *Attendees from Ukraine"}
-   #_{:name "profile.bio" :short "Attendee's bio is '{bio}'" :type "text" :example "1"}
+   {:name "profile.bio" :short "whose bio contains '{post-word}'" :type "text" :example "1"}
    {:name "profile.enjoyment" :short "have {enjoyment} the event" :type "Sentiment" :example "Find all attendees with high enjoyment, Attendees who enjoyed AI Summit event"}
    {:name "profile.email" :short "has {email} as email" :type "text" :example "Attendees with abc.com in email"}
    {:name "profile.phone" :short "has {phone} as phone" :type "text" :example "1"}
    {:name "profile.website" :short "has '{website}' as website" :type "text" :example "1"}
    {:name "profile.social_network" :short "has connected {social-network}" :type "bool" :example "Attendees with connected linkedin"}
-   {:name "post.text" :short "with text '{post-text}'" :human "wrote post '{post-text}'" :type "text" :example "Attendees who wrote post with Tesla, *Attendees who wrote post about Tesla"}
+   {:name "post.text" :short "contains '{post-word}'" :human "wrote post '{post-text}'" :type "text" :example "Attendees who wrote post with Tesla, *Attendees who wrote post about Tesla"}
    {:name "post.count" :short "{freq} times" :human "wrote {freq} posts" :type "int" :example "Attendees who more than 10 posts"}
    {:name "post.likesCount" :short "with {freq} likes " :human "wrote post with {freq} likes" :type "int" :example "Attenddes who create post with more than 10 likes"}
    {:name "post.mentions" :short "with {mention}'s mention " :human "mentioned {mention} in a post" :type "Attendee" :example "Attendees who mentioned Elon Musk in post"}
    {:name "post.commentsCount" :short "with {freq} replies" :human "wrote post with {freq} replies" :type "int" :example "Attendees who create post with more than 10 comments"}
    {:name "post.sentiment" :short "with {sentiment} sentiment" :human "wrote {sentiment} post" :type "Sentiment" :example "Attendees who wrote positive post with Tesla"}
-   {:name "like.postText" :short "post '{post-text}'" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
+   {:name "like.postText" :short "post contains '{post-word}'" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
    {:name "like.postAuthor" :short "{mention}'s post" :human "liked {mention}'s post" :type "Attendee" :example "Attendees who liked posts by Elon Musk"}
    {:name "like.postSentiment" :short "{sentiment} post" :human "liked {sentiment} post" :type "Sentiment" :example "Attendees who liked positive post with Tesla"}
    {:name "like.count" :short "{freq} times" :human "made {freq} likes" :type "int" :example "Attendees who made more than 30 likes"}
-   {:name "comment.text" :short "with '{post-text}'" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
-   {:name "comment.postText" :short "to post '{post-text}'" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
+   {:name "comment.text" :short "contains '{post-word}'" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
+   {:name "comment.postText" :short "to post contains '{post-word}'" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
    {:name "comment.postAuthor" :short "to {mention}'s post" :human "wrote reply to {mention}'s post" :type "Attendee" :example "Attenddes who wrote comment for Elon Musk post"}
    {:name "comment.postSentiment" :short "to {sentiment} post" :human "wrote reply to {sentiment} post" :type "Sentiment" :example "Attendees who wrote comment for negative post with Boring"}
    {:name "poll.questionText" :short "with question '{poll-question}'" :type "text" :example "Attendees who answered for poll 'Are you happy?'"}
@@ -82,21 +83,21 @@
    {:name "appSessions.count" :short "used app {freq} times" :type "int" :example "Attendees with less than 10 app sessions"}
    {:name "events.name" :short "'{event}'"}
    {:name "events.count" :short "{freq} times"}
-   {:name "pageView.content" :short "with '{post-text}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
+   {:name "pageView.content" :short "with '{post-word}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
    {:name "pageView.type" :short "with '{page-type}' type" :type "PageType" :example "Attendees who viewed sponsor page"}
    {:name "pageView.count" :short "{freq} times" :type "int" :example "Attendees who viewed sponsor page with Tesla more than 5 times"}
-   {:name "rating.content" :short "with '{post-text}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
+   {:name "rating.content" :short "contains '{post-word}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
    {:name "rating.type" :short "with '{page-type}' type" :type "PageType" :example "Attendees who viewed sponsor page"}
    {:name "rating.count" :short "{freq} times" :type "int" :example "Attendees who viewed sponsor page with Tesla more than 5 times"}
    {:name "rating.value" :short "with {stars} stars"}
-   {:name "notes.content" :short "with '{post-text}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
+   {:name "notes.content" :short "contains '{post-word}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
    {:name "notes.type" :short "with '{page-type}' type" :type "PageType" :example "Attendees who viewed sponsor page"}
    {:name "notes.count" :short "{freq} times" :type "int" :example "Attendees who viewed sponsor page with Tesla more than 5 times"}
-   {:name "fileDownload.content" :short "from page with content '{post-text}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
+   {:name "fileDownload.content" :short "from page contains '{post-word}'"  :type "text" :example "Attendees who viewed page with SpaceX"}
    {:name "fileDownload.type" :short "from page with '{page-type}' type" :type "PageType" :example "Attendees who viewed sponsor page"}
    {:name "fileDownload.count" :short "{freq} times" :type "int" :example "Attendees who viewed sponsor page with Tesla more than 5 times"}
    {:name "fileDownload.name" :short "with name '{file-name}'" :type "int" :example "Attendees who viewed sponsor page with Tesla more than 5 times"}
-   {:name "ad.text" :short "with text '{post-text}'"  :type "text" :example "Attendees who clicked on ad with Tesla"}
+   {:name "ad.text" :short "contains '{post-word}'"  :type "text" :example "Attendees who clicked on ad with Tesla"}
    {:name "ad.sponsor" :short "by '{company}'" :type "Sponsor" :example "Attendees who clicked Apply ad with 'Wanna new iPhone?'"}
    {:name "ad.count" :short "{freq} times" :type "int" :example "Attendees who clicked on ad more than 2 times"}]
   )

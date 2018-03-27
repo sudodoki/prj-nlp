@@ -5,6 +5,7 @@
             [ring.util.response :refer [response]]
             [cheshire.core :as json]
             [annotator.common :as com]
+            [annotator.config :as config]
             [clojure.pprint :as pp]
             [clojure.java.jdbc :as jdbc]
             [clojure.string :as str]
@@ -14,8 +15,6 @@
 
 ;; todo
 ;; * sampling with no duplicates
-
-(def number-of-tasks 20)
 
 (defn interpolate [sas]
   (->> sas
@@ -78,7 +77,7 @@
                      (sample-attributes))
                    (map #(-> {:search-attributes %
                               :id (rand-id)
-                              :phrases (repeat max-phrases "")})))
+                              :phrases (repeat (:phrases-no (config/config)) "")})))
         job {:id        (rand-id)
              :annotator annotator
              :created   (now)

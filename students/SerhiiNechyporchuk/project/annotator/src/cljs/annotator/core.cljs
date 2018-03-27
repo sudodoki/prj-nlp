@@ -18,7 +18,8 @@
                           :task-no         nil
                           :phrases         []
                           :annotator-email nil
-                          :show-ann-info   true}))
+                          :show-ann-info   true
+                          :show-tips true}))
 
 (defn call [method args]
   (go (let [res (<! (http/post "/call" {:json-params {:method method :args args}}))]
@@ -36,6 +37,7 @@
    (let [resp (<! (call "create-job" {:annotator (:annotator-email @app-state)}))
          task-no (or (:task-no @app-state) 0)]
      (swap! app-state assoc
+            :jobs (conj (:jobs @app-state) resp)
             :tasks (mapv #(update % :phrases vec) (:tasks resp))
             :job-id (:id resp)
             :task-no task-no
@@ -60,7 +62,7 @@
 (defmethod handler :init [_ {}]
   (go
    (let [resp (<! (call "list-jobs" {}))]
-     (swap! app-state assoc :jobs (:jobs resp)))))
+     (swap! app-state assoc :jobs (vec (:jobs resp))))))
 
 (defmethod handler :save-tasks-and-next [_ {}]
   (go
@@ -72,7 +74,9 @@
             :task-no (inc-task-no task-no (count tasks))
             :jobs (mapv (fn [job]
                           (if (= (:id job) job-id)
-                            (assoc job :progress (com/job-progress (assoc job :tasks tasks)))
+                            (do
+                              (println (com/job-progress (assoc job :tasks tasks)))
+                             (assoc job :progress (com/job-progress (assoc job :tasks tasks))))
                             job))
                         jobs)))))
 
@@ -106,6 +110,9 @@
 
 (defmethod handler :toggle-info [_ {}]
   (swap! app-state update :show-ann-info not))
+
+(defmethod handler :toggle-tips [_ {}]
+  (swap! app-state update :show-tips not))
 
 (enable-console-print!)
 
@@ -144,7 +151,7 @@
 
 
 (defn annotation-main []
-  (let [{:keys [task-no tasks annotator-email jobs job-id show-ann-info]} @app-state
+  (let [{:keys [task-no tasks annotator-email jobs job-id show-ann-info show-tips]} @app-state
         task (nth tasks task-no)
         job (some #(when (= (:id %) job-id) %) jobs)]
     [:div
@@ -152,8 +159,8 @@
      [:div.form-group.row
       [:div.col-sm-2
        [:button.btn.btn-light {:on-click #(handler :halt-annotation {})} "Back"]]]
-     [:div.alert.alert-info.collapse.show
-      [:h4 {:style {:cursor :pointer}
+     [:div.alert.alert-info
+      [:h4 {:style    {:cursor :pointer}
             :on-click #(handler :toggle-info {})}
        (if show-ann-info "▼" "▶") " What you need to do" (if show-ann-info "" "...")]
       [:div.collapse
@@ -189,41 +196,47 @@
        [:pre "Find profiles who liked post about 'debt' by Sherman Cooper or mentioned Lynn Boyd"]
 
        [:p "And so on. There is no limit on how many phrases you write, the more the better."]
-       [:h4 "Tips for annotation"]
-       [:p
-        [:ul
-         [:li "All changes are saved after you press " [:code "<- Prev"] " or " [:code "-> Next"]]
-         [:li "You can combine queries using " [:code "or/and"]]
-         [:li "Do not stick to the words in the information. It's even better if you use different words (rated page with type session => rated session)"]
-         [:li "Provide as many phrases for each task as you can."]
-         [:li "Try to write queries with following structure:" [:br]
-          [:code "['Find'/'Search all'/'etc'] [Adverbs/Adjectives] [attendees/contacts/profiles/etc] [who ...]"]]
-         [:li "You can omit article and auxilary verbs " [:code "(is, are, etc, ...)"]]
-         [:li "If you add to many empty phrases, just leave them empty"]
-         [:li "Use force"]
-         #_[:li "Please, follow Enghlish grammar whenever possible"]
-         #_[:li "Ты можешь комбинировать любой аттрибут с любым другим"]
-         #_[:li "Лучше не делать запросы с боллее чем 5 аттрибутами, т.к. они будут очень сложны в понимании, но не злоупотребляй and/or"]
-         #_[:li "Следуйте английским правилам граммматики насколько это возможность"]
-         #_[:li "можно опускать артыкли и aux verbs"]
-         #_[:li "Необходимо чтобы каждая фраза имела структуру '[Find/Search all/etc] [ADV/ADJ]* [attendees/contacts/etc]"]
-         #_[:li "используй любые аттрибуты что находятся в таблице, но всегда следуй здравому смыслу"]
-         #_[:li "если ты пишешь запрос во вхождению какой-то фразы, заверны ее в кавычки"]
-         #_[:li "just open your imagination"]]]
        [:p.lead "Thanks for what you doing!"]]]
+
+     [:div.alert.alert-info.collapse.show
+      [:h4 {:style {:cursor :pointer}
+            :on-click #(handler :toggle-tips {})}
+       (if show-tips "▼" "▶") " Tips for annotation" (if show-tips "" "...")]
+      [:div.collapse
+       {:class (when show-tips "show")}
+       [:ul
+        [:li "All changes are saved after you press " [:code "<- Prev"] " or " [:code "-> Next"]]
+        [:li "You can combine queries using " [:code "or/and"]]
+        [:li "Do not stick to the words in the information. It's even better if you use different words (rated page with type session => rated session)"]
+        [:li "Provide as many phrases for each task as you can."]
+        [:li "Try to write queries with following structure:" [:br]
+         [:code "['Find'/'Search all'/'etc'] [Adverbs/Adjectives] [attendees/contacts/profiles/etc] [who ...]"]]
+        [:li "You can omit article and auxilary verbs " [:code "(is, are, etc, ...)"]]
+        [:li "If you add to many empty phrases, just leave them empty"]
+        [:li "Use force"]
+        #_[:li "Please, follow Enghlish grammar whenever possible"]
+        #_[:li "Ты можешь комбинировать любой аттрибут с любым другим"]
+        #_[:li "Лучше не делать запросы с боллее чем 5 аттрибутами, т.к. они будут очень сложны в понимании, но не злоупотребляй and/or"]
+        #_[:li "Следуйте английским правилам граммматики насколько это возможность"]
+        #_[:li "можно опускать артыкли и aux verbs"]
+        #_[:li "Необходимо чтобы каждая фраза имела структуру '[Find/Search all/etc] [ADV/ADJ]* [attendees/contacts/etc]"]
+        #_[:li "используй любые аттрибуты что находятся в таблице, но всегда следуй здравому смыслу"]
+        #_[:li "если ты пишешь запрос во вхождению какой-то фразы, заверны ее в кавычки"]
+        #_[:li "just open your imagination"]]]]
+
      [:div.row
-      [:div.col-sm-2
+      [:div.col-sm-3.col-lg-2
        [:h6 (str "Task " (inc task-no) " of " (count tasks)) ]]
-      [:div.col-sm-1
+      [:div.col-sm-2.col-lg-1
        [:h6 "Progress:"]]
-      [:div.col-sm-9
+      [:div.col-sm-7.col-lg-9
        [:div.progress
         [:div.progress-bar {:style {:width (str (:progress job) "%")}}
          (str (:progress job) "%")]]]]
 
      [:p]
 
-     [:p.alert.alert-primary
+     [:div.alert.alert-primary
 
       [:h4 "Write query to find attendees who"]
       (render-task task)
