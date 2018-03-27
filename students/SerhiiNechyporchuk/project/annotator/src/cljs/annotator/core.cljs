@@ -141,13 +141,15 @@
          (map (fn [[section tasks]]
                 (if (com/top-level section)
                   (for [{:keys [short]} tasks]
-                    [:li {:key short} short])
+                    [:li {:key short
+                          :dangerouslySetInnerHTML {:__html short}} ])
                  [:li {:key section}
                   (or (com/section->human section)
                       [:b section])
                   [:ul
                    (for [{:keys [human short]} tasks]
-                     [:li {:key short} (or short human)])]]))))]])
+                     [:li {:key short
+                           :dangerouslySetInnerHTML {:__html (or short human)}} ])]]))))]])
 
 
 (defn annotation-main []
@@ -165,8 +167,9 @@
        (if show-ann-info "▼" "▶") " What you need to do" (if show-ann-info "" "...")]
       [:div.collapse
        {:class (when show-ann-info "show")}
-       [:p "Your task is to write search queries to find some attendees. In the section below you will have some information
-           about attendees you want to find. For example:"]
+       [:p "Your task is to write search queries to find some attendees. Attendees is participants of some events, that
+            use awesome " [:code "Attendify"] " event apps for communication within event. This apps allows you post content, like, reply, participate in polls
+            and many more. In the task below you will have some information about attendee you want to find. For example:"]
        [:pre
         [:ul
          [:li "wrote post"
@@ -176,11 +179,11 @@
           [:ul
            [:li "with 'My honesty is a pain, and I want to play hacky sack. A path towards creepy costumes, again.'"]]]
          [:li "has Burkina as location"]]]
-       [:p "This means you have to write query to search attendees from Burkina who wrote 8 posts and make reply about 'pain'.
-           Actually, it is pretty valid query, so you fill in into " [:code "Query #1"] " following query:"]
-       [:pre "Find attendees from Burkina who wrote 8 posts and make reply about 'pain'"]
-       [:p "In the " [:code "Query #2"] " you have to write query for the same information but rephrased, e.g.:"]
-       [:pre "Find attendees who posted 8 times, commented about 'pain' and is from Burkina"]
+       [:p "This means you have to write a query to search attendees from Burkina who wrote 8 posts and made a reply about 'pain'.
+           Actually, it is a pretty valid query, so you fill in the following query into " [:code "Query #1"] ":"]
+       [:pre "Find attendees from Burkina who wrote 8 posts and made reply about 'pain'"]
+       [:p "In " [:code "Query #2"] " you have to write a query for the same information but paraphrased, e.g.:"]
+       [:pre "Find attendees who posted 8 times, commented about 'pain' and are from Burkina"]
        [:p "Attributes in the task may be grouped:"]
        [:pre
         [:ul
@@ -191,12 +194,12 @@
          [:li "wrote post"
           [:ul
            [:li "with Lynn Boyd's mention "]]]]]
-       [:p "Here we have grouped like with 2 attributes. Try to combine them so they will describe the same
+       [:p "Here we have grouped " [:code "like"] " with 2 attributes. Try to combine them so they will describe the same
             post/like/reply/etc, e.g.:"]
        [:pre "Find profiles who liked post about 'debt' by Sherman Cooper or mentioned Lynn Boyd"]
 
        [:p "And so on. There is no limit on how many phrases you write, the more the better."]
-       [:p.lead "Thanks for what you doing!"]]]
+       [:p.lead "Thanks for your contribution!"]]]
 
      [:div.alert.alert-info.collapse.show
       [:h4 {:style {:cursor :pointer}
@@ -207,11 +210,11 @@
        [:ul
         [:li "All changes are saved after you press " [:code "<- Prev"] " or " [:code "-> Next"]]
         [:li "You can combine queries using " [:code "or/and"]]
-        [:li "Do not stick to the words in the information. It's even better if you use different words (rated page with type session => rated session)"]
+        [:li "Do not stick to the words in the information. It's even better if you use different words:" [:br]
+         [:code "Find attendees who rated page with type session => Find attendees who rated session"]]
         [:li "Provide as many phrases for each task as you can."]
-        [:li "Try to write queries with following structure:" [:br]
+        [:li "Try to write queries with the following structure:" [:br]
          [:code "['Find'/'Search all'/'etc'] [Adverbs/Adjectives] [attendees/contacts/profiles/etc] [who ...]"]]
-        [:li "You can omit article and auxilary verbs " [:code "(is, are, etc, ...)"]]
         [:li "If you add to many empty phrases, just leave them empty"]
         [:li "Use force"]
         #_[:li "Please, follow Enghlish grammar whenever possible"]
