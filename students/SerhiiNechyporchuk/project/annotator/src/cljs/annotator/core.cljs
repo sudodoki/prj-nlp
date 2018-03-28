@@ -34,13 +34,12 @@
 (defmethod handler :create-job
   [_ args]
   (go
-   (let [resp (<! (call "create-job" {:annotator (:annotator-email @app-state)}))
-         task-no (or (:task-no @app-state) 0)]
+   (let [resp (<! (call "create-job" {:annotator (:annotator-email @app-state)}))]
      (swap! app-state assoc
             :jobs (conj (:jobs @app-state) resp)
             :tasks (mapv #(update % :phrases vec) (:tasks resp))
             :job-id (:id resp)
-            :task-no task-no
+            :task-no 0
             :screen :annotation))))
 
 (defmethod handler :load-job
@@ -74,9 +73,7 @@
             :task-no (inc-task-no task-no (count tasks))
             :jobs (mapv (fn [job]
                           (if (= (:id job) job-id)
-                            (do
-                              (println (com/job-progress (assoc job :tasks tasks)))
-                             (assoc job :progress (com/job-progress (assoc job :tasks tasks))))
+                            (assoc job :progress (com/job-progress (assoc job :tasks tasks)))
                             job))
                         jobs)))))
 
@@ -141,13 +138,53 @@
          (map (fn [[section tasks]]
                 (if (com/top-level section)
                   (for [{:keys [short]} tasks]
-                    [:li {:key short} short])
+                    [:li {:key short
+                          :dangerouslySetInnerHTML {:__html short}} ])
                  [:li {:key section}
                   (or (com/section->human section)
                       [:b section])
                   [:ul
                    (for [{:keys [human short]} tasks]
-                     [:li {:key short} (or short human)])]]))))]])
+                     [:li {:key short
+                           :dangerouslySetInnerHTML {:__html (or short human)}} ])]]))))]])
+
+(defn leaderboard [jobs]
+  (->> jobs
+       (map-indexed (fn [i job]
+                      {:score (->> (:tasks job)
+                                   (map #(count (filter seq (:phrases %))))
+                                   (reduce +))
+                       :annotator (:annotator job) :job-idx i}))
+       (sort-by :score (comp - compare))))
+
+(defn leaderboard-component []
+  [:div
+   [:h4 "Leaderboard" [:code {:style {:cursor :pointer}
+                              :title "Total number of paraphrases"} "  ?"]]
+   #_[:pre (trace (leaderboard (:jobs @app-state)))]
+   [:table.table.table-striped
+    [:thead
+     [:tr
+      [:th "№ of paraphrases"]
+      [:th "Annotator"]
+      [:th "Job №"]]]
+    [:tbody
+     (for [[i row] (take 10 (map-indexed vector (leaderboard (:jobs @app-state))))]
+       [:tr {:style {:background-color (case i
+                                         0 "rgba(255,215,0, 0.3)"
+                                         1 "rgba(211,211,211, 0.3)"
+                                         2 "rgba(80, 50, 20, 0.2)"
+                                         "")}}
+        [:td (:score row)]
+        [:td
+         (case i
+                0 "\uD83E\uDD47"
+                1 "\uD83E\uDD48"
+                2 "\uD83E\uDD49"
+                "")
+         (:annotator row)]
+        [:td (:job-idx row)]])]]]
+  )
 
 
 (defn annotation-main []
@@ -165,8 +202,9 @@
        (if show-ann-info "▼" "▶") " What you need to do" (if show-ann-info "" "...")]
       [:div.collapse
        {:class (when show-ann-info "show")}
-       [:p "Your task is to write search queries to find some attendees. In the section below you will have some information
-           about attendees you want to find. For example:"]
+       [:p "Your task is to write search queries to find some attendees. Attendees is participants of some events, that
+            use awesome " [:code "Attendify"] " event apps for communication within event. This apps allows you post content, like, reply, participate in polls
+            and many more. In the task below you will have some information about attendee you want to find. For example:"]
        [:pre
         [:ul
          [:li "wrote post"
@@ -176,11 +214,11 @@
           [:ul
            [:li "with 'My honesty is a pain, and I want to play hacky sack. A path towards creepy costumes, again.'"]]]
          [:li "has Burkina as location"]]]
-       [:p "This means you have to write query to search attendees from Burkina who wrote 8 posts and make reply about 'pain'.
-           Actually, it is pretty valid query, so you fill in into " [:code "Query #1"] " following query:"]
-       [:pre "Find attendees from Burkina who wrote 8 posts and make reply about 'pain'"]
-       [:p "In the " [:code "Query #2"] " you have to write query for the same information but rephrased, e.g.:"]
-       [:pre "Find attendees who posted 8 times, commented about 'pain' and is from Burkina"]
+       [:p "This means you have to write a query to search attendees from Burkina who wrote 8 posts and made a reply about 'pain'.
+           Actually, it is a pretty valid query, so you fill in the following query into " [:code "Query #1"] ":"]
+       [:pre "Find attendees from Burkina who wrote 8 posts and made reply about 'pain'"]
+       [:p "In " [:code "Query #2"] " you have to write a query for the same information but paraphrased, e.g.:"]
+       [:pre "Find attendees who posted 8 times, commented about 'pain' and are from Burkina"]
        [:p "Attributes in the task may be grouped:"]
        [:pre
         [:ul
@@ -191,12 +229,12 @@
          [:li "wrote post"
           [:ul
            [:li "with Lynn Boyd's mention "]]]]]
-       [:p "Here we have grouped like with 2 attributes. Try to combine them so they will describe the same
+       [:p "Here we have grouped " [:code "like"] " with 2 attributes. Try to combine them so they will describe the same
             post/like/reply/etc, e.g.:"]
        [:pre "Find profiles who liked post about 'debt' by Sherman Cooper or mentioned Lynn Boyd"]
 
        [:p "And so on. There is no limit on how many phrases you write, the more the better."]
-       [:p.lead "Thanks for what you doing!"]]]
+       [:p.lead "Thanks for your contribution!"]]]
 
      [:div.alert.alert-info.collapse.show
       [:h4 {:style {:cursor :pointer}
@@ -207,11 +245,11 @@
        [:ul
         [:li "All changes are saved after you press " [:code "<- Prev"] " or " [:code "-> Next"]]
         [:li "You can combine queries using " [:code "or/and"]]
-        [:li "Do not stick to the words in the information. It's even better if you use different words (rated page with type session => rated session)"]
+        [:li "Do not stick to the words in the information. It's even better if you use different words:" [:br]
+         [:code "Find attendees who rated page with type session => Find attendees who rated session"]]
         [:li "Provide as many phrases for each task as you can."]
-        [:li "Try to write queries with following structure:" [:br]
+        [:li "Try to write queries with the following structure:" [:br]
          [:code "['Find'/'Search all'/'etc'] [Adverbs/Adjectives] [attendees/contacts/profiles/etc] [who ...]"]]
-        [:li "You can omit article and auxilary verbs " [:code "(is, are, etc, ...)"]]
         [:li "If you add to many empty phrases, just leave them empty"]
         [:li "Use force"]
         #_[:li "Please, follow Enghlish grammar whenever possible"]
@@ -250,8 +288,9 @@
          [:div.col-sm-9
           [:textarea.form-control
            {:key          (str (:id task) "-" i)
+            :read-only    (= (:readonly job) "true")
             :id           (str (:id task) "-" i)
-            :rows         1
+            :rows         2
             :defaultValue phrase
             :on-change    #(handler :update-phrase {:text       (-> % .-target .-value)
                                                     :task-no    task-no
@@ -269,7 +308,8 @@
          Here you will help us to collect as many paraphrased search queries as possible."]
     [:p "To start working " [:b "enter your name"] " and press " [:b "Create"] " or
          select previously created job in the list."]
-    [:p [:b "Please, read carefully instructions on the job page."]]]
+    [:p [:b "Please, read carefully instructions on the job page."]]
+    [:p [:b "There is an example job annotated by 'Example' user. You should definitely check it."]]]
    [:h3 "Create new job"]
    [:div.input-group
     [:input {:type        :text
@@ -278,30 +318,40 @@
              :on-change   #(handler :update-email-field {:text (-> % .-target .-value)})}]
     [:div.input-group-append
      [:button.btn.btn-primary {:on-click #(handler :create-job {})} "Create"]]]
-   [:h3 "Select already created job"]
-   [:table.table.table-hover
-    [:thead
-     [:tr
-      [:th {:scope "col"} "#"]
-      [:th {:scope "col"} "Annotator"]
-      [:th {:scope "col"} "Created at"]
-      [:th {:scope "col"} "Modified at"]
-      [:th {:scope "col"} "Progress"]]]
-    [:tbody
-     (for [[i job] (map-indexed vector (:jobs @app-state))]
-       [:tr  {:key (:id job) :style {:cursor "pointer"} :on-click #(handler :load-job {:id (:id job)})}
-        [:th {:scope "row"} (str i)]
-        [:td (:annotator job)]
-        [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:created job)))]
-        [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:modified job)))]
-        [:td (let [p (:progress job)]
-               (if (= 100 p)
-                [:span.badge.badge-success "FINISHED"]
-                [:span.badge.badge-primary (str p "%")]))]]
-       #_[:li {:key (:id job)}
-        [:a {:href     "javascript:void(0)"
-             :on-click #(handler :load-job {:id (:id job)})}
-         (:annotator job) " " (str (js/Date. (:created job)))]])]]])
+
+   [:p]
+   [:br
+    ]
+
+   [:div.row
+    [:div.col-lg-4
+     (leaderboard-component)]
+
+    [:div.col-lg-8
+     [:h4 "Select already created job"]
+     [:table.table.table-hover
+      [:thead
+       [:tr
+        [:th {:scope "col"} "#"]
+        [:th {:scope "col"} "Annotator"]
+        [:th {:scope "col"} "Created at"]
+        [:th {:scope "col"} "Modified at"]
+        [:th {:scope "col"} "Progress"]]]
+      [:tbody
+       (for [[i job] (map-indexed vector (:jobs @app-state))]
+         [:tr {:key (:id job) :style {:cursor "pointer"} :on-click #(handler :load-job {:id (:id job)})}
+          [:th {:scope "row"} (str i)]
+          [:td (:annotator job)]
+          [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:created job)))]
+          [:td (fmt/unparse (fmt/formatters :mysql) (coerce/from-long (:modified job)))]
+          [:td (let [p (:progress job)]
+                 (if (= 100 p)
+                   [:span.badge.badge-success "FINISHED"]
+                   [:span.badge.badge-primary (str p "%")]))]]
+         #_[:li {:key (:id job)}
+            [:a {:href     "javascript:void(0)"
+                 :on-click #(handler :load-job {:id (:id job)})}
+             (:annotator job) " " (str (js/Date. (:created job)))]])]]]]])
 
 (defn main-screen []
   (case (:screen @app-state)

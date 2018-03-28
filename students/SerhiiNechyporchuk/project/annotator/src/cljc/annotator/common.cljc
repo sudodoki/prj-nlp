@@ -18,7 +18,6 @@
    :company        ["A. O. Smith" "A. Schulman" "A&W Restaurants" "a21, Inc." "Aaron's, Inc." "Abbott Laboratories" "AbbVie" "Abercrombie & Fitch" "Ablitech, Inc." "ABM Industries" "ABS Capital Partners" "ABX Air" "AC Lens" "Academi" "Accenture Plc" "Access Systems Americas, Inc." "ACCO Brands" "Accuquote" "Accuride Corporation" "Ace Hardware" "Acme Fresh Market" "ACN Inc." "Acsis Inc." "Activision Blizzard" "Activision" "Blizzard" "Acuity Brands" "Acuity Insurance"]
    :position       ["Accountant" "Accountant Systems" "Acquisition Management Intern" "Actuarial Analyst" "Actuary" "Administrative Generalist/Specialist" "Affordable Housing Specialist" "Analyst" "Appraiser" "Archaeologist" "Area Systems Coordinator" "Asylum or Immigration Officer" "Attorney/Law Clerk" "Audience Analyst" "Audit Resolution Follow Up" "Auditor" "Behavioral Scientist" "Biologist, Fishery" "Biologist, Marine" "Biologist, Wildlife" "Budget Analyst" "Budget Specialist" "Business Administration Officer" "Chemical Engineer" "Chemist" "Citizen Services Specialis"]
    :location       ["Afghanistan" "Albania" "Algeria" "Andorra" "Angola" "Antigua & Deps" "Argentina" "Armenia" "Australia" "Austria" "Azerbaijan" "Bahamas" "Bahrain" "Bangladesh" "Barbados" "Belarus" "Belgium" "Belize" "Benin" "Bhutan" "Bolivia" "Bosnia Herzegovina" "Botswana" "Brazil" "Brunei" "Bulgaria" "Burkina" "Burundi" "Cambodia" "Cameroon" "Canada" "Cape Verde" "Central African Rep" "Chad" "Chile" "China" "Colombia" "Comoros" "Congo" "Congo {Democratic Rep}" "Costa Rica" "Croatia" "Cuba" "Cyprus" "Czech Republic" "Denmark" "Djibouti" "Dominica" "Dominican Republic" "East Timor" "Ecuador" "Egypt" "El Salvador" "Equatorial Guinea" "Eritrea" "Estonia" "Ethiopia" "Fiji" "Finland" "France" "Gabon" "Gambia" "Georgia" "Germany" "Ghana" "Greece" "Grenada" "Guatemala" "Guinea" "Guinea-Bissau" "Guyana" "Haiti" "Honduras" "Hungary" "Iceland" "India" "Indonesia" "Iran" "Iraq" "Ireland {Republic}" "Israel" "Italy" "Ivory Coast" "Jamaica" "Japan" "Jordan" "Kazakhstan" "Kenya" "Kiribati" "Korea North" "Korea South" "Kosovo" "Kuwait" "Kyrgyzstan" "Laos" "Latvia" "Lebanon" "Lesotho" "Liberia" "Libya" "Liechtenstein" "Lithuania" "Luxembourg" "Macedonia" "Madagascar" "Malawi" "Malaysia" "Maldives" "Mali" "Malta" "Marshall Islands" "Mauritania" "Mauritius" "Mexico" "Micronesia" "Moldova" "Monaco" "Mongolia" "Montenegro" "Morocco" "Mozambique" "Myanmar, {Burma}" "Namibia" "Nauru" "Nepal" "Netherlands" "New Zealand" "Nicaragua" "Niger" "Nigeria" "Norway" "Oman" "Pakistan" "Palau" "Panama" "Papua New Guinea" "Paraguay" "Peru" "Philippines" "Poland" "Portugal" "Qatar" "Romania" "Russian Federation" "Rwanda" "St Kitts & Nevis" "St Lucia" "Saint Vincent & the Grenadines" "Samoa" "San Marino" "Sao Tome & Principe" "Saudi Arabia" "Senegal" "Serbia" "Seychelles" "Sierra Leone" "Singapore" "Slovakia" "Slovenia" "Solomon Islands" "Somalia" "South Africa" "South Sudan" "Spain" "Sri Lanka" "Sudan" "Suriname" "Swaziland" "Sweden" "Switzerland" "Syria" "Taiwan" "Tajikistan" "Tanzania" "Thailand" "Togo" "Tonga" "Trinidad & Tobago" "Tunisia" "Turkey" "Turkmenistan" "Tuvalu" "Uganda" "Ukraine" "United Arab Emirates" "United Kingdom" "United States" "Uruguay" "Uzbekistan" "Vanuatu" "Vatican City" "Venezuela" "Vietnam" "Yemen" "Zambia" "Zimbabwe"]
-   #_#_:bio []
    :enjoyment      ["enjoyed" "not enjoyed"]
    :sentiment      ["positive" "negative"]
    :email          ["mthurn@live.com" "fangorn@hotmail.com" "euice@outlook.com" "rgarcia@optonline.net" "mxiao@yahoo.com" "firstpr@att.net" "webdragon@comcast.net" "jguyer@aol.com" "sakusha@yahoo.ca" "crandall@sbcglobal.net" "drezet@me.com" "miyop@icloud.com"]
@@ -29,9 +28,9 @@
    :post-word      ["mix" "finite" "phonograph" "fatal" "liver" "blizzard" "rare" "conqueror" "crawling" "accommodation" "gargoyle" "blackout" "coastal" "convulsion" "pragmatic" "beyond" "concussion" "free" "easy" "honey" "abomination" "eight" "captive" "big" "adsorbable" "airtight" "escapist" "feeling" "biplane"]
    :freq           (map str (range 10))
    :mention        ["Clay Arnold" "Sheryl Bradley" "Steven Owens" "Kristin Hansen" "Stephanie Jenkins" "Michelle Neal" "Lindsey Holt" "Philip Stephens" "Delia Flores" "Caleb Ramirez" "Lynn Boyd" "Andy Chandler" "Estelle Jimenez" "Stacy Vaughn" "Dorothy Larson" "Shawna Potter" "Sherman Cooper" "Hope Griffith" "Connie Mitchell" "Dolores Cummings"]
-   :poll-answer   ["Yes" "No" "Maybe"]
-   :poll-question ["Do you sleep with your closet doors open?" "Do you take the shampoos and conditioner bottles from hotel?" "Do you sleep with your sheets tucked in?" "Have you ever stolen a street sign before?" "Do you like to use post-it notes?" "Do you cut out coupons but then never use them?" "Do you have freckles?" "Do you always smile for pictures?" "Do you ever count your steps when you walk?" "Have you ever peed in the woods?" "Do you ever dance even if there's no music playing?" "Do you chew your pens and pencils?" "Is it ok for guys to wear pink ?" "Do you still watch cartoons?"]
-   :event         ["Fluffy Bison'17" "Tired Kangaroos'18" "Clear Nightingales'12" "Swanky Elks'01" "Tall Frogs'12" "Present Larks'05" "Luxuriant Apes'04" "Deeply Seals'15" "Many Worms'13" "Ill Guineapigs'10" "Vagabond Panthers'12" "Happy Hippopotamuss'17"]
+   :poll-answer    ["Yes" "No" "Maybe"]
+   :poll-question  ["Do you sleep with your closet doors open?" "Do you take the shampoos and conditioner bottles from hotel?" "Do you sleep with your sheets tucked in?" "Have you ever stolen a street sign before?" "Do you like to use post-it notes?" "Do you cut out coupons but then never use them?" "Do you have freckles?" "Do you always smile for pictures?" "Do you ever count your steps when you walk?" "Have you ever peed in the woods?" "Do you ever dance even if there's no music playing?" "Do you chew your pens and pencils?" "Is it ok for guys to wear pink ?" "Do you still watch cartoons?"]
+   :event          ["Fluffy Bison'17" "Tired Kangaroos'18" "Clear Nightingales'12" "Swanky Elks'01" "Tall Frogs'12" "Present Larks'05" "Luxuriant Apes'04" "Deeply Seals'15" "Many Worms'13" "Ill Guineapigs'10" "Vagabond Panthers'12" "Happy Hippopotamuss'17"]
    :page-type      ["session" "sponsor" "speaker" "exhibitor"]
    :file-name      ["talk.pdf" "presentation.pptx" "workshop.doc"]
    :stars          (map str (range 6))})
@@ -39,8 +38,8 @@
 (def section->human
   {"profile" "has"
    "post" "wrote post"
-   "like" "liked"
-   "comment" "replied"
+   "like" "liked post"
+   "comment" "replied to post"
    "poll" "participated in poll"
    "events" "attended event"
    "pageView" "viewed page"
@@ -69,14 +68,14 @@
    {:name "post.mentions" :short "with {mention}'s mention " :human "mentioned {mention} in a post" :type "Attendee" :example "Attendees who mentioned Elon Musk in post"}
    {:name "post.commentsCount" :short "with {freq} replies" :human "wrote post with {freq} replies" :type "int" :example "Attendees who create post with more than 10 comments"}
    {:name "post.sentiment" :short "with {sentiment} sentiment" :human "wrote {sentiment} post" :type "Sentiment" :example "Attendees who wrote positive post with Tesla"}
-   {:name "like.postText" :short "post contains '{post-word}'" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
-   {:name "like.postAuthor" :short "{mention}'s post" :human "liked {mention}'s post" :type "Attendee" :example "Attendees who liked posts by Elon Musk"}
-   {:name "like.postSentiment" :short "{sentiment} post" :human "liked {sentiment} post" :type "Sentiment" :example "Attendees who liked positive post with Tesla"}
+   {:name "like.postText" :short "contains '{post-word}'" :human "liked post '{post-text}'" :type "text" :example "Attendees who liked post with Tesla"}
+   {:name "like.postAuthor" :short "by {mention}" :human "liked {mention}'s post" :type "Attendee" :example "Attendees who liked posts by Elon Musk"}
+   {:name "like.postSentiment" :short "with {sentiment} sentiment" :human "liked {sentiment} post" :type "Sentiment" :example "Attendees who liked positive post with Tesla"}
    {:name "like.count" :short "{freq} times" :human "made {freq} likes" :type "int" :example "Attendees who made more than 30 likes"}
-   {:name "comment.text" :short "contains '{post-word}'" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
-   {:name "comment.postText" :short "to post contains '{post-word}'" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
-   {:name "comment.postAuthor" :short "to {mention}'s post" :human "wrote reply to {mention}'s post" :type "Attendee" :example "Attenddes who wrote comment for Elon Musk post"}
-   {:name "comment.postSentiment" :short "to {sentiment} post" :human "wrote reply to {sentiment} post" :type "Sentiment" :example "Attendees who wrote comment for negative post with Boring"}
+   {:name "comment.text" :short "with '{post-word}'" :human "wrote reply '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla"}
+   {:name "comment.postText" :short "<em>(post)</em> contains '{post-word}'" :human "wrote reply to the post '{post-text}'" :type "text" :example "Attendees who wrote comment with Tesla for the post with SpaceX"}
+   {:name "comment.postAuthor" :short "by {mention}" :human "wrote reply to {mention}'s post" :type "Attendee" :example "Attenddes who wrote comment for Elon Musk post"}
+   {:name "comment.postSentiment" :short "<em>(post)</em> with {sentiment} sentiment" :human "wrote reply to {sentiment} post" :type "Sentiment" :example "Attendees who wrote comment for negative post with Boring"}
    {:name "poll.questionText" :short "with question '{poll-question}'" :type "text" :example "Attendees who answered for poll 'Are you happy?'"}
    {:name "poll.answerText" :short "answered '{poll-answer}'" :type "text" :example "Attendees who answered Yes for poll 'Are you happy?'"}
    {:name "poll.count" :short "{freq} times"}
