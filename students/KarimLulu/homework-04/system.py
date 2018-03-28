@@ -6,6 +6,8 @@ import json
 import logging
 import spacy
 from operator import itemgetter
+from itertools import groupby
+import re
 
 from config import (data_dir, db_filename, log_fmt, date_fmt,
                     ENDPOINT, QUERY, train_dir, test_dir)
@@ -21,7 +23,9 @@ PIPELINE = {"get_data": {},
             "train_test": {"input": False},
             "apply_rules_to_data": {"input": False}}
 DISABLE = ["get_data", "train_test"]
-RULES = ["rule_1"]
+RULES = [("rule_1", 0.1), 
+         ("rule_2", 0.3)]
+THRESHOLD = 0.5
 TRAIN = ["Albrecht Dürer"]
 TEST = ["Andrea Mantegna"]
 WIKI_MAP = {"Albrecht Dürer": "Albrecht_Dürer",
@@ -70,12 +74,43 @@ def rule_1(item, doc):
     work_of_art = filter(lambda x: x.label_=="WORK_OF_ART", doc.ents)
     return [el.text for el in work_of_art]
 
+def get_items(token, doc, output=None):
+    if output is None:
+        output = []
+    lefts = [el.text for el in filter(lambda x: x.dep_ in ["compound", "det"], token.lefts)]
+    rights = [el.text for el in filter(lambda x: x.dep_ in ["compound", "det"], token.rights)]
+    title = " ".join(lefts + [token.text] + rights)
+    output.append(title)
+    for child in token.children:
+        if child.dep_ == "conj":
+            get_items(child, doc, output)
+    return output
+
+def rule_2(item, doc):
+    v_lemmas = ["produce", "create", "paint", "reproduce"]
+    n_lemmas = ["image", "picture", "painting", "work"]
+    paintings = []
+    for token in doc:
+        if token.lemma_ in v_lemmas:
+            for child in token.children:
+                if child.dep_ == "dobj" and child.lemma_ in n_lemmas:
+                    for grand_child in child.children:
+                        if grand_child.dep_ == "appos":
+                            rez = get_items(grand_child, doc)
+                            paintings.extend(rez)
+    return list(set(paintings))
+
 def apply_rules_to_item(item):
     paintings = []
-    for rule in RULES:
-        doc = nlp(item["text"])
-        rez = globals()[rule](item, doc)
-        paintings.extend(rez)
+    doc = nlp(item["text"])
+    for rule, weight in RULES:
+        # Strip dates
+        output = [(re.sub(r"\s*\(.*\)?", "", el).strip(), weight) 
+                 for el in globals()[rule](item, doc)]
+        paintings.extend(output)
+    for key, gr in groupby(sorted(paintings), key=lambda x: x[0]):
+        score = sum([el[-1] for el in gr])
+        print(key, score)
     return {"y_true": item["y_true"],
             "type": item["type"],
             "y_pred": set(paintings)}
