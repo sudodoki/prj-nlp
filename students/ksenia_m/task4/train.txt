@@ -3,7 +3,6 @@ Dennis Gabor:Holography
 Mardi bin Ali al-Tarsusi:Mangonel
 Abu al-Qasim al-Zahrawi:Surgical suture
 Henry Maudslay:Micrometer
-Coaxial rotor:Smalt
 Vladimir Simonov:SPP-1 underwater pistol
 William Shockley:Transistor
 Estonia:Fuse (electrical)
@@ -14,16 +13,12 @@ Adolph Giesl-Gieslingen:Giesl ejector
 Charles F. Kettering:Tetra ethyl lead
 Evgeniy Chertovsky:Pressure suit
 Dean Kamen:IBOT
-Mikoyan-Gurevich MiG-21:Mikhail Gurevich (aircraft designer)
-Lithuania:Russian guitar
+Mikhail Gurevich (aircraft designer):Mikoyan-Gurevich MiG-21
 Alexander Prokhorov:Maser
 Heinrich Hertz:Electromagnetic radiation
 Marcel Kiepach:Dynamo
 Tim Berners-Lee:World Wide Web
-Fused quartz:Metronome
-Electron cooling:Collider
 David Gestetner:Gestetner
-Sound-on-film:Vacuum tube
 Muhammad ibn Mūsā al-Khwārizmī:Sine quadrant
 Steam turbine:Sextant (astronomical)
 Félix d'Herelle:Phage therapy
@@ -35,7 +30,6 @@ Brake:Optical telegraph
 Pinch to zoom:Danny Hillis
 Otto Blathy:Turbogenerator
 Tim Berners-Lee:World Wide Web
-Bangladesh:Skyscraper
 Hippolyte Mège-Mouriès:Margarine
 Quasiturbine:Qurbine
 John Bennet Lawes:Chemical fertilizer
@@ -61,7 +55,6 @@ Nikolay Basov:Maser
 Hero of Alexandria:Aeolipile
 Sounding line:Deep-sea exploration
 Ibn al-Haytham:Magnifying glass
-Light-emitting diode:Crystadine
 Austrian Empire:Torpedo
 Julio Palmaz:Stent
 Vladimir Baranov-Rossine:Optophonic Piano

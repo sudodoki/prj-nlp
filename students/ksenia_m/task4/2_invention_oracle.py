@@ -1,4 +1,4 @@
-from nltk.parse.stanford import StanfordDependencyParser
+from nltk.parse.stanford import StanfordDependencyParser 
 from nltk.tokenize import sent_tokenize
 import nltk
 import os
@@ -10,64 +10,65 @@ import re
 PATH_TO_JARS = "../../../../jars"
 WAIT_BUSY_WIKI_SEC = 30
 
-def find_invent_sentence(person, sentences):
+def find_invent_sentence(sentences):
     result = []
     for sent in sentences:
         if "invent" in sent:
-            # Header breaks word parsing
-            # ==== Micrometer ====
-            result.append(re.sub('\s*={2,6}\s*\.+={2,6}\s*','',sent))
-    return result;
+            #remove headers
+            result.append(re.sub('\s*={2,6}\s*.+\s*={2,6}\s*','',sent).replace('\n', '').replace('\r', ''))
+    return result
 
-def ask_wiki_what_invented(person, n_of_try):
-    contraptions = []
+
+def find_whom(result, invented_v, nodes):
+    pass
+
+def find_what(result, invented_v, nodes):
+    invent_index = -1
+    if 'dobj' in invented_v['deps']:
+        invent_index = invented_v['deps']['dobj'][0]
+    # TODO here is other algorithm for dependecies
+    elif 'ccomp' in invented_v['deps']:
+        invent_index = invented_v['deps']['ccomp'][0]
+    elif 'nsubj' in invented_v['deps']:
+        invent_index = invented_v['deps']['nsubj'][0]
+
+    if invent_index == -1:
+        return
+
+    invention_nodes = nodes[invent_index]['deps']
+    invention_words = [invent_index]
+    for dep in invention_nodes:
+        if dep in ['amod', 'compound']:
+            invention_words.append(invention_nodes[dep][0])
+    invention_words.sort()
+    contraption = ""
+    for ind in invention_words:
+        contraption += " " + nodes[ind]['word']
+    result.append(contraption)
+
+
+def ask_wiki_invented(word, on_inv_sentence_found, n_of_try):
+    result = []
     if n_of_try <= 0:
-        return contraptions
+        return result
     try:
-        page = wikipedia.page(person)
+        page = wikipedia.page(word)
     except wikipedia.exceptions.WikipediaException:
         print("wiki is busy, wait... n of try:", n_of_try)
         time.sleep(WAIT_BUSY_WIKI_SEC)
-        return ask_wiki_what_invented(person, n_of_try-1)
+        return ask_wiki_invented(word, on_inv_sentence_found, n_of_try - 1)
 
-    #check invented
-    #print(page.content)
-    for sent in find_invent_sentence(person, sent_tokenize(page.content)):
-            raw = dependency_parser.raw_parse(sent)
-            #print("//////")
-            #print(sent)
-            #print("\\\\\\\\\\")
-            for r in raw:
-                invented_words = [r.nodes[n] for n in r.nodes if r.nodes[n]['word'] and 'invent' in r.nodes[n]['word']]
-                for invented_v in invented_words:
-                    print("±±±", sent)
-                    #print(invented_v)
-                    #print(r)
-                    invent_index = -1
-                    if 'dobj' in invented_v['deps']:
-                        invent_index = invented_v['deps']['dobj'][0]
-                    #TODO here is other algorithm for dependecies
-                    elif 'ccomp' in invented_v['deps']:
-                        invent_index = invented_v['deps']['ccomp'][0]
-                    if invent_index == -1:
-                        break
+    for sent in find_invent_sentence(sent_tokenize(page.content)):
+        raw = dependency_parser.raw_parse(sent)
+        for r in raw:
+            invented_words = [r.nodes[n] for n in r.nodes if r.nodes[n]['word'] and 'invent' in r.nodes[n]['word']]
+            for invented_v in invented_words:
+                # print("±±±", sent)
+                # print(invented_v)
+                # print(r)
+                on_inv_sentence_found(result, invented_v, r.nodes)
+    return result
 
-                    invention_nodes = r.nodes[invent_index]['deps']
-                    invention_words = [invent_index]
-                    for dep in invention_nodes:
-                        if dep in ['amod', 'compound']:
-                            invention_words.append(invention_nodes[dep][0])
-                    invention_words.sort()
-                    contraption = ""
-                    for ind in invention_words:
-                        contraption += " " + r.nodes[ind]['word']
-
-                    contraptions.append(contraption)
-
-    return contraptions
-
-def ask_wiki_who_invented(invention):
-    return ""
 
 def prepare_data_set(db_name):
     lines = open(db_name).readlines()
@@ -76,12 +77,14 @@ def prepare_data_set(db_name):
     open("train.txt", "w").writelines(lines[0:train_len])
     open("valid.txt", "w").writelines(lines[train_len:])
 
+
 def contraption_from_wiki(inventor):
-    return ask_wiki_what_invented(inventor, 5)
+    return ask_wiki_invented(inventor, find_what, 5)
 
 
 def inventor_from_wiki(contraption):
-    return "dududu"
+    return ask_wiki_invented(contraption, find_whom, 5)
+
 
 def word_fuzzy_in_list(word, words):
     word_stem = stemmer.stem(word.lower())
@@ -107,11 +110,13 @@ def fuzzy_equals(str1, str2):
             return False
     return True
 
+
 def fuzzy_in_list(item, some_list):
     for some_item in some_list:
         if fuzzy_equals(item, some_item):
             return True
     return False
+
 
 def print_error_rate(test_file_set):
     lines = open(test_file_set)
@@ -129,7 +134,10 @@ def print_error_rate(test_file_set):
         if con_found:
             right_by_contraption += 1
 
-        if fuzzy_in_list(inventor, inventor_from_wiki(contraption)):
+        inv_from_wiki = inventor_from_wiki(contraption)
+        inv_found = fuzzy_in_list(inventor, inv_from_wiki)
+        print("From wiki inventor:", inv_from_wiki, ", result:", inv_found)
+        if inv_found:
             right_by_inventor += 1
 
     print("for file %s is %s" % (test_file_set, total))
