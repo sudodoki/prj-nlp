@@ -3,9 +3,9 @@ Dennis Gabor:Holography
 Mardi bin Ali al-Tarsusi:Mangonel
 Abu al-Qasim al-Zahrawi:Surgical suture
 Henry Maudslay:Micrometer
+Coaxial rotor:Smalt
 Vladimir Simonov:SPP-1 underwater pistol
 William Shockley:Transistor
-Estonia:Fuse (electrical)
 Nikolai Korotkov:Blood pressure
 Igor Gorynin:Radiation hardening
 Ivan Polzunov:Steam engine
@@ -13,25 +13,19 @@ Adolph Giesl-Gieslingen:Giesl ejector
 Charles F. Kettering:Tetra ethyl lead
 Evgeniy Chertovsky:Pressure suit
 Dean Kamen:IBOT
-Mikhail Gurevich (aircraft designer):Mikoyan-Gurevich MiG-21
 Alexander Prokhorov:Maser
 Heinrich Hertz:Electromagnetic radiation
 Marcel Kiepach:Dynamo
 Tim Berners-Lee:World Wide Web
 David Gestetner:Gestetner
 Muhammad ibn Mūsā al-Khwārizmī:Sine quadrant
-Steam turbine:Sextant (astronomical)
 Félix d'Herelle:Phage therapy
 Tupolev Tu-114:Tupolev Tu-95
-Nitrogen:Fertilizer
 E. K. Gauzen:Standard diving dress
 William Saville-Kent:Mikimoto Kōkichi
-Brake:Optical telegraph
-Pinch to zoom:Danny Hillis
 Otto Blathy:Turbogenerator
 Tim Berners-Lee:World Wide Web
 Hippolyte Mège-Mouriès:Margarine
-Quasiturbine:Qurbine
 John Bennet Lawes:Chemical fertilizer
 Jacques-Yves Cousteau:Nikonos
 Etienne Lenoir:Motorboat
@@ -43,38 +37,28 @@ Al-Khazini:Hydrostatic balance
 Temple Grandin:Abattoir
 Al-Ma'mun:Globe
 Pavel Cherenkov:Cherenkov detector
-Gleb Lozino-Lozinskiy:Mikoyan-Gurevich MiG-105
 John Bardeen:Transistor
 Helge Palmcrantz:Machine gun
-Sukhoi:Fighter aircraft
 Pranoti Nagarkar-Israni:Rotimatic
 Vladimir Barmin:Spaceport
 Aleksandr Loran:Fire extinguisher
 Ian Frazer:Cervical cancer
 Nikolay Basov:Maser
-Hero of Alexandria:Aeolipile
 Sounding line:Deep-sea exploration
 Ibn al-Haytham:Magnifying glass
-Austrian Empire:Torpedo
 Julio Palmaz:Stent
 Vladimir Baranov-Rossine:Optophonic Piano
 Elmer Ambrose Sperry:Autopilot
 Kalman Tihanyi:Iconoscope
 Muhammad al-Fazari:Astrolabe
 Nils Bohlin:Seat belt
-Maidenform:Nursing bra
 Hermann Anschütz-Kaempfe:Gyrocompass
-Pharmacotherapy:Calcium channel blocker
 Charles Macintosh:Life vest
 Solid-state physics:List of prolific inventors
 Sir William Congreve, 2nd Baronet:Congreve rocket
 Joseph-Ignace Guillotin:Guillotine
 Fedorov Avtomat:Assault rifle
-Interlaced video:Thing (listening device)
 Peter Carl Goldmark:Color television
-Vacuum pump:Dasymeter
-Cathode-ray tube:Oscilloscope
-Explosively pumped flux compression generator:Tokamak
 Mikhail Dolivo-Dobrovolsky:Three-phase electric power
 Ri Sung-gi:Vinylon
 Robert Swanson (inventor):Diesel locomotive
@@ -83,19 +67,14 @@ Konosuke Matsushita:Bicycle lighting
 Hovannes Adamian:Color television
 Bobbin:Ice cream freezer
 Ibn Al-Jazzar:Erectile dysfunction
-Italian people:Central heating
 Al-Kindi:Frequency analysis
 Heinrich Rohrer:Scanning tunneling microscope
 Vitaly Mikhaylovich Abalakov:Abalakov thread
 Alexandre Alexeieff:Claire Parker
 Iran:Analog computer
-Polish–Lithuanian Commonwealth:Printing
-Balance wheel:Tin can telephone
-Seismometer:Armillary sphere
 Karl-Hermann Geib:Girdler sulfide process
 Fail-safe:Program (machine)
 Abu-Mahmud al-Khujandi:Sextant (astronomical)
-Steam engine:Steam locomotive
 Gleb Kotelnikov:Drogue parachute
 Jules Montenier:Deodorant
 Ibn al-Shatir:Syria
@@ -113,4 +92,5 @@ Charles K. Bliss:Blissymbols
 Karl Nessler:Karl Nessler
 Karl Benz:Automobile
 Igor Tamm:Tokamak
+Georgia (country):Helicopter
 Norman Gaylord:Contact lens

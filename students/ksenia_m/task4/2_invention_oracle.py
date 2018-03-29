@@ -6,46 +6,75 @@ import random
 import wikipedia
 import time
 import re
+import sys
 
-PATH_TO_JARS = "../../../../jars"
+PATH_TO_JARS = '../../../../jars'
 WAIT_BUSY_WIKI_SEC = 30
+JVM_OPTS = '-Xms1000m -Xmx3000m'
 
-def find_invent_sentence(sentences):
+#TODO: check noun by POS
+INVENT_STEMS = ['invent', 'creat', 'develop']
+
+def find_invent_sentence(sentences, stem):
     result = []
     for sent in sentences:
-        if "invent" in sent:
+        if stem in sent:
             #remove headers
             result.append(re.sub('\s*={2,6}\s*.+\s*={2,6}\s*','',sent).replace('\n', '').replace('\r', ''))
     return result
 
 
-def find_whom(result, invented_v, nodes):
-    pass
+def find_whom(result, invented_v, nodes, stem):
+    #print("invent word is n:", invented_v)
+    #for n in nodes:
+    #    print(nodes[n])
+    inventor_index = -1
+    if 'nmod' in invented_v['deps']:
+        inventor_index = invented_v['deps']['nmod'][0]
 
-def find_what(result, invented_v, nodes):
-    invent_index = -1
-    if 'dobj' in invented_v['deps']:
-        invent_index = invented_v['deps']['dobj'][0]
-    # TODO here is other algorithm for dependecies
-    elif 'ccomp' in invented_v['deps']:
-        invent_index = invented_v['deps']['ccomp'][0]
-    elif 'nsubj' in invented_v['deps']:
-        invent_index = invented_v['deps']['nsubj'][0]
-
-    if invent_index == -1:
+    if inventor_index == -1:
         return
 
-    invention_nodes = nodes[invent_index]['deps']
-    invention_words = [invent_index]
+    result.append(find_entity(nodes, inventor_index))
+
+def find_entity(nodes, main_index):
+    invention_nodes = nodes[main_index]['deps']
+    invention_words = [main_index]
     for dep in invention_nodes:
         if dep in ['amod', 'compound']:
             invention_words.append(invention_nodes[dep][0])
     invention_words.sort()
-    contraption = ""
+    entity = ""
     for ind in invention_words:
-        contraption += " " + nodes[ind]['word']
-    result.append(contraption)
+        entity += " " + nodes[ind]['word']
+    return entity
 
+def find_what(result, invented_v, nodes, stem):
+    #for n in nodes:
+    #    print(nodes[n])
+    #print("±±±±±§ testing word", invented_v)
+    invent_index = -1
+    if 'dobj' in invented_v['deps']:
+        invent_index = invented_v['deps']['dobj'][0]
+    elif 'ccomp' in invented_v['deps']:
+        invent_index = invented_v['deps']['ccomp'][0]
+    elif 'nsubj' in invented_v['deps']:
+        invent_index = invented_v['deps']['nsubj'][0]
+    #if 'inventor' in invented_v['word'].lower() and len(invented_v['deps']['nmod']) > 0:
+    if invented_v['tag'] == 'NN' and len(invented_v['deps']['nmod']) > 0:
+        invent_index = invented_v['deps']['nmod'][0]
+
+    if invent_index == -1:
+        return
+
+    result.append(find_entity(nodes, invent_index))
+
+def parse_invented_sentence(sent, on_inv_sentence_found, stem, result):
+    raw = dependency_parser.raw_parse(sent)
+    for r in raw:
+        invented_words = [r.nodes[n] for n in r.nodes if r.nodes[n]['word'] and stem in r.nodes[n]['word']]
+        for invented_v in invented_words:
+            on_inv_sentence_found(result, invented_v, r.nodes, stem)
 
 def ask_wiki_invented(word, on_inv_sentence_found, n_of_try):
     result = []
@@ -58,15 +87,9 @@ def ask_wiki_invented(word, on_inv_sentence_found, n_of_try):
         time.sleep(WAIT_BUSY_WIKI_SEC)
         return ask_wiki_invented(word, on_inv_sentence_found, n_of_try - 1)
 
-    for sent in find_invent_sentence(sent_tokenize(page.content)):
-        raw = dependency_parser.raw_parse(sent)
-        for r in raw:
-            invented_words = [r.nodes[n] for n in r.nodes if r.nodes[n]['word'] and 'invent' in r.nodes[n]['word']]
-            for invented_v in invented_words:
-                # print("±±±", sent)
-                # print(invented_v)
-                # print(r)
-                on_inv_sentence_found(result, invented_v, r.nodes)
+    for stem in INVENT_STEMS:
+        for sent in find_invent_sentence(sent_tokenize(page.content), stem):
+            parse_invented_sentence(sent, on_inv_sentence_found, stem, result)
     return result
 
 
@@ -89,7 +112,6 @@ def inventor_from_wiki(contraption):
 def word_fuzzy_in_list(word, words):
     word_stem = stemmer.stem(word.lower())
     words_stem = [stemmer.stem(w.lower()) for w in words]
-    #print("stem:", word_stem, ":of:", word, "in stems:", words_stem, ":of:", words)
     return word_stem in words_stem
 
 
@@ -127,16 +149,16 @@ def print_error_rate(test_file_set):
         total += 1
         line = line.replace('\n', '')
         inventor, contraption = line.split(':')
-        print("TEST:", line)
+        print("\nTest line:", line)
         con_from_wiki = contraption_from_wiki(inventor)
         con_found = fuzzy_in_list(contraption, con_from_wiki)
-        print("Form wkik contr:", con_from_wiki, ", result:", con_found)
+        print("Contraptions found from Wiki:", con_from_wiki, ", mathces test line:", con_found)
         if con_found:
             right_by_contraption += 1
 
         inv_from_wiki = inventor_from_wiki(contraption)
         inv_found = fuzzy_in_list(inventor, inv_from_wiki)
-        print("From wiki inventor:", inv_from_wiki, ", result:", inv_found)
+        print("Inventor found from Wiki:", inv_from_wiki, ", matches test line:", inv_found)
         if inv_found:
             right_by_inventor += 1
 
@@ -145,13 +167,20 @@ def print_error_rate(test_file_set):
     print("by inventor:%s" % (right_by_inventor / total))
 
 dependency_parser = StanfordDependencyParser(path_to_jar=os.path.join(PATH_TO_JARS, "stanford-parser-3.9.1.jar"), \
-                                             path_to_models_jar=os.path.join(PATH_TO_JARS, "stanford-corenlp-3.9.1-models.jar"))
+                                             path_to_models_jar=os.path.join(PATH_TO_JARS, "stanford-corenlp-3.9.1-models.jar"), \
+                                             java_options = JVM_OPTS)
 stemmer = nltk.stem.SnowballStemmer('english')
 nltk.download('punkt')
 
-print_error_rate("train_small.txt")
-#print_error_rate("train.txt")
-#print_error_rate("valid.txt")
+#sent = "In 2011, Dean Kamen, the inventor of the iBOT, stated his support of America's Huey 091 Foundation's effort to reinstate iBOT production."
+#result = []
+#parse_invented_sentence(sent, find_what, result)
+#print(result)
+#sys.exit(0)
+
+#print_error_rate("train_small.txt")
+print_error_rate("train.txt")
+print_error_rate("valid.txt")
 
 
 

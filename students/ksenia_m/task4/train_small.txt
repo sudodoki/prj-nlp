@@ -1,13 +1,9 @@
-Vladimir Simonov:SPP-1 underwater pistol
-William Shockley:Transistor
-Estonia:Fuse (electrical)
 Nikolai Korotkov:Blood pressure
 Igor Gorynin:Radiation hardening
 Ivan Polzunov:Steam engine
 Adolph Giesl-Gieslingen:Giesl ejector
 Charles F. Kettering:Tetra ethyl lead
 Evgeniy Chertovsky:Pressure suit
-Dean Kamen:IBOT
 Mikhail Gurevich (aircraft designer):Mikoyan-Gurevich MiG-21
 Alexander Prokhorov:Maser
 Heinrich Hertz:Electromagnetic radiation
@@ -114,3 +110,6 @@ Augustin-Jean Fresnel:Fresnel lens
 Dennis Gabor:Holography
 Mardi bin Ali al-Tarsusi:Mangonel
 Abu al-Qasim al-Zahrawi:Surgical suture
+Vladimir Simonov:SPP-1 underwater pistol
+Dean Kamen:IBOT
+William Shockley:Transistor
