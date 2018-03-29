@@ -34,3 +34,7 @@ Acquisition: 70%
 - task4: 20%
 
 Project: 5%
+
+## Deadline
+
+22.03.2018
