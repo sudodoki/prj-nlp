@@ -25,7 +25,6 @@ def find_invent_sentence(sentences, stem):
 
 
 def find_whom(result, invented_v, nodes, stem):
-    #print("invent word is n:", invented_v)
     #for n in nodes:
     #    print(nodes[n])
     inventor_index = -1
@@ -172,13 +171,6 @@ dependency_parser = StanfordDependencyParser(path_to_jar=os.path.join(PATH_TO_JA
 stemmer = nltk.stem.SnowballStemmer('english')
 nltk.download('punkt')
 
-#sent = "In 2011, Dean Kamen, the inventor of the iBOT, stated his support of America's Huey 091 Foundation's effort to reinstate iBOT production."
-#result = []
-#parse_invented_sentence(sent, find_what, result)
-#print(result)
-#sys.exit(0)
-
-#print_error_rate("train_small.txt")
 print_error_rate("train.txt")
 print_error_rate("valid.txt")
 
