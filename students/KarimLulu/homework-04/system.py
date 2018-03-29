@@ -25,14 +25,17 @@ PIPELINE = OrderedDict({"get_db": {},
                        "get_data": {"input": False},
                        "apply_rules_to_data": {"input": False},
                        "get_metrics": {"input": True}})
-DISABLE = ["get_db", "get_data"]
+DISABLE = ["get_db", 
+           "get_data", 
+           "apply_rules_to_data"
+           ]
 RULES = [("rule_1", 1),
          ("rule_2", 5),
          ("rule_3", 10),
          ("rule_4", 20)]
 TOTAL_WEIGHT = sum([el[-1] for el in RULES])
 RULES = [(rule, weight / TOTAL_WEIGHT) for rule, weight in RULES]
-SCORE_THRESHOLD = 0.5
+SCORE_THRESHOLD = 0
 SIMILARITY_THRESHOLD = 0.7
 MIN_LEN = 6
 TRAIN = ["Albrecht Dürer", "Caravaggio", "El Greco"]
@@ -114,9 +117,10 @@ def rule_2(item, doc, sentences):
     return paintings
 
 def rule_3(item, doc, sentences):
-    patt = r"\w+, \w+,(?: \w+)+|\w\w\. [^,]+|\w+ \w* \w+(?= \(\w+\),)" # Titles with dates inside the parenthesis
+    patt = r"[A-Z]\w\. [^,]+|[A-Z]\w+ \w* \w+(?= \(\w+?\)[,])" # Titles with dates inside the parenthesis
     paintings = []
-    for match in re.finditer(r"^.*?(engraving|pictur|drawing|painting|work|imag).*?$", "\n".join(sentences), re.M):
+    for match in re.finditer(r"^.*?(engraving|pictur|drawing|painting|work|imag).*?$", 
+                             "\n".join(sentences), re.M):
         extraction = re.findall(patt, match.group())
         paintings.extend(filter(lambda x: len(x)>=MIN_LEN, extraction))
     return paintings
@@ -170,9 +174,10 @@ def apply_rules_to_data(data=None):
         with (data_dir / 'train_test.json').open() as f:
             data = json.load(f)
     output = []
-    for el in data:
+    for k,el in enumerate(data):
         rez = apply_rules_to_item(el)
         output.append(rez)
+        logger.info(f"Processed {k+1} out of {len(data)} items")
     with (data_dir / "extraction.json").open("w+") as f:
         json.dump(output, f, indent=4)
     return output
@@ -192,7 +197,10 @@ def calculate_metric(y_true, y_pred):
             consumed.extend(pair)
     return intersection / (len(y_pred) + len(y_true) - intersection)
 
-def get_metrics(data):
+def get_metrics(data=None):
+    if data is None:
+        with (data_dir / "extraction.json").open() as f:
+            data = json.load(f)
     metrics = defaultdict(list)
     for el in data:
         metric = calculate_metric(el["y_true"], el["y_pred"])
@@ -205,6 +213,7 @@ def main():
     init_dir(data_dir)
     for pipe, attrs in PIPELINE.items():
         if pipe not in DISABLE:
+            logger.info(f"Pipeline step `{pipe}`")
             if not attrs.pop("input", False):
                 output = globals()[pipe](**attrs)
             else:
