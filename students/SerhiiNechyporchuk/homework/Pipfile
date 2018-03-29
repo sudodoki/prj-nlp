@@ -19,6 +19,8 @@ spacy = "*"
 pandas = "*"
 stanfordcorenlp = "*"
 kanren = "*"
+nltk = "*"
+wikipedia = "*"
 
 
 [requires]
