@@ -1,0 +1,868 @@
+id,type,question,answer,answer_value,statements
+1756,factoid,When is Fashion week in NYC?,Sept?(ember)?|Feb(ruary)?,February,Fashion week in NYC is in February 
+1434,factoid,What site did Lindbergh begin his flight from in 1927?,Long Island|New\s?York|Roosevelt Field,Roosevelt Field,Roosevelt Field  site did Lindbergh begin his flight from in 1927
+1790,factoid,What country is the holy city of Mecca located in?,Saudi Arabia,Saudi Arabia,Saudi Arabia  country is the holy city of Mecca located in
+1992,factoid,How hot is the sun?,"(5,?778|6,?[05]00)\s*K|(5,?505|6,?[50]00).*C|(9,?941|10,?000).*F|5778\.0",5778.0,the sun is  5778.0 hot
+2128,factoid,What flavor filling did the original Twinkies have?,banana,banana,banana  flavor filling did the original Twinkies have
+1840,factoid,What is the state song of Kansas?,Home on the Range,Home on the Range,Home on the Range is the state song of Kansas
+1689,factoid,"What war is connected with the book ""Charge of the Light Brigade""?",Crimean,Crimean,Crimean  war is connected with the book `` Charge of the Light Brigade ''
+10040,factoid,Where was the first atomic bomb detonated?,White Sands|New Mexico,New Mexico,the first atomic bomb detonated  in New Mexico 
+1647,factoid,What continent is Scotland in?,Europe,Europe,Europe  continent is Scotland in
+1808,factoid,What island did the U.S. gain after the Spanish American war?,Cuba|Guam|Puerto Rico,Puerto Rico,Puerto Rico  island did the U.S. gain after the Spanish American war
+1439,factoid,How deep is Crater Lake?,"1\s?,\s?932 feet|1,?949\s*f(ee|oo)?t|594\s*m|593 m|593\.0|594\.0552",594 m,Crater Lake is  594 m deep
+1663,factoid,What are the people who make fireworks called?,Pyrotechnists,Pyrotechnists,Pyrotechnists  make fireworks called
+1535,factoid,"Who painted ""Sunflowers""?",van Gogh,van Gogh,van Gogh  painted `` Sunflowers ''
+10048,factoid,Who played Frodo in Lord of The Rings?,Wood,Wood,Wood  played Frodo in Lord of The Rings
+10017,factoid,What is the capital of Laos?,Vientiane,Vientiane,Vientiane is the capital of Laos
+2364,factoid,How hot does it get in Death Valley?,\b134\b|56\.7|\b116\b|\b47\b|56\.6\°C,56.6°C,it get in Death Valley does  56.6°C hot
+1550,factoid,What is the southwestern-most tip of England?,Cornwall,Cornwall,Cornwall is the southwestern-most tip of England
+1873,factoid,What is the motto for California?,.*Eureka.*,  Eureka  ,  Eureka   is the motto for California
+2067,factoid,How many Great Lakes are there?,five,five,Great Lakes are there   five many
+10028,factoid,What is the name of the second Beatles album?,Second Album|Introducing\.\.\. The Beatles,Second Album,Second Album is the name of the second Beatles album
+10002,factoid,How many bombs were detonated in 2005 in London?,four|\b4\b,four,bombs were detonated in 2005 in London   four many
+2248,factoid,How many planets are in our solar system?,nine|\b9\b|eight|\b8\b,nine,planets are in our solar system   nine many
+2275,factoid,How big is the planet Venus?,"3,?7[5-7][0-9]\s*miles|6,?05[0-9]\s*(km|kilometers)",3761 miles,the planet Venus is  3761 miles big
+1617,factoid,When did the Klondike gold rush occur?,189[6789],1898,the Klondike gold rush occur  in 1898 
+2094,factoid,When was JFK born?,1917,1917,JFK born  in 1917 
+2344,factoid,What city hosted the 1936 Summer Olympics?,Berlin,Berlin,Berlin  city hosted the 1936 Summer Olympics
+1850,factoid,What is Marilyn Monroe's real name?,Norma Jeane? (Baker|Mortenson)|Norma Jean,Norma Jean,Norma Jean is Marilyn Monroe 's real name
+2149,factoid,How many Olympic gold medals did Carl Lewis win?,ten|\b10\b|nine,10,Olympic gold medals did Carl Lewis win   10 many
+1402,factoid,What year did Wilt Chamberlain score 100 points?,1962,1962,1962  year did Wilt Chamberlain score 100 points
+1897,factoid,What is the name of the airport in Dallas Ft. Worth?,Dallas(\s\/\s|\-)Fort Worth International Airport|Dallas\/Fort Worth International Airport,Dallas-Fort Worth International Airport,Dallas-Fort Worth International Airport is the name of the airport in Dallas Ft. Worth
+1822,factoid,Who was the captain of the Titanic?,Smith,Smith,Smith  was the captain of the Titanic
+1588,factoid,When was Apollo 11 launched?,1969,1969,Apollo 11 launched  in 1969 
+10019,factoid,What is the color of pea?,green|yellow,yellow,yellow is the color of pea
+1852,factoid,When did Henry VIII rule England?,16th\s*century|1509.*1547|1509|1551|28 June 1491 \– 28 January 1547,16th century,Henry VIII rule England  in 16th century 
+10073,factoid,what is the atomic number of molybdenum?,\b42\b,42,42 is the atomic number of molybdenum
+2186,factoid,What are the measurements for a king-size bed?,"76\s*(inch|"").*80\s*(inch|"")",76 s  inch     80 s  inch   ,76 s  inch     80 s  inch     are the measurements for a king-size bed
+1456,factoid,What is the Keystone State?,Pennsylvania,Pennsylvania,Pennsylvania is the Keystone State
+10081,factoid,what is the name of the Doctor's wife in the long eunning BBC TV series Doctor Who.,River Song,River Song,River Song is the name of the Doctor 's wife in the long eunning BBC TV series Doctor Who
+1394,factoid,In what country did the game of croquet originate?,French|France|Great Britain and Switzerland \–,France,France  country did the game of croquet originate
+1695,factoid,What breed was Roy Rogers' horse Trigger?,palomino,palomino,palomino  breed was Roy Rogers ' horse Trigger
+1459,factoid,What is one national park in Indiana?,Indiana Dunes National Lakeshore,Indiana Dunes National Lakeshore,Indiana Dunes National Lakeshore is one national park in Indiana
+2215,factoid,What are sounds too low for humans to hear called?,infrasonic|infrasound,infrasound,infrasound  are sounds too low for humans to hear called
+2210,factoid,How many grams in an ounce?,28|30,30,grams in an ounce   30 many
+1572,factoid,For whom was the state of Pennsylvania named?,William Penn,William Penn,William Penn  was the state of Pennsylvania named
+10036,factoid,When was the first of the International Mathematical Olympiads held?,1959,1959,the first of the International Mathematical Olympiads held  in 1959 
+1762,factoid,What is the name of Scarlett O'Hara's house?,Tara,Tara,Tara is the name of Scarlett O'Hara 's house
+1627,factoid,What is written on the U.S. tomb of the unknown soldier?,Here Rests In Honored Glory An American Soldier Known But To God,Here Rests In Honored Glory An American Soldier Known But To God,Here Rests In Honored Glory An American Soldier Known But To God is written on the U.S. tomb of the unknown soldier
+2365,factoid,What body of water does the Colorado River empty into?,Gulf of California,Gulf of California,Gulf of California  body of water does the Colorado River empty into
+10091,factoid,when was Voyager 1 launched?,1977,1977,Voyager 1 launched  in 1977 
+1722,factoid,What year did poet Emily Dickinson die?,1886,1886,1886  year did poet Emily Dickinson die
+2232,factoid,What daughter of Czar Nicholas II is said to have escaped death in the Russian revolution?,Anastasia,Anastasia,Anastasia  daughter of Czar Nicholas II is said to have escaped death in the Russian revolution
+2307,factoid,How many terms was Dwight D. Eisenhower president?,\b2\b|two,two,terms was Dwight D. Eisenhower president   two many
+1678,factoid,Who was the U.S. president in 1929?,Hoover,Hoover,Hoover  was the U.S. president in 1929
+2011,factoid,When was Leonardo da Vinci born?,1452,1452,Leonardo da Vinci born  in 1452 
+2317,factoid,What team drafted Brett Favre?,Atlanta|Falcons,Atlanta,Atlanta  team drafted Brett Favre
+2170,factoid,How often does the men's soccer World Cup take place?,four year|4 year,4 year,often does the men 's soccer World Cup take place   4 year 
+2375,factoid,What date did Thomas Jefferson die?,4 July? 1826|July? 4.*?1826,4 July  1826 July  4   1826,4 July  1826 July  4   1826  date did Thomas Jefferson die
+2188,factoid,"Who sang ""Tennessee Waltz""?",Patti Page,Patti Page,Patti Page  sang `` Tennessee Waltz ''
+2393,factoid,What color hair did Thomas Jefferson have before gray?,\bred,red,red  color hair did Thomas Jefferson have before gray
+2361,factoid,What stadium was the first televised MLB game played in?,Ebbets Field,Ebbets Field,Ebbets Field  stadium was the first televised MLB game played in
+1530,factoid,What is the capital city of New Zealand?,Wellington,Wellington,Wellington is the capital city of New Zealand
+1582,factoid,How high is a hand?,4\s*in(ches)?,4 in,a hand is  4 in high
+2378,factoid,How did Bob Marley die?,cancer|melanoma,melanoma,Bob Marley die   melanoma 
+2080,factoid,What peace treaty ended WWI?,Versailles|Lausanne,Lausanne,Lausanne  peace treaty ended WWI
+1773,factoid,What was Aaron Copland's most famous piece of music?,Appalachian Spring|Billy the Kid|Rodeo|Fanfare for the Common Man|Third Symphony,Third Symphony,Third Symphony  was Aaron Copland 's most famous piece of music
+10022,factoid,What is the density of gold?,"\b19\.3.*cm|\b19,?3.*kg|11\,340\ kg\/m3|19\.32 grams per cubic centimeter at 20 \°C",19.32 grams per cubic centimeter at 20 °C,19.32 grams per cubic centimeter at 20 °C is the density of gold
+1638,factoid,What city in Australia has rain forests?,Cairns|Daintree|Port Douglas,Daintree,Daintree  city in Australia has rain forests
+2124,factoid,What organization did Paul Konerko first play major league baseball with?,Dodgers,Dodgers,Dodgers  organization did Paul Konerko first play major league baseball with
+1752,factoid,When was the Oklahoma City bombing?,1995,1995,the Oklahoma City bombing  in 1995 
+2062,factoid,How many legs does a beetle have?,six|\b6\b,six,legs does a beetle have   six many
+1667,factoid,What is the abbreviation for the London stock exchange?,L.?S.?E.?,"LuSBE,","LuSBE, is the abbreviation for the London stock exchange"
+1748,factoid,When were the Los Angeles riots?,(19|4/30/)92,1992,the Los Angeles riots  in 1992 
+1490,factoid,What is the Boston Strangler's name?,Albert DeSalvo,Albert DeSalvo,Albert DeSalvo is the Boston Strangler 's name
+1826,factoid,Which film received the first best picture Academy Award?,.*Wings.*,  Wings  ,  Wings    film received the first best picture Academy Award
+1503,factoid,What is the world's second largest island?,New Guinea,New Guinea,New Guinea is the world 's second largest island
+1549,factoid,What year was the IBM PC invented?,1981,1981,1981  year was the IBM PC invented
+2333,factoid,How old do you have to be to join the U.S. Navy?,\b17\b,17,do you have to be to join the U.S. Navy   17 old
+1698,factoid,When was Julius Caesar born?,100\s*B.?C.?|B.?C.?\s*100,100 BC,Julius Caesar born  in 100 BC 
+1728,factoid,When did Yankee Stadium first open?,1923,1923,Yankee Stadium first open  in 1923 
+1910,factoid,What are pennies made of?,zinc|copper|brass|bronze|steel,zinc,zinc  are pennies made of
+10064,factoid,how much is 1+1?,\b2\b|two,2,1+1 is  2 much
+10015,factoid,What is capital city of Russia?,Moscow,Moscow,Moscow is capital city of Russia
+1471,factoid,How fast can a cheetah run?,120\s*km/?h|75\s*mph,120 km/h,fast can a cheetah run   120 km/h 
+2335,factoid,How did Harry Chapin die?,car accident|car crash|traffic,car accident,Harry Chapin die   car accident 
+2302,factoid,How much did the first Barbie cost?,\b3\b|three,3,much did the first Barbie cost   3 
+2076,factoid,"What company owns the soft drink brand ""Gatorade""?",Quaker Oats|PepsiCo,PepsiCo,PepsiCo  company owns the soft drink brand `` Gatorade ''
+1424,factoid,Who won the Oscar for best actor in 1970?,George C. Scott|Scott,George C$ Scott,George C$ Scott  won the Oscar for best actor in 1970
+1772,factoid,Who invented the cotton gin?,Whitney,Whitney,Whitney  invented the cotton gin
+10035,factoid,When was Maria Theresa born?,1717,1717,Maria Theresa born  in 1717 
+2360,factoid,What is the gift for the 20th anniversary?,china|platinum,platinum,platinum is the gift for the 20th anniversary
+1651,factoid,What is another name for the North Star?,Polaris,Polaris,Polaris is another name for the North Star
+10056,factoid,how did stalin die?,stroke|cerebral hemorrhage,cerebral hemorrhage,stalin die   cerebral hemorrhage 
+1981,factoid,How long is the Great Barrier Reef?,"1,?(200|250|400)\s*miles?|(2,?000|2,?300)\s*(km|kilometers)",2000 km,the Great Barrier Reef is  2000 km long
+1463,factoid,What is the North Korean national anthem?,Patriotic Song|Aegukka|Let Morning Shine|the national anthem,the national anthem,the national anthem is the North Korean national anthem
+1521,factoid,What year did Ellis Island open its doors to immigrants?,1892,1892,1892  year did Ellis Island open its doors to immigrants
+1797,factoid,How did Adolf Hitler die?,committed suicide|Suicide|April 1945|Ballistic trauma,Suicide,Adolf Hitler die   Suicide 
+1720,factoid,"When a game of baseball is forfeited, what is the score?",9\s*[:-]\s*0,9 : 0,the score  in 9 : 0 
+2288,factoid,What animal is veal from?,cal(f|ves)|cows|Cattle,calf,calf  animal is veal from
+2336,factoid,How many layers of skin do we have?,\b3\b|seven|three|\b7\b,three,layers of skin do we have   three many
+1529,factoid,What is the oldest college bowl game?,Rose Bowl Game|Rose Bowl,Rose Bowl,Rose Bowl is the oldest college bowl game
+1788,factoid,Who makes viagra?,Pfizer,Pfizer,Pfizer makes viagra
+2089,factoid,On what Caribbean Island was Ponce de Leon governor?,Puerto Rico('s)?,Puerto Rico's,Puerto Rico's  Caribbean Island was Ponce de Leon governor
+1699,factoid,What city is Purdue University in?,West Lafayette|Lafayette,West Lafayette,West Lafayette  city is Purdue University in
+1928,factoid,how did Patsy Cline die,plane crash|crash.*plane|Aviation accident or incident,plane crash crash  plane Aviation accident or incident,Patsy Cline die   plane crash crash  plane Aviation accident or incident 
+1723,factoid,What is Madonna's last name?,Ciccone,Ciccone,Ciccone is Madonna 's last name
+10058,factoid,how long does light travel from sun to earth?,(49[0-9]|50[0-9])\s*s|8.*min, 49 0 9  50 0 9   s s 8  min,light travel from sun to earth does   49 0 9  50 0 9   s s 8  min long
+1744,factoid,What car company invented the Edsel?,Ford,Ford,Ford  car company invented the Edsel
+10014,factoid,What is Albert Einstein's surname?,Einstein,Einstein,Einstein is Albert Einstein 's surname
+1686,factoid,Who defeated the Spanish armada?,Drake|Engl(and|ish),England,England  defeated the Spanish armada
+2020,factoid,In which city would you find the Louvre?,Paris,Paris,Paris  city would you find the Louvre
+10055,factoid,how did hitler die?,suicide|ballistic|shoo?t,suicide,hitler die   suicide 
+10049,factoid,Who received the Nobel Prize in Physiology or Medicine in 1962?,((Crick|Watson|Wilkins).*){3}|Francis Crick|Maurice Wilkins,Maurice Wilkins,Maurice Wilkins  received the Nobel Prize in Physiology or Medicine in 1962
+1566,factoid,What famous Spanish poet died in Spain's Civil War?,Lorca,Lorca,Lorca  famous Spanish poet died in Spain 's Civil War
+1726,factoid,What is the name of the canopy at a Jewish wedding?,c?hup?pah?|chipe|chuppot,chuppot,chuppot is the name of the canopy at a Jewish wedding
+2047,factoid,How close is Mercury to the sun?,"(3[56].*million|35,?980,?000)\s*miles|(57,?910,?000|5[78].*million)\s*(km|kilometers)", 3 56   million 35  980  000  s miles  57  910  000 5 78   million  s  km kilometers ,Mercury to the sun is   3 56   million 35  980  000  s miles  57  910  000 5 78   million  s  km kilometers  close
+1946,factoid,What day and month did Nixon resign?,9[^0-9]*Aug(ust)?|Aug(ust)?[^0-9]*9,9 Ff<e|sWZ|)d Hu-lAug,9 Ff<e|sWZ|)d Hu-lAug  day and month did Nixon resign
+1730,factoid,What is Mark Twain's real name?,Samuel.*Clemens,Samuel  Clemens,Samuel  Clemens is Mark Twain 's real name
+10070,factoid,what is capital city of czech republic?,Prague|Praha,Prague,Prague is capital city of czech republic
+2001,factoid,"What rock band sang ""A Whole Lotta Love""?",Led Zeppelin,Led Zeppelin,Led Zeppelin  rock band sang `` A Whole Lotta Love ''
+1943,factoid,What is the name of Ling Ling's mate?,Ahua|Hsing-Hsing|Tong Tong,Tong Tong,Tong Tong is the name of Ling Ling 's mate
+2073,factoid,How fast does light travel through space?,"186,?(282|000) miles per second|(299,?792|300,?000) kilometers per second|299,?792,?458 met(re|er)s per second|671 million miles per hour",671 million miles per hour,light travel through space does  671 million miles per hour fast
+2084,factoid,How many home runs did Babe Ruth hit?,714|104,104,home runs did Babe Ruth hit   104 many
+2286,factoid,What is an Indian flute made of?,cane|wood|Bamboo,cane,cane is an Indian flute made of
+1527,factoid,When did the 6-day war begin?,"June 5\s?, 1967|1967",1967,the 6-day war begin  in 1967 
+1807,factoid,What is the range for the number of passengers a Boeing 747-400 airplane can carry?,416|524|660|Ansett Australia\'s retrofitted two Boeing 747\-400 series aircraft,524,524 is the range for the number of passengers a Boeing 747-400 airplane can carry
+2353,factoid,What did Osama bin Laden's father do for a living?,construction|business,business,business  did Osama bin Laden 's father do for a living
+1739,factoid,What is the full name of conductor Seiji?,Seiji Ozawa,Seiji Ozawa,Seiji Ozawa is the full name of conductor Seiji
+2362,factoid,How high is Pikes peak?,"14,?11[0-9]\s*('|f(ee|oo)?t)|4,?30[0-9]\s*m|more than 14000 ft","4,304 m","Pikes peak is  4,304 m high"
+1974,factoid,"What is Richie's surname on ""Happy Days""?",Cunningham,Cunningham,Cunningham is Richie 's surname on `` Happy Days ''
+1620,factoid,What year was the first Macy's Thanksgiving Day Parade held?,1924,1924,1924  year was the first Macy 's Thanksgiving Day Parade held
+1882,factoid,What nationality is Sean Connery?,Scot(tish)?,Scottish,Scottish  nationality is Sean Connery
+2159,factoid,"What country singer's first album was titled ""Storms of Life""?",Randy Travis,Randy Travis,Randy Travis  country singer 's first album was titled `` Storms of Life ''
+10074,factoid,what is the critical angle of rainbow?,\b48\b,48,48 is the critical angle of rainbow
+1446,factoid,How did Mahatma Gandhi die?,\bshot|shooting|Assassination,Assassination,Mahatma Gandhi die   Assassination 
+2328,factoid,What state was Amelia Earhart born in?,Kan(sas|.),Kansas,Kansas  state was Amelia Earhart born in
+1934,factoid,"What is the play ""West Side Story"" based on?",Romeo and Juliet|a 1961 American romantic musical drama film,a 1961 American romantic musical drama film,a 1961 American romantic musical drama film is the play `` West Side Story '' based on
+1407,factoid,When did the shootings at Columbine happen?,"April 20\s?, 1999|1999|April 20",1999,the shootings at Columbine happen  in 1999 
+2339,factoid,How did John Quincy Adams die?,stroke|cerebral hemorrhage,cerebral hemorrhage,John Quincy Adams die   cerebral hemorrhage 
+2100,factoid,What did Caesar say before he died?,"Et tu, Brute\?|Brutus",Brutus,Brutus  did Caesar say before he died
+10076,factoid,what is the lowest prime number?,\b2\b,2,2 is the lowest prime number
+2377,factoid,What country is the leading producer of rubber?,Thailand,Thailand,Thailand  country is the leading producer of rubber
+2090,factoid,What Ridley Scott movie is set in 180 a.d.?,Gladiator,Gladiator,Gladiator  Ridley Scott movie is set in 180 a.d.
+1654,factoid,Where is Prairie View A&M University?,Texas|United States,Texas,Prairie View A & M University is in Texas 
+1613,factoid,When was Benjamin Disraeli prime minister?,1868|1874|1880,1874,Benjamin Disraeli prime minister  in 1874 
+10051,factoid,Who wrote Pirate Jenny?,Weill|Bertolt Brecht,Bertolt Brecht,Bertolt Brecht  wrote Pirate Jenny
+1785,factoid,What body of water does the Euphrates River empty into?,Persian gulf|Shatt al\-Arab,Shatt al-Arab,Shatt al-Arab  body of water does the Euphrates River empty into
+1932,factoid,When did International Volunteers Day begin?,1985|\(December 5\),1985,International Volunteers Day begin  in 1985 
+1438,factoid,What body of water does the Colorado River flow into?,Gulf of California,Gulf of California,Gulf of California  body of water does the Colorado River flow into
+2003,factoid,How far is the distance for a free throw?,(15|19)\s*f(oo|ee)?t|(4.6|5.8)\s*m,4W6 m,far is the distance for a free throw   4W6 m 
+1971,factoid,What city is the Liberty Bell currently located in?,Philadelphia,Philadelphia,Philadelphia  city is the Liberty Bell currently located in
+1541,factoid,What president is on a quarter?,Washington,Washington,Washington  president is on a quarter
+1872,factoid,How did Eva Peron die?,cervical cancer|Cancer,cervical cancer,Eva Peron die   cervical cancer 
+1692,factoid,How tall is the Eiffel Tower in France?,98(4|6)\s?-?\s?f(ee|oo)?t\.?|301\s*m|300m|300 m,984-ft.,tall is the Eiffel Tower in France   984-ft. 
+1552,factoid,What did Charles Babbage invent?,Analytic(al)? Engine|computer,Analytical Engine,Analytical Engine  did Charles Babbage invent
+2065,factoid,What is a female moose called?,cows?|Female moose \(called,cow,cow is a female moose called
+1659,factoid,Where was Bob Dylan born?,"Duluth\s?, Minn(\.,?|esota)?|Duluth|Minnesota",Minnesota,Bob Dylan born  in Minnesota 
+1584,factoid,When did George W. Bush get elected as the governor of Texas?,199(4|8)|1995,1995,George W. Bush get elected as the governor of Texas  in 1995 
+2012,factoid,How did Marty Robbins die?,heart attack|cardiac|Surgical complications,cardiac,Marty Robbins die   cardiac 
+1567,factoid,When did the Black Panther party start in California?,1966,1966,the Black Panther party start in California  in 1966 
+2265,factoid,How did Marjorie Kinnan Rawlings die?,cerebral hemorrhage,cerebral hemorrhage,Marjorie Kinnan Rawlings die   cerebral hemorrhage 
+1702,factoid,"Whose business slogan is ""Quality is job 1""?",Ford,Ford,Ford  business slogan is `` Quality is job 1 ''
+2070,factoid,What date did the U.S. civil war start?,April 12.*1861|1861,1861,1861  date did the U.S. civil war start
+1505,factoid,What is the currency used in China?,RMB|Ren?minbi|Yuan,Yuan,Yuan is the currency used in China
+1935,factoid,What color is the top stripe on the U.S. flag?,red( stripe| color)?$,red,red  color is the top stripe on the U.S. flag
+1806,factoid,When was the first heart transplant?,1967,1967,the first heart transplant  in 1967 
+1819,factoid,When did Marilyn Monroe commit suicide?,1962,1962,Marilyn Monroe commit suicide  in 1962 
+10005,factoid,How many pieces are there in a dozen?,\b12\b|twelve,12,pieces are there in a dozen   12 many
+2086,factoid,What is the study of ants called?,myrmecology,myrmecology,myrmecology is the study of ants called
+1799,factoid,What is the life expectancy of the average woman in Nigeria?,5[0-9] years,55 years,55 years is the life expectancy of the average woman in Nigeria
+1763,factoid,How old is the universe?,1[34].* billion years,1 34    billion years,the universe is  1 34    billion years old
+10009,factoid,What color is the sky?,blue,blue,blue  color is the sky
+2105,factoid,What country produces the most silk?,China,China,China  country produces the most silk
+2272,factoid,How many intelligence agencies does the U.S. have?,17,17,intelligence agencies does the U.S. have   17 many
+1714,factoid,What province in Canada is Niagara Falls located in?,Ontario,Ontario,Ontario  province in Canada is Niagara Falls located in
+1592,factoid,When was the Reichstag burned down?,1933,1933,the Reichstag burned down  in 1933 
+1865,factoid,What is the major crop grown in Arizona?,cotton,cotton,cotton is the major crop grown in Arizona
+1828,factoid,What was Thailand's original name?,Siam|3\:1 THAILAND,3:1 THAILAND,3:1 THAILAND  was Thailand 's original name
+10020,factoid,What is the color of pee?,yellow|golden,yellow,yellow is the color of pee
+1789,factoid,What is the date of the Kent State Shooting?,"May 4\s?, 1970|1970|May 4",May 4,May 4 is the date of the Kent State Shooting
+1848,factoid,What was the name of the plane that dropped the Atomic Bomb on Hiroshima?,Enola Gay,Enola Gay,Enola Gay  dropped the Atomic Bomb on Hiroshima
+1927,factoid,How did George Washington die?,inflammatory quinsy|severe infection of the throat|throat infection|cynanche trachealis|inflammation|blee?d|epiglottitis,throat infection,George Washington die   throat infection 
+1534,factoid,The sun is mostly made up of what two gasses?,hydrogen .*helium,hydrogen   helium,hydrogen   helium  two gasses
+1598,factoid,"Who was the baseball player given the nickname ""Mr. October""?",Reggie Jackson,Reggie Jackson,Reggie Jackson  was the baseball player given the nickname `` Mr. October ''
+2071,factoid,How many islands are there in Indonesia?,"1[78],?(508|306|000)|8,?844",18306,islands are there in Indonesia   18306 many
+2029,factoid,How many electoral votes does Tennessee have?,11,11,votes does Tennessee have   11 electoral
+1462,factoid,Where is the oldest synagogue in the United States?,Newport|New York|Rhode Island,Rhode Island,the oldest synagogue in the United States is in Rhode Island 
+2290,factoid,When was the piano made?,1700|1698|1[78].*century|1993,1700 1698 1 78   century 1993,the piano made  in 1700 1698 1 78   century 1993 
+10066,factoid,in which country was google founded?,\bU(nited|\.)?\s*S(tates|\.)?\b,U S.,U S.  country was google founded
+2160,factoid,What is the body temperature of a dog?,\b(100|102|38|39)\b,39,39 is the body temperature of a dog
+10044,factoid,Who discovered the structure of DNA?,((Watson|Crick).*){2}|Crick|Watson,  Watson Crick     2  Crick Watson,  Watson Crick     2  Crick Watson  discovered the structure of DNA
+2387,factoid,What country celebrates Guy Fawkes Day?,England|\bGB\b|Great Britain|\bUK\b|United Kingdom,United Kingdom,United Kingdom  country celebrates Guy Fawkes Day
+2218,factoid,What company manufactures Van Heusen shirts?,Phillips-Van Heusen|PVH,Phillips-Van Heusen,Phillips-Van Heusen  company manufactures Van Heusen shirts
+1708,factoid,When was the Exxon Valdez Oil spill?,1989,1989,the Exxon Valdez Oil spill  in 1989 
+1460,factoid,What was the name of the dog in the Thin Man movies?,Asta,Asta,Asta  was the name of the dog in the Thin Man movies
+1898,factoid,What city is Disneyland in?,Anaheim|Paris|To(ky|yk)o,Toyko,Toyko  city is Disneyland in
+2282,factoid,What canal is between the Mediterranean Sea and the Red Sea?,Suez,Suez,Suez  canal is between the Mediterranean Sea and the Red Sea
+1829,factoid,How tall is the CNN Tower in Toronto?,"553.*\s*m|1,?815.*\s*f(oo|ee)?t",553   s m 1  815   s f oo ee  t,tall is the CNN Tower in Toronto   553   s m 1  815   s f oo ee  t 
+1508,factoid,What was Dale Evans' horse's name?,Buttermilk,Buttermilk,Buttermilk  was Dale Evans ' horse 's name
+1653,factoid,"How do you say ""French fries"" in French?",pommes frites|frites,pommes frites,do you say `` French fries '' in French   pommes frites 
+1837,factoid,"What year was Ebbets Field, home of Brooklyn Dodgers, built?",191[23],1913,1913  built
+1479,factoid,"Who composed ""The Messiah""?",Handel,Handel,Handel  composed `` The Messiah ''
+2227,factoid,What is the Bluegrass state?,K(entuck)?y.?,Kentucky,Kentucky is the Bluegrass state
+2231,factoid,What is a word spelled the same backward and forward called?,palindrome,palindrome,palindrome is a word spelled the same backward and forward called
+1710,factoid,What are the colors of the Italian flag?,"((green|white|red)\s*,?\s*(and)?\s*){3}","green , and red , and red and ","green , and red , and red and   are the colors of the Italian flag"
+2330,factoid,What river is under New York's George Washington bridge?,Hudson,Hudson,Hudson  river is under New York 's George Washington bridge
+2015,factoid,What building is the Academy of Country Music Awards held in?,MGM Grand Garden Arena|ACM,ACM,ACM  building is the Academy of Country Music Awards held in
+10093,factoid,where is kiev ?,Ukraine|\bUA\b,UA,kiev is in UA 
+10029,factoid,What is the proton number of neon?,\b10\b|ten,ten,ten is the proton number of neon
+1569,factoid,When did the Vietnam War end?,(25|twenty-five) years ago|1975|1973,1975,the Vietnam War end  in 1975 
+2022,factoid,What English city does the prime meridian pass through?,Greenwich,Greenwich,Greenwich  English city does the prime meridian pass through
+2088,factoid,How many rooms are in the White House?,132,132,rooms are in the White House   132 many
+10097,factoid,which natural number immediately follows 41 and precedes 43?,\b42\b|fourty.?two,42,42  natural number immediately follows 41 and precedes 43
+1537,factoid,How many electoral college votes in Tennessee?,11,11,college votes in Tennessee   11 electoral
+1614,factoid,What is the capital of Victoria?,Melbourne,Melbourne,Melbourne is the capital of Victoria
+1948,factoid,What is the word which means one hiring his relatives?,nepotism,nepotism,nepotism  means one hiring his relatives
+1436,factoid,What was the name of Stonewall Jackson's horse?,Little Sorrel,Little Sorrel,Little Sorrel  was the name of Stonewall Jackson 's horse
+1650,factoid,"What county is Elmira, NY in?",Chemung,Chemung,Chemung  NY in
+1481,factoid,What is the capital city of Algeria?,Algiers,Algiers,Algiers is the capital city of Algeria
+2017,factoid,What US state produces most of the nation's cheese?,Wisconsin,Wisconsin,Wisconsin  US state produces most of the nation 's cheese
+2237,factoid,What album became the greatest selling album of all time?,Thriller,Thriller,Thriller  album became the greatest selling album of all time
+10082,factoid,what is the name of the ninth episode of the seventh season of the animated television series Family Guy?,The Juice is Loose,The Juice is Loose,The Juice is Loose is the name of the ninth episode of the seventh season of the animated television series Family Guy
+2176,factoid,"when was Dante's ""Inferno"" written?",1300s|1308|1321|14th century,1321,Dante 's `` Inferno '' written  in 1321 
+1682,factoid,When was Martin Luther King Jr. born?,"Jan(\s?\.?|uary)? 15\s?, 1929|1929",1929,Martin Luther King Jr. born  in 1929 
+2134,factoid,What is Motley Crue's Nikki Sixx's real name?,Frank.*Feranna,Frank  Feranna,Frank  Feranna is Motley Crue 's Nikki Sixx 's real name
+1425,factoid,What is the population of Maryland as of 2013?,"(5.9|6) million|5,?928,?814|5\.939 million",5 9 million,5 9 million is the population of Maryland as of 2013
+1690,factoid,What does DEA stand for?,Drug Enforcement A(dministration|gency),Drug Enforcement Administration,Drug Enforcement Administration does DEA stand for
+1967,factoid,What party led Australia from 1983 to 1996?,ALP|Labor,Labor,Labor  party led Australia from 1983 to 1996
+10031,factoid,When did Maria Theresa die?,1780,1780,Maria Theresa die  in 1780 
+1976,factoid,What is the motto for the Boy Scouts?,Be Prepared,Be Prepared,Be Prepared is the motto for the Boy Scouts
+1866,factoid,What part of the eye continues to grow throughout a person's life?,lens,lens,lens  part of the eye continues to grow throughout a person 's life
+2173,factoid,"What is the ""Playboy"" logo?",bunny|rabbit,rabbit,rabbit is the `` Playboy '' logo
+1476,factoid,Who was the Roman god of the sea?,Neptune,Neptune,Neptune  was the Roman god of the sea
+1500,factoid,Where is Georgetown University?,"Washington,?",Washington,Georgetown University is in Washington 
+1764,factoid,What Cuban dictator did Fidel Castro force out of power in 1958?,Batista,Batista,Batista  Cuban dictator did Fidel Castro force out of power in 1958
+2099,factoid,What comedy team was John Cleese part of?,Monty Python('s)?,Monty Python's,Monty Python's  comedy team was John Cleese part of
+1546,factoid,"What year was the movie ""Ole Yeller"" made?",1957,1957,1957  year was the movie `` Ole Yeller '' made
+1729,factoid,What is the name of the airport in Amsterdam?,Schiph?ol,Schiphol,Schiphol is the name of the airport in Amsterdam
+1844,factoid,When was the Hellenistic Age?,2nd century B.C.|2nd century B.C.|323(-58)? B.C.,2nd century B@C.,the Hellenistic Age  in 2nd century B@C. 
+1769,factoid,Who is the owner of the St. Petersburg Times?,Poynter|Times Publishing,Times Publishing,Times Publishing is the owner of the St. Petersburg Times
+1980,factoid,How far is the moon from Earth in miles?,"221,456( miles?)|221,662|222,000 miles|250 , 000 miles|252,711 miles|238,?900","221,662","far is the moon from Earth in miles   221,662 "
+2334,factoid,What did Peter Minuit buy for the equivalent of $24.00?,Manhattan,Manhattan,Manhattan  24.00
+2033,factoid,How many types of human blood are there?,four|\b4\b|eight|\b8\b|\b33\b,eight,types of human blood are there   eight many
+1834,factoid,Which disciple received 30 pieces of silver for betraying Jesus?,Judas,Judas,Judas  disciple received 30 pieces of silver for betraying Jesus
+1919,factoid,How big is Mars?,"diameter.*(4,?21[0-9]\s*miles|6[78][0-9][0-9]\s*(km|kilometers))|radius.*(2,?106\s*miles|3,?390\s*(km|kilometers))|3390km|3390 km|3\,389\.5 km",3390 km,Mars is  3390 km big
+1405,factoid,How many ounces are in a gallon?,128,128,ounces are in a gallon   128 many
+1815,factoid,What is Nicaragua's main industry?,tourism,tourism,tourism is Nicaragua 's main industry
+2098,factoid,What player has been the home run champion of the national league seven times?,Kiner,Kiner,Kiner  player has been the home run champion of the national league seven times
+1867,factoid,Which Italian city is home to the Cathedral of Santa Maria del Fiore or the Duomo?,Florence,Florence,Florence  Italian city is home to the Cathedral of Santa Maria del Fiore or the Duomo
+1540,factoid,What is the deepest lake in America?,Crater|Great Slave,Great Slave,Great Slave is the deepest lake in America
+1441,factoid,What is the coldest place on earth?,Antarctica?|South Pole|Vostok Station,Vostok Station,Vostok Station is the coldest place on earth
+1643,factoid,Who founded Rhode Island?,Roger Williams|Williams,Williams,Williams  founded Rhode Island
+2068,factoid,What animal is responsible for the most human deaths worldwide?,mosquito,mosquito,mosquito  animal is responsible for the most human deaths worldwide
+2056,factoid,What band did former Red Hot Chili Peppers guitarist Dave Navarro start out with?,Jane's Addiction,Jane's Addiction,Jane's Addiction  band did former Red Hot Chili Peppers guitarist Dave Navarro start out with
+1416,factoid,When was Wendy's founded?,1969,1969,Wendy 's founded  in 1969 
+2239,factoid,What prison is Charles Manson at?,Corcoran,Corcoran,Corcoran  prison is Charles Manson at
+1568,factoid,How old was George Washington when he died?,67,67,George Washington when he died   67 old
+2064,factoid,What country is Mt. Everest in?,Nepal,Nepal,Nepal  Everest in
+1801,factoid,Where is the smallest bone in the body?,ear,ear,the smallest bone in the body is in ear 
+2117,factoid,What college did Marcus Camby play for?,University of Massachusetts,University of Massachusetts,University of Massachusetts  college did Marcus Camby play for
+1473,factoid,When was Lyndon B. Johnson born?,1908,1908,Lyndon B. Johnson born  in 1908 
+1513,factoid,"What is the current population in Bombay, India as of 2011?","12(.[45])? million|18(.4)? million|20(.7)? million|12,478,447|18,414,288|12\,442\,373",18>4 million,18>4 million is India as of 2011
+1820,factoid,When is Mexico's independence?,18(10|21),1810,Mexico 's independence is in 1810 
+1759,factoid,"Who wrote ""Fiddler on the Roof?""",Sheldon Harnick,Sheldon Harnick,Sheldon Harnick  ''
+1618,factoid,Where is bile produced?,liver,liver,bile produced is in liver 
+1949,factoid,What is the nickname of the British flag?,Union Jacks?,Union Jacks,Union Jacks is the nickname of the British flag
+1674,factoid,What day did Neil Armstrong land on the moon?,"July 20\s?, 1969","July 20, 1969","July 20, 1969  day did Neil Armstrong land on the moon"
+2197,factoid,What is the name of the first unmanned space craft sent to Mars by NASA?,Viking,Viking,Viking is the name of the first unmanned space craft sent to Mars by NASA
+2191,factoid,What city is the gateway arch located in?,St.*?Louis,St   Louis,St   Louis  city is the gateway arch located in
+10013,factoid,What does Tardis stand for?,Time and Relative Dimension in Space,Time and Relative Dimension in Space,Time and Relative Dimension in Space does Tardis stand for
+1475,factoid,Who was the first person to reach the south pole?,Amundsen,Amundsen,Amundsen  was the first person to reach the south pole
+10038,factoid,When was Watt's steam engine invented?,1765|177[46]|1763 to 1775,1774,Watt 's steam engine invented  in 1774 
+1429,factoid,What was Andrew Jackson's wife's name?,Rachel,Rachel,Rachel  was Andrew Jackson 's wife 's name
+1626,factoid,What is Buzz Aldrin's real first name?,Edwin,Edwin,Edwin is Buzz Aldrin 's real first name
+2055,factoid,"What dessert is made with poached peach halves, vanilla ice cream, and raspberry sauce?",PEACH MELBA,PEACH MELBA,PEACH MELBA  and raspberry sauce
+2266,factoid,What substance did Charles Best and Frederick Banting discover in 1922?,insulin,insulin,insulin  substance did Charles Best and Frederick Banting discover in 1922
+1600,factoid,What automobile company makes the Spider?,Alfa Romeo|Fiat,Alfa Romeo,Alfa Romeo  automobile company makes the Spider
+1604,factoid,What does R&B stand for?,rhythm and blues,rhythm and blues,rhythm and blues does R & B stand for
+10021,factoid,What is the critical mass of Plutonium?,"\b(9|10)(\.[0-9]*)?\s*k(ilo)?g|11 kg \(24\.2 lbs\)\, 10\.2 cm \(4\""\) in diameter\.",9 kilog,9 kilog is the critical mass of Plutonium
+1849,factoid,What is the nickname of Oklahoma?,Sooners?( State)?,Sooners State,Sooners State is the nickname of Oklahoma
+1636,factoid,When was the battle of Chancellorsville fought?,1863|April 30,1863,the battle of Chancellorsville fought  in 1863 
+1861,factoid,Where was Bill Gates born?,Seattle|Washington|United States of America,United States of America,Bill Gates born  in United States of America 
+2037,factoid,How did Iowa get its name?,"(Siouan|indian).*(ayuhwa|ouaouia|asleep)|the Ioway people|named after the Iowa River\, which was named for the Ioway natives living at its banks\.|The state of Iowa\, originally a territory of Wisconsin west of the Mississippi River\, was named after the Iowa River\.",the Ioway people,Iowa get its name   the Ioway people 
+10046,factoid,Who is author of cryptonomicon?,Stephenson,Stephenson,Stephenson is author of cryptonomicon
+1711,factoid,When was the first jet invented?,1928,1928,the first jet invented  in 1928 
+2057,factoid,How many children did Bob Marley have?,seven|\b7\b|11,11,children did Bob Marley have   11 many
+1870,factoid,What country is Pretoria in?,South(\s|_)African?,South Africa,South Africa  country is Pretoria in
+1982,factoid,What movie won the Academy Award for best picture in 1989?,Driving Miss Daisy,Driving Miss Daisy,Driving Miss Daisy  movie won the Academy Award for best picture in 1989
+2189,factoid,What animal can go the longest without water?,kangaroo rat|Giraffe,kangaroo rat,kangaroo rat  animal can go the longest without water
+2010,factoid,What island was Napoleon exiled to after his defeat at Waterloo?,(St\.?|Saint) Helena,Saint Helena,Saint Helena  island was Napoleon exiled to after his defeat at Waterloo
+10012,factoid,What did James Watson and Francis Crick discover?,DNA|deoxyribonucleic,DNA,DNA  did James Watson and Francis Crick discover
+1539,factoid,What is Ronald Reagan's favorite candy?,Jelly Belly|jelly\s?beans?,jelly bean,jelly bean is Ronald Reagan 's favorite candy
+2038,factoid,What did Alfred Noble invent?,dynamite,dynamite,dynamite  did Alfred Noble invent
+1660,factoid,What is Elvis Presley's middle name?,Aa?ron,Aaron,Aaron is Elvis Presley 's middle name
+2075,factoid,What city in Louisiana was Britney Spears born in?,Kentwood,Kentwood,Kentwood  city in Louisiana was Britney Spears born in
+2120,factoid,"What does ""CBS"" (television network) stand for?",Columbia Broadcasting System,Columbia Broadcasting System,Columbia Broadcasting System does stand for
+1532,factoid,What is the literacy rate in Cuba?,99.8\s*(percent|%)|97\%,97%,97% is the literacy rate in Cuba
+1985,factoid,What is the Cav's arena name?,Gund|Quicken Loans,Gund,Gund is the Cav 's arena name
+1926,factoid,When was the U.S. capitol built?,179[03-9]|1800,1795,the U.S. capitol built  in 1795 
+1776,factoid,What year did the first American lighthouse open?,1716,1716,1716  year did the first American lighthouse open
+1906,factoid,How did the disciple Peter die?,crucif.*,crucif  ,the disciple Peter die   crucif   
+1890,factoid,"Who is the author of the poem ""The Midnight Ride of Paul Revere?""",Longfellow,Longfellow,Longfellow is ''
+2263,factoid,How big was the Super Big Gulp sold in 7-Eleven stores in 1980?,1.2\s*l|41.*(fl oz|ounces),1'2 l,the Super Big Gulp sold in 7-Eleven stores in 1980   1'2 l big
+10065,factoid,how much is 41+1?,\b42\b|fourty-two,42,41+1 is  42 much
+2233,factoid,How far is a 3-point line from the basketball goal in the NBA?,"23\s*(f(ee|oo)?t|').*9\s*(in(ch)?(es)?|"")","23 '@-?*.QA56/^ VW #T70-FpN39 ""","far is a 3-point line from the basketball goal in the NBA   23 '@-?*.QA56/^ VW #T70-FpN39 "" "
+10003,factoid,How many children did Maria Theresa have?,sixteen|\b16\b,16,children did Maria Theresa have   16 many
+1545,factoid,What is a female rabbit called?,doe,doe,doe is a female rabbit called
+1774,factoid,What does HTML stand for?,hyper\s?text markup language,hypertext markup language,hypertext markup language does HTML stand for
+10007,factoid,In what city the first nuclear bomb exploded?,Hiroshima,Hiroshima,Hiroshima  city the first nuclear bomb exploded
+2230,factoid,What dam is said the be the largest hydroelectric station in the world?,Three Gorges|Itaipu,Itaipu,Itaipu  dam is said the be the largest hydroelectric station in the world
+2276,factoid,When was Mariah Carey born?,March 27|1969|1970,1970,Mariah Carey born  in 1970 
+2205,factoid,How many cabinet officers are there?,"\b(14|15|22|23)\b|the executive branch of the federal government of the United States\, who are",23,cabinet officers are there   23 many
+2354,factoid,How did Anne Frank die?,typhus|concentration camp,typhus,Anne Frank die   typhus 
+1998,factoid,How old was Babe Ruth when he died?,53,53,Babe Ruth when he died   53 old
+2155,factoid,What country is home to Sabena Airlines?,Belgi(a|u)(m|n),Belgiam,Belgiam  country is home to Sabena Airlines
+1833,factoid,How tall is Mike Tyson?,"5\s*(f(ee|oo)?t|')\s*10\s*(in(ch.*)?|"")|1\.78|178 cm tall",1.78,Mike Tyson is  1.78 tall
+2371,factoid,What type of bee drills holes in wood?,carpenter,carpenter,carpenter  type of bee drills holes in wood
+1467,factoid,What year did South Dakota become a state?,1889,1889,1889  year did South Dakota become a state
+1579,factoid,Which country exports the most tea?,Sri Lanka|India|Kenya,India,India  country exports the most tea
+2145,factoid,What does a theodolite measure?,angle,angle,angle does a theodolite measure
+2032,factoid,What sporting event first took place in 1903?,Tour de France,Tour de France,Tour de France  sporting event first took place in 1903
+1718,factoid,When was the White House built?,1(792|800),1800,the White House built  in 1800 
+1635,factoid,What is the name of the famous dogsledding race held each year in Alaska?,Iditarod,Iditarod,Iditarod is the name of the famous dogsledding race held each year in Alaska
+1450,factoid,Which U.S. state is the leading corn producer?,Iowa,Iowa,Iowa  U.S. state is the leading corn producer
+1536,factoid,What city is Lake Washington by?,Seattle,Seattle,Seattle  city is Lake Washington by
+1482,factoid,"What county is Wilmington, Delaware in?",New Castle,New Castle,New Castle  Delaware in
+1533,factoid,"Who directed the film ""Fail Safe""?",Sidney Lumet,Sidney Lumet,Sidney Lumet  directed the film `` Fail Safe ''
+1914,factoid,What city is the home to the Rock and Roll Hall of Fame?,Cleveland,Cleveland,Cleveland  city is the home to the Rock and Roll Hall of Fame
+2223,factoid,When was the first practical camera invented?,1839,1839,the first practical camera invented  in 1839 
+2026,factoid,When was the first Olympics held?,776 BC|-776|1896,-776,the first Olympics held  in -776 
+2255,factoid,"How do you say ""I love you"" in French?",je t'aime,je t'aime,do you say `` I love you '' in French   je t'aime 
+10037,factoid,When was the first commercially successful steam engine invented?,1698|1712,1712,the first commercially successful steam engine invented  in 1712 
+10059,factoid,how long is the day?,"24\s*h|86,?400\s*s",24 h,the day is  24 h long
+1683,factoid,What name is horror actor William Henry Pratt better known by?,Boris Karloff,Boris Karloff,Boris Karloff  name is horror actor William Henry Pratt better known by
+1621,factoid,What is the name of the country in the Pyrenees mountains between France and Spain?,Andorra,Andorra,Andorra is the name of the country in the Pyrenees mountains between France and Spain
+2390,factoid,What ancient tribe of Mexico left behind huge stone heads?,Olmecs?,Olmec,Olmec  ancient tribe of Mexico left behind huge stone heads
+2104,factoid,When was the first submarine not using human-powered propulsion invented?,July 1863|1914|1863,1914,the first submarine not using human-powered propulsion invented  in 1914 
+1556,factoid,What cemetery is Thurgood Marshall buried in?,Arlington,Arlington,Arlington  cemetery is Thurgood Marshall buried in
+1547,factoid,What is the atomic number of uranium?,92,92,92 is the atomic number of uranium
+10052,factoid,What is the chemical formula of methane?,C.*H.*4,C  H  4,C  H  4 is the chemical formula of methane
+2052,factoid,"What county is San Antonio, Texas in?",Bexar,Bexar,Bexar  Texas in
+1871,factoid,How much gravity exists on Mars?,third|38\s*(%|percent)|3.711.*m/s|0.376\s*g,third,gravity exists on Mars   third much
+1444,factoid,What female leader succeeded Ferdinand Marcos as president of the Philippines?,Corazon Aquino,Corazon Aquino,Corazon Aquino  female leader succeeded Ferdinand Marcos as president of the Philippines
+2376,factoid,What color belt is first in karate?,white,white,white  color belt is first in karate
+1528,factoid,Where did Kublai Khan live?,Beijing|China,Beijing,Kublai Khan live  in Beijing 
+1442,factoid,What is the chemical formula for sulphur dioxide?,SO2|the chemical compound,the chemical compound,the chemical compound is the chemical formula for sulphur dioxide
+1565,factoid,What is Karl Malone's nickname?,The Mailman,The Mailman,The Mailman is Karl Malone 's nickname
+1830,factoid,What city does the Tour de France end in?,Paris,Paris,Paris  city does the Tour de France end in
+1419,factoid,What year did Alaska become a state?,1958|1959,1959,1959  year did Alaska become a state
+1782,factoid,Who was the first woman to run for president?,Pamfilova|Victoria Woodhull|Woodhull,Woodhull,Woodhull  was the first woman to run for president
+2028,factoid,What are the biggest snakes in the world?,anaconda|reticulated python|titanoboa|Gigantophis|Burmese python,titanoboa,titanoboa  are the biggest snakes in the world
+1994,factoid,What was the Beatles' first number one hit?,Please Please Me|From Me To You,Please Please Me,Please Please Me  was the Beatles ' first number one hit
+1681,factoid,When did Houdini die?,1926,1926,Houdini die  in 1926 
+10023,factoid,What is the density of water?,"\b(1|0\.9.*)\s*g|\b(1,?000|9.*)\s*kg|cubic centimeter|approximately one gram",1 g,1 g is the density of water
+1418,factoid,When was the Rosenberg trial?,1951|1953|May 12,1953,the Rosenberg trial  in 1953 
+1560,factoid,What was Denzel Washington's first television series?,St. Elsewhere,St; Elsewhere,St; Elsewhere  was Denzel Washington 's first television series
+1836,factoid,"What river runs through Rome, Italy?",Tiber,Tiber,Tiber  Italy
+1427,factoid,What was the first spaceship on the moon?,Eagle,Eagle,Eagle  was the first spaceship on the moon
+2066,factoid,What is tequila made from?,agave,agave,agave is tequila made from
+1688,factoid,What year was the gateway arch built?,1965|1963,1965,1965  year was the gateway arch built
+1411,factoid,What Spanish explorer discovered the Mississippi River?,Hernando de Soto,Hernando de Soto,Hernando de Soto  Spanish explorer discovered the Mississippi River
+1811,factoid,When was penicillin first used?,"194(0s|1|2|7)|1943|But it was not until 1928 that penicillin\, the first true antibiotic\, was discovered by Alexander Fleming\, Professor of Bacteriology at St\. Mary\'s Hospital in London\.",1941,penicillin first used  in 1941 
+2133,factoid,When was Abraham Lincoln born?,1809.*?,1809   ,Abraham Lincoln born  in 1809    
+1662,factoid,When was Jerusalem invaded by the general Titus?,70 A.D.|70\s*AD|AD\s*70|A.D.\s*70|70,70,Jerusalem invaded by the general Titus  in 70 
+1821,factoid,Who was the architect who designed the Empire State Building?,Lamb,Lamb,Lamb  designed the Empire State Building
+2000,factoid,How many Earth days does it take for Mars to orbit the sun?,68[67],687,days does it take for Mars to orbit the sun   687 Earth
+2261,factoid,What college did Magic Johnson go to?,Michigan State,Michigan State,Michigan State  college did Magic Johnson go to
+1652,factoid,When did the United States enter World War II?,1941,1941,the United States enter World War II  in 1941 
+1874,factoid,When was the battle of Shiloh?,1862,1862,the battle of Shiloh  in 1862 
+1570,factoid,What is the legal age to vote in Argentina?,18,18,18 is the legal age to vote in Argentina
+1991,factoid,How did Minnesota get its name?,Sioux.*river|river.*Sioux,Sioux  river river  Sioux,Minnesota get its name   Sioux  river river  Sioux 
+1839,factoid,What country was formed in 1948?,Burma|Israel|Myanmar,Burma,Burma  country was formed in 1948
+1397,factoid,What was the largest crowd to ever come see Michael Jordan?,"62,?046","62,046","62,046  was the largest crowd to ever come see Michael Jordan"
+1414,factoid,What was the length of the  Wright brothers' first flight?,120\s?\-?\s?f(ee|oo)?t|852 feet,120 foot,120 foot  was the length of the Wright brothers ' first flight
+2315,factoid,How many tentacles do squids actually have?,two|\b2\b,two,tentacles do squids actually have   two many
+1645,factoid,How much is the international space stations expected to cost?,\$ 95 billion|\$60 billion|about \$ 50 billion|more than 100 billion dollar|150\s*(billion|bn)|\$100,$ 95 billion,the international space stations expected to cost is  $ 95 billion much
+2131,factoid,Who was the first African-American speaker of the California State Assembly?,Brown,Brown,Brown  was the first African-American speaker of the California State Assembly
+1736,factoid,Where on the body would you find the jowls?,cheek|Face,cheek,on the body would you find the jowls  in cheek 
+1477,factoid,What are wavelengths of visible light measured in?,angstrom|nanometers|^nm,nm,nm  are wavelengths of visible light measured in
+1824,factoid,Which planet did the spacecraft Magellan enable scientists to research extensively?,Venus,Venus,Venus  planet did the spacecraft Magellan enable scientists to research extensively
+1855,factoid,How fast is the world spinning?,"1,?0[34][0-9]\s*(miles per hour|mph)|1,?6[67][0-9]\s*(kilometers per hour|km.*h)","1,661 kilometers per hour","fast is the world spinning   1,661 kilometers per hour "
+2136,factoid,How many moons does Neptune have?,eight|\b8\b|14,eight,moons does Neptune have   eight many
+1576,factoid,What galaxy is closest to the milky way?,Andromeda,Andromeda,Andromeda  galaxy is closest to the milky way
+1595,factoid,What person developed COBOL?,Hopper,Hopper,Hopper  person developed COBOL
+2122,factoid,What is the inner peel of an orange called?,pith,pith,pith is the inner peel of an orange called
+1781,factoid,"What year did ""Snow White"" come out?",1937,1937,1937  year did `` Snow White '' come out
+1784,factoid,What is the scientific name for leech?,Hirudo medicinalis|Hirudo,Hirudo,Hirudo is the scientific name for leech
+2165,factoid,What date was the Declaration of Independence signed on?,"Aug. 2, 1776|July 4.*?1776|July 4",July 4,July 4  date was the Declaration of Independence signed on
+1637,factoid,What is the name of the five pointed star commonly used by Satanists?,baphomet|pentagrams?|The five point star,baphomet,baphomet is the name of the five pointed star commonly used by Satanists
+1447,factoid,What is the capital of Syria?,Damascus,Damascus,Damascus is the capital of Syria
+1531,factoid,What does NASDAQ stand for?,National Association of Securities Dealers Automated Quotations?,National Association of Securities Dealers Automated Quotations,National Association of Securities Dealers Automated Quotations does NASDAQ stand for
+10090,factoid,when did vikings colonize greenland?,\b98[0-9]\b|10th century,987,vikings colonize greenland  in 987 
+2391,factoid,What president created social security?,Roosevelt|FDR,FDR,FDR  president created social security
+1480,factoid,What is the principle port in Ecuador?,Guayaquil,Guayaquil,Guayaquil is the principle port in Ecuador
+2195,factoid,When was Ronald Reagan shot?,1981,1981,Ronald Reagan shot  in 1981 
+1488,factoid,"What is the name of the professional baseball team in Myrtle Beach, South Carolina?",Pelicans,Pelicans,Pelicans is South Carolina
+2252,factoid,What apostle was crucified?,Peter,Peter,Peter  apostle was crucified
+1583,factoid,What is the text of an opera called?,libretto,libretto,libretto is the text of an opera called
+10041,factoid,Where was the first of the International Mathematical Olympiads held?,Romania,Romania,the first of the International Mathematical Olympiads held  in Romania 
+1716,factoid,Who was the first Triple Crown Winner?,Sir Barton,Sir Barton,Sir Barton  was the first Triple Crown Winner
+1969,factoid,What does ACLU stand for?,American Civil Liberties Union,American Civil Liberties Union,American Civil Liberties Union does ACLU stand for
+2127,factoid,What country did Panama gain its independence from?,Colombia,Colombia,Colombia  country did Panama gain its independence from
+1609,factoid,What is the currency of Bolivia called?,BOB|boliviano,BOB,BOB is the currency of Bolivia called
+2337,factoid,How did Joseph Smith die?,mob|assassin|lynch|shoo?t|Murder|Firearm,shoot,Joseph Smith die   shoot 
+2129,factoid,"How many home runs did Henry ""Hank"" Aaron hit in his major league career?",755,755,home runs did Henry `` Hank '' Aaron hit in his major league career   755 many
+1742,factoid,When did the Mesozoic period end?,6[56] million years ago,66 million years ago,the Mesozoic period end  in 66 million years ago 
+1606,factoid,What is the boiling point of water?,212\s*(.|degrees?)\s*F|100\s*(.|degrees?)\s*C|100 o|101\.325,100 degrees C,100 degrees C is the boiling point of water
+2152,factoid,When was the Great Wall of China built?,"2,?000 years ago|7th century BC|6.. BC|2[0-2]. BC|Ming",7th century BC,the Great Wall of China built  in 7th century BC 
+2102,factoid,What American landmark stands on Liberty Island?,Statue of Liberty,Statue of Liberty,Statue of Liberty  American landmark stands on Liberty Island
+2289,factoid,What continent is Togo on?,African?,Africa,Africa  continent is Togo on
+10071,factoid,"what is the answer to ultimate question of life, universe and everything?",\b42\b|fourty-two,42,42 is universe and everything
+1956,factoid,What country is the largest in square miles?,Russia,Russia,Russia  country is the largest in square miles
+1983,factoid,When was Lyndon B. Johnson president?,1963.*69,1963  69,Lyndon B. Johnson president  in 1963  69 
+1916,factoid,What city did Duke Ellington live in?,New York|Washington|North Carolina,New York,New York  city did Duke Ellington live in
+1859,factoid,What branch of the military has its academy in Annapolis?,Nav(al|y),Navy,Navy  branch of the military has its academy in Annapolis
+1700,factoid,Where is America's Stonehenge?,"Mystery Hill|N.H.|Salem(, New Hampshire)?|South of Manchester",Salem,America 's Stonehenge is in Salem 
+2295,factoid,What 1857 U.S. Supreme Court decision denied that blacks were citizens?,Dred Scott|Supreme Court,Supreme Court,Supreme Court  1857 U.S. Supreme Court decision denied that blacks were citizens
+1713,factoid,What is the name of the phobia for number 13?,Triskaidekaphobia,Triskaidekaphobia,Triskaidekaphobia is the name of the phobia for number 13
+1856,factoid,What city is known as the rubber capital of the world?,"Akron,?","Akron,","Akron,  city is known as the rubber capital of the world"
+2121,factoid,"What artist recorded the song ""At Last"" in the 40's or 50's?",Etta James,Etta James,Etta James  artist recorded the song `` At Last '' in the 40 's or 50 's
+10057,factoid,how long are spaghetti?,"(25|30|50)\s*c(enti)?m|(10|12|20)\s*(""|in)",30 centim,are spaghetti   30 centim long
+1615,factoid,What is Africa's largest country?,Sudan|Algeria|Nigeria,Algeria,Algeria is Africa 's largest country
+10099,factoid,who are the inventors of the first transistor?,((Bardeen|Shockley|Brattain).*){3}|Bardeen|Shockley|Brattain,Brattain,Brattain  are the inventors of the first transistor
+10010,factoid,What currency is used in Christiania?,L[oø]n,Lon,Lon  currency is used in Christiania
+1911,factoid,What is the name of the chart that tells you the symbol for all chemical elements?,periodic (table|chart),periodic table,periodic table  tells you the symbol for all chemical elements
+10094,factoid,"where was jesus born?,",Bethlehem,Bethlehem,jesus born  in Bethlehem 
+10109,factoid,who wrote ender's game?,Orson.*Card,Orson  Card,Orson  Card  wrote ender 's game
+1496,factoid,What country is Berlin in?,Germany,Germany,Germany  country is Berlin in
+1464,factoid,"Who is the detective on ""Diagnosis Murder""?",Steve Sloan,Steve Sloan,Steve Sloan is the detective on `` Diagnosis Murder ''
+1640,factoid,Who founded Taoism?,Lao\s*-?\s*T[zs][ue]|Laozi,Laozi,Laozi  founded Taoism
+1843,factoid,In what month are the most babies born?,July|August|September,July,July  month are the most babies born
+1669,factoid,How tall is Mount McKinley?,"20\s?,?\s?(32|40)0\s?-?\s?f(ee|oo)t|6,194-meter|20,?237\s*f(oo|ee)?t|20,?073\s*f(oo|ee)?t|6,?168\s*m|6,118\s*m|6\,194 m|20\,322 feet",20237 ft,Mount McKinley is  20237 ft tall
+2388,factoid,what Arthur Miller play recounts his marriage to Marilyn Monroe?,After the Fall|Finishing the Play,After the Fall,After the Fall  Arthur Miller play recounts his marriage to Marilyn Monroe
+1544,factoid,What is the most populated country in the world?,China,China,China is the most populated country in the world
+1783,factoid,What country are Volvo automobiles made in?,Sweden,Sweden,Sweden  country are Volvo automobiles made in
+2193,factoid,How many feet above sea level is Jerusalem?,"\b2,?[4567][0-9][0-9]\b",2689,feet above sea level is Jerusalem   2689 many
+2297,factoid,What is Britney Spears' middle name?,Jean,Jean,Jean is Britney Spears ' middle name
+1787,factoid,What is David Lee Roth's birthday?,Oct(.|ober)?\s* 10|1954,1954,1954 is David Lee Roth 's birthday
+2383,factoid,How did Jerry Garcia Die?,drug abuse|heart attack,drug abuse,Jerry Garcia Die   drug abuse 
+2312,factoid,How many republics made up the Soviet Union?,\b15\b|fifteen|Soviet,Soviet,republics made up the Soviet Union   Soviet many
+1679,factoid,What is the diameter of the moon?,"2,159 miles|3,?474(.2[0-9]*)?\s*m|3\,474 km|2\,159\.2 miles","2,159.2 miles","2,159.2 miles is the diameter of the moon"
+2225,factoid,What modern country is home to the ancient city of Babylon?,Iraq,Iraq,Iraq  modern country is home to the ancient city of Babylon
+2190,factoid,What country is Hyundai from?,Republic of Korea|South Korea,Republic of Korea,Republic of Korea  country is Hyundai from
+1922,factoid,How fast is an eye blink?,\.(03|[1-4].*)\s*s(econds)?|0.[1-4].*(ms|milliseconds),0!26Q$A[m:tUsmilliseconds,fast is an eye blink   0!26Q$A[m:tUsmilliseconds 
+1554,factoid,What is the scientific name for tobacco?,Nicotiana alata|Nicotiana tabacum|Nicotiana rustica,Nicotiana rustica,Nicotiana rustica is the scientific name for tobacco
+2050,factoid,What dissolves gold?,cyanide|aqua regia|hydrochloric.*nitrid|HCl.*HNO3,cyanide aqua regia hydrochloric  nitrid HCl  HNO3,cyanide aqua regia hydrochloric  nitrid HCl  HNO3 dissolves gold
+1665,factoid,When did Marian Anderson sing at the Lincoln Memorial?,1939,1939,Marian Anderson sing at the Lincoln Memorial  in 1939 
+10032,factoid,When is christmas?,Dec.*\b2[45]\b,Dec   b2 45  b,christmas is in Dec   b2 45  b 
+1884,factoid,Where is the Sea of Tranquility?,moon,moon,the Sea of Tranquility is in moon 
+2216,factoid,How did Dennis Brown die?,pneumo|lung,lung,Dennis Brown die   lung 
+2141,factoid,How many justices does the United States Supreme Court have?,nine|\b9\b,9,justices does the United States Supreme Court have   9 many
+1962,factoid,"What country is know as the ""Land of the Rising Sun""?",Japan,Japan,Japan  country is know as the `` Land of the Rising Sun ''
+1818,factoid,Where did Golda Meir grow up?,Milwaukee|Ukraine|Kiev,Milwaukee,Golda Meir grow up  in Milwaukee 
+2069,factoid,When was the first Star Wars movie made?,1977|May 25,1977,the first Star Wars movie made  in 1977 
+1754,factoid,When did the Persian Gulf War occur?,1991,1991,the Persian Gulf War occur  in 1991 
+1677,factoid,How did Micky Mantle die?,cancer|Liver tumour,Liver tumour,Micky Mantle die   Liver tumour 
+2300,factoid,What country did Marco Polo come from?,Ital(y|ian),Italy,Italy  country did Marco Polo come from
+2182,factoid,How far is the Titanic under water?,"12,?(000|500|460)\s*f(ee|oo)?t|3,?800\s*m",12000 ft,far is the Titanic under water   12000 ft 
+1944,factoid,What did George Washington call his house?,Mount Vernon,Mount Vernon,Mount Vernon  did George Washington call his house
+10047,factoid,Who is the author of Neuromancer?,Gibson,Gibson,Gibson is the author of Neuromancer
+10004,factoid,How many colors do you need to color a planar graph?,four|\b4\b,four,colors do you need to color a planar graph   four many
+10103,factoid,who is Barrack Obama?,president.*U.*S|U.*S.*president|President Barack Obama\'s,President Barack Obama's,President Barack Obama's is Barrack Obama
+1886,factoid,What are Brazil's national colors?,bright yellow and blue|green and yellow,green and yellow,green and yellow  are Brazil 's national colors
+1846,factoid,What is the oldest sports trophy?,America(\s?')?s Cup,Americas Cup,Americas Cup is the oldest sports trophy
+2059,factoid,How did Chicago get its name?,French.*(onion|garlic)|the wild leeks|the Miami and Illinois Tribes,French(O]OB}abbm_Vm+ b$tCU}jN1!tne8v+N:>T*)v;QB]oVD*w_4>onion,Chicago get its name   French(O]OB}abbm_Vm+ b$tCU}jN1!tne8v+N:>T*)v;QB]oVD*w_4>onion 
+2140,factoid,"What day did Martin Luther King, Jr. get assassinated?","April 4, 1968|1968\-04\-04",1968-04-04,1968-04-04  Jr. get assassinated
+1672,factoid,What Latin American country is the leading exporter of sugar cane?,Brazil,Brazil,Brazil  Latin American country is the leading exporter of sugar cane
+2209,factoid,What is the term for arable land left unseeded for one season?,fallow,fallow,fallow is the term for arable land left unseeded for one season
+2153,factoid,What date did the Lusitania sink?,1915|May,May,May  date did the Lusitania sink
+2281,factoid,What American commodore demanded that Japan trade with the United States?,Perry,Perry,Perry  American commodore demanded that Japan trade with the United States
+1685,factoid,What is the most populous city in the United States?,New\s?York,New York,New York is the most populous city in the United States
+1622,factoid,Who was Woodrow Wilson's First Lady?,(Ellen|Edith)(_Axson_Wilson)?,Ellen_Axson_Wilson,Ellen_Axson_Wilson  was Woodrow Wilson 's First Lady
+2175,factoid,What country did Iraq invade in 1990?,Kuwait,Kuwait,Kuwait  country did Iraq invade in 1990
+2318,factoid,What instrument measures radioactivity?,Geiger|dosimeter|End\-window G\-M detectors,End-window G-M detectors,End-window G-M detectors  instrument measures radioactivity
+2143,factoid,How did John Dillinger die?,gunned down|shot,gunned down,John Dillinger die   gunned down 
+2214,factoid,What country other than Germany has German as its official language?,Austria|Switzerland|Belgium|Luxembourg|Lichtenstein,Austria,Austria  country other than Germany has German as its official language
+1777,factoid,"Who did Scott Bakula play in ""American Beauty""?",Jim,Jim,Jim  did Scott Bakula play in `` American Beauty ''
+10092,factoid,where is Løn used?,Christiania,Christiania,Løn used is in Christiania 
+1525,factoid,What university did Thomas Jefferson found?,Virginia,Virginia,Virginia  university did Thomas Jefferson found
+2115,factoid,In what Canadian province are most people of French descent?,Qu[eé]bec,Québec,Québec  Canadian province are most people of French descent
+2049,factoid,What president served 2 nonconsecutive terms?,Grover Cleveland|two non\-consecutive terms,two non-consecutive terms,two non-consecutive terms  president served 2 nonconsecutive terms
+2025,factoid,"What sports stadium has been billed as ""the eighth wonder of the world""?",Astrodome,Astrodome,Astrodome  sports stadium has been billed as `` the eighth wonder of the world ''
+2202,factoid,How many interceptions did Joe Montana throw in four Superbowls?,never|none|\b0\b|zero,never,interceptions did Joe Montana throw in four Superbowls   never many
+2110,factoid,what is Speedy Claxton's real name?,Craig,Craig,Craig is Speedy Claxton 's real name
+2021,factoid,What is the world's largest coral reef?,Great Barrier Reef,Great Barrier Reef,Great Barrier Reef is the world 's largest coral reef
+1519,factoid,Where was Hans Christian Anderson born?,Denmark|Odense,Denmark,Hans Christian Anderson born  in Denmark 
+1997,factoid,What American revolutionary general turned over West Point to the British?,Arnold,Arnold,Arnold  American revolutionary general turned over West Point to the British
+1563,factoid,Who started the Protestant reformation?,Luther,Luther,Luther  started the Protestant reformation
+2235,factoid,What is the highest mountain in South America?,Aconcagua,Aconcagua,Aconcagua is the highest mountain in South America
+2103,factoid,What confederate general was responsible for the defeat at Gettysburg?,Lee|Pickett,Pickett,Pickett  confederate general was responsible for the defeat at Gettysburg
+10054,factoid,how deep is marianas trench?,"10[.,]?([89][0-9][0-9])\s*(k|kilo)?m|6,?[89][0-9][0-9]\s*mi|3[56],?[0-9]{3}\s*(f(ee|oo)?t|')",36430 ft,marianas trench is  36430 ft deep
+2305,factoid,When is Mexico's Independence Day?,Sep.*16,Sep  16,Mexico 's Independence Day is in Sep  16 
+2379,factoid,What is the scientific name for red imported fire ants?,Solenopsis invicta|The red imported fire ant \(,Solenopsis invicta,Solenopsis invicta is the scientific name for red imported fire ants
+1838,factoid,What was the name of FDR's dog?,Fala,Fala,Fala  was the name of FDR 's dog
+2219,factoid,How tall is Al Pacino?,"5\s*(f(oo|ee)?t|').*6\s*(in(ch)?(es)?|"")|1.7.*cm|1\.7",5 s  f oo ee  t     6 s  in ch   es      1 7  cm 1  7,Al Pacino is  5 s  f oo ee  t     6 s  in ch   es      1 7  cm 1  7 tall
+1590,factoid,What do grasshoppers eat?,grass\b|plant|roses,roses,roses  do grasshoppers eat
+1612,factoid,When was the U.S. invasion of Haiti?,1994|1915,1994,the U.S. invasion of Haiti  in 1994 
+2323,factoid,What American feminist appeared on a silver dollar?,Susan.*Anthony,Susan  Anthony,Susan  Anthony  American feminist appeared on a silver dollar
+2257,factoid,What is the richest country in the world?,Qatar,Qatar,Qatar is the richest country in the world
+1885,factoid,What language do they officially speak in New Caledonia?,French,French,French  language do they officially speak in New Caledonia
+1863,factoid,"Who said ""I have not begun to fight!""?",John Paul Jones,John Paul Jones,John Paul Jones  ``
+2196,factoid,What ocean are the Gilbert Islands in?,Pacific,Pacific,Pacific  ocean are the Gilbert Islands in
+1649,factoid,What year did the shuttle Challenger explode?,1986,1986,1986  year did the shuttle Challenger explode
+1404,factoid,How many chromosomes does a human zygote have?,23 pairs|46,46,chromosomes does a human zygote have   46 many
+2030,factoid,"How do you say ""cat"" in the French language?",chat,chat,do you say `` cat '' in the French language   chat 
+1489,factoid,What continent is India on?,Asia,Asia,Asia  continent is India on
+1498,factoid,What school did Emmitt Smith go to?,Escambia High School,Escambia High School,Escambia High School  school did Emmitt Smith go to
+10088,factoid,what number is considered unlucky in Japanese culture?,four|\b4\b|1,4,4  number is considered unlucky in Japanese culture
+2283,factoid,What is the traditional dish served at Wimbledon?,strawberr.*cream,strawberr  cream,strawberr  cream is the traditional dish served at Wimbledon
+2085,factoid,How close is Mesa to Phoenix?,(1[789]|20) mile|3[0-4]\s*(km|kilometers)|19\.9miles|19\.9 miles|26 min \(19\.9 mi\) via US\-60 W and I\-10 W,26 min (19.9 mi) via US-60 W and I-10 W,Mesa to Phoenix is  26 min (19.9 mi) via US-60 W and I-10 W close
+1791,factoid,When did they put Mir down?,1999|2001,2001,they put Mir down  in 2001 
+2154,factoid,What is egg white called?,glair|album[ei]n,albumin,albumin is egg white called
+10106,factoid,who portrays the twelfth doctor in BBC TV series Doctor Who?,Peter Capaldi|Capaldi,Peter Capaldi,Peter Capaldi portrays the twelfth doctor in BBC TV series Doctor Who
+1499,factoid,Which African country's major export is coffee?,Ethiopia|Tanzania|Uganda,Uganda,Uganda  African country 's major export is coffee
+2246,factoid,What film did Liza Minnelli win a best actress Oscar for?,Cabaret,Cabaret,Cabaret  film did Liza Minnelli win a best actress Oscar for
+10063,factoid,how many months are in a year?,\b12\b|twelve,twelve,months are in a year   twelve many
+1766,factoid,What is Australia's national blossom?,wattle,wattle,wattle is Australia 's national blossom
+2338,factoid,When was the Titanic built?,1909|1911,1911,the Titanic built  in 1911 
+1426,factoid,Who is the governor of Tennessee in 2002?,Sundquist,Sundquist,Sundquist is the governor of Tennessee in 2002
+2325,factoid,When was the first Superbowl?,1967,1967,the first Superbowl  in 1967 
+1704,factoid,What is the normal pulse rate?,70 beats per minute|60.*100\s*(bpm|beats per minute),60rHZ@a#PV SeH@X~100 beats per minute,60rHZ@a#PV SeH@X~100 beats per minute is the normal pulse rate
+1629,factoid,Where is Mae West buried?,Cypress Hills Abbey|New York,New York,Mae West buried is in New York 
+2355,factoid,"What 20th century American president died at Warm Springs, Georgia?",Roosevelt|FDR,Roosevelt,Roosevelt  Georgia
+1706,factoid,What is the beginning date for the Hershey foods company?,1903|1894,1903,1903 is the beginning date for the Hershey foods company
+1732,factoid,What are the opening words of the Declaration of Independence?,We hold these truths|When in the Course of human events,When in the Course of human events,When in the Course of human events  are the opening words of the Declaration of Independence
+1431,factoid,"Who starred in ""The Poseidon Adventure""?",Gene Hackman|McDowall|Borgnine,Borgnine,Borgnine  starred in `` The Poseidon Adventure ''
+1623,factoid,What is the active ingredient in Tylenol?,acetaminophen,acetaminophen,acetaminophen is the active ingredient in Tylenol
+1553,factoid,Who makes Magic Chef refrigerators?,Maytag|CNA|MC Appliance,MC Appliance,MC Appliance makes Magic Chef refrigerators
+1751,factoid,Where is Mesa Verde National park?,Colo(\.?|rado)|Cortez,Colo,Mesa Verde National park is in Colo 
+1639,factoid,"What is the profession of John Cusack's character in the 1999 film ""Pushing Tin""?",air(\s|-)traffic(\s|-)controller,air traffic controller,air traffic controller is the profession of John Cusack 's character in the 1999 film `` Pushing Tin ''
+2357,factoid,What city's biggest shopping district is called the Ginza District?,Tokyo('s)?,Tokyo,Tokyo  city 's biggest shopping district is called the Ginza District
+2091,factoid,What is Eminem's real name?,Marshall.*?Mathers,Marshall   Mathers,Marshall   Mathers is Eminem 's real name
+1413,factoid,"What river is called ""China's Sorrow""?",Yellow|Yangzi|Yangtze,Yellow,Yellow  river is called `` China 's Sorrow ''
+2351,factoid,How long before bankruptcy is removed from a credit report?,(10|ten|\b7|seven) years,7 years,before bankruptcy is removed from a credit report   7 years long
+1936,factoid,How many stories are in the Sears Tower?,(100|110|10[6-9]),108,stories are in the Sears Tower   108 many
+1771,factoid,When was D-Day?,1944|June? 6,June 6,D-Day  in June 6 
+1675,factoid,"What group sang the song ""Happy Together""?",Turtles,Turtles,Turtles  group sang the song `` Happy Together ''
+2284,factoid,What Chinese Dynasty was during 1412-1431?,Ming,Ming,Ming  Chinese Dynasty was during 1412-1431
+1845,factoid,What province is Calgary located in?,Alberta,Alberta,Alberta  province is Calgary located in
+1628,factoid,How much area does the Everglades cover?,"2,000 square miles|734\s*sq(uare)?\s*m(iles)?|1,?900\s*(square\s*)?km","2,000 square miles","area does the Everglades cover   2,000 square miles much"
+2199,factoid,What band was Jimmy Page in before Led Zeppelin?,Yardbirds,Yardbirds,Yardbirds  band was Jimmy Page in before Led Zeppelin
+1961,factoid,What position did Satchel Paige play in professional baseball?,pitcher,pitcher,pitcher  position did Satchel Paige play in professional baseball
+10001,factoid,How many Platonic solids do we have?,\b5\b|five,5,Platonic solids do we have   5 many
+2212,factoid,What country artist is nicknamed Tater?,Little Jimmy Dickens|Williams,Little Jimmy Dickens,Little Jimmy Dickens  country artist is nicknamed Tater
+2123,factoid,When was John Lennon born?,1940|October,October,John Lennon born  in October 
+1966,factoid,What capital city do you see from the top of Bunker Hill?,Boston,Boston,Boston  capital city do you see from the top of Bunker Hill
+2156,factoid,How fast does Randy Johnson throw?,(95|98|100(.1)?).*?(mph|miles per hour)|160\s*(km|kilometers).*h|102 MPH|randy Johnson|the fastest pitch|the theoretical maximum speed that a pitcher can throw,"95W2I9f 4Fil>V}K)nw(="" -gWy7VJYfoTmf'{=M,6)ow:8b2S B>{s2;%~Ux3d.IDtL8#;qK=KZ}HjD@(CE'j=~g)3UwM;Umph","fast does Randy Johnson throw   95W2I9f 4Fil>V}K)nw(="" -gWy7VJYfoTmf'{=M,6)ow:8b2S B>{s2;%~Ux3d.IDtL8#;qK=KZ}HjD@(CE'j=~g)3UwM;Umph "
+2270,factoid,What is capital of Maryland?,Annapolis|the State capital of Maryland,Annapolis,Annapolis is capital of Maryland
+1803,factoid,When did Willis Haviland Carrier make the air conditioner?,1902,1902,Willis Haviland Carrier make the air conditioner  in 1902 
+2285,factoid,How much does the capitol dome weigh?,14.1 million pounds,1401 million pounds,the capitol dome weigh does  1401 million pounds much
+1809,factoid,"When was the Buckingham Palace built in London, England?",1703,1703,England  in 1703 
+2053,factoid,What duo lost their Grammy for best new artist when it was discovered that they lip-synched their songs?,Milli Vanilli,Milli Vanilli,Milli Vanilli  duo lost their Grammy for best new artist when it was discovered that they lip-synched their songs
+1767,factoid,When was the first Ford Mustang made?,1964,1964,the first Ford Mustang made  in 1964 
+2306,factoid,How big is the Great Pyramid?,146.5\s*m|481\s*f(oo|ee)?t|138.8\s*m|455\s*f(oo|ee)?t|230.4\s*m|756\s*f(oo|ee)?t,138p8 m,the Great Pyramid is  138p8 m big
+1520,factoid,What is the capital of Kentucky?,Frankfort,Frankfort,Frankfort is the capital of Kentucky
+10016,factoid,What is the capital city of Ukraine?,Kiev,Kiev,Kiev is the capital city of Ukraine
+1466,factoid,How tall is Allen Iverson?,6\s?-?\s?f(ee|oo)?t|six\s?-?feet|1.83\s*m|183\s*cm|5ft 11in,1%83 m,Allen Iverson is  1%83 m tall
+10011,factoid,What currency is used in Ukraine?,UAH|hryvnia,hryvnia,hryvnia  currency is used in Ukraine
+1734,factoid,"How do you say ""pig"" in Spanish?",Cerdo,Cerdo,do you say `` pig '' in Spanish   Cerdo 
+2301,factoid,"What composer wrote ""Die Gotterdammerung""?",Wagner,Wagner,Wagner  composer wrote `` Die Gotterdammerung ''
+1492,factoid,How old was Nolan Ryan when he retired?,4(4|6),46,Nolan Ryan when he retired   46 old
+10045,factoid,Who invented bitcoin?,Nakamoto,Nakamoto,Nakamoto  invented bitcoin
+10006,factoid,How old did Jesus die?,\b33\b|thirty-three,thirty-three,Jesus die   thirty-three old
+1504,factoid,Where is the Salton Sea?,Calif(\s?\.|ornia),California,the Salton Sea is in California 
+1851,factoid,Which country colonized Hong Kong?,Britain,Britain,Britain  country colonized Hong Kong
+1646,factoid,When was the first atomic bomb dropped?,Aug.*1945|1945,Aug  1945 1945,the first atomic bomb dropped  in Aug  1945 1945 
+1973,factoid,What player on a basketball team usually plays the post or pivot position?,center,center,center  player on a basketball team usually plays the post or pivot position
+1483,factoid,Where is the highest point on earth?,Everest,Everest,the highest point on earth is in Everest 
+1899,factoid,What book did Rachel Carson write in 1962?,Silent Spring,Silent Spring,Silent Spring  book did Rachel Carson write in 1962
+2342,factoid,When was the first televised World Series?,1947,1947,the first televised World Series  in 1947 
+1904,factoid,How high is the pitcher's mound?,(ten|10)\s*in(ch(es)?)?|25.4\s*(cm|centimeters?),25w4 cm,the pitcher 's mound is  25w4 cm high
+2040,factoid,What are baby frogs called?,tadpole,tadpole,tadpole  are baby frogs called
+10069,factoid,what can mandrills at the Colchester Zoo do?,cover.*eye,cover  eye,cover  eye  can mandrills at the Colchester Zoo do
+2331,factoid,What actress has received the most Oscar nominations?,Hepburn|Streep,Hepburn,Hepburn  actress has received the most Oscar nominations
+1491,factoid,What was the name of Sherlock Holmes' brother?,Mycroft,Mycroft,Mycroft  was the name of Sherlock Holmes ' brother
+10053,factoid,chemical symbol of ethylene ?,C.*2.*H.*4,C  2  H  4,C  2  H  4  symbol of ethylene
+1658,factoid,What year was Robert Frost born?,187(4|5),1874,1874  year was Robert Frost born
+1515,factoid,What was Dr. Seuss' real name?,Theodore? (Seuss )?Geisel|Geisel,Theodore Seuss Geisel,Theodore Seuss Geisel  was Dr. Seuss ' real name
+1564,factoid,When did Led Zeppelin appear on BBC?,1969|1997,1997,Led Zeppelin appear on BBC  in 1997 
+1719,factoid,What is the distance from Jupiter to the sun?,"(777|800) million kilometers|778,?500,?000\s*km|483,?800,?000\s*miles|483\.8 million miles",800 million kilometers,800 million kilometers is the distance from Jupiter to the sun
+2268,factoid,what instrument does the concertmaster of an orchestra usually play?,violin,violin,violin  instrument does the concertmaster of an orchestra usually play
+2240,factoid,What does the bugler play at the end of the day on a US military base?,Taps,Taps,Taps does the bugler play at the end of the day on a US military base
+2386,factoid,How did Harry Houdini die?,ruptured appendix|peritonitis|appendicitis,peritonitis,Harry Houdini die   peritonitis 
+1812,factoid,What was the name of the stage play that A. Lincoln died at?,Our American Cousin,Our American Cousin,Our American Cousin  A. Lincoln died at
+1506,factoid,What's the name of King Arthur's sword?,Excalibur,Excalibur,Excalibur 's the name of King Arthur 's sword
+2236,factoid,What country's flag flies over the Canary Islands?,Spa(in|nish),Spain,Spain  country 's flag flies over the Canary Islands
+1470,factoid,When did president Herbert Hoover die?,1964,1964,president Herbert Hoover die  in 1964 
+1931,factoid,When was Prince Charles born?,1948,1948,Prince Charles born  in 1948 
+2018,factoid,How many Mars days are there in a Martian year?,66[89],668,Mars days are there in a Martian year   668 many
+10025,factoid,What is the highest mountain in the Czech Republic?,Sne[zž]ka|Sn\ě\žka,Sněžka,Sněžka is the highest mountain in the Czech Republic
+2007,factoid,How many years are there in a French president's term?,seven|\b7\b,seven,years are there in a French president 's term   seven many
+1524,factoid,What is the name of the ballpark that the Milwaukee Brewers play at?,County Stadium|Miller Park,Miller Park,Miller Park is the name of the ballpark that the Milwaukee Brewers play at
+1453,factoid,Where was the first J.C. Penney store opened?,"Kemmerer\s?, Wyo\.?","Kemmerer, Wyo","the first J.C. Penney store opened  in Kemmerer, Wyo "
+1585,factoid,What is the chief religion for Peru?,Catholic,Catholic,Catholic is the chief religion for Peru
+2367,factoid,How tall is the Washington Monument?,555\s*('|f(ee|oo)?t)|169\s*m,169 m,tall is the Washington Monument   169 m 
+1526,factoid,What is the city of brotherly love?,Philadelphia,Philadelphia,Philadelphia is the city of brotherly love
+2269,factoid,How long is a quarter in an NBA game?,12.m.*,12 m  ,a quarter in an NBA game is  12 m   long
+1625,factoid,What is the deepest lake in the world?,Baikal,Baikal,Baikal is the deepest lake in the world
+1580,factoid,What name is given to the science of map-making?,Cartography,Cartography,Cartography  name is given to the science of map-making
+10018,factoid,What is the color of blood?,red,red,red is the color of blood
+1423,factoid,What is a peninsula in the Philippines?,Bataan|Bicol|Zamboanga,Bicol,Bicol is a peninsula in the Philippines
+1892,factoid,Where does cinnamon come from?,Sri Lanka,Sri Lanka,cinnamon come from does in Sri Lanka 
+1417,factoid,Who was the first person to run the mile in less than four minutes?,Roger Bannister,Roger Bannister,Roger Bannister  was the first person to run the mile in less than four minutes
+10086,factoid,what is the sixteenth episode of the sixth season of the science fiction television series The X-Files?,Alpha,Alpha,Alpha is the sixteenth episode of the sixth season of the science fiction television series The X-Files
+2009,factoid,What animal has human-like fingerprints?,koala,koala,koala  animal has human-like fingerprints
+2249,factoid,When was the Panama Canal returned to Panama?,1999|1904,1999,the Panama Canal returned to Panama  in 1999 
+1909,factoid,What business was the source of John D. Rockefeller's fortune?,oil,oil,oil  business was the source of John D. Rockefeller 's fortune
+1458,factoid,"What was the name of the high school in ""Grease""?",Rydell,Rydell,Rydell  was the name of the high school in `` Grease ''
+10108,factoid,who received the Nobel Prize for Physiology and Medicine in the year 2013?,((Rothman|Schekman|S[uü]dhof).*){3},  Rothman Schekman S uü dhof     3 ,  Rothman Schekman S uü dhof     3   received the Nobel Prize for Physiology and Medicine in the year 2013
+10104,factoid,who is the author of Sherlock Holmes?,Doyle,Doyle,Doyle is the author of Sherlock Holmes
+10000,factoid,How high is Mt. Everest?,"29,?029\s*('|f(ee|oo)?t)|8,?848\s*m","8,848 m","Everest is  8,848 m high"
+1986,factoid,What city is Ole Mississippi University in?,Oxford,Oxford,Oxford  city is Ole Mississippi University in
+1603,factoid,When did Robert E. Lee surrender in the Civil War?,1865|April 9,April 9,Robert E. Lee surrender in the Civil War  in April 9 
+10079,factoid,what is the most lethal poison?,botulin,botulin,botulin is the most lethal poison
+1768,factoid,What TV series did Pierce Brosnan play in?,Remington Steele(.*)?|Running Wilde|Hammer House of Horror,Hammer House of Horror,Hammer House of Horror  TV series did Pierce Brosnan play in
+1993,factoid,How many official languages does Switzerland have?,four|\b4\b,4,languages does Switzerland have   4 official
+1591,factoid,What percentage of the population is left handed?,(ten|10)\s*(percent|%),10 percent,10 percent  percentage of the population is left handed
+1879,factoid,"By what nickname was musician Ernesto Antonio Puente, Jr. best known?",El Rey|Tito,El Rey,El Rey  Jr. best known
+1975,factoid,How did Cleopatra die?,asp bite|suicide|a painful and unpleasant experience,suicide,Cleopatra die   suicide 
+1796,factoid,What year did General Montgomery lead the Allies to a victory over the Axis troops in North Africa?,1942,1942,1942  year did General Montgomery lead the Allies to a victory over the Axis troops in North Africa
+1847,factoid,What is Tina Turners real name?,Ann(a|ie) Mae Bullock,Anna Mae Bullock,Anna Mae Bullock is Tina Turners real name
+2293,factoid,How many times a day do observant Muslims pray?,\b(five|5)\b,five,times a day do observant Muslims pray   five many
+1596,factoid,What year did Mussolini seize power in Italy?,1922,1922,1922  year did Mussolini seize power in Italy
+1995,factoid,What department is responsible for regulating casino gambling in Mississippi?,Mississippi Gaming Commission,Mississippi Gaming Commission,Mississippi Gaming Commission  department is responsible for regulating casino gambling in Mississippi
+1507,factoid,What is the national anthem in England?,God Save the Queen|Jerusalem|Land of Hope and Glory,Jerusalem,Jerusalem is the national anthem in England
+1778,factoid,When did Walt Disney die?,1966,1966,Walt Disney die  in 1966 
+1731,factoid,How often does the United States government conduct an official population census?,(10|ten) years,ten years,often does the United States government conduct an official population census   ten years 
+1712,factoid,Who invented the fishing reel?,Chinese|R.\s?D. Hull|Ustonson,Ustonson,Ustonson  invented the fishing reel
+1502,factoid,What year was President Kennedy killed?,1963,1963,1963  year was President Kennedy killed
+1395,factoid,Who was Tom Cruise married to last?,Katie Holmes,Katie Holmes,Katie Holmes  was Tom Cruise married to last
+1671,factoid,Where is Big Ben?,London|Westminster,Westminster,Big Ben is in Westminster 
+2187,factoid,What is the big prize called in Canadian football?,Grey Cup,Grey Cup,Grey Cup is the big prize called in Canadian football
+1557,factoid,What was the first satellite in space?,Sputnik,Sputnik,Sputnik  was the first satellite in space
+10024,factoid,What is the first derivative of x^2?,2\s*.?\s*x,2 x,2 x is the first derivative of x^2
+2380,factoid,What is the name of the official residence of the President of France?,[EÉ]lys[ée]e palace,Elysee palace,Elysee palace is the name of the official residence of the President of France
+10087,factoid,what language is used by nltk?,Python,Python,Python  language is used by nltk
+1415,factoid,Where does the vice president live when in office?,U.S\s?. Naval Observatory|United States,U/S 5 Naval Observatory,the vice president live when in office does in U/S 5 Naval Observatory 
+2004,factoid,What do the opposite sides of a die add up to?,seven|\b7\b,7,7  do the opposite sides of a die add up to
+1634,factoid,What is the area of Venezuela?,"340,569 square miles|353,?841\s*sq(uare)?\s*m(iles)?|916,?445\s*(square\s*)?km|916445\.0|916\,445 square kilometers and a land area of 882\,050 square kilometers\, \.\.\. Fauna\; Flora \.\.\.",916445.0,916445.0 is the area of Venezuela
+10098,factoid,which number corresponds to * in ASCII?,\b42\b|0x2a,0x2a,0x2a  number corresponds to * in ASCII
+2204,factoid,"What actor has a tattoo on his right wrist reading ""Scotland forever""?",Connery,Connery,Connery  actor has a tattoo on his right wrist reading `` Scotland forever ''
+2093,factoid,Which city is home to Superman?,Metropolis,Metropolis,Metropolis  city is home to Superman
+1408,factoid,Which political party is Lionel Jospin a member of?,Socialist,Socialist,Socialist  political party is Lionel Jospin a member of
+1800,factoid,Which president was sworn into office on an airplane?,Lyndon Johnson|Lyndon B\. Johnson,Lyndon B. Johnson,Lyndon B. Johnson  president was sworn into office on an airplane
+1918,factoid,How did Jimi Hendrix die?,chok(e|ing)|Barbiturate overdose,Barbiturate overdose,Jimi Hendrix die   Barbiturate overdose 
+1941,factoid,What membrane controls the amount of light entering the eye?,iris,iris,iris  membrane controls the amount of light entering the eye
+2078,factoid,What is Corian made of?,acrylic.*alumina|alumina.*acrylic,acrylic  alumina alumina  acrylic,acrylic  alumina alumina  acrylic is Corian made of
+10077,factoid,what is the moon of jupiter?,((Io|Europa|Ganymede|Callisto).*){4}|Io|Europe|Ganymede|Callisto|the four Galilean moons,  Io Europa Ganymede Callisto     4  Io Europe Ganymede Callisto the four Galilean moons,  Io Europa Ganymede Callisto     4  Io Europe Ganymede Callisto the four Galilean moons is the moon of jupiter
+1465,factoid,What company makes Bentley cars?,Rolls\s?-?\s?Royce|VW|Volkswagen|Bentley Motors,Volkswagen,Volkswagen  company makes Bentley cars
+10096,factoid,which is the central region of the anterior part of the hand?,palm,palm,palm  is the central region of the anterior part of the hand
+1494,factoid,"Who wrote ""East is east, west is west and never the twain shall meet""?",Kipling,Kipling,Kipling is west and never the twain shall meet ''
+1929,factoid,"What band did the music for the 1970's film ""Saturday Night Fever""?",Bee Gees,Bee Gees,Bee Gees  band did the music for the 1970 's film `` Saturday Night Fever ''
+2109,factoid,When was the U.N. created?,1945,1945,the U.N. created  in 1945 
+2359,factoid,What country's soldiers hid in the Trojan horse?,Greek,Greek,Greek  country 's soldiers hid in the Trojan horse
+1574,factoid,"When did ""The Simpsons"" first appear on television?",198(7|9),1987,`` The Simpsons '' first appear on television  in 1987 
+1398,factoid,What year was Alaska purchased?,1867,1867,1867  year was Alaska purchased
+1601,factoid,When did Einstein die?,1955,1955,Einstein die  in 1955 
+10105,factoid,who is the author of the TV series BBC Sherlock?,((Gatiss|Moffat).*){2}| Thompson|Mark Gatiss|Steven Moffat| Moffat Stephen , Moffat Stephen , Moffat Stephen  is the author of the TV series BBC Sherlock
+1930,factoid,What band was Jerry Garcia with?,Grateful Dead|Jerry Garcia Acoustic Band|Wildwood Boys,Grateful Dead,Grateful Dead  band was Jerry Garcia with
+1428,factoid,Who won the Nobel Peace Prize in 1992?,Mench[uú]|Mench,Menchú,Menchú  won the Nobel Peace Prize in 1992
+1900,factoid,What country is Aswan High Dam located in?,Egypt|the Sudan,the Sudan,the Sudan  country is Aswan High Dam located in
+1497,factoid,"What was the original name before ""The Star Spangled Banner""?",Defen[cs]e of Fort M'Henry,Defense of Fort M'Henry,Defense of Fort M'Henry  was the original name before `` The Star Spangled Banner ''
+10039,factoid,Where was Declaration of Independence signed?,Philadelphia,Philadelphia,Declaration of Independence signed  in Philadelphia 
+1562,factoid,Where did the U.S. Civil War begin?,Fort Sumter,Fort Sumter,the U.S. Civil War begin  in Fort Sumter 
+1741,factoid,"What author wrote under the pen name ""Boz""?",Dickens,Dickens,Dickens  author wrote under the pen name `` Boz ''
+1947,factoid,What country did Catherine the Great rule?,Russian?,Russian,Russian  country did Catherine the Great rule
+1412,factoid,Who was the governor of Colorado in 2003?,Owens,Owens,Owens  was the governor of Colorado in 2003
+1853,factoid,Where was the Andersonville Prison?,G(eorgi)?a\.?,Georgia,the Andersonville Prison  in Georgia 
+10061,factoid,how many generations are in Gospel of Matthew's version of the Genealogy of Jesus?,\b4[01]\b|4,40,generations are in Gospel of Matthew 's version of the Genealogy of Jesus   40 many
+1804,factoid,Which river runs through Dublin?,Liffey|Dodder|Tolka,Liffey,Liffey  river runs through Dublin
+2058,factoid,"What is the motto of the ""New York Times""?",all the news that's fit to print,all the news that's fit to print,all the news that's fit to print is the motto of the `` New York Times ''
+2264,factoid,How old was Elvis when he died?,42,42,Elvis when he died   42 old
+1827,factoid,Where was the battle of Alamo fought?,San Antonio|Texas,Texas,the battle of Alamo fought  in Texas 
+10060,factoid,how many countries are in european union?,\b2[78]\b,28,countries are in european union   28 many
+1858,factoid,Tell me where the DuPont company is located.,Wilmington|Delaware|United States,Delaware,the DuPont company is located   Delaware 
+1779,factoid,What is Australia's oldest city?,Sydney,Sydney,Sydney is Australia 's oldest city
+2241,factoid,How tall is the green monster at Fenway?,(37|thirty.seven)\s*f(ee|oo)?t|11.*m|the 37\-foot\-tall,thirtyTseven ft,tall is the green monster at Fenway   thirtyTseven ft 
+1891,factoid,Who was the first black heavyweight champion?,Jack Johnson|Johnson,Johnson,Johnson  was the first black heavyweight champion
+1666,factoid,What is the name of the US military base in Cuba?,Guant[aá]namo,Guantánamo,Guantánamo is the name of the US military base in Cuba
+10084,factoid,what is the national anthem of usa?,"The Star-Spangled Banner|the American national anthem\,",The Star-Spangled Banner,The Star-Spangled Banner is the national anthem of usa
+2277,factoid,In which country is Timbuktu?,Mali,Mali,Mali  country is Timbuktu
+1835,factoid,Who was Sherlock Holmes' arch enemy?,Moriarty,Moriarty,Moriarty  was Sherlock Holmes ' arch enemy
+1959,factoid,What does cc mean in letter writing?,carbon copy,carbon copy,carbon copy does cc mean in letter writing
+1396,factoid,What is the name of the volcano that destroyed the ancient city of Pompeii?,Vesuvius,Vesuvius,Vesuvius  destroyed the ancient city of Pompeii
+1717,factoid,What city was the first in the world to have a population over one million?,London|Xi'an,London,London  city was the first in the world to have a population over one million
+1657,factoid,What do the French call the English Channel?,La Manche,La Manche,La Manche  do the French call the English Channel
+2382,factoid,What passage has the Ten Commandments?,Exodus|Deuteronomy,Exodus,Exodus  passage has the Ten Commandments
+1823,factoid,What number did Michael Jordan wear?,(23|45)|Twenty-three,23,23  number did Michael Jordan wear
+1516,factoid,What does CPR stand for?,Contraceptive Prevalence Rate|cardio\s?-?\s?pulm(o|i)nary resuscitation,Contraceptive Prevalence Rate,Contraceptive Prevalence Rate does CPR stand for
+1655,factoid,Where was Abraham Lincoln born?,Kentucky|Larue County|Hardin County|Hodgenville,Hardin County,Abraham Lincoln born  in Hardin County 
+1912,factoid,In which capital city is the River Seine?,Paris,Paris,Paris  capital city is the River Seine
+1921,factoid,How did Virginia Woolf die?,river|drown|suicide,drown,Virginia Woolf die   drown 
+1399,factoid,What mythical Scottish town appears for one day every 100 years?,Brigadoon|only one day,only one day,only one day  mythical Scottish town appears for one day every 100 years
+1920,factoid,"When was ""Cold Mountain"" written?",1997,1997,`` Cold Mountain '' written  in 1997 
+1798,factoid,On what continent is Egypt located?,African?,African,African  continent is Egypt located
+2139,factoid,What gas is 78 percent of the earth's atmosphere?,nitrogen,nitrogen,nitrogen  gas is 78 percent of the earth 's atmosphere
+2311,factoid,How did the Lindy Hop get its name?,Lindbergh|Snowden,Snowden,the Lindy Hop get its name   Snowden 
+2319,factoid,What common medicine discovered by native Americans is from the bark of a willow tree?,aspirin,aspirin,aspirin  common medicine discovered by native Americans is from the bark of a willow tree
+2303,factoid,What is the longest river in the world?,Amazon|Nile,Nile,Nile is the longest river in the world
+10026,factoid,What is the name of the computer which beat Kasparov at chess in 1997?,Deep Blue,Deep Blue,Deep Blue  beat Kasparov at chess in 1997
+10100,factoid,who discovered transposable elements - transposons?,McClintock,McClintock,McClintock  transposons
+1680,factoid,What country was ruled by King Arthur?,Britain|Engl(and|ish),Britain,Britain  country was ruled by King Arthur
+1401,factoid,What is the democratic party symbol?,donkey,donkey,donkey is the democratic party symbol
+1758,factoid,"What is the ""Sunflower State""?",Kansas,Kansas,Kansas is the `` Sunflower State ''
+1831,factoid,What is the name of Abbott and Costello's famous routine?,Who's on First,Who's on First,Who's on First is the name of Abbott and Costello 's famous routine
+10075,factoid,what is the inode number of the root directory in the reiser4 file system?,-1\b,-1,-1 is the inode number of the root directory in the reiser4 file system
+1435,factoid,What nation is home to the Kaaba?,Saudi Arabia,Saudi Arabia,Saudi Arabia  nation is home to the Kaaba
+2048,factoid,When was MTV started?,1981,1981,MTV started  in 1981 
+10068,factoid,in which country was osama bin laden killed?,Pakistan,Pakistan,Pakistan  country was osama bin laden killed
+2023,factoid,What continent is the world's largest dessert on?,Africa,Africa,Africa  continent is the world 's largest dessert on
+1780,factoid,Who has the most no hitters in major league baseball?,Ryan,Ryan,Ryan has the most no hitters in major league baseball
+1624,factoid,"What year did ""New Coke"" come out?",1985,1985,1985  year did `` New Coke '' come out
+1668,factoid,What is the oldest national park in the U.S.?,Yellowstone,Yellowstone,Yellowstone is the oldest national park in the U.S.
+1555,factoid,When was the Tet offensive in Vietnam?,1968,1968,the Tet offensive in Vietnam  in 1968 
+1559,factoid,Where did Dr. King give his speech in Washington?,Lincoln Memorial,Lincoln Memorial,Dr. King give his speech in Washington  in Lincoln Memorial 
+1409,factoid,"Which vintage rock and roll singer was known as ""The Killer""?",Jerry Lee Lewis,Jerry Lee Lewis,Jerry Lee Lewis  vintage rock and roll singer was known as `` The Killer ''
+1493,factoid,When was Davy Crockett born?,1786|August 17,August 17,Davy Crockett born  in August 17 
+2016,factoid,What is the area of western Germany that is known for its rich coal deposits?,Ruhr,Ruhr,Ruhr  is known for its rich coal deposits
+2027,factoid,When was OJ Simpson arrested for murder?,1994,1994,OJ Simpson arrested for murder  in 1994 
+1999,factoid,What is the state with the smallest population?,Wyoming|Pitcairn|Vatican,Pitcairn,Pitcairn is the state with the smallest population
+1573,factoid,Who was the first head of the FBI?,Hoover,Hoover,Hoover  was the first head of the FBI
+2299,factoid,How many mph do you have to go to break the sound barrier?,"763.035|about 750|761|770 mph|Mach\ 1\.012 or 1\,240\ km\/h \(776\.2\ mph\) while in a controlled dive through 41\,088\ feet \(12\,510\ m\)",770 mph,mph do you have to go to break the sound barrier   770 mph many
+1880,factoid,When was King Louis XIV born?,1638,1638,King Louis XIV born  in 1638 
+1970,factoid,What is the national airline of Spain?,Iberia,Iberia,Iberia is the national airline of Spain
+2310,factoid,How many American deaths were there in the Korean war?,"\b3[0-9],?[0-9]{3}\b|The casualty toll had been reported as 54\,246 until June 2000","The casualty toll had been reported as 54,246 until June 2000","deaths were there in the Korean war   The casualty toll had been reported as 54,246 until June 2000 American"
+2247,factoid,What major league baseball player has 511 pitching victories?,Cy Young,Cy Young,Cy Young  major league baseball player has 511 pitching victories
+10095,factoid,where you can find pyramids?,Egypt,Egypt,you can find pyramids  in Egypt 
+1953,factoid,How many NFL teams are there?,3[12],32,NFL teams are there   32 many
+1474,factoid,What is the lowest point on dry land?,Dead Sea,Dead Sea,Dead Sea is the lowest point on dry land
+2106,factoid,What is Barbie's full name?,(Barbie|Barbara) Millicent Roberts,Barbie Millicent Roberts,Barbie Millicent Roberts is Barbie 's full name
+10033,factoid,When was Declaration of Independence signed?,1776|July 4,1776,Declaration of Independence signed  in 1776 
+1737,factoid,How much sleep should a child get at night?,((9|1[0-5])\s*(-|to)?\s*)+h(our)?,  9 1 0 5   s    to   s   h our  ,sleep should a child get at night     9 1 0 5   s    to   s   h our   much
+2168,factoid,What country produces the most emeralds?,Colombia,Colombia,Colombia  country produces the most emeralds
+2273,factoid,Which religion has the largest number of followers worldwide?,Christian|Roman Catholic,Roman Catholic,Roman Catholic  religion has the largest number of followers worldwide
+10080,factoid,what is the name of Kirk's starship?,Enterprise,Enterprise,Enterprise is the name of Kirk 's starship
+2262,factoid,How did Cincinnati get its name?,Cincinnatus|Arthur St. Clair,Arthur St Clair,Cincinnati get its name   Arthur St Clair 
+1878,factoid,What year was the phonograph invented?,187(7|8),1878,1878  year was the phonograph invented
+1551,factoid,What does DNA stand for?,deoxyribonucleic acid,deoxyribonucleic acid,deoxyribonucleic acid does DNA stand for
+2072,factoid,How did Brandon Lee die?,shooting|gunshot|film|movie|Accident,Accident,Brandon Lee die   Accident 
+10101,factoid,who invented dynamite ?,Alfred Nobel|Nobel,Nobel,Nobel  invented dynamite
+1443,factoid,When did Bob Marley die?,1981,1981,Bob Marley die  in 1981 
+2179,factoid,What famous verse did Sarah Hale write in 1830?,Mary Had a Little Lamb|Mary's Lamb,Mary's Lamb,Mary's Lamb  famous verse did Sarah Hale write in 1830
+2292,factoid,What do you call a bone doctor?,Orthopedic|Orthopedist|Orthopaedic surgery or orthopaedics,Orthopedic,Orthopedic  do you call a bone doctor
+1586,factoid,When did the Golden Gate Bridge get finished?,193(7|0s),1930s,the Golden Gate Bridge get finished  in 1930s 
+1802,factoid,How tall is Tom Cruise?,"5\s*(f(ee|oo)?t|')\s*7\s*(in(ch.*)?|"")","5 ' 7 ""","Tom Cruise is  5 ' 7 "" tall"
+1813,factoid,When were the first postage stamps issued in the United States?,1847,1847,the first postage stamps issued in the United States  in 1847 
+1455,factoid,The Hindenburg disaster took place in 1937 in which New Jersey town?,Lakehurst,Lakehurst,Lakehurst  New Jersey town
+1693,factoid,When was Jackie Robinson born?,1919,1919,Jackie Robinson born  in 1919 
+1538,factoid,"Who is the evil H.R. Director in ""Dilbert""?",Catbert,Catbert,Catbert is Director in `` Dilbert ''
+2211,factoid,How large of a litter does a rat have at one time?,\b(7|seven|14|11|10|12)\b,14,of a litter does a rat have at one time   14 large
+2381,factoid,What is Horatio's relationship to Hamlet?,friend,friend,friend is Horatio 's relationship to Hamlet
+2251,factoid,How deep is the Grand Canyon?,"(1|a) mile|(6,?000|5,?700)\s*f(ee|oo|')?t|1,?[68]00\s*m|1.6\s*km","5,700 ft","the Grand Canyon is  5,700 ft deep"
+1575,factoid,What is the degree of tilt of Earth?,23.4?5,23.45,23.45 is the degree of tilt of Earth
+1864,factoid,What was the name of the first child of English parents to be born in America?,Virginia Dare,Virginia Dare,Virginia Dare  was the name of the first child of English parents to be born in America
+2039,factoid,What college did Allen Iverson go to?,Georgetown,Georgetown,Georgetown  college did Allen Iverson go to
+2164,factoid,How did Julius Irving's son die?,cocaine|drown,cocaine,Julius Irving 's son die   cocaine 
+1619,factoid,Which baseball star stole 130 bases in 1982?,Henderson,Henderson,Henderson  baseball star stole 130 bases in 1982
+10042,factoid,Which space shuttle exploded?,((Columbia|Challenger).*){2}|the Challenger Space Shuttle|The space shuttle Challenger,the Challenger Space Shuttle,the Challenger Space Shuttle  space shuttle exploded
+10085,factoid,what is the nearest planet to the sun?,Mercury,Mercury,Mercury is the nearest planet to the sun
+1512,factoid,What is the age of our solar system?,4.(5[0-9]*|6) billion years,4  5 0 9   6  billion years,4  5 0 9   6  billion years is the age of our solar system
+2178,factoid,How high is Mt. Hood?,"11,?24[0-9]\s*f(oo|ee)?t|3,?429\s*m|11\,250 feet",11244 foot,Hood is  11244 foot high
+2013,factoid,How many stripes are on the American flag?,13|thirteen,thirteen,stripes are on the American flag   thirteen many
+2340,factoid,What instrument did the jazz musician Art Tatum play?,pian(o|ist),piano,piano  instrument did the jazz musician Art Tatum play
+2350,factoid,How big is the killer whale?,\b[68]\s*m|2[0-6]\s*f(ee|oo)?t|\b[56]\b(\s*t|.*ton),8 m,the killer whale is  8 m big
+1661,factoid,"What does ""E Pluribus Unum"" mean?","out of .*many\s?, one",out of   many s   one,out of   many s   one does `` E Pluribus Unum '' mean
+1440,factoid,Who was the lead singer for the Commodores?,Lionel Richie,Lionel Richie,Lionel Richie  was the lead singer for the Commodores
+1950,factoid,Who created the literary character Phineas Fogg?,Verne,Verne,Verne  created the literary character Phineas Fogg
+1996,factoid,What city is Duke University in?,Durham,Durham,Durham  city is Duke University in
+1937,factoid,How fast can a nuclear submarine travel?,(25|30|33)\s*knots|29\s*(mph|miles per hour)|46\s*(kph|kilometers per hour),46 kph,fast can a nuclear submarine travel   46 kph 
+1814,factoid,What gift is proper for a 1st anniversary?,paper|plastic|clock,clock,clock  gift is proper for a 1st anniversary
+1740,factoid,What is the Stanley Cup made of?,silver,silver,silver is the Stanley Cup made of
+1517,factoid,What is the state bird of Alaska?,willow ptarmigans?|\(Lagopus lagopus\),willow ptarmigan,willow ptarmigan is the state bird of Alaska
+10030,factoid,What language is spoken in Latin America?,((spanish|portuguese).*){2}|spanish|portuguese|Romance languages,portuguese,portuguese  language is spoken in Latin America
+1433,factoid,What is the height of the tallest redwood?,367 1/2|367.5|370\s?-\s?foot(-tall)?|379\s*f(ee|oo)?t|115.5\s*m|93\.6 m|379\.7 feet|115\.7 meters,115.7 meters,115.7 meters is the height of the tallest redwood
+10050,factoid,"Who wrote ""Strange Case of Dr Jekyll and Mr Hyde"" ?",Stevenson,Stevenson,Stevenson  wrote `` Strange Case of Dr Jekyll and Mr Hyde ''
+1747,factoid,Where is the national hurricane center located?,Miami|Florida,Florida,the national hurricane center located is in Florida 
+2347,factoid,Where is Mount Olympus?,Greece|the Balkans,the Balkans,Mount Olympus is in the Balkans 
+1810,factoid,Where are the British Crown jewels kept?,London Tower|Tower of London|London|the Tower,London Tower,are the British Crown jewels kept  in London Tower 
+2161,factoid,What is the nickname for the national New Zealand basketball team?,Tall Blacks|Kiwis,Tall Blacks,Tall Blacks is the nickname for the national New Zealand basketball team
+1578,factoid,How tall is the Sphinx?,20 met(er|re)s?|20\s*m|66\s*f(ee|oo)?t,66 ft,tall is the Sphinx   66 ft 
+10072,factoid,what is the atomic number of Uranium?,\b92\b,92,92 is the atomic number of Uranium
+2192,factoid,How did Malcolm X die?,assassin|murder|shot,murder,Malcolm X die   murder 
+1939,factoid,How did Einstein die?,"abdominal.*aneurysm|Ulm\, Wurttemberg\, Germany Location of death","Ulm, Wurttemberg, Germany Location of death","Einstein die   Ulm, Wurttemberg, Germany Location of death "
+1984,factoid,What are people born 1965 through 1980 called?,Generation X|1963\–1980,Generation X,Generation X  are people born 1965 through 1980 called
+2087,factoid,What Canadian city has the largest population?,Toronto,Toronto,Toronto  Canadian city has the largest population
+1925,factoid,What did Ozzy Osbourne bite the head off of?,bat|\– Ozzy Osbourne,– Ozzy Osbourne,– Ozzy Osbourne  did Ozzy Osbourne bite the head off of
+2356,factoid,What instrument did Louis Armstrong play?,"cornet|trumpet|August 4\, 1901","August 4, 1901","August 4, 1901  instrument did Louis Armstrong play"
+1968,factoid,What fruit's stone does Laetrile come from?,apricot|the seeds of stone fruits of the Prunus genus,apricot,apricot  fruit 's stone does Laetrile come from
+2044,factoid,"What museum in Philadelphia was used in ""Rocky""?",Art\s+Museum|Museum of Art,Art Museum,Art Museum  museum in Philadelphia was used in `` Rocky ''
+1938,factoid,How many floors are in the Empire State Building?,102|104 floors|more than 100 floors,102,floors are in the Empire State Building   102 many
+1449,factoid,What college did Magic Johnson attend?,Michigan State,Michigan State,Michigan State  college did Magic Johnson attend
+1735,factoid,What city is Southwestern University in?,"Georgetown,?",Georgetown,Georgetown  city is Southwestern University in
+2184,factoid,What Liverpool club spawned the Beatles?,Cavern,Cavern,Cavern  Liverpool club spawned the Beatles
+10078,factoid,what is the moon of mars?,((Phobos|Deimos).*){2},  Phobos Deimos     2 ,  Phobos Deimos     2  is the moon of mars
+1896,factoid,What was the Hunchback of Notre Dame's real name?,Quasimodo,Quasimodo,Quasimodo  was the Hunchback of Notre Dame 's real name
+1746,factoid,Who stabbed Monica Seles?,Parche|Graf fan|fan of (Steffi )?Graf|Graf,Parche,Parche  stabbed Monica Seles
+1757,factoid,When did the battle of Iwo Jima take place?,1944|1945,1945,the battle of Iwo Jima take place  in 1945 
+2260,factoid,When was the hot air balloon invented?,1783,1783,the hot air balloon invented  in 1783 
+1605,factoid,How far would you run if you participate in a marathon?,26(.2)?\s?-?\s?miles?|42.195 kilometers,26 - mile,far would you run if you participate in a marathon   26 - mile 
+2352,factoid,What engineer designed the Erie Canal?,Benjamin Wright,Benjamin Wright,Benjamin Wright  engineer designed the Erie Canal
+1805,factoid,Who was elected President of South Africa in 1994?,Mandela,Mandela,Mandela  was elected President of South Africa in 1994
+2358,factoid,"Who was responsible for the killing of Duncan in ""Macbeth""?",Macbeth,Macbeth,Macbeth  was responsible for the killing of Duncan in `` Macbeth ''
+1472,factoid,"How do you say ""house"" in Spanish?",casa,casa,do you say `` house '' in Spanish   casa 
+2045,factoid,When was the city of New Orleans founded?,1718,1718,the city of New Orleans founded  in 1718 
+2370,factoid,When was the first potato chip made?,1853,1853,the first potato chip made  in 1853 
+10043,factoid,Who discovered polarography?,Heyrovsk[yý],Heyrovský,Heyrovský  discovered polarography
+2296,factoid,What national monument was designated as the first national monument in 1906?,Devils Tower,Devils Tower,Devils Tower  national monument was designated as the first national monument in 1906
+1753,factoid,"When was the Vietnam Veterans Memorial in Washington, D.C. built?",1982,1982,D.C. built  in 1982 
+1561,factoid,When was the first patent filed on the ice cream cone?,1903|1902|1904,1904,the first patent filed on the ice cream cone  in 1904 
+1616,factoid,When is Gerald Ford's birthday?,"July 14, 1913","July 14, 1913","Gerald Ford 's birthday is in July 14, 1913 "
+2341,factoid,When was barbed wire invented?,1867,1867,barbed wire invented  in 1867 
+2226,factoid,When was abortion legalized in the U.S.?,1973,1973,abortion legalized in the U.S.  in 1973 
+2242,factoid,What chemical is in chocolate that helps with depression?,phenylethylamine|dopamine|serotonin,phenylethylamine,phenylethylamine  helps with depression
+2294,factoid,What continent is India on?,Asia,Asia,Asia  continent is India on
+1484,factoid,What college did Allen Iverson attend?,Georgetown,Georgetown,Georgetown  college did Allen Iverson attend
+10089,factoid,when did the biggest underground terror attack happen?,2005|2004,2004,the biggest underground terror attack happen  in 2004 
+2320,factoid,When was the first TV invented?,192[567],1926,the first TV invented  in 1926 
+1451,factoid,Where was the first McDonalds built?,"California|San Bernardino( , Calif.)?",San Bernardino,the first McDonalds built  in San Bernardino 
+1721,factoid,How far is the pitchers mound from home plate in softball?,46\s*f(ee|oo)?t,46 foot,far is the pitchers mound from home plate in softball   46 foot 
+1755,factoid,What was the profession of American patriot Paul Revere?,silversmith|engraver,engraver,engraver  was the profession of American patriot Paul Revere
+10083,factoid,what is the national anthem of czech republic?,Kde domov m[uů]j|Where is my home,Where is my home,Where is my home is the national anthem of czech republic
+1478,factoid,"What is the name of the heroine in ""Gone with the Wind""?",Scarlett,Scarlett,Scarlett is the name of the heroine in `` Gone with the Wind ''
+1410,factoid,What lays blue eggs?,Ameracuana|Aracuana|Starlings |The Ameraucana| bluebird eggs,Starlings ,Starlings  lays blue eggs
+2169,factoid,What day did Pearl Harbor occur?,"Dec\s?(ember|.) 7,?|Sunday|1941\-12\-07",Sunday,Sunday  day did Pearl Harbor occur
+10102,factoid,who invented the tesla coil?,Nikola Tesla,Nikola Tesla,Nikola Tesla  invented the tesla coil
+1954,factoid,What country made the Statue of Liberty?,France,France,France  country made the Statue of Liberty
+2074,factoid,How tall is the tallest pyramid?,14[67].*\bm|481\s*f(ee|oo)?t|13[89].*\bm|455\s*f(ee|oo)?t,455 ft,tall is the tallest pyramid   455 ft 
+2036,factoid,How many counties are in California?,58,58,counties are in California   58 many
+1421,factoid,When did Mike Tyson bite Holyfield's ear?,1997,1997,Mike Tyson bite Holyfield 's ear  in 1997 
+10008,factoid,What color is the computer which beat Kasparov at chess in 1997?,blue,blue,blue  beat Kasparov at chess in 1997
+2119,factoid,When is Jennifer Lopez's birthday?,"July 24,?|1969",July 24,Jennifer Lopez 's birthday is in July 24 
+1542,factoid,Where is Hill Air Force Base?,"Ogden,?|Utah|about 120 kilometers west of Salt_Lake_City",about 120 kilometers west of Salt_Lake_City,Hill Air Force Base is in about 120 kilometers west of Salt_Lake_City 
+1697,factoid,Where is the Statue of Liberty?,N(\.|ew)\s?Y(ork)?|Liberty Island|the United States,Liberty Island,the Statue of Liberty is in Liberty Island 
+2061,factoid,What court case overturned Plessy v. Furgeson?,Brown vs?. Board of Education,Brown vsP Board of Education,Brown vsP Board of Education  court case overturned Plessy v. Furgeson
+1705,factoid,What is rum made out of?,molasses|sugar cane|sugarcane juice,sugarcane juice,sugarcane juice is rum made out of
+10034,factoid,When was Google founded?,1998,1998,Google founded  in 1998 
+1676,factoid,When was liquid water found on Mars?,"June 2[12]\s*,\s* 2000|2012|1965|September 28 2015",1965,liquid water found on Mars  in 1965 
+1775,factoid,What is a group of antelope called?,herd,herd,herd is a group of antelope called
+1457,factoid,Who succeeded Ferdinand Marcos?,Corazon Aquino,Corazon Aquino,Corazon Aquino  succeeded Ferdinand Marcos
+2326,factoid,How far is it from the pitcher's mound to home plate?,"60\s*('|f(ee|oo)?t).*6\s*(in|"")|18.4\s*m",60 s    f ee oo  t   6 s  in    18 4 s m,far is it from the pitcher 's mound to home plate   60 s    f ee oo  t   6 s  in    18 4 s m 
+2035,factoid,How many stomachs does a cow have?,four|\b4\b,4,stomachs does a cow have   4 many
+2244,factoid,What dress size was Marilyn Monroe?,\b(14|12|8|4)\b,8,8  dress size was Marilyn Monroe
+1694,factoid,What year did California become a territory?,1848,1848,1848  year did California become a territory
+2271,factoid,What class of drug is Xanax?,.*anxi.*|psychoactive|Benzodiazepine,Benzodiazepine,Benzodiazepine  class of drug is Xanax
+1825,factoid,What year did Nintendo 64 come out?,1996,1996,1996  year did Nintendo 64 come out
+1518,factoid,What year did Marco Polo travel to Asia?,1271,1271,1271  year did Marco Polo travel to Asia
+1514,factoid,What is Canada's most populous city?,Toronto,Toronto,Toronto is Canada 's most populous city
+2228,factoid,What country was the Battle of Verdun fought in?,France|The Battle of Verdun 1916\.,The Battle of Verdun 1916.,The Battle of Verdun 1916.  country was the Battle of Verdun fought in
+1687,factoid,What president declared Mothers' Day?,Wilson,Wilson,Wilson  president declared Mothers ' Day
+1589,factoid,Who was the only golfer to win the U.S. and British Opens and amateurs in the same year?,Bobby Jones|Jones,Bobby Jones,Bobby Jones  was the only golfer to win the U.S. and British Opens and amateurs in the same year
+1701,factoid,Where was President Lincoln buried?,Oak Ridge Cemetery|Illinois|Springfield,Illinois,President Lincoln buried  in Illinois 
+1691,factoid,"Where was the movie ""Somewhere in Time"" filmed?",Grand Hotel|Mackinac Island,Grand Hotel,the movie `` Somewhere in Time '' filmed  in Grand Hotel 
+10027,factoid,What is the name of the longest running soap opera TV series?,Coronation Street,Coronation Street,Coronation Street is the name of the longest running soap opera TV series
+2313,factoid,What does an English stone equal?,14 pound|6.*(kg|kilogram),14 pound,14 pound does an English stone equal
+2107,factoid,What is the currency of Denmark?,kroner?|DKK,kroner,kroner is the currency of Denmark
+1749,factoid,When was Sputnik launched?,1957,1957,Sputnik launched  in 1957 
+1523,factoid,What percent of the U.S. is African American?,12(\.2)?\s*(percent|%)|13\.2\%|between 12\.3 and 13\.2,12.2 %,12.2 %  percent of the U.S. is African American
+2392,factoid,When was the Red Cross founded?,1859|186[234]|1919,1859,the Red Cross founded  in 1859 
+2101,factoid,What country was Catherine the Great from?,Prussia|Russia,Prussia,Prussia  country was Catherine the Great from
+2151,factoid,What cathedral is in Claude Monet's paintings?,Rouen,Rouen,Rouen  cathedral is in Claude Monet 's paintings
+10107,factoid,who received the Nobel Prize for Physiology and Medicine in the year 2012?,((Gurdon|Yamanaka).*){2},  Gurdon Yamanaka     2 ,  Gurdon Yamanaka     2   received the Nobel Prize for Physiology and Medicine in the year 2012
+1945,factoid,When was Adolf Hitler born?,1889|20 April,20 April,Adolf Hitler born  in 20 April 
+1857,factoid,What is the length of Churchill Downs racetrack?,seven furlongs|1.* mile|2 k(ilo)?m(eters)?,seven furlongs 1   mile 2 k ilo  m eters  ,seven furlongs 1   mile 2 k ilo  m eters   is the length of Churchill Downs racetrack
+2217,factoid,What country does Greenland belong to?,Denmark,Denmark,Denmark  country does Greenland belong to
+1510,factoid,Where is Anne Frank's diary?,Amsterdam|Anne Frank House|the Netherlands,Amsterdam,Anne Frank 's diary is in Amsterdam 
+1469,factoid,When did Alexandra Graham Bell invent the telephone?,1876,1876,Alexandra Graham Bell invent the telephone  in 1876 
+10062,factoid,how many lines per page are in Gutenberg bible?,\b42\b,42,lines per page are in Gutenberg bible   42 many
+10067,factoid,in which country was microsoft founded?,\bU(nited|\.)?\s*S(tates|\.)?\b,U S,U S  country was microsoft founded
