@@ -31,20 +31,10 @@ engine = Google(license=None, language="en")
 # - "as cute as a cupcake",
 # - "as drunk as a lord",
 # - "as snug as a bug", etc.
+q = "BMW 'climate change'"
 
-companies = [u'Royal Dutch Shell PLC', u'PetroChina Co Ltd',  u'Nordea Bank AB', u'Exxon Mobil Corp', 'ABB', 'BMW','BASF']
-
-for c in companies:
-    dirpath = 'scrape_result4/{}'.format(c)
-    if not os.path.exists(dirpath):
-        os.mkdir(dirpath)
-    q = "{} 'climate change'".format(c)
-        # Google is very fast but you can only get up to 100 (10x10) results per query.
-    res = []
-    for i in range(2, 6):
-        for result in engine.search(q, start=i, count=10, type=SEARCH, cached=True):
-            with open("{}/{}.txt".format(dirpath, c), 'w') as fl:
-                import ipdb; ipdb.set_trace()
-                res.append(result.url)
-
-    fl.write("\n".join(res))
+# Google is very fast but you can only get up to 100 (10x10) results per query.
+with open()
+for i in range(1, 2):
+    for result in engine.search(q, start=i, count=10, type=SEARCH, cached=True):
+        print(result.url)
