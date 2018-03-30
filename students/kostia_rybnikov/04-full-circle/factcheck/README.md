@@ -54,3 +54,22 @@ Sentence:
 
 If you don't want to launch the CoreNLP, please download the attached
 cache and ungzip it somewhere like /tmp/factcheck-cache.
+
+Pieces in text which I've found pointing to the books and their publish year, ones which my rules covered are marked with a checkbox:
+
+  - [ ] Harris's first book The End of Faith (2004)
+  - [x] In The Moral Landscape (2010)
+  - [x] published a long-form essay Lying in 2011
+  - [ ] , the short book Free Will in 2012
+  - [ ] , Waking Up: A Guide to Spirituality Without Religion in 2014
+  - [ ] with British writer Maajid Nawaz, Islam and the Future of Tolerance: A Dialogue in 2015
+  - [ ] In Waking Up: A Guide to Spirituality Without Religion (2014)
+  - [x] The End of Faith: Religion, Terror, and the Future of Reason (2004). ISBN 0-393-03515-8
+  - [x] Letter to a Christian Nation (2006). ISBN 0-307-26577-3
+  - [ ] The Moral Landscape: How Science Can Determine Human Values (2010). ISBN 978-1-4391-7121-9
+  - [x] Lying (2011) ISBN 978-1940051000
+  - [x] Free Will (2012). ISBN 978-1451683400
+  - [ ] Waking Up: A Guide to Spirituality Without Religion (2014) ISBN 978-1451636017
+  - [x] Islam and the Future of Tolerance (2015) ISBN 978-0674088702
+
+So, the precision is 100%, recall is 7/14=0.5
