@@ -6,3 +6,5 @@ select * {
   values ?person { dbr:Johnny_Cash }
   ?person ?p ?o 
 }
+
+result: https://goo.gl/hWwALM

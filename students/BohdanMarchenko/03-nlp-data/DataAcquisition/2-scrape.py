@@ -57,7 +57,13 @@ def scrape():
                 for i in data:
                     if "id" in i.attrs:
                         file = open("{}/{}.txt".format(dirpath, i.attrs["id"]), "w")
-                        file.write(i.find("article").text.replace("р е к л а м а", "").strip())
+                        username = i.find('a', {"class": "username"}).text
+                        date = i.find('span', {"class": "DateTime"})
+                        if not date:
+                            date = i.find('abbr', {"class": "DateTime"})
+                        permalink = i.find('a', {"class": "hashPermalink"}).attrs["href"]
+                        text = i.find("article").text.replace("р е к л а м а", "").strip()
+                        file.write("\n".join((username, date.text, permalink, text)))
                         file.close()
     print("DONE: processed {} pages".format(counter))
 
