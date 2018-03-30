@@ -10,6 +10,7 @@ The task was made in browser
 + Script path: students/oleg_m/02-data/1-2_annts.py
 + External file: students/oleg_m/03-data/files/official-2014.zip
 + Run command: python3 students/oleg_m/02-sling/1-2_annts.py
+<<<<<<< HEAD
 + Results: results/1-1_annts.txt
 + Result example:
 > doc #1:  Counter({'other_miss': 20, 'correction': 15, 'type': 14, 'this_miss': 8, 'span': 7, 'same': 6})
@@ -21,6 +22,8 @@ The task was made in browser
 > + different span: 7
 > + teacher_1 missed: 8
 > + teacher_2 missed: 20
+=======
+>>>>>>> origin/master
 
 ### Task 2.1
 
