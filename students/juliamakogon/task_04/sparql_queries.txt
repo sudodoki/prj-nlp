@@ -1,21 +1,28 @@
 
 # Database and positive wiki pages set
-SELECT 
-?movie ?cat ?movieLabel ?catLabel ?wiki
+SELECT DISTINCT
+?movie ?movieLabel ?wiki ?date ?yearcat
 WHERE {
 ?movie a dbo:Film.
-?cat skos:broader <http://dbpedia.org/resource/Category:Films_based_on_fairy_tales>.
 ?movie dct:subject ?cat.
+OPTIONAL { ?movie dbo:releaseDate ?date }
 
 ?movie rdfs:label ?movieLabel.
-FILTER (lang(?movieLabel) = 'en').
+FILTER (lang(?movieLabel) = 'en')
 
 ?cat rdfs:label ?catLabel.
-FILTER (lang(?catLabel) = 'en').
+FILTER (lang(?catLabel) = 'en')
+FILTER regex(str(?catLabel), "Cinderella", "i").
+
+OPTIONAL 
+{
+?movie dct:subject ?yearcat.
+FILTER regex(str(?yearcat), "\\d{4}_films", "i").
+}
 
 ?movie foaf:isPrimaryTopicOf ?wiki
 
-} 
+}
 
 # Negative wiki pages set
 SELECT 
@@ -31,60 +38,4 @@ FILTER (lang(?movieLabel) = 'en').
 
 } 
 
-# Pages sets with possible false negatives
-SELECT 
-?movie ?movieLabel ?wiki
-WHERE {
-?movie a dbo:Film.
 
-?movie rdfs:label ?movieLabel.
-FILTER (lang(?movieLabel) = 'en')
-FILTER regex(str(?movieLabel), "Cinderella", "i").
-
-?movie foaf:isPrimaryTopicOf ?wiki
-
-}
-
-SELECT 
-?movie ?movieLabel ?wiki
-WHERE {
-?movie a dbo:Film.
-
-?movie rdfs:label ?movieLabel.
-FILTER (lang(?movieLabel) = 'en')
-FILTER regex(str(?movieLabel), "Thumb", "i").
-
-?movie foaf:isPrimaryTopicOf ?wiki
-}
-
-SELECT 
-?movie ?movieLabel ?wiki
-WHERE {
-?movie a dbo:Film.
-
-?movie rdfs:label ?movieLabel.
-FILTER (lang(?movieLabel) = 'en')
-FILTER regex(str(?movieLabel), "Grimm", "i").
-
-?movie foaf:isPrimaryTopicOf ?wiki
-}
-
-
-
----Films from category Cinderella ---
-SELECT DISTINCT
-?movie ?movieLabel ?wiki 
-WHERE {
-?movie a dbo:Film.
-?movie dct:subject ?cat.
-
-?movie rdfs:label ?movieLabel.
-FILTER (lang(?movieLabel) = 'en')
-
-?cat rdfs:label ?catLabel.
-FILTER (lang(?catLabel) = 'en')
-FILTER regex(str(?catLabel), "Cinderella", "i").
-
-?movie foaf:isPrimaryTopicOf ?wiki
-
-}
