@@ -20,14 +20,14 @@ class TestCheckMovieFairytale(unittest.TestCase):
 
     def get_pos_sentences(self):
         ss = [  "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
-                "Frozen is a Disney media franchise started by the 2013 American animated feature film, Frozen, which was directed by Chris Buck and Jennifer Lee from a screenplay by Lee and produced by Peter Del Vecho, with songs by Robert Lopez and Kristen Anderson-Lopez. Walt Disney Animation Studios' chief creative officer John Lasseter served as the film's executive producer. The original film was inspired by the Hans Christian Andersen's fairy tale, \"The Snow Queen\".",
-                "Frozen was released in 2013 and was based on the Hans Christian Andersen fairy tale \"The Snow Queen\".",
+                "The movie Frozen was released in 2013 and was based on the Hans Christian Andersen fairy tale \"The Snow Queen\".",
                 "Beastly is a 2011 American romantic fantasy drama film loosely based on Alex Flinn's 2007 novel of the same name.[4] It is a retelling of the fairytale Beauty and the Beast and is set in modern-day New York City. The film was written and directed by Daniel Barnz[5] and stars Alex Pettyfer and Vanessa Hudgens.",
-                "Hayao Miyazaki, the film's director and writer, said his inspiration was the Hans Christian Andersen story \"The Little Mermaid,\" but his inspiration was more abstract than a story.[8][9] Along with animation director Katsuya Kondo and art director Noboru Yoshida, Miyazaki devised a set of goals which included to use traditional animation entirely in Ponyo, pursuing the animation and art possibilities without struggling under the demands of the production schedule, showing the quality of Yoshida's artwork as well as celebrating the innocence and cheerfulness of a child's universe.[10] Production of Ponyo began in May 2006,[10] while key animation of Ponyo began in October of that year.",
+                "This article is about the Japanese animated film. For the village in Burma, see Ponyo, Lahe. For the language, see Ponyo language. Ponyo (Japanese: 崖の上のポニョ, Hepburn: Gake no Ue no Ponyo, literally \"Ponyo on the Cliff\"), initially titled in English as Ponyo on the Cliff by the Sea, is a 2008 Japanese animated fantasy film written and directed by Hayao Miyazaki. Hayao Miyazaki, the film's director and writer, said his inspiration was the Hans Christian Andersen story \"The Little Mermaid,\" but his inspiration was more abstract than a story.[8][9]",
                 "The Slipper and the Rose is a 1976 British musical film retelling the classic fairy tale of Cinderella. ",
                 "Hansel & Gretel Get Baked is one of several different film adaptations of the classic fairy tale \"Hansel and Gretel\" released in 2013.",
-                "La Rosa di Bagdad (English: The Rose of Baghdad) is a 1949 Italian animated film.In 1952, the film was dubbed into English, retitled The Singing Princess and starring Julie Andrews in her first and only film and only venture into voice-over work during the 1950s.  Released in the U.S. at the same time as the animated Italian feature I Fratelli Dinamite, and inspired by The Arabian Nights, the story concerns a beautiful princess, a poor-but-honest hero, an evil sultan, and a slave of the lamp. ",
+                "La Rosa di Bagdad (English: The Rose of Baghdad) is a 1949 Italian animated film. In 1952, the film was dubbed into English, retitled The Singing Princess and starring Julie Andrews in her first and only film and only venture into voice-over work during the 1950s.  Released in the U.S. at the same time as the animated Italian feature I Fratelli Dinamite, and inspired by The Arabian Nights, the story concerns a beautiful princess, a poor-but-honest hero, an evil sultan, and a slave of the lamp. ",
                 "The Return of Jafar (also known as Aladdin 2: The Return of Jafar) is a 1994 direct-to-video sequel to the 1992 animated film Aladdin, produced by The Walt Disney Company. It was released on May 20, 1994 and serves as the first episode of the Aladdin animated series. Culled from material originally intended for the first five episodes of the series,[1] it was the first Disney direct-to-video animated film.[4] Another direct-to-video sequel, Aladdin and the King of Thieves, was released in 1996. It marked the first American animated direct-to-video film.[5]",
+                "Frozen is a Disney media franchise started by the 2013 American animated feature film, Frozen, which was directed by Chris Buck and Jennifer Lee from a screenplay by Lee and produced by Peter Del Vecho, with songs by Robert Lopez and Kristen Anderson-Lopez. Walt Disney Animation Studios' chief creative officer John Lasseter served as the film's executive producer. The original film was inspired by the Hans Christian Andersen's fairy tale, \"The Snow Queen\".",
                 "Maleficent is a 2014 American dark fantasy film directed by Robert Stromberg from a screenplay by Linda Woolverton, and starring Angelina Jolie as Maleficent with Sharlto Copley, Elle Fanning, Sam Riley, Imelda Staunton, Juno Temple, and Lesley Manville in supporting roles. Loosely inspired by Charles Perrault's original fairy tale and Walt Disney's 1959 animated film Sleeping Beauty, the film portrays the story from the perspective of the eponymous antagonist, depicting her conflicted relationship with the princess and king of a corrupt kingdom." ]
         return ss
 
@@ -50,7 +50,7 @@ class TestCheckMovieFairytale(unittest.TestCase):
         checker = TestCheckMovieFairytale.checker
         for s in ss:
             actual = checker.check(s)
-            self.assertIsNotNone(actual)
+            self.assertIsNotNone(actual, s)
 
     def test_01_neg_sentences(self):
         ss = self.get_neg_sentences()
@@ -58,7 +58,36 @@ class TestCheckMovieFairytale(unittest.TestCase):
         checker = TestCheckMovieFairytale.checker  
         for s in ss:
             actual = checker.check(s)
-            self.assertIsNone(actual)            
+            self.assertIsNone(actual, s)   
+
+    def test_02_extractName_NNP_is_movie(self):
+        s = "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2]."  
+        checker = TestCheckMovieFairytale.checker  
+        doc = self.nlp(s)
+        actual = checker.extractName_NNP_is_movie(doc)    
+        self.assertEqual(actual, 'The Donkey\'s Hide')   
+
+    def test_03_extractYear_is_yyyy_movie(self):
+        ss = [  "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
+                "Beastly is a 2011 American romantic fantasy drama film loosely based on Alex Flinn's 2007 novel of the same name." ]
+        expected = ['1982', 
+                    '2011']
+        checker = TestCheckMovieFairytale.checker  
+        for i in range(len(ss)):
+            doc = self.nlp(ss[i])
+            actual = checker.extractYear_is_yyyy_movie(doc)    
+            self.assertEqual(actual, expected[i])    
+
+    def test_03_extractBased_film_based_on(self):
+        ss = ["The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
+              "Loosely inspired by Charles Perrault's original fairy tale and Walt Disney's 1959 animated film Sleeping Beauty, the film portrays the story from the perspective of the eponymous antagonist, depicting her conflicted relationship with the princess and king of a corrupt kingdom." ]
+        expected = ["Charles Perrault 's Donkeyskin",
+                    "Charles Perrault"]
+        checker = TestCheckMovieFairytale.checker  
+        for i in range(len(ss)):
+            doc = self.nlp(ss[i])
+            actual = checker.extractBased_film_based_on(doc)    
+            self.assertEqual(actual, expected[i])                  
 
 
 

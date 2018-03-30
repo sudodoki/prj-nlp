@@ -30,3 +30,61 @@ FILTER (lang(?movieLabel) = 'en').
 ?movie foaf:isPrimaryTopicOf ?wiki
 
 } 
+
+# Pages sets with possible false negatives
+SELECT 
+?movie ?movieLabel ?wiki
+WHERE {
+?movie a dbo:Film.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en')
+FILTER regex(str(?movieLabel), "Cinderella", "i").
+
+?movie foaf:isPrimaryTopicOf ?wiki
+
+}
+
+SELECT 
+?movie ?movieLabel ?wiki
+WHERE {
+?movie a dbo:Film.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en')
+FILTER regex(str(?movieLabel), "Thumb", "i").
+
+?movie foaf:isPrimaryTopicOf ?wiki
+}
+
+SELECT 
+?movie ?movieLabel ?wiki
+WHERE {
+?movie a dbo:Film.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en')
+FILTER regex(str(?movieLabel), "Grimm", "i").
+
+?movie foaf:isPrimaryTopicOf ?wiki
+}
+
+
+
+---Films from category Cinderella ---
+SELECT DISTINCT
+?movie ?movieLabel ?wiki 
+WHERE {
+?movie a dbo:Film.
+?movie dct:subject ?cat.
+
+?movie rdfs:label ?movieLabel.
+FILTER (lang(?movieLabel) = 'en')
+
+?cat rdfs:label ?catLabel.
+FILTER (lang(?catLabel) = 'en')
+FILTER regex(str(?catLabel), "Cinderella", "i").
+
+?movie foaf:isPrimaryTopicOf ?wiki
+
+}
