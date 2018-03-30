@@ -1,0 +1,10 @@
+resolver: lts-11.1
+packages:
+- .
+extra-deps:
+- free-4.12.4
+- lens-4.15.4
+- pipes-zlib-0.4.4.1
+- warc-1.0.3
+- git: https://github.com/dfoxfranke/haskell-cld2.git
+  commit: ac3794e6fca0232ffd2378cd8986fbf2df9bb084

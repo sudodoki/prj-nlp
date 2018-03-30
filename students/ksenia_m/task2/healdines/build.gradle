@@ -1,0 +1,24 @@
+group 'org.nplcourse'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.9.1'
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.9.1', classifier: 'models'
+    compile group: 'edu.stanford.nlp', name: 'stanford-parser', version: '3.9.1'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task(runMain, dependsOn: 'classes', type: JavaExec) {
+    main = 'org.nplcourse.Application'
+    classpath = sourceSets.main.runtimeClasspath
+}

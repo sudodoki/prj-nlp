@@ -39,9 +39,9 @@ Query parser must give an ability to search by this attributes:
 | profile.twitter       | bool      |                                                                               |
 | post.text             | text      | Attendees who wrote post with Tesla, *Attendees who wrote post about Tesla    |
 | post.count            | int       | Attendees who more than 10 posts                                              |
-| post.likesCount       | int       | Attenddes with more than 10 likes on post                                     |
+| post.likesCount       | int       | Attenddes who create post with more than 10 likes                             |
 | post.mentions         | Attendee  | Attendees who mentioned Elon Musk in post                                     |
-| post.commentsCount    | int       | Attendees with more than 10 comments on post                                  |
+| post.commentsCount    | int       | Attendees who create post with more than 10 comments                          |
 | post.sentiment        | Sentiment | Attendees who wrote positive post with Tesla                                  |
 | like.postText         | text      | Attendees who liked post with Tesla                                           |
 | like.postAuthor       | Attendee  | Attendees who liked posts by Elon Musk                                        |
@@ -53,13 +53,13 @@ Query parser must give an ability to search by this attributes:
 | comment.postSentiment | Sentiment | Attendees who wrote comment for negative post with Boring                     |
 | poll.questionText     | text      | Attendees who answered for poll 'Are you happy?'                              |
 | poll.answerText       | text      | Attendees who answered Yes for poll 'Are you happy?'                          |
-| appSessions.count     | int       | Attendees with less than 10 app sessions                                     |
+| appSessions.count     | int       | Attendees with less than 10 app sessions                                      |
 | pageView.content      | text      | Attendees who viewed page with SpaceX                                         |
 | pageView.type         | PageType  | Attendees who viewed sponsor page                                             |
 | pageView.count        | int       | Attendees who viewed sponsor page with Tesla more than 5 times                |
 | ad.text               | text      | Attendees who clicked on ad with Tesla                                        |
 | ad.sponsor            | Sponsor   | Attendees who clicked Apply ad with 'Wanna new iPhone?'                       |
-| ad.count              | int       | Attendees who clicked on ad more than 2 times                                  |
+| ad.count              | int       | Attendees who clicked on ad more than 2 times                                 |
 
 Types and corresponding operations:
 
