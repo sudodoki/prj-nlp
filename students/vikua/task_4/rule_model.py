@@ -86,6 +86,7 @@ def score_row(y, y_hat):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Rule based actor extraction model')
     parser.add_argument('-i', dest='input_dir', help='Path to directory with input data')
+    parser.add_argument('-o', dest='output_dir', help='Path to ouput dir')
 
     args = parser.parse_args()
 
@@ -109,3 +110,7 @@ if __name__ == '__main__':
     scores = test_df[['cast', 'pred']].apply(lambda x: score_row(x['cast'], x['pred']), axis=1)
     print('Test F1 score = {}'.format(scores.mean()))
 
+    print('Saving results')
+
+    train_df.to_csv(os.path.join(args.output_dir, 'train_result.csv'))
+    test_df.to_csv(os.path.join(args.output_dir, 'test_result.csv'))

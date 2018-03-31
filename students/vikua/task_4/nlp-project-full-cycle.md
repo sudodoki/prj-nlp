@@ -29,7 +29,8 @@ which starred in particular film. [Here is the result](https://s3.eu-central-1.a
 #### load_wiki_pages.py
 Once reference DB is ready, it is time to load some data from Wikipedia. I use names of DBPedia entities for 
 movies are used as url paths for HTML page on Wiki. This script iterates over movies loaded into reference 
-json DB, scraps html and saves as html files.
+json DB, scraps html and saves as html files. 
+[(Example zip file with html pages)](https://s3.eu-central-1.amazonaws.com/vikua-wiki/task_4/wiki_html.zip)
 
 #### label_data.py 
 This script loads html pages saved on previous step and parses them to extract text. Note that 
@@ -37,6 +38,7 @@ it skips Cast section.
 Also it labels data automatically - for each movie it loads cast from reference DB and attaches it to 
 text as new `labels` field in data frame. 
 Result training sample is labels : text pairs.
+[(Example zip file)](https://s3.eu-central-1.amazonaws.com/vikua-wiki/task_4/labelled_data.zip)
 
 #### rules.py
 Contains all rules in model. Right now there are three rules, which are based on dependencies.
@@ -65,5 +67,7 @@ is detected are considered as negative.
 
 Due to specifics of domain, dynamic nature of labels, I didn't build confusion matrix (and I'm not sure it makes sence here as 
 it is more of milti label classification). 
+
+[Result CSVs](https://s3.eu-central-1.amazonaws.com/vikua-wiki/task_4/result.zip)
 
 
