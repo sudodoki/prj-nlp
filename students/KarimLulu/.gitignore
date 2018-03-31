@@ -68,3 +68,11 @@ target/
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
+
+# Environments
+hw3
+
+# WARC files
+*.warc*
+*.bz2
+*.gz

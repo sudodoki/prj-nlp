@@ -1,0 +1,35 @@
+name:                extract-synonyms
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/k-bx/extract-synonyms#readme
+license:             BSD3
+author:              Kostiantyn Rybnikov
+maintainer:          k-bx@k-bx.com
+copyright:           All Rights Reserved
+category:            Unclassified
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - conduit
+  - data-default
+  - groom
+  - hashable
+  - haddock-library
+  - pandoc
+  - raw-strings-qq
+  - resourcet
+  - safe
+  - string-class
+  - text
+  - xml-conduit
+  - xml-types
+  - unordered-containers
+
+executables:
+  extract-synonyms:
+    source-dirs:      src
+    main:             Main.hs
+    ghc-options: -Wall

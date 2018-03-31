@@ -1,0 +1,11 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT distinct ?attr, ?label
+WHERE {
+    ?person rdf:type dbo:Person .
+    ?person ?attr ?value .
+    ?attr rdfs:label ?label .
+    filter langMatches(lang(?label),"en")
+}

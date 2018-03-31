@@ -1,0 +1,19 @@
+- Open this DBPedia query editor http://dbpedia.org/sparql/
+- Execute following query:
+
+
+SELECT DISTINCT ?has ?of ?person
+WHERE {
+
+{?person a foaf:Person;
+?of dbr:Barack_Obama}
+
+UNION
+
+{?person a foaf:Person.
+dbr:Barack_Obama ?has ?person}
+
+}
+
+
+
