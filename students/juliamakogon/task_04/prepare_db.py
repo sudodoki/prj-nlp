@@ -83,11 +83,12 @@ def prepareNeg(path, input_html):
         getTextFromHtml(path, filenameForMovie(td[I_MOVIE].get_text()), td[I_WIKI].get_text())    
 
 #path = sys.argv[1]
-#path = r'C:\work\jul\prj-nlp\students\juliamakogon\task_04\wiki_testset'
-path = r'C:\work\jul\prj-nlp\students\juliamakogon\task_04\cind_test'
+dirpath = os.getcwd()
+path = os.path.join(dirpath, r'testset')
 pos_path = os.path.join(path, r'pos')
 neg_path = os.path.join(path, r'neg')
 print(pos_path)
 print(neg_path)
 prepareDbPos(pos_path, "cinderella_sparql.html", "cinderella_db.csv")
 prepareNeg(neg_path, "hippi_sparql.html")
+prepareNeg(neg_path, "false_pos_sparql.html")

@@ -14,75 +14,47 @@ class TestCheckMovieFairytale(unittest.TestCase):
         print('MyTestCase.setUpClass')
         cls.nlp = loadSpacy()
         cls.checker = CheckMovieFairytale(cls.nlp)
-        database = 'fairytale_db.csv'
+        database = 'cinderella_db.csv'
         cls.checker.load(database)
 
 
-    def get_pos_sentences(self):
+    def test_00_extractName_NNP_is_movie(self):
         ss = [  "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
-                "The movie Frozen was released in 2013 and was based on the Hans Christian Andersen fairy tale \"The Snow Queen\".",
-                "Beastly is a 2011 American romantic fantasy drama film loosely based on Alex Flinn's 2007 novel of the same name.[4] It is a retelling of the fairytale Beauty and the Beast and is set in modern-day New York City. The film was written and directed by Daniel Barnz[5] and stars Alex Pettyfer and Vanessa Hudgens.",
-                "This article is about the Japanese animated film. For the village in Burma, see Ponyo, Lahe. For the language, see Ponyo language. Ponyo (Japanese: 崖の上のポニョ, Hepburn: Gake no Ue no Ponyo, literally \"Ponyo on the Cliff\"), initially titled in English as Ponyo on the Cliff by the Sea, is a 2008 Japanese animated fantasy film written and directed by Hayao Miyazaki. Hayao Miyazaki, the film's director and writer, said his inspiration was the Hans Christian Andersen story \"The Little Mermaid,\" but his inspiration was more abstract than a story.[8][9]",
-                "The Slipper and the Rose is a 1976 British musical film retelling the classic fairy tale of Cinderella. ",
-                "Hansel & Gretel Get Baked is one of several different film adaptations of the classic fairy tale \"Hansel and Gretel\" released in 2013.",
-                "La Rosa di Bagdad (English: The Rose of Baghdad) is a 1949 Italian animated film. In 1952, the film was dubbed into English, retitled The Singing Princess and starring Julie Andrews in her first and only film and only venture into voice-over work during the 1950s.  Released in the U.S. at the same time as the animated Italian feature I Fratelli Dinamite, and inspired by The Arabian Nights, the story concerns a beautiful princess, a poor-but-honest hero, an evil sultan, and a slave of the lamp. ",
-                "The Return of Jafar (also known as Aladdin 2: The Return of Jafar) is a 1994 direct-to-video sequel to the 1992 animated film Aladdin, produced by The Walt Disney Company. It was released on May 20, 1994 and serves as the first episode of the Aladdin animated series. Culled from material originally intended for the first five episodes of the series,[1] it was the first Disney direct-to-video animated film.[4] Another direct-to-video sequel, Aladdin and the King of Thieves, was released in 1996. It marked the first American animated direct-to-video film.[5]",
-                "Frozen is a Disney media franchise started by the 2013 American animated feature film, Frozen, which was directed by Chris Buck and Jennifer Lee from a screenplay by Lee and produced by Peter Del Vecho, with songs by Robert Lopez and Kristen Anderson-Lopez. Walt Disney Animation Studios' chief creative officer John Lasseter served as the film's executive producer. The original film was inspired by the Hans Christian Andersen's fairy tale, \"The Snow Queen\".",
-                "Maleficent is a 2014 American dark fantasy film directed by Robert Stromberg from a screenplay by Linda Woolverton, and starring Angelina Jolie as Maleficent with Sharlto Copley, Elle Fanning, Sam Riley, Imelda Staunton, Juno Temple, and Lesley Manville in supporting roles. Loosely inspired by Charles Perrault's original fairy tale and Walt Disney's 1959 animated film Sleeping Beauty, the film portrays the story from the perspective of the eponymous antagonist, depicting her conflicted relationship with the princess and king of a corrupt kingdom." ]
-        return ss
-
-    def get_neg_sentences(self):
-        ss = [  "When a prince sees her dressed like a princess, he tries to find out who she is.",
-                "Beauty and the Beast is a 2027 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.",
-                "Woodstock is a 1970 documentary film of the watershed counterculture Woodstock Festival which took place in August 1969 near Bethel, New York. Entertainment Weekly called this film the benchmark of concert movies and one of the most entertaining documentaries ever made.",
-                "Cinderella Castle is the fairy tale castle at the center of two Disney theme parks: the Magic Kingdom at the Walt Disney World Resort, and Tokyo Disneyland at the Tokyo Disney Resort. Both serve as worldwide recognized icons and the flagship attraction for their respective theme parks. Along with Mickey Mouse, Tinker Bell, and Jimminy Cricket, the Castle is an iconic symbol of The Walt Disney Company.",
-                "Cinderella played at the Download festival in the UK in June 2010,[18] the Rock Jam near Grand Junction, Colorado, Friday, August 27, and also the Oregon State Fair on September 4, 2010. In November 2010 Cinderella joined a variety of other hard rock acts on the cruise entitled \"ShipRocked\".",
-                "Cinderella was an American rock band formed in 1982 from the suburbs of Philadelphia, Pennsylvania. The band emerged in the mid-1980s with a series of multi-platinum albums and hit singles whose music videos received heavy MTV rotation. ",
-                "In evolutionary psychology, the Cinderella effect is the phenomenon of higher incidence of different forms of child-abuse and mistreatment by stepparents than by biological parents. It takes its name from the fairy tale character Cinderella. ",
-                "Sleeping Beauties is a novel by American writers Stephen King and his son Owen King, released on September 26, 2017. The book was first mentioned during a promotional appearance on the CBC radio program q.",                
-                "The Beast is a fictional character who appears in Walt Disney Animation Studios' 30th animated feature film Beauty and the Beast (1991). He also appears in the film's two direct-to-video followups Beauty and the Beast: The Enchanted Christmas and Belle's Magical World. Based on the hero of the French fairy tale by Jeanne-Marie Leprince de Beaumont, the Beast was created by screenwriter Linda Woolverton and animated by Glen Keane.",
-                "Cinderella (Italian: Cenerentola, French: Cendrillon, German: Aschenputtel), or The Little Glass Slipper, is a folk tale embodying a myth-element of unjust oppression and triumphant reward. Thousands of variants are known throughout the world.[1][2] The title character is a young woman living in unfortunate circumstances, that are suddenly changed to remarkable fortune. The most popular version was published by Charles Perrault in Histoires ou contes du temps passé in 1697,[4] and later by the Brothers Grimm in their folk tale collection Grimms' Fairy Tales in 1812." ]        
-        return ss        
-
-    def test_00_pos_sentences(self):
-        ss = self.get_pos_sentences()
-        self.assertGreater(len(ss), 0, "Test is inconsistent.")
-        checker = TestCheckMovieFairytale.checker
-        for s in ss:
-            actual = checker.check(s)
-            self.assertIsNotNone(actual, s)
-
-    def test_01_neg_sentences(self):
-        ss = self.get_neg_sentences()
-        self.assertGreater(len(ss), 0, "Test is inconsistent.")      
+                "Language\nEnglish\n\n\nWet Wilderness is a 1976 pornographic horror film directed by Lee Cooper, and produced by Robert Thomas.",
+                "Cinderella III: A Twist in Time (released in UK as simply Cinderella: A Twist in Time) is the second direct-to-video sequel to the 1950 Walt Disney Pictures animated classic Cinderella. ",
+                "A Cinderella Story: Once Upon a Song is a 2012 teen comedy musical film, directed by Damon Santostefano and starring Lucy Hale, Freddie Stroma, Megan Park, Manu Narayan and Missi Pyle."]
+                #"Cinderella, originally released directly to video in 1994, is a 48-minute animated film adapted from the classic fairy tale, \"Cinderella\" by Charles Perrault. The movie was produced by Jetlag Productions and was distributed to DVD in 2002 by GoodTimes Entertainment as part of their \"Collectible Classics\" line."]
+                #"Cinderella (a.k.a. The Other Cinderella) is a 1977 American erotic musical comedy film directed by Michael Pataki and starring Cheryl \"Rainbeaux\" Smith, Brett Smiley, and Sy Richardson." ] 
+        expected = ['The Donkey\'s Hide', 
+                    'Wet Wilderness',
+                    'Cinderella III: A Twist in Time',
+                    'A Cinderella Story: Once Upon a Song']
         checker = TestCheckMovieFairytale.checker  
-        for s in ss:
-            actual = checker.check(s)
-            self.assertIsNone(actual, s)   
+        for i in range(len(ss)):
+            doc = self.nlp(ss[i])
+            actual = checker.extractName_NNP_is_movie(doc)    
+            self.assertEqual(actual, expected[i])           
+  
 
-    def test_02_extractName_NNP_is_movie(self):
-        s = "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2]."  
-        checker = TestCheckMovieFairytale.checker  
-        doc = self.nlp(s)
-        actual = checker.extractName_NNP_is_movie(doc)    
-        self.assertEqual(actual, 'The Donkey\'s Hide')   
-
-    def test_03_extractYear_is_yyyy_movie(self):
+    def test_01_extractYear_is_yyyy_movie(self):
         ss = [  "The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
-                "Beastly is a 2011 American romantic fantasy drama film loosely based on Alex Flinn's 2007 novel of the same name." ]
+                "A Ride for Cinderella is a 1937 Technicolor cartoon sponsored film, and is a sequel to A Coach for Cinderella",
+                "Language\nEnglish\n\n\nWet Wilderness is a 1976 pornographic horror film directed by Lee Cooper, and produced by Robert Thomas.",
+                "A Cinderella Story: Once Upon a Song is a 2012 teen comedy musical film, directed by Damon Santostefano and starring Lucy Hale, Freddie Stroma, Megan Park, Manu Narayan and Missi Pyle." ]
         expected = ['1982', 
-                    '2011']
+                    '1937',
+                    '1976',
+                    '2012']
         checker = TestCheckMovieFairytale.checker  
         for i in range(len(ss)):
             doc = self.nlp(ss[i])
             actual = checker.extractYear_is_yyyy_movie(doc)    
             self.assertEqual(actual, expected[i])    
 
-    def test_03_extractBased_film_based_on(self):
-        ss = ["The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2].",
-              "Loosely inspired by Charles Perrault's original fairy tale and Walt Disney's 1959 animated film Sleeping Beauty, the film portrays the story from the perspective of the eponymous antagonist, depicting her conflicted relationship with the princess and king of a corrupt kingdom." ]
-        expected = ["Charles Perrault 's Donkeyskin",
-                    "Charles Perrault"]
+
+    def test_02_extractBased_film_based_on(self):
+        ss = ["The Donkey's Hide (Russian: Ослиная шкура) is a 1982 Soviet fantasy film based on Charles Perrault's Donkeyskin[1][2]."]
+        expected = ["Charles Perrault 's Donkeyskin"]
         checker = TestCheckMovieFairytale.checker  
         for i in range(len(ss)):
             doc = self.nlp(ss[i])
@@ -90,6 +62,17 @@ class TestCheckMovieFairytale(unittest.TestCase):
             self.assertEqual(actual, expected[i])                  
 
 
+    def test_03__extractBased_Cinderella(self):
+        ss = ["A Ride for Cinderella is a 1937 Technicolor cartoon sponsored film, and is a sequel to A Coach for Cinderella" ]
+        expected = ["Cinderella"]
+        checker = TestCheckMovieFairytale.checker  
+        for i in range(len(ss)):
+            doc = self.nlp(ss[i])
+            actual = checker.extractBased_Cinderella(doc)    
+            self.assertEqual(actual, expected[i])   
+
+    # was released 
+    #  The film was released on February 6, 2007 and was directed by Frank Nissen and features the voices of Jennifer Hale and Susanne Blakeslee. 
 
 if __name__ == '__main__':
     # begin the unittest.main()
