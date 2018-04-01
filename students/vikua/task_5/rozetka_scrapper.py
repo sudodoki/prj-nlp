@@ -112,7 +112,7 @@ class RozetkaScrapper(scrapy.Spider):
             for p in review_text:
                 txt = p.xpath('string()').extract_first()
                 if txt:
-                    clean = txt.replace('\n', '').replace(u'\xa0', u' ').strip()
+                    clean = txt.replace('\n', ' ').replace(u'\xa0', u' ').strip()
                     paragraphs.append(clean)
 
             yield {'stars': stars,
