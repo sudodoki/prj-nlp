@@ -1,7 +1,7 @@
 import argparse
 import os
-import multiprocessing as mp
 
+import numpy as np
 import pandas as pd
 import spacy
 from nltk.tokenize import sent_tokenize
@@ -20,10 +20,9 @@ class RuleModel(object):
             self.rules = [ActorPerformanceMentionRule(),
                           ActorCastRule(),
                           FilmStartsRule()]
-
         self.nlp = spacy.load('en')
-
-    def _analyse(self, X):
+            
+    def analyse(self, X):
         """ Parses text, extracts tokens, ner, etc. using spacy
 
         Parameters
@@ -35,13 +34,13 @@ class RuleModel(object):
         -------
         result : pd.Series
             a series where each element is a list of spacy docs
-        """
+        """        
         def parse(text):
             sentences = sent_tokenize(text)
             return [self.nlp(sent) for sent in sentences]
 
         return X.apply(parse)
-
+    
     def apply_all_rules(self, sentences):
         """ Applies all rules to single sentence.
         Resulting list of actors is union of all rules results.
@@ -58,12 +57,16 @@ class RuleModel(object):
         """
         result = set()
         for rule in self.rules:
-            for sentence in sentences:
-                result = result | set(rule.apply(sentence))
-        return result
+            result = result | set(rule.apply(sentences))
+        result = [x for x in result if len(x.split()) <= 3]
+        if not result: 
+            return ['no']
+        else: 
+            return result
 
-    def predict(self, X):
-        X = self._analyse(X)
+    def predict(self, X, analyse=True):
+        if analyse:  
+            X = self.analyse(X)
         pred = X.apply(self.apply_all_rules)
         return pred
 
@@ -80,7 +83,7 @@ def build_dataframe(path, files):
 def score_row(y, y_hat):
     mlb = MultiLabelBinarizer()
     matrix = mlb.fit_transform([y, y_hat])
-    return f1_score(matrix[0].reshape(-1, 1), matrix[1].reshape(-1, 1))
+    return f1_score(matrix[0].reshape(-1, 1), matrix[1].reshape(-1, 1))    
 
 
 if __name__ == '__main__':

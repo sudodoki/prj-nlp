@@ -54,7 +54,7 @@ So for example there are five actors in specific movie, but model predicted 4 an
 I binarize two lists of actors to make two one-hot vectors of the same shape and compute F1 on those. 
 So F1 score is computed for each movie separately and them MEAN is taken. 
 
-Example: 
+Example with initial results: 
 
 ```
 $ python3 rule_model.py -i out  
@@ -70,4 +70,4 @@ it is more of milti label classification).
 
 [Result CSVs](https://s3.eu-central-1.amazonaws.com/vikua-wiki/task_4/result.zip)
 
-
+Further analysis is in model.ipynb 

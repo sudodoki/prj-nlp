@@ -45,8 +45,12 @@ def extract_and_save_paragraphs(input_dir, input_db, output_dir):
 
         new_file_name = '{}.txt'.format(name)
 
+        # filter only preset casts
+        p = ' '.join(paragraphs)
+        new_cast = [c for c in cast if c in p]
+
         print('Writing {} paragraphs to {}'.format(len(paragraphs), new_file_name))
-        df = pd.DataFrame({'paragraph': [' '.join(paragraphs)], 'cast': [','.join(cast)]})
+        df = pd.DataFrame({'paragraph': [' '.join(paragraphs)], 'cast': [','.join(new_cast)]})
         df.to_csv(os.path.join(output_dir, new_file_name), index=False)
 
 
