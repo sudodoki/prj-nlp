@@ -31,17 +31,22 @@ def process_text(parts, review):
 
 class JsonWriterPipeline(object):
 
-    def open_spider(self, spider):
-        self.file = open('items.jl', 'w+')
+    def __init__(self):
+        self.data = []
+
+    # def open_spider(self, spider):
+    #     self.file = open('items.jl', 'w+')
 
     def close_spider(self, spider):
-        self.file.close()
+        with open("items.jl", "w+") as f:
+            json.dump(self.data, f, indent=4)
 
     def process_item(self, item, spider):
         if not item["reviews"]:
             raise DropItem()
-        line = json.dumps(dict(item), indent=4) + "\n"
-        self.file.write(line)
+        #line = json.dumps(dict(item), indent=4) + "\n"
+        #self.file.write(line)
+        self.data.append(dict(item))
         return item
 
 
