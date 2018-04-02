@@ -32,7 +32,7 @@ def process_text(parts, review):
 class JsonWriterPipeline(object):
 
     def open_spider(self, spider):
-        self.file = open("chainiki.json", "w+")#'items.jl', 'w+')
+        self.file = open('items.jl', 'w+')
 
     def close_spider(self, spider):
         self.file.close()
@@ -55,17 +55,18 @@ class Product(scrapy.Item):
 
 class RozetkaSpider(scrapy.Spider):
     name = "posts"
-    categories = [#"multivarki/c112986/filter/",
-                  "electric_kettles/c80160/filter/"
+    categories = ["multivarki/c112986/filter/",
+                  "electric_kettles/c80160/filter/",
                   #"air_conditioners/c80133/"
-                  # "refrigerators/c80125/filter/", 
-                  # "washing_machines/c80124/filter/",
-                  # "freezers/c80203/",
-                  # "cookers/c80122/filter/",
-                  # "dishwashers/c80123/",
-                  # "drying_machines/c80222/"
+                  "microwaves/c80162/filter/",
+                  "refrigerators/c80125/filter/",
+                  "washing_machines/c80124/filter/",
+                  "freezers/c80203/",
+                  "cookers/c80122/filter/",
+                  "dishwashers/c80123/",
+                  "drying_machines/c80222/"
                   ]
-    start_urls = [urllib.parse.urljoin("https://bt.rozetka.com.ua/", category) 
+    start_urls = [urllib.parse.urljoin("https://bt.rozetka.com.ua/", category)
                   for category in categories]
     review_count = 0
     custom_settings = {
