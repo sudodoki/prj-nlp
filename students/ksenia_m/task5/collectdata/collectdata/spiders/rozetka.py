@@ -19,7 +19,8 @@ class RozetkaSpider(scrapy.Spider):
             star_element = review.css('span.g-rating-stars-i').extract_first()
             if star_element:
                 m = re.search('content="([0-5])"', star_element)
-                self.f.write(m.group(1) + ":::::" + review.css('div.pp-review-text-i::text').extract_first())
+                text = review.css('div.pp-review-text-i::text').extract_first().strip()
+                self.f.write(m.group(1) + ":::::" + text + "\n")
                 self.counter += 1
                 print('C=', self.counter)
         pages = response.css('li.paginator-catalog-l-i a::attr(href)').extract()
