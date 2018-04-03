@@ -33,12 +33,13 @@ class JsonWriterPipeline(object):
 
     def __init__(self):
         self.data = []
+        self.filename = "smartphones.json"
 
     # def open_spider(self, spider):
     #     self.file = open('items.jl', 'w+')
 
     def close_spider(self, spider):
-        with open("items.jl", "w+") as f:
+        with open(self.filename, "w+") as f:
             json.dump(self.data, f, indent=4)
 
     def process_item(self, item, spider):
@@ -60,16 +61,19 @@ class Product(scrapy.Item):
 
 class RozetkaSpider(scrapy.Spider):
     name = "posts"
-    categories = ["multivarki/c112986/filter/",
-                  "electric_kettles/c80160/filter/",
-                  #"air_conditioners/c80133/"
-                  "microwaves/c80162/filter/",
-                  "refrigerators/c80125/filter/",
-                  "washing_machines/c80124/filter/",
-                  "freezers/c80203/",
-                  "cookers/c80122/filter/",
-                  "dishwashers/c80123/",
-                  "drying_machines/c80222/"
+    categories = [
+                  # "multivarki/c112986/filter/",
+                  # "electric_kettles/c80160/filter/",
+                  # #"air_conditioners/c80133/"
+                  # "microwaves/c80162/filter/",
+                  # "refrigerators/c80125/filter/",
+                  # "washing_machines/c80124/filter/",
+                  # "freezers/c80203/",
+                  # "cookers/c80122/filter/",
+                  # "dishwashers/c80123/",
+                  # "drying_machines/c80222/",
+                  #"notebooks/c80004/filter/"
+                  "mobile-phones/c80003/"
                   ]
     start_urls = [urllib.parse.urljoin("https://bt.rozetka.com.ua/", category)
                   for category in categories]
