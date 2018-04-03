@@ -1,0 +1,39 @@
+Jack Nicholson:
+	Precision: 0.9175257731958762
+	Recall: 0.7739130434782608
+	F: 0.839622641509434
+	Exact Match: 77.39%
+	Partly Match: 7.83%
+	Garbage: 14.78%
+	
+Alan Rickman:
+	Precision: 0.9523809523809523
+	Recall: 0.547945205479452
+	F: 0.6956521739130435
+	Exact Match: 54.79%
+	Partly Match: 8.22%
+	Garbage: 36.99%	
+	
+Johnny Depp:
+	Precision: 0.7058823529411765
+	Recall: 0.5172413793103449
+	F: 0.5970149253731344
+	Exact Match: 51.72%
+	Partly Match: 22.41%
+	Garbage: 25.86%	
+	
+Robin Williams:
+	Precision: 0.9166666666666666
+	Recall: 0.7
+	F: 0.7938144329896907
+	Exact Match: 70.0%
+	Partly Match: 10.0%
+	Garbage: 20.0%	
+	
+Al Pacino:
+	Precision: 0.8969072164948454
+	Recall: 0.635036496350365
+	F: 0.7435897435897436
+	Exact Match: 63.5%
+	Partly Match: 10.22%
+	Garbage: 26.28%	
