@@ -1,0 +1,13 @@
+params = {}
+params['learning_rate'] = 0.1
+params['n_estimators'] = 1000
+params['max_depth'] = 5
+params['min_child_weight'] = 100
+params['gamma'] = 0
+params['subsample'] = 0.8
+params['colsample_bytree'] = 0.8
+params['objective'] = 'multi:softmax'
+params['seed'] = 27
+params['n_jobs'] = -1
+params["eval_metric"] = ["mlogloss", "merror"]
+params["early_stopping_rounds"] = 50
