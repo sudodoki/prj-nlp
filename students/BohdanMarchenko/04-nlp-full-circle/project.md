@@ -1,4 +1,6 @@
 #### 1. які метрики для оцінки якості ви будете використовувати?
+f1, recall, precission etc. 
+
 #### 2. як ви бачите побудову бейзлайну?
 > 1. An estimate for the sentiment. How "good" or "bad" is the sentiment of the company towards climate change. 
 Range is from -2 to +2;
