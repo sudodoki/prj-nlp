@@ -59,7 +59,7 @@ class RozetkaSpider(scrapy.Spider):
         
 process = CrawlerProcess({
     'FEED_FROMAT' : 'jl',
-    'FEED_URI' : 'result.json',
+    'FEED_URI' : 'data.json',
     'FEED_EXPORT_ENCODING': 'utf-8'
 })
 process.crawl(RozetkaSpider)
