@@ -19,3 +19,22 @@ Write scripts in your favourite language to perform the following tasks:
 1. Perform initial data collection for your project.
 2. Devise and describe a way to collect data for your course project using crowdsourcing or from the users. Implement a proof-of-concept.
 
+## Grading
+
+Annotation: 25%
+
+- task1: 5%
+- task2: 20%
+
+Acquisition: 70%
+
+- task1: 20%
+- task2: 20%
+- task3: 10%
+- task4: 20%
+
+Project: 5%
+
+## Deadline
+
+22.03.2018

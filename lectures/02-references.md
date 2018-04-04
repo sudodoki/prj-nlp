@@ -40,6 +40,9 @@ Stanford:
 - [Original Stanford dependencies](https://nlp.stanford.edu/software/dependencies_manual.pdf)
 - [Universal Stanford dependencies](https://nlp.stanford.edu/pubs/USD_LREC14_paper_camera_ready.pdf)
 
+Clear (a.k.a. Emory, used by spaCy):
+- [Guidelines for the Clear Style Constituent to Dependency Conversion](http://www.mathcs.emory.edu/~choi/doc/cu-2012-choi.pdf)
+
 Для української мови:
 - [Languagetool POS](https://github.com/brown-uk/dict_uk/blob/master/doc/tags.txt)
 - [pymorphy2 POS](https://pymorphy2.readthedocs.io/en/latest/user/grammemes.html)

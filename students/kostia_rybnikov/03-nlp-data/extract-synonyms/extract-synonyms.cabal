@@ -1,0 +1,45 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: d4088b7844ac65f4ba7e26e25b6315e07c0713669edd58ca794eeab3ed7ad574
+
+name:           extract-synonyms
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/extract-synonyms#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable extract-synonyms
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , conduit
+    , data-default
+    , groom
+    , haddock-library
+    , hashable
+    , pandoc
+    , raw-strings-qq
+    , resourcet
+    , safe
+    , string-class
+    , text
+    , unordered-containers
+    , xml-conduit
+    , xml-types
+  other-modules:
+      Paths_extract_synonyms
+  default-language: Haskell2010
