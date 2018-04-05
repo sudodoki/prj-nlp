@@ -1,0 +1,50 @@
+Досліджувалась категорія "Спорт та дозвілля"
+
+Перший запуск классифікатара на тестовій вибірці (без лематизації та стоп слів) дає наступні резульатти
+
+For pure model on test:
+True Positive: 506 ; True negative: 16 ; False positive: 48 ; False negative: 48
+Presision: 0.9133574007220217 ; Recall: 0.9133574007220217
+
+Що зароджують деяки сумніви в правильності алгорітму. Порівняємо з рендомом 
+
+For random:
+True Positive: 488 ; True negative: 2 ; False positive: 62 ; False negative: 66
+Presision: 0.8872727272727273 ; Recall: 0.8808664259927798
+
+Модель вийшла краще рендома на 3%. Це є добре.
+Порівняємо що модель видасть на тренувальній вибірці
+
+For pure model on test(just to check that algorithm is correct):
+True Positive: 2202 ; True negative: 156 ; False positive: 105 ; False negative: 45
+Presision: 0.9544863459037711 ; Recall: 0.9799732977303071
+
+Як і очікувалось, резульат значно краще, але все одно не теоретичний 99%, що все ще заглиблює сумніви у правильністі реалізації алгориму. Тому порівняємо з дефолтним классифікатором.
+
+Після довгих обрахунків отримуємо для nltk.NaiveBayesClassifier
+
+True Positive: 536 ; True negative: 8 ; False positive: 56 ; False negative: 18
+Presision: 0.9054054054054054 ; Recall: 0.9675090252707581
+
+Отже наша модель на 1% вийшла краще за дефолтну реалізацю, що добре, бо вона не сильно відрізняється і різниця у позитивний бік.
+
+Крім того маємо цікаву статистику слів що більш всього впливать на негативність коментару, мабуть о розетці не все гарно з велосипедами і у спортивному хачруванні багато цукру. 
+
+Most Informative Features
+                  жодної = True           negati : positi =     20.0 : 1.0
+              велосипеда = True           negati : positi =     20.0 : 1.0
+            розчарування = True           negati : positi =     20.0 : 1.0
+                   цукру = True           negati : positi =     20.0 : 1.0
+                 залишив = True           negati : positi =     20.0 : 1.0
+                   тонка = True           negati : positi =     20.0 : 1.0
+                 ніякого = True           negati : positi =     20.0 : 1.0
+                 питання = True           negati : positi =     18.9 : 1.0
+             гарантійний = True           negati : positi =     15.4 : 1.0
+                  реагує = True           negati : positi =     15.4 : 1.0
+
+
+Щоб покращити алгоритм застосуємо стоп слова та лемматизацію отримаємо покращення
+майже на 2 процента.
+For train with stop words and stemming:
+True Positive: 461 ; True negative: 34 ; False positive: 36 ; False negative: 122
+Presision: 0.9275653923541247 ; Recall: 0.79073756432247 
