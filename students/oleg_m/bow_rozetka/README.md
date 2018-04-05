@@ -8,7 +8,7 @@
 + Run bash command for scrapping:
     + cd students/oleg_m/bow_rozetka/rozetka/
     + scrapy crawl jobs -o other-comments.csv
-+ Python notebook with model evaluation: students/oleg_m/bow_rozetka/bow.ipynb
++ Python notebook with model evaluation: students/oleg_m/bow_rozetka/bow_modeling.ipynb
 
 ### Scraped data
 
@@ -29,6 +29,6 @@ This data was saved into csv file
 
 ### Modeling
 
-Please find more info according the modeling in Python notebook: students/oleg_m/bow_rozetka/bow.ipynb
+Please find more info according the modeling in Python notebook: students/oleg_m/bow_rozetka/bow_modeling.ipynb
 
 ### Further steps
