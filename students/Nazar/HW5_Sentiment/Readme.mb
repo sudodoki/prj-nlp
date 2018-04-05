@@ -1,0 +1,52 @@
+#Ukrainan - Russian sentiment analysis
+
+##Data collection 
+
+Feadback was collected from rozetka wrom 2 diferent domains:
+	1. 'Смартфоны, ТВ и электроника' : 162.149 Reviews (105K positive, 32K Normal, 24.7K Negative)
+	2. 'Одяг'  : 10757 Review (7905 positive, 1829 Normal, 1023 Negative)
+	3. Concatenated 172906 review
+	4 ukrainan language 26514 revies
+	5 russian language 145K revies
+positve = 5 stars
+normal  = 4 stars
+negative < 4 stars
+featback was concatenated wit proc and cons
+
+
+
+## Preprocesing
+
+Simple count vectorizer + tfidf vectorizer
+
+## Models
+
+Try MultinomianlNB and SGDClassifier
+SGDClassifier - works a bit better than MultinomianlNB
+
+## Resalts
+Test split was dan by 25% of all amount of data, was shafled and stratified
+Metric F1
+
+1. Train on computers
+	1. predict computers 0.954
+	2. predict clothes 0.7
+2. Train on clothes
+	1. predict clothes 1
+	2. predict computers 0.62
+3. Train on merged data
+	1. predict merged data 0.96
+4. Train on ukrainian:
+	1. predict ukrainian 1
+    2. predicr russian 0.556
+5. Train on russian:
+	1. predict russian: 0.964
+	2. predict ukrainan: 0.631
+	
+## Next steps
+
+1. add regularization
+2. add ngrams
+3. add word embedings
+4. add character embedings
+5. apply LSTM
