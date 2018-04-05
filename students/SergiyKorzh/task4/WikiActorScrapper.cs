@@ -29,34 +29,6 @@ namespace NLPCourse.Task4
         }
 
         public void LoadModels() {
-            //string tokModelFilePath = @"models\en-token.bin";
-            //if (!File.Exists(tokModelFilePath)) {
-            //    throw new Exception("Can't find tokenizer model file: " + tokModelFilePath);
-            //}
-
-            //using (var tokModelFile = new FileStream(tokModelFilePath, FileMode.Open)) {
-            //    _tokModel = new TokenizerModel(tokModelFile);
-            //}
-
-            //string posModelFilePath = @"models\en-pos-maxent.bin";
-            //if (!File.Exists(posModelFilePath)) {
-            //    throw new Exception("Can't find POS tagger model file: " + posModelFilePath);
-            //}
-
-            //using (var posModelFile = new FileStream(posModelFilePath, FileMode.Open)) {
-            //    _posModel = new POSModel(posModelFile);
-            //}
-
-
-            //string nameModelFilePath = @"models\en-ner-organization.bin";
-            //if (!File.Exists(nameModelFilePath)) {
-            //    throw new Exception("Can't find NER model file: " + nameModelFilePath);
-            //}
-
-            //using (var nameModelFile = new FileStream(nameModelFilePath, FileMode.Open)) {
-            //    _nameModel = new TokenNameFinderModel(nameModelFile);
-            //}
-
             _analyzer = new AggregateAnalyzer {
                 @"models\en-sent.bin",
                 @"models\en-token.bin",
