@@ -1,0 +1,39 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a0168d671d67fa1ee781f62550cfca1b6383fc5d8ef5a4759e0a2f47fc07e702
+
+name:           collocations
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/collocations#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable collocations
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -threaded -with-rtsopts=-N
+  build-depends:
+      Decimal
+    , base >=4.7 && <5
+    , containers
+    , corenlp-parser
+    , data-default
+    , groom
+    , text
+    , trifecta
+    , unordered-containers
+  other-modules:
+      Paths_collocations
+  default-language: Haskell2010
