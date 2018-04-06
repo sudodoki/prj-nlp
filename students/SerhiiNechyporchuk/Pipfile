@@ -23,6 +23,7 @@ nltk = "*"
 wikipedia = "*"
 qgrid = "*"
 stanford-corenlp = "*"
+matplotlib = "*"
 
 
 [requires]

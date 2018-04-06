@@ -1,4 +1,4 @@
-,id,phrase,replacements,labels
+,id,phrase,replacements,label
 0,e82bae79-8891-4244-9745-bcb07935845c,wrote posts mentioning <mention>,"{""mention"": ""Stacy Vaughn""}",post
 1,e82bae79-8891-4244-9745-bcb07935845c,liked any post <number> times,"{""number"": ""9""}",like
 2,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad with <post-word> in it,"{""post-word"": ""'blackout'""}",ad
@@ -6,7 +6,7 @@
 4,e82bae79-8891-4244-9745-bcb07935845c,liked any post <number> or more times,"{""number"": ""9""}",like
 5,e82bae79-8891-4244-9745-bcb07935845c,clickd on ad with text <post-word> in it,"{""post-word"": ""'blackout'""}",ad
 6,e82bae79-8891-4244-9745-bcb07935845c,wrote a post about <mention>,"{""mention"": ""Stacy Vaughn""}",post
-7,e82bae79-8891-4244-9745-bcb07935845c,at least <number> likes,"{""number"": ""nine""}", like
+7,e82bae79-8891-4244-9745-bcb07935845c,at least <number> likes,"{""number"": ""nine""}",like
 8,e82bae79-8891-4244-9745-bcb07935845c,clickd on add that contained <post-word>,"{""post-word"": ""'blackout'""}",ad
 9,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad about <post-word>,"{""post-word"": ""blackout""}",ad
 10,e82bae79-8891-4244-9745-bcb07935845c,also liked post <number> times,"{""number"": ""9""}",like
@@ -191,7 +191,7 @@
 188,98be4665-b3db-4133-a8cf-299dfa8205ab,made reply to <mention>,"{""mention"": ""Stacy Vaughn""}",reply
 189,98be4665-b3db-4133-a8cf-299dfa8205ab,<phone> phone,"{""phone"": ""(344) 842-7718""}",profile
 190,98be4665-b3db-4133-a8cf-299dfa8205ab,reply to <mention>,"{""mention"": ""Stacy Vaughn""}",reply
-191,98be4665-b3db-4133-a8cf-299dfa8205ab,phone number <phone>,"{""phone"": ""(344) 842-7718""}",
+191,98be4665-b3db-4133-a8cf-299dfa8205ab,phone number <phone>,"{""phone"": ""(344) 842-7718""}",profile
 192,98be4665-b3db-4133-a8cf-299dfa8205ab,"post has ""<post-word>""","{""post-word"": ""rare""}",post
 193,98be4665-b3db-4133-a8cf-299dfa8205ab,"post containing ""<post-word>"" word","{""post-word"": ""rare""}",post
 194,98be4665-b3db-4133-a8cf-299dfa8205ab,a reply to a user named <mention>,"{""mention"": ""Stacy Vaughn""}",reply
@@ -217,19 +217,19 @@
 214,3733dc0c-6d13-4260-bd47-0826b656ba9c,viewed at least two pages,{},view
 215,a6568381-2d52-4699-877e-36f5a9956010,answered <poll-answer> in poll,"{""poll-answer"": ""No""}",poll
 216,a6568381-2d52-4699-877e-36f5a9956010,replied to post with <post-word>,"{""post-word"": ""'biplane'""}",reply
-217,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer> in any poll,"{""poll-answer"": ""No""}",vote
+217,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer> in any poll,"{""poll-answer"": ""No""}",poll
 218,a6568381-2d52-4699-877e-36f5a9956010,liked <mention>s post,"{""mention"": ""Caleb Ramirez'""}",like
 219,a6568381-2d52-4699-877e-36f5a9956010,replied to the post contains <post-word>,"{""post-word"": ""'biplane'""}",reply
 220,a6568381-2d52-4699-877e-36f5a9956010,answered <poll-answer> in any poll,"{""poll-answer"": ""No""}",poll
 221,a6568381-2d52-4699-877e-36f5a9956010,liked <mention>s content,"{""mention"": ""Caleb Ramirez'""}",like
 222,a6568381-2d52-4699-877e-36f5a9956010,commented to the post about <post-word>,"{""post-word"": ""'biplane'""}",reply
-223,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer>,"{""poll-answer"": ""No""}",vote
+223,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer>,"{""poll-answer"": ""No""}",poll
 224,a6568381-2d52-4699-877e-36f5a9956010,liked post written by <mention>,"{""mention"": ""Caleb Ramirez""}",like
 225,a6568381-2d52-4699-877e-36f5a9956010,commented with <post-word> to the post ,"{""post-word"": ""'biplane'""}",reply
 226,a6568381-2d52-4699-877e-36f5a9956010,liked message by <mention>,"{""mention"": ""Caleb Ramirez""}",like
 227,a6568381-2d52-4699-877e-36f5a9956010,left a reply for the post about <post-word>,"{""post-word"": ""'biplane'""}",reply
 228,a6568381-2d52-4699-877e-36f5a9956010,liked  <mention>s message,"{""mention"": ""Caleb Ramirez'""}",like
-229,a6568381-2d52-4699-877e-36f5a9956010, voted <poll-answer>,"{""poll-answer"": ""No""}",vote
+229,a6568381-2d52-4699-877e-36f5a9956010, voted <poll-answer>,"{""poll-answer"": ""No""}",poll
 230,a6568381-2d52-4699-877e-36f5a9956010,left a comment for the post with <post-word>,"{""post-word"": ""'biplane'""}",reply
 231,a6568381-2d52-4699-877e-36f5a9956010,attended Deaply Seals<number><number>,"{""number"": ""5""}",event
 232,a6568381-2d52-4699-877e-36f5a9956010,rated page with <number> stars,"{""number"": ""0""}",rate
@@ -421,7 +421,7 @@
 418,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with <post-word>,"{""post-word"": ""'concussion'""}",reply
 419,2dfad3f1-b93f-46aa-a2fa-20f390407243,<location> set as location,"{""location"": ""Vatican City""}",profile
 420,2dfad3f1-b93f-46aa-a2fa-20f390407243,from <location>,"{""location"": ""Vatican City""}",profile
-530,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't like the event,profile
+530,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't like the event,{},profile
 421,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with <post-word> in its text,"{""post-word"": ""'concussion'""}",reply
 422,2dfad3f1-b93f-46aa-a2fa-20f390407243,<location> location,"{""location"": ""Vatican City""}",profile
 423,2dfad3f1-b93f-46aa-a2fa-20f390407243,live in <location>,"{""location"": ""Vatican City""}",profile
@@ -506,28 +506,28 @@
 502,59d09959-5836-494f-9176-7a11a449b2fa,rated <page-type> with <number> stars,"{""number"": ""2"", ""page-type"": ""speaker""}",rate
 503,59d09959-5836-494f-9176-7a11a449b2fa,clicked on ads <number> times,"{""number"": ""2""}",ad
 504,59d09959-5836-494f-9176-7a11a449b2fa,rated page contains <post-word>,"{""post-word"": ""'pragmatic'""}",rate
-505,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",
-506,59d09959-5836-494f-9176-7a11a449b2fa,leave a rate on page with <post-word>,"{""post-word"": ""'pragmatic'""}",
-507,59d09959-5836-494f-9176-7a11a449b2fa,viewed page with <post-word>,"{""post-word"": ""'adsorbable'""}",
-508,59d09959-5836-494f-9176-7a11a449b2fa,connected Google +,{},
-509,59d09959-5836-494f-9176-7a11a449b2fa,took a not on page with <post-word>,"{""post-word"": ""'coastal'""}",
-510,59d09959-5836-494f-9176-7a11a449b2fa,created a not on page contains <post-word>,"{""post-word"": ""'coastal'""}",
-511,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",
-512,59d09959-5836-494f-9176-7a11a449b2fa,Google + account,{},
-513,59d09959-5836-494f-9176-7a11a449b2fa,post with <number> replies,"{""number"": ""9""}",
-514,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type> page,"{""page-type"": ""sponsor""}",
-515,59d09959-5836-494f-9176-7a11a449b2fa,rated page with <number> stars,"{""number"": ""2""}",
-516,59d09959-5836-494f-9176-7a11a449b2fa,content with <number> replies,"{""number"": ""9""}",
-517,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type>,"{""page-type"": ""sponsor""}",
-518,59d09959-5836-494f-9176-7a11a449b2fa,rated page with more than <number> stars,"{""number"": ""2""}",
-519,59d09959-5836-494f-9176-7a11a449b2fa,posted a content with <number> comments,"{""number"": ""9""}",
-520,59d09959-5836-494f-9176-7a11a449b2fa,opened <page-type> page,"{""page-type"": ""sponsor""}",
-521,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by <mention>,"{""mention"": ""Philip Stephens""}",
-522,3ea9c741-6993-44f9-937c-3a5718a08693,left a note on a page <number> times,"{""number"": ""3""}",
-523,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded a file named <file-name>,"{""file-name"": ""workshop.doc""}",
-524,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by Philip,{},
-525,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded <file-name>,"{""file-name"": ""workshop.doc""}",
-526,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on an ad <number> times,"{""number"": ""4""}",
-527,3ea9c741-6993-44f9-937c-3a5718a08693,bio contains <number>,"{""number"": ""8""}",
-528,3ea9c741-6993-44f9-937c-3a5718a08693,attended <number> events,"{""number"": ""7""}",
-529,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on <number> ads,"{""number"": ""4""}",
+505,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",poll
+506,59d09959-5836-494f-9176-7a11a449b2fa,leave a rate on page with <post-word>,"{""post-word"": ""'pragmatic'""}",rate
+507,59d09959-5836-494f-9176-7a11a449b2fa,viewed page with <post-word>,"{""post-word"": ""'adsorbable'""}",view
+508,59d09959-5836-494f-9176-7a11a449b2fa,connected Google +,{},profile
+509,59d09959-5836-494f-9176-7a11a449b2fa,took a not on page with <post-word>,"{""post-word"": ""'coastal'""}",note
+510,59d09959-5836-494f-9176-7a11a449b2fa,created a not on page contains <post-word>,"{""post-word"": ""'coastal'""}",note
+511,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",poll
+512,59d09959-5836-494f-9176-7a11a449b2fa,Google + account,{},profile
+513,59d09959-5836-494f-9176-7a11a449b2fa,post with <number> replies,"{""number"": ""9""}",reply
+514,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type> page,"{""page-type"": ""sponsor""}",view
+515,59d09959-5836-494f-9176-7a11a449b2fa,rated page with <number> stars,"{""number"": ""2""}",rate
+516,59d09959-5836-494f-9176-7a11a449b2fa,content with <number> replies,"{""number"": ""9""}",post
+517,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type>,"{""page-type"": ""sponsor""}",view
+518,59d09959-5836-494f-9176-7a11a449b2fa,rated page with more than <number> stars,"{""number"": ""2""}",rate
+519,59d09959-5836-494f-9176-7a11a449b2fa,posted a content with <number> comments,"{""number"": ""9""}",post
+520,59d09959-5836-494f-9176-7a11a449b2fa,opened <page-type> page,"{""page-type"": ""sponsor""}",view
+521,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by <mention>,"{""mention"": ""Philip Stephens""}",like
+522,3ea9c741-6993-44f9-937c-3a5718a08693,left a note on a page <number> times,"{""number"": ""3""}",note
+523,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded a file named <file-name>,"{""file-name"": ""workshop.doc""}",file
+524,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by Philip,{},like
+525,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded <file-name>,"{""file-name"": ""workshop.doc""}",file
+526,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on an ad <number> times,"{""number"": ""4""}",ad
+527,3ea9c741-6993-44f9-937c-3a5718a08693,bio contains <number>,"{""number"": ""8""}",profile
+528,3ea9c741-6993-44f9-937c-3a5718a08693,attended <number> events,"{""number"": ""7""}",event
+529,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on <number> ads,"{""number"": ""4""}",ad
