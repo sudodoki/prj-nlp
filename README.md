@@ -6,6 +6,10 @@
 - [Курсові роботи](https://github.com/vseloved/prj-nlp/blob/master/course-project.md)
 - Ліцензія: матеріали курсу доступні під ліцензією [Creative Commons BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
 
+Час занять:
+- четвер - 19:30-21:30
+- субота - 15:00-18:00
+
 ## Книжки
 
 - найбільш доступна і практично-орієнтована: [Natural Language Processing with Python](http://www.nltk.org/book/)

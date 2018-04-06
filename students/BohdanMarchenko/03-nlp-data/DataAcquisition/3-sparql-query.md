@@ -6,3 +6,5 @@ select * {
   values ?person { dbr:Elijah_Wood }
   ?person ?p ?o 
 }
+
+result: https://goo.gl/hWwALM

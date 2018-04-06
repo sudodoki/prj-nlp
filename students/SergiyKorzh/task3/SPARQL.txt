@@ -1,0 +1,8 @@
+SELECT ?person, ?predicate, ?object, ?objName
+WHERE {
+  ?person a foaf:Person .
+  ?person foaf:name "Barack Obama"@en .
+  ?person ?predicate ?object .
+  ?object foaf:name ?objName  
+} 
+LIMIT 100
