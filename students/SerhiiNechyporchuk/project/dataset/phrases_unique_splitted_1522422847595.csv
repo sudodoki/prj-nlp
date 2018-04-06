@@ -24,10 +24,10 @@
 22,e82bae79-8891-4244-9745-bcb07935845c,answered yes in poll
 23,e82bae79-8891-4244-9745-bcb07935845c,downloaded a file from exhibitor page
 24,e82bae79-8891-4244-9745-bcb07935845c,rated page 4 or more times
-25,e82bae79-8891-4244-9745-bcb07935845c,in poll answered affirmative
+25,e82bae79-8891-4244-9745-bcb07935845c,in poll answered yes
 26,e82bae79-8891-4244-9745-bcb07935845c,got file from 'exhibitor' type page
 27,e82bae79-8891-4244-9745-bcb07935845c,rated page four times
-28,e82bae79-8891-4244-9745-bcb07935845c,participated in poll and answered positively
+28,e82bae79-8891-4244-9745-bcb07935845c,participated in poll and answered yes
 29,e82bae79-8891-4244-9745-bcb07935845c,downloaded any file from exhibitor page
 30,e82bae79-8891-4244-9745-bcb07935845c,'captive' in bio
 31,e82bae79-8891-4244-9745-bcb07935845c,n't enjoy event
@@ -205,10 +205,8 @@
 202,c255bb86-9172-4cc9-84a2-7e710e94106e,make a reply to the post written by Andy Chandler
 203,c255bb86-9172-4cc9-84a2-7e710e94106e,either Asylum or Immigration Officer position
 204,c255bb86-9172-4cc9-84a2-7e710e94106e,website named 'bandcamp.com'
-205,c255bb86-9172-4cc9-84a2-7e710e94106e,make a note to the post written by Andy Chandler
 206,c255bb86-9172-4cc9-84a2-7e710e94106e,either Asylum or Immigration Officer position
 207,c255bb86-9172-4cc9-84a2-7e710e94106e,'bandcamp.com' website
-208,c255bb86-9172-4cc9-84a2-7e710e94106e,made a note to the Andy Chandler's post
 209,c255bb86-9172-4cc9-84a2-7e710e94106e,either Asylum or Immigration Officer position
 210,c255bb86-9172-4cc9-84a2-7e710e94106e,'bandcamp.com' website
 211,ad086d89-92c8-439f-adf4-e3dc3a62b13c,liked posts about 'escapist'
@@ -272,9 +270,9 @@
 269,3733dc0c-6d13-4260-bd47-0826b656ba9c,downloaded a file 5 times
 270,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered three polls
 271,3733dc0c-6d13-4260-bd47-0826b656ba9c,at least one answer was 'no'
-272,3733dc0c-6d13-4260-bd47-0826b656ba9c,located in North Korea also rated a page that contains 'gargoyle' at least nine times
-273,3733dc0c-6d13-4260-bd47-0826b656ba9c,liked a page nine time
-274,3733dc0c-6d13-4260-bd47-0826b656ba9c,the page contains 'gargoyle'
+272,3733dc0c-6d13-4260-bd47-0826b656ba9c,located in North Korea
+760,3733dc0c-6d13-4260-bd47-0826b656ba9c,rated a page that contains 'gargoyle' at least nine times
+273,3733dc0c-6d13-4260-bd47-0826b656ba9c,liked a page nine time and the page contains 'gargoyle'
 275,3733dc0c-6d13-4260-bd47-0826b656ba9c,the attendee is located in North Korea
 276,3733dc0c-6d13-4260-bd47-0826b656ba9c,attended the event 'Deeply Seals'15'
 277,3733dc0c-6d13-4260-bd47-0826b656ba9c,'ow.ly' website
@@ -600,7 +598,8 @@
 597,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with 'concussion'
 598,2dfad3f1-b93f-46aa-a2fa-20f390407243,not enjoyed the event
 599,2dfad3f1-b93f-46aa-a2fa-20f390407243,Vatican City set as location
-600,2dfad3f1-b93f-46aa-a2fa-20f390407243,Search for attendees from Vatican City n't like the event
+600,2dfad3f1-b93f-46aa-a2fa-20f390407243,from Vatican City
+760,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't like the event
 601,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with 'concussion' in its text
 602,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to posts about 'concussion'
 603,2dfad3f1-b93f-46aa-a2fa-20f390407243,negative sentiment towards event
@@ -732,7 +731,7 @@
 729,59d09959-5836-494f-9176-7a11a449b2fa,rated page contains 'pragmatic'
 730,59d09959-5836-494f-9176-7a11a449b2fa,viewed page contains 'adsorbable'
 731,59d09959-5836-494f-9176-7a11a449b2fa,participated in 4 polls
-732,59d09959-5836-494f-9176-7a11a449b2fa,contacts voted 4 times
+732,59d09959-5836-494f-9176-7a11a449b2fa,voted 4 times
 733,59d09959-5836-494f-9176-7a11a449b2fa,leave a rate on page with 'pragmatic'
 734,59d09959-5836-494f-9176-7a11a449b2fa,viewed page with 'adsorbable'
 735,59d09959-5836-494f-9176-7a11a449b2fa,participated in 4 polls
