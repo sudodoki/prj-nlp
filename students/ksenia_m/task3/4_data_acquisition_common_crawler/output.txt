@@ -1,0 +1,4 @@
+Percent of domains starts with 'www' 58.57794728597698
+Percent of  .com  53.8411768712116
+Most popular domains:
+[('www.urbandictionary.com', 52), ('labindex.jove.com', 36), ('mixi.jp', 32), ('www.google.com', 30), ('www.economist.com', 23), ('unsplash.com', 23), ('www.tripadvisor.com', 23), ('jobs.businessweek.com', 19), ('www.identi.li', 19), ('www.zappos.com', 19)]
