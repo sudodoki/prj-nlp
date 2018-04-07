@@ -1,0 +1,4 @@
+List 1 has 2382 list 2 has 3292
+Number of totally identical errors found in both sets 732
+Number of errors that differs only by type 170
+Number of errors that differs only by correction 213
