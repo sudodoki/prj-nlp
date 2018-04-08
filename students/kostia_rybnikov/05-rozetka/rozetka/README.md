@@ -1,6 +1,6 @@
 # rozetka
 
-Had a pretty bad experience with this one and definitely not proud on
+Had a pretty bad experience with this one and definitely not proud of
 the result, but happy with some of the knowledge I got.
 
 First, I was irritated by the fact that I didn't understand the
