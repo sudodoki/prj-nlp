@@ -16,8 +16,7 @@ using SharpNL.Analyzer;
 
 namespace NLPCourse.Task5 {
 
-    public class RozetkaScraper
-    {
+    public class RozetkaScraper {
         TokenizerModel _tokModel;
         POSModel _posModel;
         TokenNameFinderModel _nameModel;
@@ -29,40 +28,103 @@ namespace NLPCourse.Task5 {
         }
 
         public void LoadModels() {
-            _analyzer = new AggregateAnalyzer {
-                @"models\en-sent.bin",
-                @"models\en-token.bin",
-                @"models\en-pos-maxent.bin"
-            };
+            //_analyzer = new AggregateAnalyzer {
+            //    @"models\en-sent.bin",
+            //    @"models\en-token.bin",
+            //    @"models\en-pos-maxent.bin"
+            //};
         }
 
 
-        public IList<Feedback> ScrapeFeedbacks(string startUrl) {
+        public IList<Feedback> ScrapeFeedbacks(string productsPageUrl) {
             var result = new List<Feedback>();
 
             var web = new HtmlWeb();
-            var page = web.Load(startUrl);
+            int index = 1;
+            int pageNum = 1;
+            var page = web.Load(productsPageUrl);
+            while (page != null) {
+                Console.WriteLine($"Scanning page {pageNum}...");
+                //select all product titles
+                var productNodes = page.DocumentNode.SelectNodes("//div[contains(@class, 'g-i-tile-catalog')]");
+                if (productNodes != null) {
+                    foreach (var node in productNodes) {
+                        var titleLinkNode = node.SelectSingleNode(".//div[contains(@class, 'g-i-tile-i-title')]/a");
+                        if (titleLinkNode == null) {
+                            continue;
+                        }
 
-            //read the content of "Career" section of the article
-            var careerNode = page.DocumentNode.SelectSingleNode("//*/h2[starts-with(.,'Career')]");
-            if (careerNode != null) {
-                string text = "";
-                var node = careerNode.NextSibling;
-                while (node != null && node.Name != "h2") {
-                    text += node.InnerText;
-                    node = node.NextSibling;
+                        var productLink = titleLinkNode.GetAttributeValue("href", "");
+                        var productTitle = titleLinkNode.InnerText.Trim();
+
+                        var feedbacksLinkNode = node.SelectSingleNode(".//a[contains(@class, 'g-rating-reviews-link')]");
+                        if (feedbacksLinkNode != null) {
+                            var feedbacksUrl = feedbacksLinkNode.GetAttributeValue("href", "");
+
+                            ExtractFeedbacks(feedbacksUrl, result);
+                            //Console.WriteLine($"{index}: {productTitle}\n {feedbacksUrl}");
+                        }
+
+                        index++;
+                    }
                 }
 
-                var doc = new SharpNL.Document("en", text);
-
-                _analyzer.Analyze(doc);                
-
-                foreach (var sentence in doc.Sentences) {
+                //trying to read the next products page
+                System.Threading.Thread.Sleep(1000);
+                pageNum++;
+                var nextPageUrl = productsPageUrl.CombineVia("/", $"page={pageNum}/");
+                page = web.Load(nextPageUrl);
+                var activePageLinkNode = page.DocumentNode.SelectSingleNode($"//li[@id='page{pageNum}']");
+                if (activePageLinkNode == null || !activePageLinkNode.GetAttributeValue("class", "").Contains("active")) {
+                    break;
                 }
             }
-
             return result;
         }
 
+        private void ExtractFeedbacks(string commentsUrl, List<Feedback> feedbacks) {
+            var web = new HtmlWeb();
+            //commentsUrl = "https://hard.rozetka.com.ua/ua/lg_27mp59g_p_aruz/p16940522/comments/";
+            var page = web.Load(commentsUrl);
+            int pageNum = 1;
+            while (page != null) {
+                Console.WriteLine($"Scanning comments page {pageNum}...");
+                var feedbackNodes = page.DocumentNode.SelectNodes("//div[@id='comments']/article");
+                if (feedbackNodes == null) {
+                    break;
+                }
+
+                foreach (var node in feedbackNodes) {
+                    var ratingNode = node.SelectSingleNode(".//meta[@itemprop='ratingValue']"); //div[itemprop='reviewRating']/
+                    if (ratingNode == null) {
+                        continue;
+                    }
+
+                    int rating = ratingNode.GetAttributeValue("content", 0);
+
+                    var textNode = node.SelectSingleNode(".//div[@class='pp-review-text']");
+                    if (textNode == null) {
+                        continue;
+                    }
+
+                    var text = textNode.InnerText.Trim();
+                    var feedback = new Feedback {
+                        Rating = rating,
+                        Text = text
+                    };
+
+                    feedbacks.Add(feedback);
+                }
+
+                //trying to read the next comments page
+                pageNum++;
+                var nextPageUrl = commentsUrl.CombineVia("/", $"page={pageNum}/");
+                page = web.Load(nextPageUrl);
+                var activePageLinkNode = page.DocumentNode.SelectSingleNode($"//li[@id='page {pageNum}']");
+                if (activePageLinkNode == null || !activePageLinkNode.GetAttributeValue("class", "").Contains("active")) {
+                    break;
+                }
+            }
+        }
     }
 }

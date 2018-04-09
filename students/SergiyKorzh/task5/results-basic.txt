@@ -1,0 +1,8 @@
+3606 feedbacks total
+507 Ukrainian feedbacks
+
+Training model (406 items)...
+Checking on the testing set (101 items)...
+TP: 62; FP: 2; TN: 1; FN: 36
+Precision: 0,96875; Recall: 0,63265306122449
+
