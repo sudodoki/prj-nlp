@@ -1,0 +1,8 @@
+SELECT ?per1 ?relation ?per2 WHERE {
+
+   ?per1 ?relation ?per2 .
+   ?per1 a foaf:Person .
+   ?per2 a foaf:Person .
+
+}
+

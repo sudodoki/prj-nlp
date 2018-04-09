@@ -1,0 +1,11 @@
+*~
+\#*
+.*
+!.gitignore
+
+bin/
+obj/
+
+SentiWordNet_3.0.0_20130122.txt
+*.sgml
+itwiktionary-20180301-pages-meta-current.xml

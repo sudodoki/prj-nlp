@@ -1,0 +1,35 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ca55ccb1cd34adda95f0854401bec5a692d790329329bec6f7c5a9c7bece9f5b
+
+name:           headlines-formatting
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/headlines-formatting#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable headlines-formatting
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -O
+  build-depends:
+      base >=4.7 && <5
+    , chatter
+    , safe
+    , text
+    , vector
+  other-modules:
+      Paths_headlines_formatting
+  default-language: Haskell2010

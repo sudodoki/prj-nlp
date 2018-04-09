@@ -1,0 +1,25 @@
+name:                headlines-formatting
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/k-bx/headlines-formatting#readme
+license:             BSD3
+author:              Kostiantyn Rybnikov
+maintainer:          k-bx@k-bx.com
+copyright:           All Rights Reserved
+category:            Unclassified
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - text
+  - chatter
+  - safe
+  - vector
+
+executables:
+  headlines-formatting:
+    source-dirs:      src
+    main:             Main.hs
+    ghc-options: -Wall -O

@@ -1,0 +1,42 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 2258fb639cb0f69632228552939d89e6997ef06a0869ffa332a40236db0c707c
+
+name:           extract-conll2014
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/k-bx/conduit-xml-example#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      Kostiantyn Rybnikov
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable extract-conll2014
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , conduit
+    , groom
+    , hashable
+    , raw-strings-qq
+    , resourcet
+    , safe
+    , string-class
+    , text
+    , unordered-containers
+    , xml-conduit
+    , xml-types
+  other-modules:
+      Paths_extract_conll2014
+  default-language: Haskell2010
