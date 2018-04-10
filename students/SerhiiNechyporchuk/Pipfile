@@ -24,6 +24,11 @@ wikipedia = "*"
 qgrid = "*"
 stanford-corenlp = "*"
 matplotlib = "*"
+scrapy = "*"
+polyglot = "*"
+langdetect = "*"
+tqdm = "*"
+tokenize-uk = "*"
 
 
 [requires]
