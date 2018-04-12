@@ -32,10 +32,6 @@ class RozetkaSpider(CrawlSpider):
 
     def parse_reviews(self, response):
         for review in response.css('article.pp-review-i'):
-            #scores = {}
-            #for score_el in review.css('div.user-rating-b'):
-            #    score = style2rate[score_el.css('span.g-rating-stars-i::attr(style)').extract_first().strip()]
-            #    scores[(score_el.css('div.user-rating-b-i::text').extract_first().strip())] = score
             score = None
             score_el  = review.css('.g-rating-stars-i::attr(style)').extract_first()
             if score_el:
