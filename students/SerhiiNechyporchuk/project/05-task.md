@@ -25,11 +25,11 @@ For this task I focus on second task, assuming I have successfully splitted data
 I've tried to train Naive Bayes classifier and got pretty good results in accuracy: `0.954`. But after upsampling data I've got even better result: train accuracy = `0.972` and test accuracy = `0.971`. 
 Here is breakdown on f1/prec/rec by classes:
 
-|ad|event|file|like|note|poll|post|profile|rate|reply|session|view
-------------------------------------------------------------------
-prec|0.8809523809523809|1.0|1.0|0.9767441860465116|0.9512195121951219|0.972972972972973|0.9629629629629629|1.0|1.0|0.925|0.9722222222222222|1.0
-rec|1.0|1.0|0.9047619047619048|1.0|1.0|1.0|0.8125|0.9090909090909091|1.0|1.0|1.0|1.0
-f1|0.9367088607594937|1.0|0.9500000000000001|0.988235294117647|0.975|0.9863013698630138|0.8813559322033898|0.9523809523809523|1.0|0.961038961038961|0.9859154929577464|1.0
+| | ad |event|file|like|note|poll|post|profile|rate|reply|session|view |
+|-|-----|-----|----|----|----|----|----|-------|----|-----|-------|-----|
+|prec|0.88|1.0|1.0|0.97|0.95|0.97|0.96|1.0|1.0|0.92|0.97|1.0|
+rec|1.0|1.0|0.90|1.0|1.0|1.0|0.81|0.91|1.0|1.0|1.0|1.0
+f1|0.93|1.0|0.95|0.98|0.98|0.98|0.88|0.95|1.0|0.96|0.98|1.0
 
 Well, we see that results are pretty good, although precision of ad and recall of post might be imrpoved.
 
