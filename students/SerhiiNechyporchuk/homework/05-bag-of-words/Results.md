@@ -45,15 +45,18 @@ With a performance metric I've chosen it is hard to find baseline better than so
 ### Best estimator
 The best estimator on raw data is `logistic regression classifier` with:
 ```f2_score(neg) = 0.2606
-f1_macro = 0.4459```
+f1_macro = 0.4459
+```
 I take this performance as baseline performance. Also I've tried to use tonal classier on it's own and it didn't give me good results:
 ```f2_score(neg) = 0.1895
-f1_macro = 0.3049```
+f1_macro = 0.3049
+```
 
 ### Ensemble with tonal classifier
 I've tried to combine Naive Bayes, Logistic Regression and Tonal Classifier in ensemble to make use of tonal dictionary. The strategy for selecting answer was set to `majority`. The results are just a little bit better than baseline (`2% improvement`):
 ```f2_score(neg) = 0.2656
-f1_macro = 0.4413```
+f1_macro = 0.4413
+```
 
 ## Classificators evaluation on upsampled data
 This dataset is really skewed towards positive class. Let's try to upsample it so all classes will get same number of examples. I'll use just random sampling with replacement.
@@ -67,12 +70,14 @@ After:
 ### Best estimator
 Logistic Regression get the highest scores:
 ```f2_score(neg) = 0.9911
-f1_macro = 0.9587```
+f1_macro = 0.9587
+```
 
 ### Ensemble with tonal classifier
 Enseble with Naive Bayes, Logistic Regression and Tonal Classifier give results a little bit lower than just Logistic Regression:
 ```f2_score(neg) = 0.9793
-f1_macro = 0.9249```
+f1_macro = 0.9249
+```
 
 ## Classificators evaluation on downsampled data
 All classificators and ensemble produce much worst performance with downsampled data then with upsampled. 
@@ -84,12 +89,14 @@ Feature example (concatenated vectors):
 
 Than I trained Logistict Regression with this features on upsampled data. The result was very good:
 ```f2_score(neg) = 0.9950
-f1_macro = 0.9750```
+f1_macro = 0.9750
+```
 
 ## Test performance measures
 I've the estimator from last paragraph and measured its performance on test set. The results are pretty low:
 ```f2_score(neg) = 0.5161
-f1_macro = 0.5407```
+f1_macro = 0.5407
+```
 
 
 ## Results discussion
