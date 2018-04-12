@@ -1,3 +1,4 @@
+## Description
 My task of converting natural language search queries into the structured form has 3 steps (subtasks):
 
 1. Split search query into the phrases
