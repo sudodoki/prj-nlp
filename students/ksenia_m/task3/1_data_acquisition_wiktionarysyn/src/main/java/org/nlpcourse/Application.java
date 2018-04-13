@@ -3,13 +3,8 @@ package org.nlpcourse;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -19,7 +14,6 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.Attributes;
-import org.xml.sax.HandlerBase;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -41,8 +35,9 @@ public class Application {
     private static class SAXHandler extends DefaultHandler {
 
         private static final String SYNONYMES = "{{S|synonymes}}";
-        private Pattern SYN_PATTERN = Pattern.compile("\\[\\[(.+)\\]\\]");
-        private Map<String, Set<String>> synonyms = new HashMap();
+        private static final Pattern SYN_PATTERN = Pattern.compile("\\[\\[(.+?)\\]\\]");
+        private static final Pattern NEW_SECTION = Pattern.compile("={3,4} \\{\\{[^={}]+?\\}\\} ={3,4}");
+        private static final String TEXT = "text";
         private String currentQName;
         private String currentTitle;
         private PrintWriter outputFile;
@@ -56,7 +51,7 @@ public class Application {
         public void startElement(String uri, String localName, String qName, Attributes attributes)
                 throws SAXException {
             currentQName = qName;
-            if ("text".equals(currentQName)) {
+            if (TEXT.equals(currentQName)) {
                 textBuffer = new StringBuilder();
             }
         }
@@ -64,8 +59,8 @@ public class Application {
         @Override
         public void endElement(String uri, String localName, String qName) throws SAXException {
             super.endElement(uri, localName, qName);
-            if ("text".equals(currentQName)) {
-                findSynonimsFor(currentTitle, textBuffer.toString());
+            if (TEXT.equals(currentQName)) {
+                findSynonymsFor(currentTitle, textBuffer.toString());
             }
             currentQName = null;
         }
@@ -74,18 +69,26 @@ public class Application {
         public void characters(char[] ch, int start, int length) throws SAXException {
             if ("title".equals(currentQName)) {
                 currentTitle = new String(ch, start, length);
-            } else if ("text".equals(currentQName)) {
+            } else if (TEXT.equals(currentQName)) {
                 textBuffer.append(new String(ch, start, length));
             }
         }
 
-        private void findSynonimsFor(String currentTitle, String text) {
+        private void findSynonymsFor(String currentTitle, String text) {
             if (text.contains(SYNONYMES)) {
-                String afterSynTitle = text.substring(text.indexOf(SYNONYMES));
-                Matcher mathcer = SYN_PATTERN.matcher(afterSynTitle);
+                String synSection = text.substring(text.indexOf(SYNONYMES) + SYNONYMES.length());
+                Matcher matcher = NEW_SECTION.matcher(synSection);
+                if (matcher.find()) {
+                    synSection = synSection.substring(0, matcher.start());
+                }
+                int doubleLineInd = synSection.indexOf("\n\n");
+                if (doubleLineInd > 0) {
+                    synSection = synSection.substring(0, doubleLineInd);
+                }
+                matcher = SYN_PATTERN.matcher(synSection);
                 List<String> synonyms = new ArrayList<>();
-                while (mathcer.find()) {
-                    synonyms.add(mathcer.group(1));
+                while (matcher.find()) {
+                    synonyms.add(matcher.group(1));
                 }
                 if (!synonyms.isEmpty()) {
                     outputFile.println(currentTitle + ":" + synonyms.stream().collect(Collectors.joining(", ")));
