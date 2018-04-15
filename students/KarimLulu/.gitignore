@@ -76,3 +76,5 @@ hw*
 *.warc*
 *.bz2
 *.gz
+
+cornell_movie_dialogs_corpus.zip
