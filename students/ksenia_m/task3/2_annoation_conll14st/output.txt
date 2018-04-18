@@ -1,0 +1,359 @@
+Teacher 8 found mistake:2397 of types: Wci(340), ArtOrDet(332), Mec(231), Nn(215), Prep(211), Vt(133), Vform(132), SVA(105), Pref(96), Rloc-(95), Trans(94), Wform(77), Ssub(68), Vm(49), Pform(47), Others(44), V0(31), WOinc(22), Npos(19), Sfrag(13), WOadv(12), Um(12), Wtone(9), Srun(7), Spar(3)
+Avg mistake/(num of letters) 0.015065523
+
+Teacher 9 found mistake:3331 of types: Mec(496), Wci(479), ArtOrDet(444), Prep(390), Nn(228), Rloc-(199), SVA(154), Pref(153), Vt(150), Wform(103), Vform(91), Trans(79), WOinc(54), Others(49), Um(42), Vm(37), V0(37), WOadv(27), Srun(26), Spar(24), Pform(18), Wtone(15), Npos(15), Ssub(10), Sfrag(5), Smod(5), Wa(1)
+Avg mistake/(num of letters) 0.02093586
+
+For text 1:
+Total correction of teacher 8 : 33, total correction of teacher 9 : 45
+All same:6, same start and end: 18, different type only:3, different correction only:4
+After teacher 8 correction application text length is 2598
+After teacher 9 correction application text length is 2607
+Levenshtein distance after correction is 185
+
+For text 2:
+Total correction of teacher 8 : 43, total correction of teacher 9 : 54
+All same:13, same start and end: 24, different type only:5, different correction only:2
+After teacher 8 correction application text length is 3024
+After teacher 9 correction application text length is 3015
+Levenshtein distance after correction is 158
+
+For text 3:
+Total correction of teacher 8 : 57, total correction of teacher 9 : 87
+All same:23, same start and end: 38, different type only:5, different correction only:4
+After teacher 8 correction application text length is 3373
+After teacher 9 correction application text length is 3375
+Levenshtein distance after correction is 291
+
+For text 4:
+Total correction of teacher 8 : 50, total correction of teacher 9 : 101
+All same:10, same start and end: 16, different type only:0, different correction only:1
+After teacher 8 correction application text length is 3109
+After teacher 9 correction application text length is 3013
+Levenshtein distance after correction is 594
+
+For text 5:
+Total correction of teacher 8 : 48, total correction of teacher 9 : 70
+All same:15, same start and end: 25, different type only:2, different correction only:6
+After teacher 8 correction application text length is 3124
+After teacher 9 correction application text length is 3099
+Levenshtein distance after correction is 331
+
+For text 6:
+Total correction of teacher 8 : 48, total correction of teacher 9 : 56
+All same:12, same start and end: 19, different type only:1, different correction only:2
+After teacher 8 correction application text length is 3169
+After teacher 9 correction application text length is 3033
+Levenshtein distance after correction is 364
+
+For text 7:
+Total correction of teacher 8 : 57, total correction of teacher 9 : 82
+All same:13, same start and end: 31, different type only:8, different correction only:9
+After teacher 8 correction application text length is 3217
+After teacher 9 correction application text length is 3129
+Levenshtein distance after correction is 388
+
+For text 8:
+Total correction of teacher 8 : 34, total correction of teacher 9 : 91
+All same:17, same start and end: 22, different type only:0, different correction only:3
+After teacher 8 correction application text length is 2784
+After teacher 9 correction application text length is 2737
+Levenshtein distance after correction is 338
+
+For text 9:
+Total correction of teacher 8 : 37, total correction of teacher 9 : 71
+All same:9, same start and end: 21, different type only:1, different correction only:6
+After teacher 8 correction application text length is 2832
+After teacher 9 correction application text length is 2838
+Levenshtein distance after correction is 275
+
+For text 10:
+Total correction of teacher 8 : 61, total correction of teacher 9 : 83
+All same:15, same start and end: 30, different type only:3, different correction only:7
+After teacher 8 correction application text length is 2901
+After teacher 9 correction application text length is 2854
+Levenshtein distance after correction is 427
+
+For text 11:
+Total correction of teacher 8 : 64, total correction of teacher 9 : 64
+All same:12, same start and end: 28, different type only:5, different correction only:6
+After teacher 8 correction application text length is 2898
+After teacher 9 correction application text length is 2949
+Levenshtein distance after correction is 364
+
+For text 12:
+Total correction of teacher 8 : 47, total correction of teacher 9 : 62
+All same:15, same start and end: 26, different type only:5, different correction only:4
+After teacher 8 correction application text length is 2794
+After teacher 9 correction application text length is 2827
+Levenshtein distance after correction is 266
+
+For text 13:
+Total correction of teacher 8 : 64, total correction of teacher 9 : 66
+All same:13, same start and end: 32, different type only:7, different correction only:3
+After teacher 8 correction application text length is 3090
+After teacher 9 correction application text length is 3118
+Levenshtein distance after correction is 290
+
+For text 14:
+Total correction of teacher 8 : 33, total correction of teacher 9 : 45
+All same:9, same start and end: 14, different type only:2, different correction only:1
+After teacher 8 correction application text length is 2840
+After teacher 9 correction application text length is 2881
+Levenshtein distance after correction is 235
+
+For text 15:
+Total correction of teacher 8 : 73, total correction of teacher 9 : 86
+All same:18, same start and end: 33, different type only:9, different correction only:3
+After teacher 8 correction application text length is 3574
+After teacher 9 correction application text length is 3617
+Levenshtein distance after correction is 392
+
+For text 16:
+Total correction of teacher 8 : 54, total correction of teacher 9 : 57
+All same:17, same start and end: 25, different type only:4, different correction only:3
+After teacher 8 correction application text length is 3023
+After teacher 9 correction application text length is 3037
+Levenshtein distance after correction is 270
+
+For text 17:
+Total correction of teacher 8 : 23, total correction of teacher 9 : 54
+All same:3, same start and end: 8, different type only:2, different correction only:1
+After teacher 8 correction application text length is 4132
+After teacher 9 correction application text length is 4113
+Levenshtein distance after correction is 295
+
+For text 18:
+Total correction of teacher 8 : 44, total correction of teacher 9 : 65
+All same:12, same start and end: 25, different type only:5, different correction only:5
+After teacher 8 correction application text length is 2908
+After teacher 9 correction application text length is 2932
+Levenshtein distance after correction is 270
+
+For text 19:
+Total correction of teacher 8 : 37, total correction of teacher 9 : 62
+All same:10, same start and end: 20, different type only:2, different correction only:1
+After teacher 8 correction application text length is 3676
+After teacher 9 correction application text length is 3665
+Levenshtein distance after correction is 222
+
+For text 20:
+Total correction of teacher 8 : 33, total correction of teacher 9 : 62
+All same:9, same start and end: 22, different type only:4, different correction only:1
+After teacher 8 correction application text length is 3114
+After teacher 9 correction application text length is 3097
+Levenshtein distance after correction is 257
+
+For text 21:
+Total correction of teacher 8 : 25, total correction of teacher 9 : 46
+All same:5, same start and end: 11, different type only:3, different correction only:1
+After teacher 8 correction application text length is 2835
+After teacher 9 correction application text length is 2869
+Levenshtein distance after correction is 223
+
+For text 22:
+Total correction of teacher 8 : 29, total correction of teacher 9 : 56
+All same:11, same start and end: 15, different type only:1, different correction only:3
+After teacher 8 correction application text length is 2829
+After teacher 9 correction application text length is 2876
+Levenshtein distance after correction is 307
+
+For text 23:
+Total correction of teacher 8 : 54, total correction of teacher 9 : 67
+All same:11, same start and end: 23, different type only:5, different correction only:2
+After teacher 8 correction application text length is 2890
+After teacher 9 correction application text length is 2919
+Levenshtein distance after correction is 346
+
+For text 24:
+Total correction of teacher 8 : 49, total correction of teacher 9 : 67
+All same:9, same start and end: 20, different type only:2, different correction only:2
+After teacher 8 correction application text length is 2730
+After teacher 9 correction application text length is 2788
+Levenshtein distance after correction is 309
+
+For text 25:
+Total correction of teacher 8 : 52, total correction of teacher 9 : 42
+All same:5, same start and end: 13, different type only:2, different correction only:2
+After teacher 8 correction application text length is 2992
+After teacher 9 correction application text length is 2959
+Levenshtein distance after correction is 281
+
+For text 26:
+Total correction of teacher 8 : 55, total correction of teacher 9 : 88
+All same:16, same start and end: 34, different type only:6, different correction only:8
+After teacher 8 correction application text length is 2722
+After teacher 9 correction application text length is 2707
+Levenshtein distance after correction is 263
+
+For text 27:
+Total correction of teacher 8 : 44, total correction of teacher 9 : 80
+All same:22, same start and end: 34, different type only:3, different correction only:3
+After teacher 8 correction application text length is 3177
+After teacher 9 correction application text length is 3124
+Levenshtein distance after correction is 234
+
+For text 28:
+Total correction of teacher 8 : 61, total correction of teacher 9 : 83
+All same:20, same start and end: 34, different type only:7, different correction only:4
+After teacher 8 correction application text length is 3015
+After teacher 9 correction application text length is 2953
+Levenshtein distance after correction is 273
+
+For text 29:
+Total correction of teacher 8 : 57, total correction of teacher 9 : 89
+All same:28, same start and end: 34, different type only:1, different correction only:2
+After teacher 8 correction application text length is 3338
+After teacher 9 correction application text length is 3294
+Levenshtein distance after correction is 297
+
+For text 30:
+Total correction of teacher 8 : 44, total correction of teacher 9 : 57
+All same:20, same start and end: 23, different type only:2, different correction only:0
+After teacher 8 correction application text length is 4237
+After teacher 9 correction application text length is 4217
+Levenshtein distance after correction is 155
+
+For text 31:
+Total correction of teacher 8 : 20, total correction of teacher 9 : 62
+All same:7, same start and end: 14, different type only:2, different correction only:0
+After teacher 8 correction application text length is 3201
+After teacher 9 correction application text length is 3143
+Levenshtein distance after correction is 212
+
+For text 32:
+Total correction of teacher 8 : 48, total correction of teacher 9 : 96
+All same:16, same start and end: 28, different type only:6, different correction only:4
+After teacher 8 correction application text length is 3407
+After teacher 9 correction application text length is 3446
+Levenshtein distance after correction is 333
+
+For text 33:
+Total correction of teacher 8 : 24, total correction of teacher 9 : 57
+All same:6, same start and end: 11, different type only:1, different correction only:2
+After teacher 8 correction application text length is 2822
+After teacher 9 correction application text length is 2821
+Levenshtein distance after correction is 165
+
+For text 34:
+Total correction of teacher 8 : 42, total correction of teacher 9 : 80
+All same:18, same start and end: 25, different type only:2, different correction only:1
+After teacher 8 correction application text length is 3138
+After teacher 9 correction application text length is 3146
+Levenshtein distance after correction is 255
+
+For text 35:
+Total correction of teacher 8 : 20, total correction of teacher 9 : 45
+All same:9, same start and end: 13, different type only:3, different correction only:0
+After teacher 8 correction application text length is 2992
+After teacher 9 correction application text length is 2983
+Levenshtein distance after correction is 143
+
+For text 36:
+Total correction of teacher 8 : 75, total correction of teacher 9 : 70
+All same:29, same start and end: 39, different type only:1, different correction only:3
+After teacher 8 correction application text length is 3426
+After teacher 9 correction application text length is 3398
+Levenshtein distance after correction is 361
+
+For text 37:
+Total correction of teacher 8 : 32, total correction of teacher 9 : 53
+All same:9, same start and end: 15, different type only:3, different correction only:1
+After teacher 8 correction application text length is 3012
+After teacher 9 correction application text length is 3033
+Levenshtein distance after correction is 214
+
+For text 38:
+Total correction of teacher 8 : 75, total correction of teacher 9 : 75
+All same:17, same start and end: 29, different type only:1, different correction only:5
+After teacher 8 correction application text length is 3830
+After teacher 9 correction application text length is 3893
+Levenshtein distance after correction is 478
+
+For text 39:
+Total correction of teacher 8 : 49, total correction of teacher 9 : 45
+All same:15, same start and end: 23, different type only:3, different correction only:0
+After teacher 8 correction application text length is 3114
+After teacher 9 correction application text length is 3159
+Levenshtein distance after correction is 181
+
+For text 40:
+Total correction of teacher 8 : 51, total correction of teacher 9 : 58
+All same:8, same start and end: 17, different type only:7, different correction only:1
+After teacher 8 correction application text length is 3216
+After teacher 9 correction application text length is 3216
+Levenshtein distance after correction is 230
+
+For text 41:
+Total correction of teacher 8 : 26, total correction of teacher 9 : 39
+All same:5, same start and end: 10, different type only:3, different correction only:2
+After teacher 8 correction application text length is 3586
+After teacher 9 correction application text length is 3562
+Levenshtein distance after correction is 171
+
+For text 42:
+Total correction of teacher 8 : 50, total correction of teacher 9 : 64
+All same:11, same start and end: 24, different type only:5, different correction only:4
+After teacher 8 correction application text length is 3387
+After teacher 9 correction application text length is 3409
+Levenshtein distance after correction is 294
+
+For text 43:
+Total correction of teacher 8 : 97, total correction of teacher 9 : 85
+All same:20, same start and end: 37, different type only:4, different correction only:6
+After teacher 8 correction application text length is 3090
+After teacher 9 correction application text length is 3012
+Levenshtein distance after correction is 396
+
+For text 44:
+Total correction of teacher 8 : 27, total correction of teacher 9 : 62
+All same:9, same start and end: 14, different type only:1, different correction only:2
+After teacher 8 correction application text length is 3781
+After teacher 9 correction application text length is 3791
+Levenshtein distance after correction is 202
+
+For text 45:
+Total correction of teacher 8 : 41, total correction of teacher 9 : 62
+All same:8, same start and end: 17, different type only:3, different correction only:2
+After teacher 8 correction application text length is 3901
+After teacher 9 correction application text length is 3872
+Levenshtein distance after correction is 255
+
+For text 46:
+Total correction of teacher 8 : 62, total correction of teacher 9 : 65
+All same:14, same start and end: 24, different type only:2, different correction only:6
+After teacher 8 correction application text length is 3263
+After teacher 9 correction application text length is 3224
+Levenshtein distance after correction is 387
+
+For text 47:
+Total correction of teacher 8 : 46, total correction of teacher 9 : 55
+All same:16, same start and end: 22, different type only:3, different correction only:1
+After teacher 8 correction application text length is 3005
+After teacher 9 correction application text length is 2992
+Levenshtein distance after correction is 240
+
+For text 48:
+Total correction of teacher 8 : 77, total correction of teacher 9 : 93
+All same:21, same start and end: 38, different type only:2, different correction only:4
+After teacher 8 correction application text length is 3284
+After teacher 9 correction application text length is 3231
+Levenshtein distance after correction is 424
+
+For text 49:
+Total correction of teacher 8 : 72, total correction of teacher 9 : 73
+All same:17, same start and end: 31, different type only:3, different correction only:7
+After teacher 8 correction application text length is 3045
+After teacher 9 correction application text length is 2991
+Levenshtein distance after correction is 428
+
+For text 50:
+Total correction of teacher 8 : 53, total correction of teacher 9 : 54
+All same:9, same start and end: 13, different type only:0, different correction only:1
+After teacher 8 correction application text length is 3822
+After teacher 9 correction application text length is 3758
+Levenshtein distance after correction is 326
+
+TOTAL: All same:662, same start and end: 1162, different type only:160, different correction only:151
+
+Process finished with exit code 0
