@@ -21,7 +21,7 @@ def handle_text(text):
     temp_text = re.sub(r'\.{2,}', ' ', temp_text)
     temp_text = re.sub(r'\(.*\)', ' ', temp_text)
     temp_text = re.sub(r'!+', '.', temp_text)
-    temp_text = re.sub(r'\b\d+\b', 'NNNN', temp_text)
+    temp_text = re.sub(r'\b\d+\b', '9999', temp_text)
     return re.sub(r'\s+', ' ', temp_text)
 
 
@@ -75,8 +75,27 @@ def add_n_grams(this_token, this_features):
             'bigram_pos_after': '{} {}'.format(this_pos, this_features.get('na1_pos'))
             }
 
+
+def prepare_three_grams(this_token, end_flag, this_features):
+    threegram = '{} {} {}'.format(this_features.get('nb1_n_token_text'), this_token,
+                                  this_features.get('na1_token_text'))
+    threegram_lemma = '{} {} {}'.format(this_features.get('nb1_n_lemma'), this_features['n_lemma'],
+                                        this_features.get('na1_lemma'))
+    if end_flag:
+        with open('end_of_sents.tsv', 'a') as end_files:
+            end_files.write(threegram + '\t' + threegram_lemma + '\n')
+    return threegram, threegram_lemma
+
+
 def pos_window(this_token, this_features):
-    this_pos
+    return {
+        'pos_n': {
+            'pos_n-2': this_features.get('nb2_pos'),
+            'pos_n-1': this_features.get('nb1_pos'),
+            'pos_n+1': this_features.get('na1_pos'),
+            'pos_n+2': this_features.get('na2_pos')
+        }
+    }
 
 
 def process_texts(texts_list, csv_file):
@@ -85,14 +104,15 @@ def process_texts(texts_list, csv_file):
         if i == 0:
             sample = pd.DataFrame(prepare_texts(text))
             sample.to_csv(csv_file, index=False)
-        elif i == 10:
-            return
+        # elif i == 10:
+        #     return
         else:
             pd.DataFrame(prepare_texts(text)).to_csv(csv_file, mode='a', header=False, index=False)
             # df = df.append(pd.DataFrame(prepare_texts(text)))
             print(i)
     # return df.reset_index(drop=True)
     return
+
 
 def prepare_texts(text):
     tokens = []
@@ -110,42 +130,60 @@ def prepare_texts(text):
             tokens.append(token.text)
             features.append(process_one_token(token))
     len_tokens = len(tokens)
+    len_current = 0
 
     # tokens_prev = []
     tokens_data = []
-    # labels = []
-
     for i, token in enumerate(tokens):
         end_flag = False
-        token_data = {}
         if token == '.' and len_tokens > i + 1:
             continue
         # tokens_prev.append(token)
         token_data = add_n_to_feature_name('n', features[i])
-        if i - 1 > -1:
-            token_data = dict(token_data, **add_n_to_feature_name('nb1', features[i - 1]))
-            # features_prev[i]['n-1'] = features[i-1]
-        if i - 2 > -1:
-            token_data = dict(token_data, **add_n_to_feature_name('nb2', features[i - 2]))
-            # features_prev[i]['n-2'] = features[i-2]
-        if len_tokens > i + 3:
-            if tokens[i + 1] == '.':
-                end_flag = True
-                token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 2]))
-                token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 3]))
-            token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
-            token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 2]))
-        elif len_tokens == i + 3:
-            if tokens[i + 1] == '.':
-                end_flag = True
-                token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 2]))
-            token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
-            token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 2]))
-        elif len_tokens == i + 2:
-            token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
-        token_data = dict(token_data, **add_n_grams(token, token_data))
+        if len_current > 0:
+            token_data = dict(token_data, **add_n_to_feature_name('nb1', {k: v for k, v in tokens_data[-1].items()
+                                                                          if k.startswith('n_')}))
+        if len_current > 1:
+            token_data = dict(token_data, **add_n_to_feature_name('nb2', {k: v for k, v in tokens_data[-2].items()
+                                                                          if k.startswith('n_')}))
+        j = i + 1
+        n = 1
+        while True:
+            try:
+                if tokens[j] == '.':
+                    if n == 1:
+                        end_flag = True
+                    j += 1
+                else:
+                    token_data = dict(token_data, **add_n_to_feature_name('na{}'.format(n), features[j]))
+                    n += 1
+                    j += 1
+                if n > 2:
+                    break
+            except IndexError:
+                break
+
+        # if len_tokens > i + 3:
+        #     if tokens[i + 1] == '.':
+        #         end_flag = True
+        #         token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 2]))
+        #         token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 3]))
+        #     else:
+        #         token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
+        #         token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 2]))
+        # elif len_tokens == i + 3:
+        #     if tokens[i + 1] == '.':
+        #         end_flag = True
+        #         token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 2]))
+        #     else:
+        #         token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
+        #         token_data = dict(token_data, **add_n_to_feature_name('na2', features[i + 2]))
+        # elif len_tokens == i + 2:
+        #     token_data = dict(token_data, **add_n_to_feature_name('na1', features[i + 1]))
+        token_data['threegrams'], token_data['threegrams_lemma'] = prepare_three_grams(token, end_flag, token_data)
         token_data['label'] = end_flag
         tokens_data.append(token_data)
+        len_current += 1
         # labels.append(end_flag)
     # print(tokens_prev)
     return tokens_data
@@ -156,7 +194,7 @@ nlp = en_core_web_sm.load()
 
 lucene_corpus = prepare_lucene_threads(email_threads)
 # data = prepare_texts(test_list)
-process_texts(lucene_corpus, 'lucene_corpus3.csv')
+process_texts(lucene_corpus, 'lucene_corpus.csv')
 # data = process_texts(lucene_corpus)
 # print(len(tokens_list))
 # print(len(features))
