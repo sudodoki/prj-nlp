@@ -1,4 +1,0 @@
-"www" domains: 58.73122317596567
-".com" domains:  54.10743025751073
-Popular:
-[('www.urbandictionary.com', 64), ('www.pressreader.com', 27), ('hfboards.hockeysfuture.com', 23), ('ecom.datajoe.com', 22), ('www.opensubtitles.org', 20), ('www.sears.com', 20), ('news.bbc.co.uk', 19), ('www.tripadvisor.com.mx', 19), ('allnurses.com', 18), ('www.accuweather.com', 18)]
