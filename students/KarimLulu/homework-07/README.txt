@@ -14,13 +14,21 @@
 
 Найкращий результат на датасеті run-on-test.json
 
+Metrics:
+
 Recall: 0.947
 Precision: 0.971
 F1: 0.956
 accuracy: 0.947
+
+Confusion matrix:
+
        pred_False  pred_True
 False        4327        215
 True           35        120
+
+Report:
+
              precision    recall  f1-score   support
 
       False       0.99      0.95      0.97      4542
