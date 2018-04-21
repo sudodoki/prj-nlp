@@ -18,7 +18,7 @@
 * Книга про парсери залежностей - [Dependency Parsing by Kübler, McDonald, and Nivre](https://books.google.com.ua/books?id=k3iiup7HB9UC&pg=PA21&hl=uk&source=gbs_toc_r&cad=4#v=onepage&q&f=false)
 * Гарний огляд типів парсера залежностей та оракулів - [Improvements in Transition Based Systems for Dependency Parsing](http://paduaresearch.cab.unipd.it/8004/1/Tesi.pdf)
 
-II. Використання парсера на нових даних
+## II. Використання парсера на нових даних
 
 Виберіть кілька випадкових речень українською мовою на побудуйте дерева залежностей для них, використовуючи свій парсер.
 
