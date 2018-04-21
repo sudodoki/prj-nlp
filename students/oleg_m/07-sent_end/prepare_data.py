@@ -2,7 +2,6 @@ import re
 import json
 import spacy, en_core_web_sm
 import pandas as pd
-from pprint import pprint
 
 data_path = '/Users/admin/edu/NLP/practical_NLP_course/data/'
 email_threads = 'lucene-threads_sample.json'
@@ -55,47 +54,17 @@ def add_n_to_feature_name(prefix, features):
     return {'{}_{}'.format(prefix, k): v for k, v in features.items()}
 
 
-def add_n_grams(this_token, this_features):
-    this_pos = this_features.get('n_pos')
-    return {'threegram_before': '{} {} {}'.format(this_features.get('nb2_token_text'),
-                                                  this_features.get('nb1_token_text'), this_token),
-            'threegram_in': '{} {} {}'.format(this_features.get('nb1_token_text'), this_token,
-                                              this_features.get('na1_token_text')),
-            'threegram_after': '{} {} {}'.format(this_token, this_features.get('na1_token_text'),
-                                                 this_features.get('na2_token_text')),
-            'threegram_pos_before': '{} {} {}'.format(this_features.get('nb2_pos'),
-                                                      this_features.get('nb1_pos'), this_pos),
-            'threegram_pos_in': '{} {} {}'.format(this_features.get('nb1_pos'), this_pos,
-                                                  this_features.get('na1_pos')),
-            'threegram_pos_after': '{} {} {}'.format(this_pos, this_features.get('na1_pos'),
-                                                     this_features.get('na2_pos')),
-            'bigram_before': '{} {}'.format(this_features.get('nb1_token_text'), this_token),
-            'bigram_after': '{} {}'.format(this_token, this_features.get('na1_token_text')),
-            'bigram_pos_before': '{} {}'.format(this_features.get('nb1_pos'), this_pos),
-            'bigram_pos_after': '{} {}'.format(this_pos, this_features.get('na1_pos'))
-            }
-
-
 def prepare_three_grams(this_token, end_flag, this_features):
+    this_lemma = this_features['n_lemma']
     threegram = '{} {} {}'.format(this_features.get('nb1_n_token_text'), this_token,
                                   this_features.get('na1_token_text'))
-    threegram_lemma = '{} {} {}'.format(this_features.get('nb1_n_lemma'), this_features['n_lemma'],
+    threegram_lemma = '{} {} {}'.format(this_features.get('nb1_n_lemma'), this_lemma,
                                         this_features.get('na1_lemma'))
     if end_flag:
         with open('end_of_sents.tsv', 'a') as end_files:
-            end_files.write(threegram + '\t' + threegram_lemma + '\n')
+            end_files.write('{}\t{}\t{}\t{}\n'.format(threegram, threegram_lemma, this_token, this_lemma))
+            # end_files.write(threegram + '\t' + threegram_lemma + '\n')
     return threegram, threegram_lemma
-
-
-def pos_window(this_token, this_features):
-    return {
-        'pos_n': {
-            'pos_n-2': this_features.get('nb2_pos'),
-            'pos_n-1': this_features.get('nb1_pos'),
-            'pos_n+1': this_features.get('na1_pos'),
-            'pos_n+2': this_features.get('na2_pos')
-        }
-    }
 
 
 def process_texts(texts_list, csv_file):
@@ -126,7 +95,7 @@ def prepare_texts(text):
         except StopIteration:
             return
     for token in doc:
-        if not re.match(r'^\s*$', token.text):
+        if not re.match(r'^\s*$|^[\"\']$', token.text) and len(token.text) < 30:
             tokens.append(token.text)
             features.append(process_one_token(token))
     len_tokens = len(tokens)
@@ -193,12 +162,5 @@ def prepare_texts(text):
 nlp = en_core_web_sm.load()
 
 lucene_corpus = prepare_lucene_threads(email_threads)
-# data = prepare_texts(test_list)
 process_texts(lucene_corpus, 'lucene_corpus.csv')
-# data = process_texts(lucene_corpus)
-# print(len(tokens_list))
-# print(len(features))
-# print(len(y_train))
-# with pd.option_context('display.max_rows', None, 'display.max_columns', 3):
-#     print(data.head(10))
-# data.to_csv('lucene_corpus2.csv')
+
