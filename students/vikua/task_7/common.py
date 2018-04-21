@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 nlp = spacy.load('en', disable=['ner'])
 
-punct = ''.join(set(string.punctuation) - {'!', '.', '?', '.'})
+punct = ''.join(set(string.punctuation) - {'!', '.', '?'})
 punct_reg = re.compile('[%s]' % re.escape(punct))
 num_reg = re.compile('[0-9]')
 
