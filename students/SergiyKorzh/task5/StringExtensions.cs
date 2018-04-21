@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Text;
-using System.Text.RegularExpressions;
 
-namespace NLPCourse.DataTask {
+
+namespace Korzh.TextUtils {
 
     public static class StringExtensions
     {
@@ -70,6 +66,56 @@ namespace NLPCourse.DataTask {
 
         public static string Replicate(this char ch, int count) {
             return new String(ch, count);
+        }
+
+        public static bool IsCapitalized(this string s) {
+            if (string.IsNullOrEmpty(s)) {
+                return false;
+            }
+
+            var firstChar = s.Substring(0, 1);
+
+            return firstChar == firstChar.ToUpperInvariant();
+        }
+
+        public static bool IsNamePosTag(this string posTag) { 
+            if (string.IsNullOrEmpty(posTag)) {
+                return false;
+            }
+
+            return posTag == "NNP" || posTag == "NNPS";
+        }
+
+        public static bool IsPunctuation(this string ch) {
+            if (string.IsNullOrEmpty(ch)) {
+                return false;
+            }
+
+            return ch == "." || ch == "," || ch == "!" || ch == "?" || ch == ";" || ch == ":";
+        }
+
+
+        public static string AddWord(this string s, string word) {
+            if (!string.IsNullOrEmpty(s)) {
+                return s + " " + word;
+            }
+            else {
+                return word;
+            }
+        }
+
+        public static string FirstNChars(this string s, int len) {
+            if (s == null) {
+                return null;
+            }
+
+            if (s.Length < len) {
+                return s;
+            }
+            else {
+                return s.Substring(0, len);
+            }
+
         }
 
     }
