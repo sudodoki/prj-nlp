@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "02-Acquisition02": {
+      "commandName": "Project",
+      "commandLineArgs": "> result.txt"
+    }
+  }
+}

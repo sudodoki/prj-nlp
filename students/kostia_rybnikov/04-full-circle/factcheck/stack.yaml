@@ -1,0 +1,8 @@
+resolver: lts-11.2
+packages:
+- .
+extra-deps:
+- rocksdb-haskell-1.0.1
+- haddock-library-1.4.3
+- git: https://github.com/k-bx/corenlp-parser.git
+  commit: 809e9f4a42aa7bda593a5b7b3e4f3158412453d9
