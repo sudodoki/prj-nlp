@@ -1,0 +1,37 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+jupyter = "*"
+scikit-learn = "*"
+scipy = "*"
+numpy = "*"
+spacy = "*"
+pandas = "*"
+stanfordcorenlp = "*"
+kanren = "*"
+nltk = "*"
+wikipedia = "*"
+qgrid = "*"
+stanford-corenlp = "*"
+matplotlib = "*"
+scrapy = "*"
+polyglot = "*"
+langdetect = "*"
+tqdm = "*"
+tokenize-uk = "*"
+python-rocksdb = "*"
+
+
+[requires]
+
+python_version = "3.6"
