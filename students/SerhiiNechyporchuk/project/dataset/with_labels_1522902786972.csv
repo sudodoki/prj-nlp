@@ -1,0 +1,533 @@
+,id,phrase,replacements,label
+0,e82bae79-8891-4244-9745-bcb07935845c,wrote posts mentioning <mention>,"{""mention"": ""Stacy Vaughn""}",post
+1,e82bae79-8891-4244-9745-bcb07935845c,liked any post <number> times,"{""number"": ""9""}",like
+2,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad with <post-word> in it,"{""post-word"": ""'blackout'""}",ad
+3,e82bae79-8891-4244-9745-bcb07935845c,wrote at least one post with mention of <mention>,"{""mention"": ""Stacy Vaughn""}",post
+4,e82bae79-8891-4244-9745-bcb07935845c,liked any post <number> or more times,"{""number"": ""9""}",like
+5,e82bae79-8891-4244-9745-bcb07935845c,clickd on ad with text <post-word> in it,"{""post-word"": ""'blackout'""}",ad
+6,e82bae79-8891-4244-9745-bcb07935845c,wrote a post about <mention>,"{""mention"": ""Stacy Vaughn""}",post
+7,e82bae79-8891-4244-9745-bcb07935845c,at least <number> likes,"{""number"": ""nine""}",like
+8,e82bae79-8891-4244-9745-bcb07935845c,clickd on add that contained <post-word>,"{""post-word"": ""'blackout'""}",ad
+9,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad about <post-word>,"{""post-word"": ""blackout""}",ad
+10,e82bae79-8891-4244-9745-bcb07935845c,also liked post <number> times,"{""number"": ""9""}",like
+11,e82bae79-8891-4244-9745-bcb07935845c,wrote post with <mention>s mention,"{""mention"": ""Stacy Vaughn'""}",post
+12,e82bae79-8891-4244-9745-bcb07935845c,wrote <mention>s post,"{""mention"": ""Stacy Vaughn'""}",post
+13,e82bae79-8891-4244-9745-bcb07935845c,liked it <number> times,"{""number"": ""9""}",like
+14,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad that contains <post-word>,"{""post-word"": ""'blackout'""}",ad
+15,e82bae79-8891-4244-9745-bcb07935845c,rated page at least <number> times,"{""number"": ""4""}",rate
+16,e82bae79-8891-4244-9745-bcb07935845c,answered <poll-answer> in a poll,"{""poll-answer"": ""'Yes'""}",poll
+17,e82bae79-8891-4244-9745-bcb07935845c,downloaded <page-type> type page file,"{""page-type"": ""'exhibitor'""}",file
+18,e82bae79-8891-4244-9745-bcb07935845c,rated any page <number> times,"{""number"": ""four""}",rate
+19,e82bae79-8891-4244-9745-bcb07935845c,participated in poll answered <poll-answer> to any question,"{""poll-answer"": ""yes""}",poll
+20,e82bae79-8891-4244-9745-bcb07935845c,downloaded a file from page with <page-type> type,"{""page-type"": ""'exhibitor'""}",file
+21,e82bae79-8891-4244-9745-bcb07935845c,rated page <number> time,"{""number"": ""4""}",rate
+22,e82bae79-8891-4244-9745-bcb07935845c,answered <poll-answered> in poll,"{""poll-answer"": ""yes""}",poll
+23,e82bae79-8891-4244-9745-bcb07935845c,downloaded a file from <page-type> page,"{""page-type"": ""exhibitor""}",file
+24,e82bae79-8891-4244-9745-bcb07935845c,rated page <number> or more times,"{""number"": ""4""}",rate
+25,e82bae79-8891-4244-9745-bcb07935845c,in poll answered <poll-answered>,"{""poll-answer"": ""yes""}",poll
+26,e82bae79-8891-4244-9745-bcb07935845c,got file from <page-type> type page,"{""page-type"": ""'exhibitor'""}",file
+27,e82bae79-8891-4244-9745-bcb07935845c,rated page <number> times,"{""number"": ""4""}",rate
+28,e82bae79-8891-4244-9745-bcb07935845c,participated in poll and answered yes,"{""poll-answer"": ""yes""}",poll
+29,e82bae79-8891-4244-9745-bcb07935845c,downloaded any file from <page-type> page,"{""page-type"": ""exhibitor""}",file
+30,e82bae79-8891-4244-9745-bcb07935845c,<post-word> in bio,"{""post-word"": ""'captive'""}",profile
+31,e82bae79-8891-4244-9745-bcb07935845c,n't enjoy event,{},profile
+32,e82bae79-8891-4244-9745-bcb07935845c,downloaed a file from <page-type> page,"{""page-type"": ""exhibitor""}",file
+33,e82bae79-8891-4244-9745-bcb07935845c,n't enjoy the event,{},profile
+34,e82bae79-8891-4244-9745-bcb07935845c,name <first-name>,"{""first-name"": ""Marjorie""}",profile
+35,e82bae79-8891-4244-9745-bcb07935845c,replied to <sentiment> post,"{""sentiment"": ""negative""}",reply
+36,e82bae79-8891-4244-9745-bcb07935845c,<first-name>s,"{""first-name"": ""Marjorie""}",profile
+37,e82bae79-8891-4244-9745-bcb07935845c,downloaded <page-type> file,"{""page-type"": ""exhibitor""}",file
+38,e82bae79-8891-4244-9745-bcb07935845c,first name <first-name>,"{""first-name"": ""Marjorie""}",profile
+39,e82bae79-8891-4244-9745-bcb07935845c,replied to post with <sentiment> sentiment,"{""sentiment"": ""negative""}",reply
+40,e82bae79-8891-4244-9745-bcb07935845c,named <first-name>,"{""first-name"": ""Marjorie""}",profile
+41,e82bae79-8891-4244-9745-bcb07935845c,wrote <sentiment> post,"{""sentiment"": ""positive""}",post
+42,e82bae79-8891-4244-9745-bcb07935845c,clicked <company> ad,"{""company"": ""ablitech""}",ad
+43,e82bae79-8891-4244-9745-bcb07935845c,participated in poll and answered <poll-answer>,"{""poll-answer"": ""yes""}",poll
+44,e82bae79-8891-4244-9745-bcb07935845c,wrote a post with <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+45,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad from <company>,"{""company"": ""'Ablitech Co'""}",ad
+46,e82bae79-8891-4244-9745-bcb07935845c,clicked on ad from <company>,"{""company"": ""'Ablitech, Inc.'""}",ad
+47,e82bae79-8891-4244-9745-bcb07935845c,never participated in poll,{},poll
+48,e82bae79-8891-4244-9745-bcb07935845c,never answered <poll-answer>,"{""poll-answer"": ""yes""}",poll
+49,e82bae79-8891-4244-9745-bcb07935845c,bio has <post-word> in it,"{""post-word"": ""'captive'""}",profile
+50,e82bae79-8891-4244-9745-bcb07935845c,participated in no poll,{},poll
+51,e82bae79-8891-4244-9745-bcb07935845c,rated <page-type> page,"{""page-type"": ""speaker""}",rate
+52,e82bae79-8891-4244-9745-bcb07935845c,replied to <sentiment> sentiment post,"{""sentiment"": ""negative""}",reply
+53,e82bae79-8891-4244-9745-bcb07935845c,liked <mention> post,"{""mention"": ""Caleb Ramirez'""}",like
+54,e82bae79-8891-4244-9745-bcb07935845c,wrote at least <number> posts,"{""number"": ""4""}",post
+55,e82bae79-8891-4244-9745-bcb07935845c,any <sentiment> post,"{""sentiment"": ""positive""}",post
+56,e82bae79-8891-4244-9745-bcb07935845c,<post-word> in their bio,"{""post-word"": ""'captive'""}",profile
+57,e82bae79-8891-4244-9745-bcb07935845c,replied to post with <post-word> in it,"{""post-word"": ""'captive'""}",reply
+58,e82bae79-8891-4244-9745-bcb07935845c,phone <phone>,"{""phone"": ""(290) 448-8241""}",profile
+59,e82bae79-8891-4244-9745-bcb07935845c,downloaded <file-name> file,"{""file-name"": ""'workshop.doc'""}",file
+60,e82bae79-8891-4244-9745-bcb07935845c,downloaded <file-name> document,"{""file-name"": ""workshop""}",file
+61,e82bae79-8891-4244-9745-bcb07935845c,viewed page  <number> times,"{""number"": ""5""}",view
+62,e82bae79-8891-4244-9745-bcb07935845c,never participated in polls,{},poll
+63,e82bae79-8891-4244-9745-bcb07935845c,liked post by <mention>,"{""mention"": ""Caleb Ramirez""}",like
+64,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,<last-name> as a last name,"{""last-name"": ""White""}",profile
+65,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,liked posts by <mention>,"{""mention"": ""Shawna Potter""}",like
+66,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,downloaded a file from page with <page-type> type,"{""page-type"": ""'sponsor'""}",file
+67,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,last name <last-name>,"{""last-name"": ""White""}",profile
+68,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,liked at least <number> post by <mention>,"{""mention"": ""Shawna Potter"",""number"":""one""}",like
+69,0bb4c343-8c07-42aa-bb34-fcd9a1989d41,downloaded file from <page-type> type page,"{""page-type"": ""'sponsor'""}",file
+70,1c17a974-92f1-44a5-9e05-ce75db85d775,rated page containing <post-word>,"{""post-word"": ""'abomination'""}",rate
+71,1c17a974-92f1-44a5-9e05-ce75db85d775,phone <phone>,"{""phone"": ""(331) 408-2679""}",profile
+72,1c17a974-92f1-44a5-9e05-ce75db85d775,not <enjoyment> the event,"{""enjoyment"": ""enjoyed""}",profile
+73,1c17a974-92f1-44a5-9e05-ce75db85d775,rated page with <post-word> in text,"{""post-word"": ""'abomination'""}",rate
+74,1c17a974-92f1-44a5-9e05-ce75db85d775,n't impressed by the event,{},profile
+75,1c17a974-92f1-44a5-9e05-ce75db85d775,clicked on any ad <number> times,"{""number"": ""6""}",ad
+76,1c17a974-92f1-44a5-9e05-ce75db85d775,liked post written by <mention>,"{""mention"": ""Dolores Cummings""}",like
+77,1c17a974-92f1-44a5-9e05-ce75db85d775,rated page with word <post-word> in text,"{""post-word"": ""'abomination'""}",rate
+78,1c17a974-92f1-44a5-9e05-ce75db85d775,liked <mention> post,"{""mention"": ""Dolores Cummings'""}",like
+79,1c17a974-92f1-44a5-9e05-ce75db85d775,replied to <mention>s post,"{""mention"": ""Hoe Griffith'""}",reply
+80,1c17a974-92f1-44a5-9e05-ce75db85d775,liked post containing word <post-word>,"{""post-word"": ""'coastal'""}",like
+81,1c17a974-92f1-44a5-9e05-ce75db85d775,left a note on page <number> times,"{""number"": ""9""}",note
+82,1c17a974-92f1-44a5-9e05-ce75db85d775,replied to post written by Hoe <mention>s,"{""mention"": ""Hoe Griffith'""}",reply
+83,1c17a974-92f1-44a5-9e05-ce75db85d775,liked post with word <post-word>,"{""post-word"": ""'coastal'""}",like
+84,1c17a974-92f1-44a5-9e05-ce75db85d775,<number> times left a note on a page,"{""number"": ""9""}",note
+85,1c17a974-92f1-44a5-9e05-ce75db85d775,left <number> notes on a page,"{""number"": ""9""}",note
+86,1c17a974-92f1-44a5-9e05-ce75db85d775,viewed a page with word <post-word>,"{""post-word"": ""'adsorbable'""}",view
+87,1c17a974-92f1-44a5-9e05-ce75db85d775,downloaded <number> files,"{""number"": ""5""}",file
+88,47f882a6-7098-4f35-ba9a-543bf1658bef,a <social-network> account,"{""social-network"": ""linkedin""}",profile
+89,47f882a6-7098-4f35-ba9a-543bf1658bef,clicked on an ad with the word <post-word>,"{""post-word"": ""'big'""}",ad
+90,47f882a6-7098-4f35-ba9a-543bf1658bef, commented with a word <post-word>,"{""post-word"": ""'convulsion'""}",reply
+91,47f882a6-7098-4f35-ba9a-543bf1658bef,a <social-network> connection,"{""social-network"": ""linkedin""}",profile
+92,47f882a6-7098-4f35-ba9a-543bf1658bef,clicked an ad containing <post-word>,"{""post-word"": ""'big'""}",ad
+93,47f882a6-7098-4f35-ba9a-543bf1658bef, left a note with <post-word>,"{""post-word"": ""'convulsion'""}",note
+94,47f882a6-7098-4f35-ba9a-543bf1658bef,clicked an ad with a word <post-word>,"{""post-word"": ""'big'""}",ad
+95,47f882a6-7098-4f35-ba9a-543bf1658bef,are connected with <social-network>,"{""social-network"": ""linkedin""}",profile
+96,47f882a6-7098-4f35-ba9a-543bf1658bef,left commented about <post-word>,"{""post-word"": ""'convulsion'""}",reply
+97,89fe7888-256c-4892-a213-457e66729b10,"""<post-word>"" in their bio","{""post-word"": ""big""}",profile
+98,89fe7888-256c-4892-a213-457e66729b10,liked post about <post-word>,"{""post-word"": ""biplane""}",like
+99,89fe7888-256c-4892-a213-457e66729b10,replied to post by <mention>,"{""mention"": ""Sherman Cooper""}",reply
+100,89fe7888-256c-4892-a213-457e66729b10,"""<post-word>"" in bio","{""post-word"": ""big""}",profile
+101,89fe7888-256c-4892-a213-457e66729b10,likes <post-word>s,"{""post-word"": ""biplane""}",like
+102,89fe7888-256c-4892-a213-457e66729b10,replied to <mention>,"{""mention"": ""Sherman Cooper""}",reply
+103,89fe7888-256c-4892-a213-457e66729b10,"""<post-word>"" in description","{""post-word"": ""big""}",profile
+104,89fe7888-256c-4892-a213-457e66729b10,liked some post on <post-word>s,"{""post-word"": ""biplane""}",like
+105,89fe7888-256c-4892-a213-457e66729b10,"like posts with ""<post-word>"" in it","{""post-word"": ""biplane""}",like
+106,89fe7888-256c-4892-a213-457e66729b10,liked post on <post-word>,"{""post-word"": ""biplane""}",like
+107,89fe7888-256c-4892-a213-457e66729b10,replied to <mention>,"{""mention"": ""Cooper""}",reply
+108,7ed51af2-135b-476a-98c5-3e8da03c9e2e,liked the post <number> times,"{""number"": ""9""}",like
+109,7ed51af2-135b-476a-98c5-3e8da03c9e2e,<first-name> as first name,"{""first-name"": ""Chante""}",profile
+110,7ed51af2-135b-476a-98c5-3e8da03c9e2e,the name <first-name>,"{""first-name"": ""Chante""}",profile
+111,7ed51af2-135b-476a-98c5-3e8da03c9e2e,liked the post <number> time,"{""number"": ""9""}",like
+112,7ed51af2-135b-476a-98c5-3e8da03c9e2e,first name <first-name>,"{""first-name"": ""Chante""}",profile
+113,7ed51af2-135b-476a-98c5-3e8da03c9e2e,named <first-name>,"{""first-name"": ""Chante""}",profile
+114,7ed51af2-135b-476a-98c5-3e8da03c9e2e,the word <post-word> in bio,"{""post-word"": ""'captive'""}",profile
+115,7ed51af2-135b-476a-98c5-3e8da03c9e2e,liked the post <number> times,"{""number"": ""nine""}",like
+116,7ed51af2-135b-476a-98c5-3e8da03c9e2e,<first-name> as first name,"{""first-name"": ""'Chante'""}",profile
+117,7ed51af2-135b-476a-98c5-3e8da03c9e2e,liked post <number> times,"{""number"": ""9""}",like
+118,7ed51af2-135b-476a-98c5-3e8da03c9e2e,<post-word> in the bio,"{""post-word"": ""'captive'""}",profile
+119,7ed51af2-135b-476a-98c5-3e8da03c9e2e,first name <first-name>,"{""first-name"": ""'Chante'""}",profile
+120,7ed51af2-135b-476a-98c5-3e8da03c9e2e,replied to post about <post-word>,"{""post-word"": ""blackout""}",reply
+121,7ed51af2-135b-476a-98c5-3e8da03c9e2e,rated page <number> times,"{""number"": ""3""}",rate
+122,7ed51af2-135b-476a-98c5-3e8da03c9e2e,wrote a post that contains <post-word>?,"{""post-word"": ""'big'""}",post
+123,7ed51af2-135b-476a-98c5-3e8da03c9e2e,wrote the post about <post-word>,"{""post-word"": ""'big'""}",post
+124,7ed51af2-135b-476a-98c5-3e8da03c9e2e,replied to the post that contains word <post-word>?,"{""post-word"": ""'blackout'""}",reply
+125,7ed51af2-135b-476a-98c5-3e8da03c9e2e,mentioned <post-word>,"{""post-word"": ""'big'""}",post
+126,7ed51af2-135b-476a-98c5-3e8da03c9e2e,replied on post containing <post-word>,"{""post-word"": ""'blackout'""}",reply
+127,7ed51af2-135b-476a-98c5-3e8da03c9e2e,rated the page <number> times?,"{""number"": ""3""}",rate
+128,7ed51af2-135b-476a-98c5-3e8da03c9e2e,"replied to the post that contains word <post-word>""","{""post-word"": ""'blackout""}",reply
+129,7ed51af2-135b-476a-98c5-3e8da03c9e2e,"wrote a post containing <post-word>
+","{""post-word"": ""'big'""}",post
+130,7ed51af2-135b-476a-98c5-3e8da03c9e2e,replied to post with <post-word> in it,"{""post-word"": ""'blackout'""}",reply
+131,7ed51af2-135b-476a-98c5-3e8da03c9e2e,rated the page <number> times,"{""number"": ""three""}",rate
+132,7ed51af2-135b-476a-98c5-3e8da03c9e2e,wrote post that contains <post-word>,"{""post-word"": ""'big'""}",post
+133,c255bb86-9172-4cc9-84a2-7e710e94106e,wrote a note on page with word <post-word>,"{""post-word"": ""'easy'""}",note
+134,c255bb86-9172-4cc9-84a2-7e710e94106e,liked a <sentiment> post <number> times,"{""sentiment"": ""positive"", ""number"": ""3""}",like
+135,c255bb86-9172-4cc9-84a2-7e710e94106e,left a note on page containing <post-word>,"{""post-word"": ""'easy'""}",note
+136,c255bb86-9172-4cc9-84a2-7e710e94106e,made <number> likes on <sentiment> posts,"{""sentiment"": ""positive"", ""number"": ""3""}",like
+137,c255bb86-9172-4cc9-84a2-7e710e94106e,created a post with word <post-word> in text,"{""post-word"": ""'easy'""}",post
+138,c255bb86-9172-4cc9-84a2-7e710e94106e,liked <number> <sentiment> posts,"{""sentiment"": ""positive"", ""number"": ""3""}",like
+139,c255bb86-9172-4cc9-84a2-7e710e94106e,created a post on page containing <post-word>,"{""post-word"": ""'easy'""}",post
+140,c255bb86-9172-4cc9-84a2-7e710e94106e,replied to <mention>s post,"{""mention"": ""Andy Chandler'""}",reply
+141,c255bb86-9172-4cc9-84a2-7e710e94106e,bio contains <post-word>,"{""post-word"": ""'beyond'""}",profile
+142,c255bb86-9172-4cc9-84a2-7e710e94106e,viewed <number> pages,"{""number"": ""2""}",view
+143,c255bb86-9172-4cc9-84a2-7e710e94106e,replied to post written by <mention>,"{""mention"": ""Andy Chandler""}",reply
+144,c255bb86-9172-4cc9-84a2-7e710e94106e,viewed page <number> times,"{""number"": ""2""}",view
+145,c255bb86-9172-4cc9-84a2-7e710e94106e,bio containing word <post-word>,"{""post-word"": ""'beyond'""}",profile
+146,c255bb86-9172-4cc9-84a2-7e710e94106e,either <position> position,"{""position"": ""Asylum or Immigration Officer""}",profile
+147,c255bb86-9172-4cc9-84a2-7e710e94106e,website named <website>,"{""website"": ""'bandcamp.com'""}",profile
+148,c255bb86-9172-4cc9-84a2-7e710e94106e,make a reply to the post written by <mention>,"{""mention"": ""Andy Chandler""}",reply
+149,c255bb86-9172-4cc9-84a2-7e710e94106e,<website> website,"{""website"": ""'bandcamp.com'""}",profile
+150,ad086d89-92c8-439f-adf4-e3dc3a62b13c,liked posts about <post-word>,"{""post-word"": ""'escapist'""}",like
+151,ad086d89-92c8-439f-adf4-e3dc3a62b13c,first name = <first-name>,"{""first-name"": ""'Lavern'""}",profile
+152,ad086d89-92c8-439f-adf4-e3dc3a62b13c,rated pages with type <page-type>,"{""page-type"": ""'session'""}",rate
+153,ad086d89-92c8-439f-adf4-e3dc3a62b13c,first name is <first-name>,"{""first-name"": ""'Lavern'""}",profile
+154,ad086d89-92c8-439f-adf4-e3dc3a62b13c,rated <page-type> pages,"{""page-type"": ""'session'""}",rate
+155,ad086d89-92c8-439f-adf4-e3dc3a62b13c,gave rating to <page-type> pages,"{""page-type"": ""'session'""}",rate
+156,ad086d89-92c8-439f-adf4-e3dc3a62b13c,first name was <first-name>,"{""first-name"": ""'Lavern'""}",profile
+157,ad086d89-92c8-439f-adf4-e3dc3a62b13c,liked all posts about <post-word>,"{""post-word"": ""'escapist'""}",like
+158,ad086d89-92c8-439f-adf4-e3dc3a62b13c,from <location>,"{""location"": ""'Greece'""}",profile
+159,ad086d89-92c8-439f-adf4-e3dc3a62b13c,website = <website>,"{""website"": ""'free.fr'""}",profile
+160,ad086d89-92c8-439f-adf4-e3dc3a62b13c,attended event <number> times,"{""number"": ""3""}",event
+161,ad086d89-92c8-439f-adf4-e3dc3a62b13c,participated in event <number> times,"{""number"": ""3""}",event
+162,ad086d89-92c8-439f-adf4-e3dc3a62b13c,their website is <website>,"{""website"": ""'free.fr'""}",profile
+163,ad086d89-92c8-439f-adf4-e3dc3a62b13c,location is <location>,"{""location"": ""'Greece'""}",profile
+164,ad086d89-92c8-439f-adf4-e3dc3a62b13c,website set in their profile as <website>,"{""website"": ""'free.fr'""}",profile
+165,ad086d89-92c8-439f-adf4-e3dc3a62b13c,all of them from <location>,"{""location"": ""'Greece'""}",profile
+166,98be4665-b3db-4133-a8cf-299dfa8205ab,clicked <number> times on the ad on <page-type> page,"{""page-type"": ""exhibitor"",""number"":""five""}",ad
+167,98be4665-b3db-4133-a8cf-299dfa8205ab,no downloads,{},file
+168,98be4665-b3db-4133-a8cf-299dfa8205ab,clicked <number> times on the ad on the <page-type> page,"{""page-type"": ""exhibitor"",""number"":""five""}",ad
+169,98be4665-b3db-4133-a8cf-299dfa8205ab,<number> downloads,"{""number"":""zero""}",file
+170,98be4665-b3db-4133-a8cf-299dfa8205ab,users clicked <number> times ad <page-type> page,"{""number"": ""5"", ""page-type"": ""exhibitor""}",ad
+171,98be4665-b3db-4133-a8cf-299dfa8205ab,<number> downloads,"{""number"": ""0""}",file
+172,98be4665-b3db-4133-a8cf-299dfa8205ab,"bio having ""<post-word>""","{""post-word"": ""biplane""}",profile
+173,98be4665-b3db-4133-a8cf-299dfa8205ab,attended once,{},event
+174,98be4665-b3db-4133-a8cf-299dfa8205ab,liked a <sentiment> post,"{""sentiment"": ""positive""}",like
+175,98be4665-b3db-4133-a8cf-299dfa8205ab,<post-word> in bio,"{""post-word"": ""'biplane'""}",profile
+176,98be4665-b3db-4133-a8cf-299dfa8205ab,attended before,{},event
+177,98be4665-b3db-4133-a8cf-299dfa8205ab,liked a <sentiment>ly colored sentiment,"{""sentiment"": ""positive""}",like
+178,98be4665-b3db-4133-a8cf-299dfa8205ab,exactly <number> attend,"{""number"":""one""}",event
+179,98be4665-b3db-4133-a8cf-299dfa8205ab,liked a post with a <sentiment> sentiment,"{""sentiment"": ""positive""}",like
+180,98be4665-b3db-4133-a8cf-299dfa8205ab,"who's bio contains ""<post-word>""","{""post-word"": ""biplane""}",profile
+181,98be4665-b3db-4133-a8cf-299dfa8205ab,"a ""<post-word>"" in their profile description","{""post-word"": ""biplane""}",profile
+182,98be4665-b3db-4133-a8cf-299dfa8205ab,attended an event once,{},event
+183,98be4665-b3db-4133-a8cf-299dfa8205ab,liked a post that can be said to be a <sentiment> one,"{""sentiment"": ""positive""}",like
+184,98be4665-b3db-4133-a8cf-299dfa8205ab,"wrote a post with ""<post-word>""","{""post-word"": ""rare""}",post
+185,98be4665-b3db-4133-a8cf-299dfa8205ab,replied to <mention>,"{""mention"": ""Stacy Vaughn""}",reply
+186,98be4665-b3db-4133-a8cf-299dfa8205ab,also has <phone> as phone,"{""phone"": ""(771) 171-3243""}",profile
+187,98be4665-b3db-4133-a8cf-299dfa8205ab,"post ""<post-word>""","{""post-word"": ""rare""}",post
+188,98be4665-b3db-4133-a8cf-299dfa8205ab,made reply to <mention>,"{""mention"": ""Stacy Vaughn""}",reply
+189,98be4665-b3db-4133-a8cf-299dfa8205ab,<phone> phone,"{""phone"": ""(344) 842-7718""}",profile
+190,98be4665-b3db-4133-a8cf-299dfa8205ab,reply to <mention>,"{""mention"": ""Stacy Vaughn""}",reply
+191,98be4665-b3db-4133-a8cf-299dfa8205ab,phone number <phone>,"{""phone"": ""(344) 842-7718""}",profile
+192,98be4665-b3db-4133-a8cf-299dfa8205ab,"post has ""<post-word>""","{""post-word"": ""rare""}",post
+193,98be4665-b3db-4133-a8cf-299dfa8205ab,"post containing ""<post-word>"" word","{""post-word"": ""rare""}",post
+194,98be4665-b3db-4133-a8cf-299dfa8205ab,a reply to a user named <mention>,"{""mention"": ""Stacy Vaughn""}",reply
+195,98be4665-b3db-4133-a8cf-299dfa8205ab,a phone <phone>,"{""phone"": ""(344) 842-7718""}",profile
+196,98be4665-b3db-4133-a8cf-299dfa8205ab,"the ""<post-word>"" word in their writings","{""post-word"": ""rare""}",post
+197,98be4665-b3db-4133-a8cf-299dfa8205ab,number is <phone>,"{""phone"": ""(344) 842-7718""}",profile
+198,3733dc0c-6d13-4260-bd47-0826b656ba9c,downloaded a file <number> times,"{""number"": ""5""}",file
+199,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered a poll <poll-answer> <number> times,"{""poll-answer"":""'no'"",""number"":""three""}",poll
+200,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered <number> polls with <poll-answer>,"{""poll-answer"":""'no'"",""number"":""three""}",poll
+201,3733dc0c-6d13-4260-bd47-0826b656ba9c,downloaded a file <number> times,"{""number"":""five""}",file
+202,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered <poll-answer> for a poll,"{""poll-answer"":""'no'""}",poll
+203,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered at least <number> polls,"{""number"": ""three""}",poll
+204,3733dc0c-6d13-4260-bd47-0826b656ba9c,answered <number> polls,"{""number"": ""three""}",poll
+205,3733dc0c-6d13-4260-bd47-0826b656ba9c,at least <number> answer was <poll-answer>,"{""number"":""one"",""poll-answer"":""'no'""}",poll
+206,3733dc0c-6d13-4260-bd47-0826b656ba9c,located in <locatoin>,"{""location"":""North Korea""}",profile
+207,3733dc0c-6d13-4260-bd47-0826b656ba9c,rated a page that contains <post-word> at least <number> times,"{""post-word"": ""'gargoyle'"", ""poll-answer"": ""No"",""number"":""nine""}",rate
+208,3733dc0c-6d13-4260-bd47-0826b656ba9c,liked a page <number> time and the page contains <post-word>,"{""number"":""nine"",""post-word"":""'gargoyle'""}",rate
+209,3733dc0c-6d13-4260-bd47-0826b656ba9c,the attendee is located in <poll-answer>rth Korea,"{""poll-answer"": ""No""}",profile
+210,3733dc0c-6d13-4260-bd47-0826b656ba9c,attended the event 'Deeply Seals<number><number>,"{""number"": ""5'""}",event
+211,3733dc0c-6d13-4260-bd47-0826b656ba9c,<website> website,"{""website"": ""'ow.ly'""}",profile
+212,3733dc0c-6d13-4260-bd47-0826b656ba9c,viewed a page two times,{},view
+213,3733dc0c-6d13-4260-bd47-0826b656ba9c, <website> as website,"{""website"": ""'ow.ly'""}",profile
+214,3733dc0c-6d13-4260-bd47-0826b656ba9c,viewed at least two pages,{},view
+215,a6568381-2d52-4699-877e-36f5a9956010,answered <poll-answer> in poll,"{""poll-answer"": ""No""}",poll
+216,a6568381-2d52-4699-877e-36f5a9956010,replied to post with <post-word>,"{""post-word"": ""'biplane'""}",reply
+217,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer> in any poll,"{""poll-answer"": ""No""}",poll
+218,a6568381-2d52-4699-877e-36f5a9956010,liked <mention>s post,"{""mention"": ""Caleb Ramirez'""}",like
+219,a6568381-2d52-4699-877e-36f5a9956010,replied to the post contains <post-word>,"{""post-word"": ""'biplane'""}",reply
+220,a6568381-2d52-4699-877e-36f5a9956010,answered <poll-answer> in any poll,"{""poll-answer"": ""No""}",poll
+221,a6568381-2d52-4699-877e-36f5a9956010,liked <mention>s content,"{""mention"": ""Caleb Ramirez'""}",like
+222,a6568381-2d52-4699-877e-36f5a9956010,commented to the post about <post-word>,"{""post-word"": ""'biplane'""}",reply
+223,a6568381-2d52-4699-877e-36f5a9956010,voted <poll-answer>,"{""poll-answer"": ""No""}",poll
+224,a6568381-2d52-4699-877e-36f5a9956010,liked post written by <mention>,"{""mention"": ""Caleb Ramirez""}",like
+225,a6568381-2d52-4699-877e-36f5a9956010,commented with <post-word> to the post ,"{""post-word"": ""'biplane'""}",reply
+226,a6568381-2d52-4699-877e-36f5a9956010,liked message by <mention>,"{""mention"": ""Caleb Ramirez""}",like
+227,a6568381-2d52-4699-877e-36f5a9956010,left a reply for the post about <post-word>,"{""post-word"": ""'biplane'""}",reply
+228,a6568381-2d52-4699-877e-36f5a9956010,liked  <mention>s message,"{""mention"": ""Caleb Ramirez'""}",like
+229,a6568381-2d52-4699-877e-36f5a9956010, voted <poll-answer>,"{""poll-answer"": ""No""}",poll
+230,a6568381-2d52-4699-877e-36f5a9956010,left a comment for the post with <post-word>,"{""post-word"": ""'biplane'""}",reply
+231,a6568381-2d52-4699-877e-36f5a9956010,attended Deaply Seals<number><number>,"{""number"": ""5""}",event
+232,a6568381-2d52-4699-877e-36f5a9956010,rated page with <number> stars,"{""number"": ""0""}",rate
+233,4a98f580-3e45-4f60-9128-8195f08bd995,wrote a post mentioning <mention> ,"{""mention"": ""Estelle Jimenez""}",post
+234,4a98f580-3e45-4f60-9128-8195f08bd995,work at <company>,"{""company"": ""Abbott Laboratories""}",profile
+235,4a98f580-3e45-4f60-9128-8195f08bd995,rated a page at least one time ,{},rate
+236,4a98f580-3e45-4f60-9128-8195f08bd995,viewed a page <number> times,"{""number"": ""5""}",view
+237,4a98f580-3e45-4f60-9128-8195f08bd995,wrote a post that got <number> replies,"{""number"": ""7""}",post
+238,4a98f580-3e45-4f60-9128-8195f08bd995,replied to a post with <sentiment> sentiment,"{""sentiment"": ""negative""}",reply
+239,4a98f580-3e45-4f60-9128-8195f08bd995,wrote a post with <number> comments,"{""number"": ""7""}",post
+240,4a98f580-3e45-4f60-9128-8195f08bd995,commented <sentiment>ly,"{""sentiment"": ""negative""}",reply
+241,4a98f580-3e45-4f60-9128-8195f08bd995,bad things to say in a comment ,{},reply
+242,4a98f580-3e45-4f60-9128-8195f08bd995,wrote post that got <number> comments ,"{""number"": ""7""}",post
+243,4a98f580-3e45-4f60-9128-8195f08bd995,<email>,"{""email"": ""rgarcia@optonline.net""}",profile
+244,4a98f580-3e45-4f60-9128-8195f08bd995,<website> as their website,"{""website"": ""deviantart.com""}",profile
+245,4a98f580-3e45-4f60-9128-8195f08bd995,rated with <number> stars ,"{""number"": ""2""}",rate
+246,4a98f580-3e45-4f60-9128-8195f08bd995,<email> email,"{""email"": ""rgarcia@optonline.net""}",profile
+247,4a98f580-3e45-4f60-9128-8195f08bd995,clicked on the activision <page-type>ed post,"{""page-type"": ""sponsor""}",ad
+248,4a98f580-3e45-4f60-9128-8195f08bd995,converted on the activision <page-type>ed post,"{""page-type"": ""sponsor""}",ad
+249,4a98f580-3e45-4f60-9128-8195f08bd995,biologist,{},profile
+250,4a98f580-3e45-4f60-9128-8195f08bd995,a post that was liked <number> times,"{""number"": ""7""}",post
+251,4a98f580-3e45-4f60-9128-8195f08bd995,wrote posts that contain the keyword <post-word>,"{""post-word"": ""honey""}",post
+252,4a98f580-3e45-4f60-9128-8195f08bd995,wrote about <post-word>,"{""post-word"": ""honey""}",post
+253,4a98f580-3e45-4f60-9128-8195f08bd995,posted about <post-word>,"{""post-word"": ""honey""}",post
+254,4a98f580-3e45-4f60-9128-8195f08bd995,works at abbott laboratories ,{},profile
+255,4a98f580-3e45-4f60-9128-8195f08bd995,downloaded a file <number> times,"{""number"": ""3""}",file
+256,4a98f580-3e45-4f60-9128-8195f08bd995,downloaded something <number> times,"{""number"": ""3""}",file
+257,4a98f580-3e45-4f60-9128-8195f08bd995,wrote a <sentiment> post,"{""sentiment"": ""positive""}",post
+258,4a98f580-3e45-4f60-9128-8195f08bd995,wrote something <sentiment>,"{""sentiment"": ""positive""}",post
+259,4a98f580-3e45-4f60-9128-8195f08bd995,clicked a sponsored post <number> times,"{""number"": ""7""}",ad
+260,4a98f580-3e45-4f60-9128-8195f08bd995,liked a post with the keyword <post-word>,"{""post-word"": ""big""}",like
+261,4a98f580-3e45-4f60-9128-8195f08bd995,saw any page <number> times,"{""number"": ""5""}",view
+262,4a98f580-3e45-4f60-9128-8195f08bd995,wrote something about <post-word>,"{""post-word"": ""honey""}",post
+263,4a98f580-3e45-4f60-9128-8195f08bd995,viewed a page with <post-word> in the content,"{""post-word"": ""big""}",view
+264,4a98f580-3e45-4f60-9128-8195f08bd995,viewed a page with <post-word>,"{""post-word"": ""big""}",view
+265,4a98f580-3e45-4f60-9128-8195f08bd995,wrote post that got <number> comments,"{""number"": ""7""}",post
+266,4a98f580-3e45-4f60-9128-8195f08bd995,the phone number <phone>,"{""phone"": ""(939) 771-3645""}",profile
+267,4a98f580-3e45-4f60-9128-8195f08bd995,phone number is <phone>,"{""number"": ""(939) 771-3645""}",profile
+268,4a98f580-3e45-4f60-9128-8195f08bd995,commented one of <mention>'s posts,"{""mention"":""estelle jimenez""}",reply
+269,4a98f580-3e45-4f60-9128-8195f08bd995,commented estelle jimenez's post,"{""mention"":""estelle jimenez""}",reply
+270,4a98f580-3e45-4f60-9128-8195f08bd995,replying to <mention>'s post ,"{""mention"":""estelle jimenez""}",reply
+271,4a98f580-3e45-4f60-9128-8195f08bd995,named <first-name>,"{""first-name"":""vida""}",profile
+272,4a98f580-3e45-4f60-9128-8195f08bd995,name is <first-name>,"{""first-name"":""vida""}",profile
+273,4a98f580-3e45-4f60-9128-8195f08bd995,<first-name>,"{""first-name"":""vida""}",profile
+274,0ea9794f-5d2f-4772-b481-49d9c691cba2,used the app <number> times,"{""number"": ""0""}",session
+275,0ea9794f-5d2f-4772-b481-49d9c691cba2,downloaded <number> files,"{""number"": ""7""}",file
+276,0ea9794f-5d2f-4772-b481-49d9c691cba2,<last-name> as the last name,"{""last-name"": ""Rodriguez""}",profile
+277,0ea9794f-5d2f-4772-b481-49d9c691cba2,<last-name> for the last name,"{""last-name"": ""Rodriguez""}",profile
+278,0ea9794f-5d2f-4772-b481-49d9c691cba2,n't use the app,{},session
+279,0ea9794f-5d2f-4772-b481-49d9c691cba2,made <number> file downloads,"{""number"": ""7""}",file
+280,0ea9794f-5d2f-4772-b481-49d9c691cba2,downloaded  <number> files from the app,"{""number"": ""7""}",file
+281,0ea9794f-5d2f-4772-b481-49d9c691cba2,surname is <last-name>,"{""last-name"": ""Rodriguez""}",profile
+282,0ea9794f-5d2f-4772-b481-49d9c691cba2,opened the app <number> times,"{""number"": ""0""}",session
+283,0ea9794f-5d2f-4772-b481-49d9c691cba2,last name equals <last-name>,"{""last-name"": ""Rodriguez""}",profile
+284,0ea9794f-5d2f-4772-b481-49d9c691cba2,answered <poll-answer> to a poll,"{""poll-answer"": ""'No'""}",poll
+285,0ea9794f-5d2f-4772-b481-49d9c691cba2,created a post with <sentiment> sentiment,"{""sentiment"": ""negative""}",poll
+286,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked a post with <sentiment> sentiment,"{""sentiment"": ""positive""}",like
+287,0ea9794f-5d2f-4772-b481-49d9c691cba2,post has <sentiment> sentiment,"{""sentiment"": ""negative""}",post
+288,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked someone else's post with <sentiment> sentiment,"{""sentiment"": ""positive""}",like
+289,0ea9794f-5d2f-4772-b481-49d9c691cba2,responded <poll-answer> to a poll,"{""poll-answer"": ""'No'""}",poll
+290,0ea9794f-5d2f-4772-b481-49d9c691cba2,attendees posted at least one post with <sentiment> sentiment,"{""sentiment"": ""negative""}",post
+291,0ea9794f-5d2f-4772-b481-49d9c691cba2,participated in a poll with the question <poll-question>?',"{""poll-question"": ""'Do you sleep with your sheets tucked in""}",poll
+292,0ea9794f-5d2f-4772-b481-49d9c691cba2,rated a page <number> times,"{""number"": ""7""}",rate
+293,0ea9794f-5d2f-4772-b481-49d9c691cba2,clicked on an ad <number> time,"{""number"": ""1""}",ad
+294,0ea9794f-5d2f-4772-b481-49d9c691cba2,gave a rating to a page <number> times,"{""number"": ""7""}",rate
+295,0ea9794f-5d2f-4772-b481-49d9c691cba2,interacted with an ad <number> time,"{""number"": ""1""}",ad
+296,0ea9794f-5d2f-4772-b481-49d9c691cba2,voted on a poll with the question <poll-question>?',"{""poll-question"": ""'Do you sleep with your sheets tucked in""}",poll
+297,0ea9794f-5d2f-4772-b481-49d9c691cba2,answered <poll-question>?' in a poll,"{""poll-question"": ""'Do you sleep with your sheets tucked in""}",poll
+298,0ea9794f-5d2f-4772-b481-49d9c691cba2,rated <number> pages,"{""number"": ""7""}",rate
+299,0ea9794f-5d2f-4772-b481-49d9c691cba2,clicked an ad <number> time,"{""number"": ""1""}",ad
+300,0ea9794f-5d2f-4772-b481-49d9c691cba2,<position> in the position field,"{""position"": ""Administrative Generalist/Specialist""}",profile
+301,0ea9794f-5d2f-4772-b481-49d9c691cba2,phone number equals <phone>,"{""phone"": ""(101) 892-2757""}",profile
+302,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked a post that contains <post-word>,"{""post-word"": ""'pragmatic'""}",like
+303,0ea9794f-5d2f-4772-b481-49d9c691cba2,the phone number <phone>,"{""phone"": ""(101) 892-2757""}",profile
+304,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked a post with the word <post-word>,"{""post-word"": ""'pragmatic'""}",like
+305,0ea9794f-5d2f-4772-b481-49d9c691cba2,<position> position,"{""position"": ""Administrative Generalist/Specialist""}",profile
+306,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked a post containing <post-word>,"{""post-word"": ""'pragmatic'""}",like
+307,0ea9794f-5d2f-4772-b481-49d9c691cba2,holds the position of <position>,"{""position"": ""Administrative Generalist/Specialist""}",profile
+308,0ea9794f-5d2f-4772-b481-49d9c691cba2,phone number is <phone>,"{""phone"": ""(101) 892-2757""}",profile
+309,0ea9794f-5d2f-4772-b481-49d9c691cba2,profile details contain the phone number <phone>,"{""phone"": ""(101) 892-2757""}",profile
+310,0ea9794f-5d2f-4772-b481-49d9c691cba2,left at least one like on a post with the word <post-word>,"{""post-word"": ""'pragmatic'""}",like
+311,0ea9794f-5d2f-4772-b481-49d9c691cba2,<position>s,"{""position"": ""Administrative Generalist/Specialist""}",profile
+312,0ea9794f-5d2f-4772-b481-49d9c691cba2,liked a post containing the word <post-word>,"{""post-word"": ""'pragmatic'""}",like
+313,0ea9794f-5d2f-4772-b481-49d9c691cba2,profile details contain <position> position for the position,"{""position"": ""Administrative Generalist/Specialist""}",profile
+314,0ea9794f-5d2f-4772-b481-49d9c691cba2,<phone> for the phone number,"{""phone"": ""(101) 892-2757""}",profile
+315,0ea9794f-5d2f-4772-b481-49d9c691cba2,first name is <first-name>,"{""first-name"": ""Nancie""}",profile
+316,0ea9794f-5d2f-4772-b481-49d9c691cba2,participated in <number> polls,"{""number"": ""7""}",poll
+317,0ea9794f-5d2f-4772-b481-49d9c691cba2,saved a note for a page that contains <post-word>,"{""post-word"": ""'concussion'""}",note
+318,0ea9794f-5d2f-4772-b481-49d9c691cba2,<first-name> as the first name,"{""first-name"": ""Nancie""}",profile
+319,0ea9794f-5d2f-4772-b481-49d9c691cba2,participated in a poll <number> times,"{""number"": ""7""}",poll
+320,0ea9794f-5d2f-4772-b481-49d9c691cba2,left a note on a page that contains <post-word>,"{""post-word"": ""'concussion'""}",note
+321,0ea9794f-5d2f-4772-b481-49d9c691cba2,saved a note on page containing the word <post-word>,"{""post-word"": ""'concussion'""}",note
+322,0ea9794f-5d2f-4772-b481-49d9c691cba2,voted on <number> polls,"{""number"": ""7""}",poll
+323,0ea9794f-5d2f-4772-b481-49d9c691cba2,<first-name> as first name,"{""first-name"": ""Nancie""}",profile
+324,0ea9794f-5d2f-4772-b481-49d9c691cba2,left a vote on <number> polls,"{""number"": ""7""}",poll
+325,0ea9794f-5d2f-4772-b481-49d9c691cba2,first name equals <first-name>,"{""first-name"": ""Nancie""}",profile
+326,0ea9794f-5d2f-4772-b481-49d9c691cba2,added a note to page with the word <post-word>,"{""post-word"": ""'concussion'""}",note
+327,0ea9794f-5d2f-4772-b481-49d9c691cba2,created a note to page containing <post-word>,"{""post-word"": ""'concussion'""}",note
+328,0ea9794f-5d2f-4772-b481-49d9c691cba2,took part in <number> polls,"{""number"": ""7""}",poll
+329,0ea9794f-5d2f-4772-b481-49d9c691cba2,replied to a post by <mention>,"{""mention"": ""Kristin Hansen""}",reply
+330,0ea9794f-5d2f-4772-b481-49d9c691cba2,<location> as location,"{""location"": ""Samoa""}",profile
+331,0ea9794f-5d2f-4772-b481-49d9c691cba2,left a comment on a post by <mention>,"{""mention"": ""Kristin Hansen""}",reply
+332,0ea9794f-5d2f-4772-b481-49d9c691cba2,clicked on <number> add,"{""number"": ""1""}",ad
+333,0ea9794f-5d2f-4772-b481-49d9c691cba2,<location> in profile details ,"{""location"": ""Samoa""}",profile
+334,0ea9794f-5d2f-4772-b481-49d9c691cba2,<location> in profile details,"{""location"": ""Samoa""}",profile
+335,0ea9794f-5d2f-4772-b481-49d9c691cba2,attendees from <location>,"{""location"": ""Samoa""}",profile
+336,0ea9794f-5d2f-4772-b481-49d9c691cba2,commented on  <mention>s post,"{""mention"": ""Kristin Hansen'""}",reply
+337,0ea9794f-5d2f-4772-b481-49d9c691cba2,commented on <mention>s post,"{""mention"": ""Kristin Hansen'""}",reply
+338,0ea9794f-5d2f-4772-b481-49d9c691cba2,from <location>,"{""location"": ""Samoa""}",profile
+339,0ea9794f-5d2f-4772-b481-49d9c691cba2,viewed a page with <page-type> type,"{""page-type"": ""'speaker'""}",view
+340,0ea9794f-5d2f-4772-b481-49d9c691cba2,wrote a post with <sentiment> sentiment,"{""sentiment"": ""negative""}",post
+341,0ea9794f-5d2f-4772-b481-49d9c691cba2,visited a page with type <page-type>,"{""page-type"": ""'speaker'""}",view
+342,0ea9794f-5d2f-4772-b481-49d9c691cba2,added a post with <sentiment> sentiment,"{""sentiment"": ""negative""}",post
+343,0ea9794f-5d2f-4772-b481-49d9c691cba2,voted with <poll-answer> in a poll,"{""poll-answer"": ""'No'""}",poll
+344,0ea9794f-5d2f-4772-b481-49d9c691cba2,answer to a poll equals <poll-answer>,"{""poll-answer"": ""'No'""}",poll
+345,0ea9794f-5d2f-4772-b481-49d9c691cba2,viewed <number> pages,"{""number"": ""4""}",view
+346,0ea9794f-5d2f-4772-b481-49d9c691cba2,attended <number> events,"{""number"": ""0""}",event
+347,0ea9794f-5d2f-4772-b481-49d9c691cba2,profile phone contains <phone>,"{""phone"": ""(101) 892-2757""}",profile
+348,0ea9794f-5d2f-4772-b481-49d9c691cba2,visited <number> pages,"{""number"": ""4""}",view
+349,0ea9794f-5d2f-4772-b481-49d9c691cba2,went to <number> events,"{""number"": ""0""}",event
+350,0ea9794f-5d2f-4772-b481-49d9c691cba2,viewed a page with <post-word>,"{""post-word"": ""'biplane'""}",view
+351,0ea9794f-5d2f-4772-b481-49d9c691cba2,left <number> notes,"{""number"": ""3""}",note
+352,0ea9794f-5d2f-4772-b481-49d9c691cba2,visited a page that contains <post-word>,"{""post-word"": ""'biplane'""}",view
+353,0ea9794f-5d2f-4772-b481-49d9c691cba2,created <number> notes,"{""number"": ""3""}",note
+354,0ea9794f-5d2f-4772-b481-49d9c691cba2,downloaded a file with name <file-name>,"{""file-name"": ""'presentation.pptx'""}",file
+355,0ea9794f-5d2f-4772-b481-49d9c691cba2,connected <social-network>,"{""social-network"": ""facebook""}",profile
+356,0ea9794f-5d2f-4772-b481-49d9c691cba2,made a download of a file which contains <file-name> in the name,"{""file-name"": ""'presentation.pptx'""}",file
+357,0ea9794f-5d2f-4772-b481-49d9c691cba2,linked <social-network> to their profile,"{""social-network"": ""facebook""}",profile
+358,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on ad by <company>,"{""company"": ""'AC Lens'""}",ad
+359,2dfad3f1-b93f-46aa-a2fa-20f390407243,answered <poll-answer> in quick poll,"{""poll-answer"": ""'Yes'""}",poll
+360,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post mentioning <mention>,"{""mention"": ""Dorothy Larson""}",post
+361,2dfad3f1-b93f-46aa-a2fa-20f390407243,choose <poll-answer> answer in poll,"{""poll-answer"": ""'Yes'""}",poll
+362,2dfad3f1-b93f-46aa-a2fa-20f390407243,mentioned <mention> in post,"{""mention"": ""Dorothy Larson""}",post
+363,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on <company> ad,"{""company"": ""'AC Lens'""}",ad
+364,2dfad3f1-b93f-46aa-a2fa-20f390407243,posts about <mention>,"{""mention"": ""Dorothy Larson""}",post
+365,2dfad3f1-b93f-46aa-a2fa-20f390407243,<poll-answer> answers in poll,"{""poll-answer"": ""'Yes'""}",poll
+366,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicks on ads published by <company>,"{""company"": ""'AC Lens'""}",ad
+367,2dfad3f1-b93f-46aa-a2fa-20f390407243,participated in quick poll answering <poll-answer>,"{""poll-answer"": ""'Yes'""}",poll
+368,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with <mention>s mention,"{""mention"": ""Dorothy Larson'""}",post
+369,2dfad3f1-b93f-46aa-a2fa-20f390407243,voted <poll-answer> in poll,"{""poll-answer"": ""'Yes'""}",poll
+370,2dfad3f1-b93f-46aa-a2fa-20f390407243,posted about <mention>,"{""mention"": ""Dorothy Larson""}",post
+371,2dfad3f1-b93f-46aa-a2fa-20f390407243,choose <poll-answer> in poll,"{""poll-answer"": ""'Yes'""}",poll
+372,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with mention of <mention>,"{""mention"": ""Dorothy Larson""}",post
+373,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on ad created by <company>,"{""company"": ""'AC Lens'""}",ad
+374,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewed <page-type> pages,"{""page-type"": ""session""}",view
+375,2dfad3f1-b93f-46aa-a2fa-20f390407243,answered <poll-answer> in poll,"{""poll-answer"": ""'Yes'""}",poll
+376,2dfad3f1-b93f-46aa-a2fa-20f390407243,downloaded file <number> times,"{""number"": ""9""}",file
+377,2dfad3f1-b93f-46aa-a2fa-20f390407243,downloaded a file <number> times,"{""number"": ""9""}",file
+378,2dfad3f1-b93f-46aa-a2fa-20f390407243,choose <poll-answer> option in quick poll,"{""poll-answer"": ""'Yes'""}",poll
+379,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewed page with <page-type> type,"{""page-type"": ""'session'""}",view
+380,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on file <number> times,"{""number"": ""9""}",file
+381,2dfad3f1-b93f-46aa-a2fa-20f390407243,checked <page-type> page,"{""page-type"": ""session""}",view
+382,2dfad3f1-b93f-46aa-a2fa-20f390407243,<page-type> page views,"{""page-type"": ""session""}",view
+383,2dfad3f1-b93f-46aa-a2fa-20f390407243,<poll-answer> quick poll answers,"{""poll-answer"": ""'Yes'""}",poll
+384,2dfad3f1-b93f-46aa-a2fa-20f390407243,<number> file downloads,"{""number"": ""9""}",file
+385,2dfad3f1-b93f-46aa-a2fa-20f390407243,participated in poll answering <poll-answer>,"{""poll-answer"": ""'Yes'""}",poll
+386,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewe sesssion page,{},view
+387,2dfad3f1-b93f-46aa-a2fa-20f390407243,<poll-answer> answer in quick poll,"{""poll-answer"": ""'Yes'""}",poll
+388,2dfad3f1-b93f-46aa-a2fa-20f390407243,<page-type> view,"{""page-type"": ""session""}",view
+389,2dfad3f1-b93f-46aa-a2fa-20f390407243,left a note on page with <page-type> type,"{""page-type"": ""'speaker'""}",note
+390,2dfad3f1-b93f-46aa-a2fa-20f390407243,work at <company>,"{""company"": ""Abercrombie & Fitch""}",profile
+391,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated page with <page-type> type,"{""page-type"": ""'exhibitor'""}",rate
+392,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated <page-type>s page,"{""page-type"": ""exhibitor'""}",rate
+393,2dfad3f1-b93f-46aa-a2fa-20f390407243,left a note on <page-type>s page,"{""page-type"": ""speaker'""}",note
+394,2dfad3f1-b93f-46aa-a2fa-20f390407243,works ar <company>,"{""company"": ""Abercrombie & Fitch""}",profile
+395,2dfad3f1-b93f-46aa-a2fa-20f390407243,<page-type>s page rating,"{""page-type"": ""exhibitor'""}",rate
+396,2dfad3f1-b93f-46aa-a2fa-20f390407243,note on <page-type>s page,"{""page-type"": ""speaker'""}",note
+397,2dfad3f1-b93f-46aa-a2fa-20f390407243,note about <page-type>,"{""page-type"": ""speaker""}",note
+398,2dfad3f1-b93f-46aa-a2fa-20f390407243,<page-type> rating,"{""page-type"": ""exhibitor""}",rate
+399,2dfad3f1-b93f-46aa-a2fa-20f390407243,works at <company>,"{""company"": ""Abercrombie & Fitch""}",profile
+400,2dfad3f1-b93f-46aa-a2fa-20f390407243,from <company>,"{""company"": ""Abercrombie & Fitch""}",profile
+401,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated an <page-type>,"{""page-type"": ""exhibitor""}",rate
+402,2dfad3f1-b93f-46aa-a2fa-20f390407243,left a note about <page-type>,"{""page-type"": ""speaker""}",note
+403,2dfad3f1-b93f-46aa-a2fa-20f390407243,connected <social-network>+,"{""social-network"": ""google""}",profile
+404,2dfad3f1-b93f-46aa-a2fa-20f390407243,written <sentiment> posts,"{""sentiment"": ""positive""}",post
+405,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't <enjoyment> the event,"{""enjoyment"": ""enjoyed""}",profile
+406,2dfad3f1-b93f-46aa-a2fa-20f390407243,<sentiment> sentiment towards event,"{""sentiment"": ""negative""}",post
+407,2dfad3f1-b93f-46aa-a2fa-20f390407243,<sentiment> post,"{""sentiment"": ""positive""}",post
+408,2dfad3f1-b93f-46aa-a2fa-20f390407243,connected <social-network>+ account,"{""social-network"": ""google""}",profile
+409,2dfad3f1-b93f-46aa-a2fa-20f390407243,post with <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+410,2dfad3f1-b93f-46aa-a2fa-20f390407243,written <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+411,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't like the event,{},profile
+412,2dfad3f1-b93f-46aa-a2fa-20f390407243,composed a <sentiment> post,"{""sentiment"": ""positive""}",post
+413,2dfad3f1-b93f-46aa-a2fa-20f390407243,linked <social-network>+ account,"{""social-network"": ""google""}",profile
+414,2dfad3f1-b93f-46aa-a2fa-20f390407243,written post with <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+415,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't really like the event,{},profile
+416,2dfad3f1-b93f-46aa-a2fa-20f390407243,from <location>,"{""location"": ""Vatican city""}",profile
+417,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to posts about <post-word>,"{""post-word"": ""'concussion'""}",reply
+418,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with <post-word>,"{""post-word"": ""'concussion'""}",reply
+419,2dfad3f1-b93f-46aa-a2fa-20f390407243,<location> set as location,"{""location"": ""Vatican City""}",profile
+420,2dfad3f1-b93f-46aa-a2fa-20f390407243,from <location>,"{""location"": ""Vatican City""}",profile
+530,2dfad3f1-b93f-46aa-a2fa-20f390407243,n't like the event,{},profile
+421,2dfad3f1-b93f-46aa-a2fa-20f390407243,replied to post with <post-word> in its text,"{""post-word"": ""'concussion'""}",reply
+422,2dfad3f1-b93f-46aa-a2fa-20f390407243,<location> location,"{""location"": ""Vatican City""}",profile
+423,2dfad3f1-b93f-46aa-a2fa-20f390407243,live in <location>,"{""location"": ""Vatican City""}",profile
+424,2dfad3f1-b93f-46aa-a2fa-20f390407243,reside in <location>,"{""location"": ""Vatican City""}",profile
+425,2dfad3f1-b93f-46aa-a2fa-20f390407243,working at <company>,"{""company"": ""Abercrombie & Fitch""}",profile
+426,2dfad3f1-b93f-46aa-a2fa-20f390407243,liked post <number> times,"{""number"": ""5""}",like
+427,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on ad with <post-word>,"{""post-word"": ""'escapist'""}",ad
+428,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicks on ads containing <post-word>,"{""post-word"": ""'escapist'""}",ad
+429,2dfad3f1-b93f-46aa-a2fa-20f390407243,<number> post likes,"{""number"": ""5""}",like
+430,2dfad3f1-b93f-46aa-a2fa-20f390407243,<company> set as company,"{""company"": ""Abercrombie & Fitch""}",profile
+431,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on <post-word> ad,"{""post-word"": ""'escapist'""}",ad
+432,2dfad3f1-b93f-46aa-a2fa-20f390407243,<number> likes of posts,"{""number"": ""5""}",like
+433,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicks on ad which mentioned <post-word>,"{""post-word"": ""'escapist'""}",ad
+434,2dfad3f1-b93f-46aa-a2fa-20f390407243,<number> posts likes,"{""number"": ""5""}",like
+435,2dfad3f1-b93f-46aa-a2fa-20f390407243,clicked on ad containing <post-word>,"{""post-word"": ""'escapist'""}",ad
+436,2dfad3f1-b93f-46aa-a2fa-20f390407243,liked post by <mention>,"{""mention"": ""Clay Arnold""}",like
+437,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewed page with <post-word>,"{""post-word"": ""'beyond'""}",view
+438,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with <number> replies,"{""number"": ""5""}",post
+439,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewed page mentioning <post-word>,"{""post-word"": ""'beyond'""}",view
+440,2dfad3f1-b93f-46aa-a2fa-20f390407243,posts with <number> replies,"{""number"": ""5""}",post
+441,2dfad3f1-b93f-46aa-a2fa-20f390407243,liked <mention>s post,"{""mention"": ""Clay Arnold'""}",like
+442,2dfad3f1-b93f-46aa-a2fa-20f390407243,post containing <number> replies,"{""number"": ""5""}",post
+443,2dfad3f1-b93f-46aa-a2fa-20f390407243,view of page with <post-word> in its text,"{""post-word"": ""'beyond'""}",view
+444,2dfad3f1-b93f-46aa-a2fa-20f390407243,like of <mention>s post,"{""mention"": ""Clay Arnold'""}",like
+445,2dfad3f1-b93f-46aa-a2fa-20f390407243,viewed page which contains <post-word>,"{""post-word"": ""'beyond'""}",view
+446,2dfad3f1-b93f-46aa-a2fa-20f390407243,post with <number> comments,"{""number"": ""5""}",post
+447,2dfad3f1-b93f-46aa-a2fa-20f390407243,view of page which mentioned <post-word>,"{""post-word"": ""'beyond'""}",view
+448,2dfad3f1-b93f-46aa-a2fa-20f390407243,liked post written by <mention>,"{""mention"": ""Clay Arnold""}",like
+449,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with <number> comments,"{""number"": ""5""}",post
+450,2dfad3f1-b93f-46aa-a2fa-20f390407243,attended event <number> times,"{""number"": ""4""}",event
+451,2dfad3f1-b93f-46aa-a2fa-20f390407243,work as Affordable Housting Specialist,{},profile
+452,2dfad3f1-b93f-46aa-a2fa-20f390407243,<position> position,"{""position"": ""Affordable Housing Specialist""}",profile
+453,2dfad3f1-b93f-46aa-a2fa-20f390407243,<number> event attendances,"{""number"": ""4""}",event
+454,2dfad3f1-b93f-46aa-a2fa-20f390407243,set position to <position>,"{""position"": ""Affordable Housing Specialist""}",profile
+455,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+456,2dfad3f1-b93f-46aa-a2fa-20f390407243,<sentiment> posts,"{""sentiment"": ""positive""}",post
+457,2dfad3f1-b93f-46aa-a2fa-20f390407243,work at <position> position,"{""position"": ""Affordable Housing Specialist""}",profile
+458,2dfad3f1-b93f-46aa-a2fa-20f390407243,attended even <number> times,"{""number"": ""5""}",event
+459,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with  <sentiment> sentiment,"{""sentiment"": ""positive""}",post
+460,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated page containing <post-word>,"{""post-word"": ""'coastal'""}",rate
+461,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post with <number> likes,"{""number"": ""2""}",post
+462,2dfad3f1-b93f-46aa-a2fa-20f390407243,rating for page about <post-word>,"{""post-word"": ""'coastal'""}",rate
+463,2dfad3f1-b93f-46aa-a2fa-20f390407243,post liked <number> times,"{""number"": ""2""}",post
+464,2dfad3f1-b93f-46aa-a2fa-20f390407243,<sentiment> feelings towards the event,"{""sentiment"": ""negative""}",profile
+465,2dfad3f1-b93f-46aa-a2fa-20f390407243,written post which was liked <number> times,"{""number"": ""2""}",post
+466,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated page mentioning <post-word>,"{""post-word"": ""'coastal'""}",rate
+467,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated page with <post-word> word,"{""post-word"": ""'coastal'""}",rate
+468,2dfad3f1-b93f-46aa-a2fa-20f390407243,posted something liked <number> times,"{""number"": ""2""}",post
+469,2dfad3f1-b93f-46aa-a2fa-20f390407243,wrote post which was liked <number> times,"{""number"": ""2""}",post
+470,2dfad3f1-b93f-46aa-a2fa-20f390407243,attended <event>,"{""event"": ""'Happy Hippopotamuss'18'""}",event
+471,2dfad3f1-b93f-46aa-a2fa-20f390407243,participated in poll once,{},poll
+472,2dfad3f1-b93f-46aa-a2fa-20f390407243,left rating on page with <page-type> type,"{""page-type"": ""'exhibitor'""}",rate
+473,2dfad3f1-b93f-46aa-a2fa-20f390407243,voted in poll,{},poll
+474,2dfad3f1-b93f-46aa-a2fa-20f390407243,voted in <number> poll,"{""number"": ""1""}",poll
+475,2dfad3f1-b93f-46aa-a2fa-20f390407243,attended <event>,"{""event"": ""'Happy Hippopotamuss'18'""}",event
+476,2dfad3f1-b93f-46aa-a2fa-20f390407243,answerted <number> poll,"{""number"": ""1""}",poll
+477,2dfad3f1-b93f-46aa-a2fa-20f390407243,rated <page-type>,"{""page-type"": ""exhibitor""}",rate
+478,2dfad3f1-b93f-46aa-a2fa-20f390407243,voted in poll once,{},poll
+479,2dfad3f1-b93f-46aa-a2fa-20f390407243,voted in single poll,{},poll
+480,59d09959-5836-494f-9176-7a11a449b2fa,clicked on ad by <company>,"{""company"": ""'Acsis Inc.'""}",ad
+481,59d09959-5836-494f-9176-7a11a449b2fa,mentioned <mention>,"{""mention"": ""Steven Owens""}",post
+482,59d09959-5836-494f-9176-7a11a449b2fa,participated in a polls <number> times,"{""number"": ""4""}",poll
+483,59d09959-5836-494f-9176-7a11a449b2fa,participated in <number> polls,"{""number"": ""4""}",poll
+484,59d09959-5836-494f-9176-7a11a449b2fa,converted on the <company> ad ,"{""company"": ""'Acsis Inc.'""}",profile
+485,59d09959-5836-494f-9176-7a11a449b2fa,wrote a post about <mention>,"{""mention"": ""Steven Owens""}",post
+486,59d09959-5836-494f-9176-7a11a449b2fa,clicked on advertisement by 'Acisi Inc.',{},ad
+487,59d09959-5836-494f-9176-7a11a449b2fa,took <number> polls,"{""number"": ""4""}",poll
+488,59d09959-5836-494f-9176-7a11a449b2fa,named <first-name>,"{""first-name"": ""Petra""}",profile
+489,59d09959-5836-494f-9176-7a11a449b2fa,viewed page contains <post-word>,"{""post-word"": ""'adsorbable'""}",view
+490,59d09959-5836-494f-9176-7a11a449b2fa,a post with <number> likes ,"{""number"": ""8""}",post
+491,59d09959-5836-494f-9176-7a11a449b2fa,posted a content with <number> likes,"{""number"": ""8""}",post
+492,59d09959-5836-494f-9176-7a11a449b2fa,visited page contains <post-word>,"{""post-word"": ""'adsorbable'""}",view
+493,59d09959-5836-494f-9176-7a11a449b2fa,called <first-name>,"{""first-name"": ""Petra""}",profile
+494,59d09959-5836-494f-9176-7a11a449b2fa,name is <first-name>,"{""first-name"": ""Petra""}",profile
+495,59d09959-5836-494f-9176-7a11a449b2fa,opened page with <post-word>,"{""post-word"": ""'adsorbable'""}",view
+496,59d09959-5836-494f-9176-7a11a449b2fa,posted a message with <number> likes,"{""number"": ""8""}",post
+497,59d09959-5836-494f-9176-7a11a449b2fa,<enjoyment> the event,"{""enjoyment"": ""enjoyed""}",profile
+498,59d09959-5836-494f-9176-7a11a449b2fa,wrote <number> posts,"{""number"": ""2""}",post
+499,59d09959-5836-494f-9176-7a11a449b2fa,posted <number> messages,"{""number"": ""2""}",post
+500,59d09959-5836-494f-9176-7a11a449b2fa,clicked on <number> ads,"{""number"": ""2""}",ad
+501,59d09959-5836-494f-9176-7a11a449b2fa,rated with <number> stars <page-type>s page,"{""number"": ""2"", ""page-type"": ""speaker'""}",rate
+502,59d09959-5836-494f-9176-7a11a449b2fa,rated <page-type> with <number> stars,"{""number"": ""2"", ""page-type"": ""speaker""}",rate
+503,59d09959-5836-494f-9176-7a11a449b2fa,clicked on ads <number> times,"{""number"": ""2""}",ad
+504,59d09959-5836-494f-9176-7a11a449b2fa,rated page contains <post-word>,"{""post-word"": ""'pragmatic'""}",rate
+505,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",poll
+506,59d09959-5836-494f-9176-7a11a449b2fa,leave a rate on page with <post-word>,"{""post-word"": ""'pragmatic'""}",rate
+507,59d09959-5836-494f-9176-7a11a449b2fa,viewed page with <post-word>,"{""post-word"": ""'adsorbable'""}",view
+508,59d09959-5836-494f-9176-7a11a449b2fa,connected Google +,{},profile
+509,59d09959-5836-494f-9176-7a11a449b2fa,took a not on page with <post-word>,"{""post-word"": ""'coastal'""}",note
+510,59d09959-5836-494f-9176-7a11a449b2fa,created a not on page contains <post-word>,"{""post-word"": ""'coastal'""}",note
+511,59d09959-5836-494f-9176-7a11a449b2fa,voted <number> times,"{""number"": ""4""}",poll
+512,59d09959-5836-494f-9176-7a11a449b2fa,Google + account,{},profile
+513,59d09959-5836-494f-9176-7a11a449b2fa,post with <number> replies,"{""number"": ""9""}",reply
+514,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type> page,"{""page-type"": ""sponsor""}",view
+515,59d09959-5836-494f-9176-7a11a449b2fa,rated page with <number> stars,"{""number"": ""2""}",rate
+516,59d09959-5836-494f-9176-7a11a449b2fa,content with <number> replies,"{""number"": ""9""}",post
+517,59d09959-5836-494f-9176-7a11a449b2fa,viewed <page-type>,"{""page-type"": ""sponsor""}",view
+518,59d09959-5836-494f-9176-7a11a449b2fa,rated page with more than <number> stars,"{""number"": ""2""}",rate
+519,59d09959-5836-494f-9176-7a11a449b2fa,posted a content with <number> comments,"{""number"": ""9""}",post
+520,59d09959-5836-494f-9176-7a11a449b2fa,opened <page-type> page,"{""page-type"": ""sponsor""}",view
+521,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by <mention>,"{""mention"": ""Philip Stephens""}",like
+522,3ea9c741-6993-44f9-937c-3a5718a08693,left a note on a page <number> times,"{""number"": ""3""}",note
+523,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded a file named <file-name>,"{""file-name"": ""workshop.doc""}",file
+524,3ea9c741-6993-44f9-937c-3a5718a08693,liked a post by Philip,{},like
+525,3ea9c741-6993-44f9-937c-3a5718a08693,downloaded <file-name>,"{""file-name"": ""workshop.doc""}",file
+526,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on an ad <number> times,"{""number"": ""4""}",ad
+527,3ea9c741-6993-44f9-937c-3a5718a08693,bio contains <number>,"{""number"": ""8""}",profile
+528,3ea9c741-6993-44f9-937c-3a5718a08693,attended <number> events,"{""number"": ""7""}",event
+529,3ea9c741-6993-44f9-937c-3a5718a08693,clicked on <number> ads,"{""number"": ""4""}",ad
