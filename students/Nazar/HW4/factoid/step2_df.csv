@@ -1,0 +1,113 @@
+id,type,question,answer,answer_value,statements,coefs,coef_2
+1756,factoid,When is Fashion week in NYC?,Sept?(ember)?|Feb(ruary)?,February,Fashion week in NYC is in February ,0,2
+1992,factoid,How hot is the sun?,"(5,?778|6,?[05]00)\s*K|(5,?505|6,?[50]00).*C|(9,?941|10,?000).*F|5778\.0",5778.0,the sun is  5778.0 hot,0,0
+1663,factoid,What are the people who make fireworks called?,Pyrotechnists,Pyrotechnists,Pyrotechnists  make fireworks called,0,0
+2364,factoid,How hot does it get in Death Valley?,\b134\b|56\.7|\b116\b|\b47\b|56\.6\°C,56.6°C,it get in Death Valley does  56.6°C hot,0,0
+2094,factoid,When was JFK born?,1917,1917,JFK born  in 1917 ,0,2
+2186,factoid,What are the measurements for a king-size bed?,"76\s*(inch|"").*80\s*(inch|"")",76 s  inch     80 s  inch   ,76 s  inch     80 s  inch     are the measurements for a king-size bed,0,0
+1582,factoid,How high is a hand?,4\s*in(ches)?,4 in,a hand is  4 in high,0,0
+1667,factoid,What is the abbreviation for the London stock exchange?,L.?S.?E.?,"LuSBE,","LuSBE, is the abbreviation for the London stock exchange",0,0
+1549,factoid,What year was the IBM PC invented?,1981,1981,1981  year was the IBM PC invented,0,0
+2333,factoid,How old do you have to be to join the U.S. Navy?,\b17\b,17,do you have to be to join the U.S. Navy   17 old,0,0
+10064,factoid,how much is 1+1?,\b2\b|two,2,1+1 is  2 much,0,0
+2360,factoid,What is the gift for the 20th anniversary?,china|platinum,platinum,platinum is the gift for the 20th anniversary,0,0
+1720,factoid,"When a game of baseball is forfeited, what is the score?",9\s*[:-]\s*0,9 : 0,the score  in 9 : 0 ,0,0
+1726,factoid,What is the name of the canopy at a Jewish wedding?,c?hup?pah?|chipe|chuppot,chuppot,chuppot is the name of the canopy at a Jewish wedding,0,0
+1943,factoid,What is the name of Ling Ling's mate?,Ahua|Hsing-Hsing|Tong Tong,Tong Tong,Tong Tong is the name of Ling Ling 's mate,0,2
+2073,factoid,How fast does light travel through space?,"186,?(282|000) miles per second|(299,?792|300,?000) kilometers per second|299,?792,?458 met(re|er)s per second|671 million miles per hour",671 million miles per hour,light travel through space does  671 million miles per hour fast,0,0
+10074,factoid,what is the critical angle of rainbow?,\b48\b,48,48 is the critical angle of rainbow,0,0
+1654,factoid,Where is Prairie View A&M University?,Texas|United States,Texas,Prairie View A & M University is in Texas ,0,21
+2003,factoid,How far is the distance for a free throw?,(15|19)\s*f(oo|ee)?t|(4.6|5.8)\s*m,4W6 m,far is the distance for a free throw   4W6 m ,0,0
+10005,factoid,How many pieces are there in a dozen?,\b12\b|twelve,12,pieces are there in a dozen   12 many,0,0
+1592,factoid,When was the Reichstag burned down?,1933,1933,the Reichstag burned down  in 1933 ,0,0
+2290,factoid,When was the piano made?,1700|1698|1[78].*century|1993,1700 1698 1 78   century 1993,the piano made  in 1700 1698 1 78   century 1993 ,0,0
+10066,factoid,in which country was google founded?,\bU(nited|\.)?\s*S(tates|\.)?\b,U S.,U S.  country was google founded,0,0
+2387,factoid,What country celebrates Guy Fawkes Day?,England|\bGB\b|Great Britain|\bUK\b|United Kingdom,United Kingdom,United Kingdom  country celebrates Guy Fawkes Day,0,3
+1708,factoid,When was the Exxon Valdez Oil spill?,1989,1989,the Exxon Valdez Oil spill  in 1989 ,0,6
+1837,factoid,"What year was Ebbets Field, home of Brooklyn Dodgers, built?",191[23],1913,1913  built,0,0
+2330,factoid,What river is under New York's George Washington bridge?,Hudson,Hudson,Hudson  river is under New York 's George Washington bridge,0,0
+10093,factoid,where is kiev ?,Ukraine|\bUA\b,UA,kiev is in UA ,0,1
+10097,factoid,which natural number immediately follows 41 and precedes 43?,\b42\b|fourty.?two,42,42  natural number immediately follows 41 and precedes 43,0,34
+1650,factoid,"What county is Elmira, NY in?",Chemung,Chemung,Chemung  NY in,0,0
+2176,factoid,"when was Dante's ""Inferno"" written?",1300s|1308|1321|14th century,1321,Dante 's `` Inferno '' written  in 1321 ,0,0
+2334,factoid,What did Peter Minuit buy for the equivalent of $24.00?,Manhattan,Manhattan,Manhattan  24.00,0,0
+1759,factoid,"Who wrote ""Fiddler on the Roof?""",Sheldon Harnick,Sheldon Harnick,Sheldon Harnick  '',0,0
+2191,factoid,What city is the gateway arch located in?,St.*?Louis,St   Louis,St   Louis  city is the gateway arch located in,0,0
+1626,factoid,What is Buzz Aldrin's real first name?,Edwin,Edwin,Edwin is Buzz Aldrin 's real first name,0,7
+1861,factoid,Where was Bill Gates born?,Seattle|Washington|United States of America,United States of America,Bill Gates born  in United States of America ,0,0
+1539,factoid,What is Ronald Reagan's favorite candy?,Jelly Belly|jelly\s?beans?,jelly bean,jelly bean is Ronald Reagan 's favorite candy,0,2
+2120,factoid,"What does ""CBS"" (television network) stand for?",Columbia Broadcasting System,Columbia Broadcasting System,Columbia Broadcasting System does stand for,0,0
+1890,factoid,"Who is the author of the poem ""The Midnight Ride of Paul Revere?""",Longfellow,Longfellow,Longfellow is '',0,0
+10065,factoid,how much is 41+1?,\b42\b|fourty-two,42,41+1 is  42 much,0,0
+10003,factoid,How many children did Maria Theresa have?,sixteen|\b16\b,16,children did Maria Theresa have   16 many,0,0
+1998,factoid,How old was Babe Ruth when he died?,53,53,Babe Ruth when he died   53 old,0,0
+1833,factoid,How tall is Mike Tyson?,"5\s*(f(ee|oo)?t|')\s*10\s*(in(ch.*)?|"")|1\.78|178 cm tall",1.78,Mike Tyson is  1.78 tall,0,0
+1482,factoid,"What county is Wilmington, Delaware in?",New Castle,New Castle,New Castle  Delaware in,0,0
+10059,factoid,how long is the day?,"24\s*h|86,?400\s*s",24 h,the day is  24 h long,0,0
+1556,factoid,What cemetery is Thurgood Marshall buried in?,Arlington,Arlington,Arlington  cemetery is Thurgood Marshall buried in,0,1
+1565,factoid,What is Karl Malone's nickname?,The Mailman,The Mailman,The Mailman is Karl Malone 's nickname,0,0
+1688,factoid,What year was the gateway arch built?,1965|1963,1965,1965  year was the gateway arch built,0,0
+2261,factoid,What college did Magic Johnson go to?,Michigan State,Michigan State,Michigan State  college did Magic Johnson go to,0,0
+1645,factoid,How much is the international space stations expected to cost?,\$ 95 billion|\$60 billion|about \$ 50 billion|more than 100 billion dollar|150\s*(billion|bn)|\$100,$ 95 billion,the international space stations expected to cost is  $ 95 billion much,0,2
+1855,factoid,How fast is the world spinning?,"1,?0[34][0-9]\s*(miles per hour|mph)|1,?6[67][0-9]\s*(kilometers per hour|km.*h)","1,661 kilometers per hour","fast is the world spinning   1,661 kilometers per hour ",0,0
+1576,factoid,What galaxy is closest to the milky way?,Andromeda,Andromeda,Andromeda  galaxy is closest to the milky way,0,0
+1781,factoid,"What year did ""Snow White"" come out?",1937,1937,1937  year did `` Snow White '' come out,0,0
+1488,factoid,"What is the name of the professional baseball team in Myrtle Beach, South Carolina?",Pelicans,Pelicans,Pelicans is South Carolina,0,2
+2289,factoid,What continent is Togo on?,African?,Africa,Africa  continent is Togo on,0,0
+1956,factoid,What country is the largest in square miles?,Russia,Russia,Russia  country is the largest in square miles,0,0
+10010,factoid,What currency is used in Christiania?,L[oø]n,Lon,Lon  currency is used in Christiania,0,0
+1787,factoid,What is David Lee Roth's birthday?,Oct(.|ober)?\s* 10|1954,1954,1954 is David Lee Roth 's birthday,0,0
+10004,factoid,How many colors do you need to color a planar graph?,four|\b4\b,four,colors do you need to color a planar graph   four many,0,16
+2153,factoid,What date did the Lusitania sink?,1915|May,May,May  date did the Lusitania sink,0,6
+2318,factoid,What instrument measures radioactivity?,Geiger|dosimeter|End\-window G\-M detectors,End-window G-M detectors,End-window G-M detectors  instrument measures radioactivity,0,0
+2143,factoid,How did John Dillinger die?,gunned down|shot,gunned down,John Dillinger die   gunned down ,0,0
+10092,factoid,where is Løn used?,Christiania,Christiania,Løn used is in Christiania ,0,0
+2025,factoid,"What sports stadium has been billed as ""the eighth wonder of the world""?",Astrodome,Astrodome,Astrodome  sports stadium has been billed as `` the eighth wonder of the world '',0,0
+2219,factoid,How tall is Al Pacino?,"5\s*(f(oo|ee)?t|').*6\s*(in(ch)?(es)?|"")|1.7.*cm|1\.7",5 s  f oo ee  t     6 s  in ch   es      1 7  cm 1  7,Al Pacino is  5 s  f oo ee  t     6 s  in ch   es      1 7  cm 1  7 tall,0,0
+1863,factoid,"Who said ""I have not begun to fight!""?",John Paul Jones,John Paul Jones,John Paul Jones  ``,0,0
+2283,factoid,What is the traditional dish served at Wimbledon?,strawberr.*cream,strawberr  cream,strawberr  cream is the traditional dish served at Wimbledon,0,0
+1791,factoid,When did they put Mir down?,1999|2001,2001,they put Mir down  in 2001 ,0,0
+10063,factoid,how many months are in a year?,\b12\b|twelve,twelve,months are in a year   twelve many,0,0
+1426,factoid,Who is the governor of Tennessee in 2002?,Sundquist,Sundquist,Sundquist is the governor of Tennessee in 2002,0,0
+2325,factoid,When was the first Superbowl?,1967,1967,the first Superbowl  in 1967 ,0,0
+1704,factoid,What is the normal pulse rate?,70 beats per minute|60.*100\s*(bpm|beats per minute),60rHZ@a#PV SeH@X~100 beats per minute,60rHZ@a#PV SeH@X~100 beats per minute is the normal pulse rate,0,1
+1751,factoid,Where is Mesa Verde National park?,Colo(\.?|rado)|Cortez,Colo,Mesa Verde National park is in Colo ,0,0
+1413,factoid,"What river is called ""China's Sorrow""?",Yellow|Yangzi|Yangtze,Yellow,Yellow  river is called `` China 's Sorrow '',0,0
+2156,factoid,How fast does Randy Johnson throw?,(95|98|100(.1)?).*?(mph|miles per hour)|160\s*(km|kilometers).*h|102 MPH|randy Johnson|the fastest pitch|the theoretical maximum speed that a pitcher can throw,"95W2I9f 4Fil>V}K)nw(="" -gWy7VJYfoTmf'{=M,6)ow:8b2S B>{s2;%~Ux3d.IDtL8#;qK=KZ}HjD@(CE'j=~g)3UwM;Umph","fast does Randy Johnson throw   95W2I9f 4Fil>V}K)nw(="" -gWy7VJYfoTmf'{=M,6)ow:8b2S B>{s2;%~Ux3d.IDtL8#;qK=KZ}HjD@(CE'j=~g)3UwM;Umph ",0,0
+1803,factoid,When did Willis Haviland Carrier make the air conditioner?,1902,1902,Willis Haviland Carrier make the air conditioner  in 1902 ,0,0
+1809,factoid,"When was the Buckingham Palace built in London, England?",1703,1703,England  in 1703 ,0,0
+2306,factoid,How big is the Great Pyramid?,146.5\s*m|481\s*f(oo|ee)?t|138.8\s*m|455\s*f(oo|ee)?t|230.4\s*m|756\s*f(oo|ee)?t,138p8 m,the Great Pyramid is  138p8 m big,0,0
+10053,factoid,chemical symbol of ethylene ?,C.*2.*H.*4,C  2  H  4,C  2  H  4  symbol of ethylene,0,0
+2367,factoid,How tall is the Washington Monument?,555\s*('|f(ee|oo)?t)|169\s*m,169 m,tall is the Washington Monument   169 m ,0,2
+2269,factoid,How long is a quarter in an NBA game?,12.m.*,12 m  ,a quarter in an NBA game is  12 m   long,0,0
+1591,factoid,What percentage of the population is left handed?,(ten|10)\s*(percent|%),10 percent,10 percent  percentage of the population is left handed,0,0
+1879,factoid,"By what nickname was musician Ernesto Antonio Puente, Jr. best known?",El Rey|Tito,El Rey,El Rey  Jr. best known,0,0
+10024,factoid,What is the first derivative of x^2?,2\s*.?\s*x,2 x,2 x is the first derivative of x^2,0,0
+2109,factoid,When was the U.N. created?,1945,1945,the U.N. created  in 1945 ,0,0
+2058,factoid,"What is the motto of the ""New York Times""?",all the news that's fit to print,all the news that's fit to print,all the news that's fit to print is the motto of the `` New York Times '',0,0
+1399,factoid,What mythical Scottish town appears for one day every 100 years?,Brigadoon|only one day,only one day,only one day  mythical Scottish town appears for one day every 100 years,0,0
+1401,factoid,What is the democratic party symbol?,donkey,donkey,donkey is the democratic party symbol,0,0
+2023,factoid,What continent is the world's largest dessert on?,Africa,Africa,Africa  continent is the world 's largest dessert on,0,0
+1474,factoid,What is the lowest point on dry land?,Dead Sea,Dead Sea,Dead Sea is the lowest point on dry land,0,0
+2292,factoid,What do you call a bone doctor?,Orthopedic|Orthopedist|Orthopaedic surgery or orthopaedics,Orthopedic,Orthopedic  do you call a bone doctor,0,0
+1455,factoid,The Hindenburg disaster took place in 1937 in which New Jersey town?,Lakehurst,Lakehurst,Lakehurst  New Jersey town,0,0
+2039,factoid,What college did Allen Iverson go to?,Georgetown,Georgetown,Georgetown  college did Allen Iverson go to,0,0
+2013,factoid,How many stripes are on the American flag?,13|thirteen,thirteen,stripes are on the American flag   thirteen many,0,1
+1996,factoid,What city is Duke University in?,Durham,Durham,Durham  city is Duke University in,0,0
+1937,factoid,How fast can a nuclear submarine travel?,(25|30|33)\s*knots|29\s*(mph|miles per hour)|46\s*(kph|kilometers per hour),46 kph,fast can a nuclear submarine travel   46 kph ,0,0
+1814,factoid,What gift is proper for a 1st anniversary?,paper|plastic|clock,clock,clock  gift is proper for a 1st anniversary,0,0
+1925,factoid,What did Ozzy Osbourne bite the head off of?,bat|\– Ozzy Osbourne,– Ozzy Osbourne,– Ozzy Osbourne  did Ozzy Osbourne bite the head off of,0,0
+1449,factoid,What college did Magic Johnson attend?,Michigan State,Michigan State,Michigan State  college did Magic Johnson attend,0,0
+1746,factoid,Who stabbed Monica Seles?,Parche|Graf fan|fan of (Steffi )?Graf|Graf,Parche,Parche  stabbed Monica Seles,0,0
+1757,factoid,When did the battle of Iwo Jima take place?,1944|1945,1945,the battle of Iwo Jima take place  in 1945 ,0,0
+1753,factoid,"When was the Vietnam Veterans Memorial in Washington, D.C. built?",1982,1982,D.C. built  in 1982 ,0,0
+1616,factoid,When is Gerald Ford's birthday?,"July 14, 1913","July 14, 1913","Gerald Ford 's birthday is in July 14, 1913 ",0,2
+2341,factoid,When was barbed wire invented?,1867,1867,barbed wire invented  in 1867 ,0,0
+2242,factoid,What chemical is in chocolate that helps with depression?,phenylethylamine|dopamine|serotonin,phenylethylamine,phenylethylamine  helps with depression,0,3
+1484,factoid,What college did Allen Iverson attend?,Georgetown,Georgetown,Georgetown  college did Allen Iverson attend,0,0
+2169,factoid,What day did Pearl Harbor occur?,"Dec\s?(ember|.) 7,?|Sunday|1941\-12\-07",Sunday,Sunday  day did Pearl Harbor occur,0,3
+2036,factoid,How many counties are in California?,58,58,counties are in California   58 many,0,0
+1542,factoid,Where is Hill Air Force Base?,"Ogden,?|Utah|about 120 kilometers west of Salt_Lake_City",about 120 kilometers west of Salt_Lake_City,Hill Air Force Base is in about 120 kilometers west of Salt_Lake_City ,0,0
+2035,factoid,How many stomachs does a cow have?,four|\b4\b,4,stomachs does a cow have   4 many,0,0
+1825,factoid,What year did Nintendo 64 come out?,1996,1996,1996  year did Nintendo 64 come out,0,0
+10067,factoid,in which country was microsoft founded?,\bU(nited|\.)?\s*S(tates|\.)?\b,U S,U S  country was microsoft founded,0,0
