@@ -270,27 +270,28 @@ class DataProcessor(object):
         In 2016, Wood spoke of his belief that organized child sexual abuse does happen in the Hollywood film industry.[56]"""
 
     def get_movies_from_text(self):
-        for ent in self.nlp(self.text).ents:
-            movie = ent
-            year = ''
-            if ent.label_ != "DATE":
-                for i in ent.subtree:
-                    if i.pos_ == "NUM":
-                        if len(i) == 4:
-                            try:
-                                if int(i.text) > 1900:
-                                    year = i
-                                    break
-                            except:
-                                pass
-                        else:
-                            if "-" in i.text:
-                                print([i for i in ent.subtree])
-                                print(i)
-
-            if year:
-                self.result.append((movie.text, year.text))
-
+        reg = re.compile('{"url": ".*"')
+        # for ent in self.nlp(self.text).ents:
+        #     movie = ent
+        #     year = ''
+        #     if ent.label_ != "DATE":
+        #         for i in ent.subtree:
+        #             if i.pos_ == "NUM":
+        #                 if len(i) == 4:
+        #                     try:
+        #                         if int(i.text) > 1900:
+        #                             year = i
+        #                             break
+        #                     except:
+        #                         pass
+        #                 else:
+        #                     if "-" in i.text:
+        #                         print([i for i in ent.subtree])
+        #                         print(i)
+        #
+        #     if year:
+        #         self.result.append((movie.text, year.text))
+        import ipdb; ipdb.set_trace()
     def compare_result_and_truth(self):
         print("found {} entities with years".format(len(self.result)))
         res = set.intersection(set(self.result), set(self.truth))
