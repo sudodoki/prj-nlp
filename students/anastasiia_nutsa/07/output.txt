@@ -1,0 +1,28 @@
+В якості тренувальних даних було взято корпус Yahoo Answers Questions https://webscope.sandbox.yahoo.com/catalog.php?datatype=l
+На основі цих даних було згенеровано 10000 Run On Sentences
+
+Для кожного слова було виділено наступні ознаки:
+
+word-1: word, lemma, pos, tag, istitle, isdigit, ngram_W_W+1
+word: word, lemma, pos, tag, istitle, isdigit
+word+1: word, lemma, pos, tag, istitle, isdigit, ngram_W-1_W
+
+
+Побудовано класифікатор на основі логістичної регресії з використанням виділених ознак
+
+Отримані результати:
+
+             precision    recall  f1-score   support
+
+          0       0.98      1.00      0.99      4547
+          1       0.76      0.42      0.54       150
+
+avg / total       0.97      0.98      0.97      4697
+
+
+
+Для наступних ознак результат залищився незмінним:
+
+word-1: lemma, pos, tag, istitle
+word: lemma, pos, tag, istitle ngram_W-1_W_W+1
+word+1: lemma, pos, tag, istitle

@@ -69,7 +69,7 @@ namespace NLPCourse.DataTask {
         }
 
         public static string Replicate(this char ch, int count) {
-            return new String('=', count);
+            return new String(ch, count);
         }
 
     }

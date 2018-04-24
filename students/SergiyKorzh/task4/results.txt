@@ -1,0 +1,68 @@
+Getting Stana Katic credits from TMDB...
+Total titles Stana Katic played in : 31
+ * Quantum of Solace, 2008-10-31, (Corinne Veneau)
+ * The Spirit, 2008-12-25, (Morgenstern)
+ * Pit Fighter, 2005-07-06, (Marianne)
+ * The Librarian: The Curse of the Judas Chalice, 2008-12-07, (Simone Renoir)
+ * Stiletto, 2008-04-29, (Raina)
+ * The Double, 2011-10-28, (Amber)
+ * For Lovers Only, 2011-07-12, (Sofia)
+ * Truth About Kerry, 2010-10-16, (Emma)
+ * CBGB, 2013-10-11, (Genya Ravan)
+ * Big Sur, 2013-11-01, (Lenora)
+ * Superman: Unbound, 2013-05-06, (Lois Lane (voice))
+ * The Rendezvous, 2016-10-02, (Rachel Rozman)
+ * Sister Cities, 2016-09-17, (Carolina "Carol" Baxter Shaw)
+ * Feast of Love, 2007-09-28, (Jenny)
+ * Dragon Dynasty, 2006-07-22, (Ava)
+ * Lost in Florence, 2017-01-27, (Anna)
+ * Cadaver, 2018-08-24, (Lisa Roberts / Nurse)
+ * Would Be Kings, 2008-08-27, (Julianna Martinelli)
+ * Jogo de Amor em Floren‡a, 2017-05-09, (Anna)
+ * Alias, 2001-09-30, ()
+ * ER, 1994-09-19, ()
+ * Faceless, 2006-03-22, (Diana Palos)
+ * Brothers and Sisters, 2006-09-24, (Karen Wells)
+ * The Shield, 2002-03-12, ()
+ * CSI: Miami, 2002-09-23, ()
+ * Heroes, 2006-09-25, (Hana Gitelman)
+ * 24, 2001-11-06, (Collette Stenger)
+ * The Unit, 2006-03-07, ()
+ * The Handler, 2003-09-26, ()
+ * Castle, 2009-03-08, (Kate Beckett)
+ * Absentia, 2017-09-25, (Emily Byrne)
+
+Getting Stana Katic titles from Wikipedia
+26 titles found
+ * Heroes
+ * Feast of Love
+ * Frank Miller
+ * The Spirit
+ * Quantum of Solace
+ * Strawberry Fields
+ * The Librarian
+ * Lovers
+ * France
+ * Richard Gere
+ * 28 March
+ * Lovers
+ * Entertainment Weekly
+ * 28 January
+ * America Awards
+ * Performance
+ * 18 April
+ * 12 May
+ * Sister Cities
+ * 17 September
+ * 26 September
+ * Rachel Rozman
+ * Amin Matalqa
+ * Cadaver[51] In January
+ * Anna
+ * Emily Byrne
+
+Processing results...
+5 titles from Wikipedia match totally
+4 titles from Wikipedia match partially
+Precision: 0,276595744680851; Recall: 0,220338983050847
+

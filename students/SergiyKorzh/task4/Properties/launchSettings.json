@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "task4": {
+      "commandName": "Project",
+      "commandLineArgs": "> results.txt",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
