@@ -1,0 +1,48 @@
+Було реалізовано базовий алгоритм парсера
+
+Logistic Regression Classifier
+             precision    recall  f1-score   support
+
+       left       0.84      0.86      0.85      7352
+     reduce       0.81      0.73      0.77      8370
+      right       0.72      0.78      0.75      7182
+      shift       0.86      0.86      0.86      7757
+
+avg / total       0.81      0.81      0.81     30661
+
+
+Перевірено ще 2 класифікатори: K-Nearest Neighbours Classifier, SVM Classifier
+
+SVM Classifier
+             precision    recall  f1-score   support
+
+       left       0.83      0.83      0.83      7352
+     reduce       0.77      0.72      0.74      8370
+      right       0.70      0.73      0.71      7182
+      shift       0.81      0.84      0.83      7757
+
+avg / total       0.78      0.78      0.78     30661
+
+
+K-Nearest Neighbours Classifier
+             precision    recall  f1-score   support
+
+       left       0.87      0.90      0.88      7352
+     reduce       0.58      0.79      0.67      8370
+      right       0.77      0.67      0.72      7182
+      shift       0.91      0.63      0.75      7757
+
+avg / total       0.78      0.75      0.75     30661
+
+
+Додано Feature: POS Head
+
+Logistic Regression Classifier
+             precision    recall  f1-score   support
+
+       left       0.87      0.89      0.88      7352
+     reduce       0.87      0.78      0.82      8370
+      right       0.80      0.87      0.83      7182
+      shift       0.87      0.88      0.88      7757
+
+avg / total       0.85      0.85      0.85     30661
