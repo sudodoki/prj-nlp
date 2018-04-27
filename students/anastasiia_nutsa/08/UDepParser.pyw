@@ -57,15 +57,15 @@ def choose_action(s, q, r):
 def execute_action(stack, queue, relations, action, log = False):
     if action == Actions.LEFT:
         if log:
-            relations += stack[-1]['form'] + "  <---  " + queue[0]['form']
+            relations.append((stack[-1]['form'], "<---", queue[0]['form']))
         else:
-            relations.append((stack[-1]['id'], stack[-1]['head']))
+            relations.append((stack[-1]["id"], queue[0]["id"]))
         stack.pop()
     elif action == Actions.RIGHT:
         if log:
-            relations += queue[0]['form'] + "  <---  " + stack[-1]['form']
+            relations.append((queue[0]['form'], "<---", stack[-1]['form']))
         else:    
-            relations.append((queue[0]['id'], queue[0]['head']))
+            relations.append((queue[0]["id"], stack[-1]["id"]))
         stack.append(queue.pop(0))
     elif action == Actions.REDUCE:
         if len(stack) == 1 and queue:
@@ -76,6 +76,8 @@ def execute_action(stack, queue, relations, action, log = False):
         stack.append(queue.pop(0))
     else:
         print('Undefined behaviour')
+##    if log:    
+##        print(action, relations)    
 
 def extract_features(stack, queue, heads):
     features = dict()
@@ -131,18 +133,20 @@ def get_data(trees):
     return features, labels, trees
 
 def dep_parse(sentence, oracle, vectorizer, imputer, log = False):
-    features = []
     stack, queue, relations = [ROOT], sentence[:], []
     heads = {x['id']: x['upostag'] for x in queue}
     while stack or queue:
         if stack and not queue:
             stack.pop()
         else:
-            features.append(extract_features(stack, queue, heads))
-            vectorized_features = vectorize_data(features, vectorizer, imputer)
-            action = oracle.predict(vectorized_features)[0]
-            execute_action(stack, queue, relations, action)
-    return sorted(relations)
+            features = extract_features(stack, queue, heads)
+            vectorized_features = vectorize_data([features], vectorizer, imputer)
+            action = Actions(oracle.predict(vectorized_features))
+            execute_action(stack, queue, relations, action, log)
+    if log:
+        return relations
+    else:
+        return sorted(relations)
 
 def vectorize_data(data, vectorizer, imputer):
     return imputer.transform(vectorizer.transform(data))
@@ -223,7 +227,7 @@ for item in tmp_trees:
     tree = get_tree(item)
     print([node["form"] for node in tree])
     print(dep_parse(tree, lrc, vec, imp, True))
-    print(50*'#')
+    print('\n')
 
 total, tp = 0, 0
 for tree in test_trees:
