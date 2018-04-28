@@ -29,15 +29,12 @@
 ```python
 mapping = {"ADJF": "ADJ", "ADJS": "ADJ", "COMP": "ADJ", "PRTF": "ADJ",
            "PRTS": "ADJ", "GRND": "VERB", "NUMR": "NUM", "ADVB": "ADV",
-           "NPRO": "PRON", "PRED": "ADV", "PREP": "ADP", "PRCL": "PART"}
-
-CONJ_COORD = ["а", "або", "але", "ані", "все", "все-таки", "втім", "ж", "же",
-              "зате", "і", "й", "ніже", "однак", "одначе", "прецінь", "проте",
-              "та", "так", "також", "усе", "усе-таки", "утім", "чи"]
+           "NPRO": "PRON", "PNCT": "PUNCT", "PRED": "ADV", "PREP": "ADP",
+           "PRCL": "PART"}
 
 def normalize_pos(word):
     if word.tag.POS == "CONJ":
-        if word.word in CONJ_COORD:
+        if "coord" in word.tag:
             return "CCONJ"
         else:
             return "SCONJ"

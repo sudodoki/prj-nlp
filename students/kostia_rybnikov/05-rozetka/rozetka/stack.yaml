@@ -1,0 +1,14 @@
+resolver: lts-11.2
+packages:
+- .
+extra-deps:
+- git: https://github.com/commercialhaskell/rio.git
+  commit: c3d6b3cf26381766b1d71f12c991d6bbff2f0c66
+  subdirs:
+  - ./rio
+  - ./rio-orphans
+- cld2-0.1.1.1
+- git: https://github.com/k-bx/nlp.git
+  commit: d2cd5d664653c9142522b2ba545bb396d32ddd55
+  subdirs:
+  - ./naiveml
