@@ -29,6 +29,7 @@ polyglot = "*"
 langdetect = "*"
 tqdm = "*"
 tokenize-uk = "*"
+python-rocksdb = "*"
 
 
 [requires]
