@@ -77,6 +77,8 @@ hw*
 *.bz2
 *.gz
 
+*.dill
+
 cornell_movie_dialogs_corpus.zip
 2554/
 cmv/
