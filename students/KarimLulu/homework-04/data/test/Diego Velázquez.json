@@ -1,0 +1,234 @@
+{
+    "sections": {
+        "a33b3e6a6038fafba4f5b134be1d3545": {
+            "parent": "",
+            "level": 1,
+            "start": 0,
+            "end": 934,
+            "title": "summary",
+            "path": "/summary"
+        },
+        "fbc154d0d36293254ba822b9149decc7": {
+            "parent": "",
+            "level": 1,
+            "start": 947,
+            "end": 2500,
+            "title": "Early life",
+            "path": "/Early life"
+        },
+        "b7ae0fe784e7a699d4829268937b4dc1": {
+            "parent": "",
+            "level": 1,
+            "start": 2527,
+            "end": 3402,
+            "title": "To Madrid (early period)",
+            "path": "/To Madrid (early period)"
+        },
+        "2ac73773b2152703bb32fdb5bc241897": {
+            "parent": "To Madrid (early period)",
+            "level": 2,
+            "start": 3425,
+            "end": 7564,
+            "title": "Madrid and Philip IV",
+            "path": "/To Madrid (early period)/Madrid and Philip IV"
+        },
+        "4a41a7db04ef30763112b3baff37fbb1": {
+            "parent": "",
+            "level": 1,
+            "start": 7581,
+            "end": 8557,
+            "title": "Italian period",
+            "path": "/Italian period"
+        },
+        "e4cb0a6885e0126063fe1506e0612073": {
+            "parent": "Italian period",
+            "level": 2,
+            "start": 8592,
+            "end": 11277,
+            "title": "Return to Madrid (middle period)",
+            "path": "/Italian period/Return to Madrid (middle period)"
+        },
+        "7621e4c0d5d236e311ba875d74057b4f": {
+            "parent": "Return to Madrid (middle period)",
+            "level": 3,
+            "start": 11291,
+            "end": 13223,
+            "title": "Portraiture",
+            "path": "/Italian period/Return to Madrid (middle period)/Portraiture"
+        },
+        "78140091313fa98d079f50e21112915e": {
+            "parent": "Italian period",
+            "level": 2,
+            "start": 13247,
+            "end": 15477,
+            "title": "Second visit to Italy",
+            "path": "/Italian period/Second visit to Italy"
+        },
+        "6a79e6dfe19bf46d10ab2057d56a6718": {
+            "parent": "",
+            "level": 1,
+            "start": 15512,
+            "end": 16431,
+            "title": "Return to Spain and later career",
+            "path": "/Return to Spain and later career"
+        },
+        "a2d15565b57774ee37a5d6d54fa90516": {
+            "parent": "Return to Spain and later career",
+            "level": 2,
+            "start": 16445,
+            "end": 19452,
+            "title": "Las Meninas",
+            "path": "/Return to Spain and later career/Las Meninas"
+        },
+        "7b7cf734de7492f3dadda2b6954573fa": {
+            "parent": "Return to Spain and later career",
+            "level": 2,
+            "start": 19466,
+            "end": 23120,
+            "title": "Final years",
+            "path": "/Return to Spain and later career/Final years"
+        },
+        "a9c4a80cff4dcf112212f7368d2c6a74": {
+            "parent": "",
+            "level": 1,
+            "start": 23141,
+            "end": 23444,
+            "title": "Painting materials",
+            "path": "/Painting materials"
+        },
+        "918ebcd23a5fba58bc0b3970eb9e93d3": {
+            "parent": "",
+            "level": 1,
+            "start": 23459,
+            "end": 24829,
+            "title": "In modernity",
+            "path": "/In modernity"
+        },
+        "6411f4bc4323a75f14c53ec7371c8e2f": {
+            "parent": "In modernity",
+            "level": 2,
+            "start": 24862,
+            "end": 26411,
+            "title": "Modern recreations of classics",
+            "path": "/In modernity/Modern recreations of classics"
+        },
+        "905bb407894e0dc454f9144f5fdc7261": {
+            "parent": "In modernity",
+            "level": 2,
+            "start": 26457,
+            "end": 28078,
+            "title": "Recent rediscoveries of Vel\u00e1zquez originals",
+            "path": "/In modernity/Recent rediscoveries of Vel\u00e1zquez originals"
+        },
+        "23b3a3b240023d752d0e9df4f7d96f21": {
+            "parent": "In modernity",
+            "level": 2,
+            "start": 28092,
+            "end": 28618,
+            "title": "Descendants",
+            "path": "/In modernity/Descendants"
+        },
+        "b558f315b4c7560de051498481c0c906": {
+            "parent": "In modernity",
+            "level": 2,
+            "start": 28647,
+            "end": 29592,
+            "title": "400th anniversary of birth",
+            "path": "/In modernity/400th anniversary of birth"
+        },
+        "95e2f36f77b20f3b3db5ade5667c2cfb": {
+            "parent": "",
+            "level": 1,
+            "start": 29609,
+            "end": 32811,
+            "title": "Selected works",
+            "path": "/Selected works"
+        },
+        "5494de9d8fbd803149d30b3e04fdd12b": {
+            "parent": "",
+            "level": 1,
+            "start": 32834,
+            "end": 33004,
+            "title": "Fictional portrayals",
+            "path": "/Fictional portrayals"
+        },
+        "3f98737e7e43501c62cdc601cfe8fb51": {
+            "parent": "",
+            "level": 1,
+            "start": 0,
+            "end": 0,
+            "title": "Notes",
+            "path": "/Notes"
+        },
+        "9d9e048f127d5023d8b659d26015b0f5": {
+            "parent": "",
+            "level": 1,
+            "start": 0,
+            "end": 0,
+            "title": "References",
+            "path": "/References"
+        },
+        "19e1d993f2ea73b6ee5c62cbcd7959d1": {
+            "parent": "",
+            "level": 1,
+            "start": 0,
+            "end": 0,
+            "title": "Further reading",
+            "path": "/Further reading"
+        },
+        "59a67d9ce5680ed86536e9aed4fcf7a2": {
+            "parent": "",
+            "level": 1,
+            "start": 33054,
+            "end": 33399,
+            "title": "External links",
+            "path": "/External links"
+        }
+    },
+    "text": "Diego Rodr\u00edguez de Silva y Vel\u00e1zquez (Spanish: [\u02c8dje\u0263o ro\u02c8\u00f0\u027ei\u0263e\u03b8 \u00f0e \u02c8sil\u03b2a i \u03b2e\u02c8la\u03b8ke\u03b8]; baptized on June 6, 1599 - August 6, 1660) was a Spanish painter, the leading artist in the court of King Philip IV, and one of the most important painters of the Spanish Golden Age. He was an individualistic artist of the contemporary Baroque period. In addition to numerous renditions of scenes of historical and cultural significance, he painted scores of portraits of the Spanish royal family, other notable European figures, and commoners, culminating in the production of his masterpiece Las Meninas (1656).\nFrom the first quarter of the nineteenth century, Vel\u00e1zquez's artwork was a model for the realist and impressionist painters, in particular \u00c9douard Manet. Since that time, famous modern artists, including Pablo Picasso, Salvador Dal\u00ed and Francis Bacon, have paid tribute to Vel\u00e1zquez by recreating several of his most famous works.\n\nEarly life\nVel\u00e1zquez was born in Seville, Spain, the first child of Jo\u00e3o Rodrigues de Silva and Jer\u00f3nima Vel\u00e1zquez, and was baptized at the church of St. Peter in Seville on Sunday, June 6, 1599. The christening most likely occurred a few days or weeks after his birth. His paternal grandparents, Diogo da Silva and Maria Rodrigues, had moved to Seville from their native Portugal decades earlier. When Vel\u00e1zquez was offered knighthood in 1658, he claimed descent from the lesser nobility in order to qualify; in fact, however, his grandparents were tradespeople, and possibly Jewish conversos.\nVel\u00e1zquez was educated by his parents to fear God and, intended for a learned profession, received good training in languages and philosophy. Influenced by many artists, he showed an early gift for art; consequently, he began to study under Francisco de Herrera, a vigorous painter who disregarded the Italian influence of the early Seville school. Vel\u00e1zquez remained with him for one year. It was probably from Herrera that he learned to use brushes with long bristles.\nAfter leaving Herrera's studio when he was 12 years old, Vel\u00e1zquez began to serve as an apprentice under Francisco Pacheco, an artist and teacher in Seville. Though considered a generally dull, undistinguished painter, Pacheco sometimes expressed a simple, direct realism in contradiction to the style of Raphael that he was taught. Vel\u00e1zquez remained in Pacheco's school for five years, studying proportion and perspective and witnessing the trends in the literary and artistic circles of Seville.\n\nTo Madrid (early period)\nBy the early 1620s, his position and reputation were assured in Seville. On April 23, 1618, Vel\u00e1zquez married Juana Pacheco (June 1, 1602 - August 10, 1660), the daughter of his teacher. She bore him two daughters\u2014his only known family. The elder, Francisca de Silva Vel\u00e1zquez y Pacheco (1619-1658), married painter Juan Bautista Mart\u00ednez del Mazo at the Church of Santiago in Madrid on August 21, 1633; the younger, Ignacia de Silva Vel\u00e1zquez y Pacheco, born in 1621, died in infancy.\nVel\u00e1zquez produced notable works during this time. Known for his compositions of amusing genre scenes, also called bodegones, such as Old Woman Frying Eggs, his sacred subjects include Adoraci\u00f3n de los Reyes (1619, The Adoration of the Magi) and Jes\u00fas y los peregrinos de Ema\u00fas (1626, Christ and the Pilgrims of Emmaus), both of which begin to express his more pointed and careful realism.\n\nMadrid and Philip IV\nVel\u00e1zquez went to Madrid in the first half of April 1622, with letters of introduction to Don Juan de Fonseca, himself from Seville, who was chaplain to the King. At the request of Pacheco, Vel\u00e1zquez painted the portrait of the famous poet Luis de G\u00f3ngora. Vel\u00e1zquez painted G\u00f3ngora crowned with a laurel wreath, but painted over it at some unknown later date. It is possible that Vel\u00e1zquez stopped in Toledo on his way from Seville, on the advice of Pacheco, or back from Madrid on that of G\u00f3ngora, a great admirer of El Greco, having composed a poem on the occasion of his death.\nIn December 1622, Rodrigo de Villandrando, the king's favorite court painter, died. Don Juan de Fonseca conveyed to Vel\u00e1zquez the command to come to the court from the Count-Duke of Olivares, the powerful minister of Philip IV. He was offered 50 ducats (175 g of gold\u2014worth about \u20ac2000 in 2005) to defray his expenses, and he was accompanied by his father-in-law. Fonseca lodged the young painter in his own home and sat for a portrait himself, which, when completed, was conveyed to the royal palace. A portrait of the king was commissioned. On August 16, 1623, Philip IV sat for Vel\u00e1zquez. Completed in one day, the portrait was likely to have been no more than a head sketch, but both the king and Olivares were pleased. Olivares commanded Vel\u00e1zquez to move to Madrid, promising that no other painter would ever paint Philip's portrait and all other portraits of the king would be withdrawn from circulation. In the following year, 1624, he received 300 ducats from the king to pay the cost of moving his family to Madrid, which became his home for the remainder of his life.\n\nThrough the bust portrait of the king, painted in 1623, Vel\u00e1zquez secured admission to the royal service, with a salary of 20 ducats per month, besides medical attendance, lodgings and payment for the pictures he might paint. The portrait was exhibited on the steps of San Felipe and was received with enthusiasm. It is now lost. The Museo del Prado, however, has two of Vel\u00e1zquez's portraits of the king (nos. 1070 and 1071) in which the severity of the Seville period has disappeared and the tones are more delicate. The modeling is firm, recalling that of Antonio Mor, the Dutch portrait painter of Philip II, who exercised a considerable influence on the Spanish school. In the same year, the Prince of Wales (afterwards Charles I) arrived at the court of Spain. Records indicate that he sat for Vel\u00e1zquez, but the picture is now lost. In September 1628, Peter Paul Rubens came to Madrid as an emissary from the Infanta Isabella, and Vel\u00e1zquez accompanied him to view the Titians at the Escorial. Rubens was then at the height of his powers. The seven months of the diplomatic mission showed Rubens' brilliance as painter and courtier. Rubens had a high opinion of Vel\u00e1zquez, but he had no significant influence on his painting. He reinforced Vel\u00e1zquez's desire to see Italy and the works of the great Italian masters.\nIn 1627, Philip set a competition for the best painters of Spain with the subject to be the expulsion of the Moors. Vel\u00e1zquez won. His picture was destroyed in a fire at the palace in 1734. Recorded descriptions of it say that it depicted Philip III pointing with his baton to a crowd of men and women being led away by soldiers, while the female personification of Spain sits in calm repose. Vel\u00e1zquez was appointed gentleman usher as reward. Later he also received a daily allowance of 12 r\u00e9is, the same amount allotted to the court barbers, and 90 ducats a year for dress. Five years after he painted it in 1629, as an extra payment, he received 100 ducats for the picture of Bacchus (The Triumph of Bacchus). The spirit and aim of this work are better understood from its alternate Spanish name, Los Borrachos (The Drunks) or Los Bebedores (the drinkers), who are paying mock homage to a half-naked ivy-crowned young man seated on a wine barrel. The painting is firm and solid, and the light and shade are more deftly handled than in former works. Altogether, this production may be taken as the most advanced example of the first style of Vel\u00e1zquez.\n\nItalian period\nIn 1629, Vel\u00e1zquez went to live in Italy for a year and a half. Though his first Italian visit is recognized as a crucial chapter in the development of his style\u2014and in the history of Spanish Royal Patronage, since Philip IV sponsored his trip\u2014few details and specifics are known of what the painter saw, whom he met, how he was perceived and what innovations he hoped to introduce into his painting. It is canonical to divide the artistic career of Vel\u00e1zquez by his two visits to Italy, with his second grouping of works following the first visit and his third grouping following the second visit. This somewhat arbitrary division may be accepted though it will not always apply, because, as is usual in the case of many painters, his styles at times overlap each other. Vel\u00e1zquez rarely signed his pictures, and the royal archives give the dates of only his most important works. Internal evidence and history pertaining to his portraits supply the rest to a certain extent.\n\nReturn to Madrid (middle period)\nVel\u00e1zquez then painted the first of many portraits of the young prince and heir to the Spanish throne, Don Baltasar Carlos, looking dignified and lordly even in his childhood, in the dress of a field marshal on his prancing steed. The scene is in the riding school of the palace, the king and queen looking on from a balcony, while Olivares attends as master of the horse to the prince. Don Baltasar died in 1646 at the age of seventeen, so, judging by his age in the portrait, it must have been painted in about 1641.\nThe powerful minister Olivares was the early and constant patron of the painter. His impassive, saturnine face is familiar to us from the many portraits painted by Vel\u00e1zquez. Two are notable: one is full-length, stately and dignified, in which he wears the green cross of the order of Alcantara and holds a wand, the badge of his office as master of the horse; in the other, a great equestrian portrait, he is flatteringly represented as a field marshal during action. In these portraits, Vel\u00e1zquez well repaid the debt of gratitude that he owed to his first patron, whom Vel\u00e1zquez stood by during Olivares's fall from power, thus exposing himself to the great risk of the anger of the jealous Philip. The king, however, showed no sign of malice towards his favorite painter.\nThe sculptor Juan Mart\u00ednez Monta\u00f1\u00e9s modeled a statue on one of Vel\u00e1zquez's equestrian portraits of the king, painted in 1636, which was cast in bronze by the Florentine sculptor Pietro Tacca and which now stands in the Plaza de Oriente at Madrid. The original of this portrait no longer exists, but several others do. Vel\u00e1zquez, in this and in all his portraits of the king, depicts Philip wearing the golilla, a stiff linen collar projecting at right angles from the neck. It was invented by the king, who was so proud of it that he celebrated it by a festival followed by a procession to the church to thank God for the blessing. Thus, the golilla was the height of fashion and appeared in most of the male portraits of the period.\nVel\u00e1zquez was in constant and close attendance on Philip, accompanying him in his journeys to Aragon in 1642 and 1644, and was doubtless present with him when he entered Lerida as a conqueror. It was then that he painted a great equestrian portrait in which the king is represented as a great commander leading his troops\u2014a role that Philip never played except in pageantry. All is full of animation except the stolid face of the king. It hangs as a pendant to the great Olivares portrait\u2014fit rivals of the neighboring Charles V by Titian, which inspired Vel\u00e1zquez to excel himself, and both remarkable for their silvery tone and their feeling of open air.\n\nPortraiture\nBesides the forty portraits of Philip by Vel\u00e1zquez, he painted portraits of other members of the royal family: Philip's first wife, Elisabeth of Bourbon, and her children, especially her eldest son, Don Baltasar Carlos, of whom there is a beautiful full-length in a private room at Buckingham Palace. Cavaliers, soldiers, churchmen, and the poet Francisco de Quevedo (now at Apsley House), sat for Vel\u00e1zquez.\nVel\u00e1zquez also painted several buffoons and dwarfs in Philip's court, often with respect and sympathetically, as in The Jester Don Diego de Acedo (1644), whose intelligent face and huge folio with ink-bottle and pen by his side show him to be a wiser and better-educated man than many of the gallants of the court. Pablo de Valladolid (1635), a buffoon evidently acting a part, and The Buffoon of Coria (1639) belong to this middle period.\nThe greatest of the religious paintings by Vel\u00e1zquez also belongs to this middle period, the Christ Crucified (1632). It is a work of tremendous originality, depicting Christ immediately after death. The Savior's head hangs on his breast and a mass of dark tangled hair conceals part of the face. The figure stands alone. The picture was lengthened to suit its place in an oratory, but this addition has since been removed. Some believe that the man in this painting is his uncle.\nVel\u00e1zquez's son-in-law Juan Bautista Martinez del Mazo had succeeded him as usher in 1634, and Mazo himself had received a steady promotion in the royal household. Mazo received a pension of 500 ducats in 1640, increased to 700 in 1648, for portraits painted and to be painted, and was appointed inspector of works in the palace in 1647.\nPhilip now entrusted Vel\u00e1zquez with carrying out a design on which he had long set his heart: the founding of an academy of art in Spain. Rich in pictures, Spain was weak in statuary, and Vel\u00e1zquez was commissioned once again to proceed to Italy to make purchases.\n\nSecond visit to Italy\nWhen he set out in 1649, he was accompanied by his assistant Juan de Pareja who at this point in time was a slave and who had been trained in painting by Vel\u00e1zquez. Vel\u00e1zquez sailed from M\u00e1laga, landed at Genoa, and proceeded from Milan to Venice, buying paintings of Titian, Tintoretto and Veronese as he went. At Modena he was received with much favor by the duke, and here he painted the portrait of the duke at the Modena gallery and two portraits that now adorn the Dresden gallery, for these paintings came from the Modena sale of 1746.\nThose works presage the advent of the painter's third and latest manner, a noble example of which is the great portrait of Pope Innocent X in the Doria Pamphilj Gallery in Rome, where Vel\u00e1zquez now proceeded. There he was received with marked favor by the Pope, who presented him with a medal and golden chain. Vel\u00e1zquez took a copy of the portrait\u2014which Sir Joshua Reynolds thought was the finest picture in Rome\u2014with him to Spain. Several copies of it exist in different galleries, some of them possibly studies for the original or replicas painted for Philip. Vel\u00e1zquez, in this work, had now reached the manera abreviada, a term coined by contemporary Spaniards for this bolder, sharper style. The portrait shows such ruthlessness in Innocent's expression that some in the Vatican feared that Vel\u00e1zquez would meet with the Pope's displeasure, but Innocent was well pleased with the work, hanging it in his official visitor's waiting room.\n\nIn 1650 in Rome Vel\u00e1zquez also painted a portrait of Juan de Pareja, now in the Metropolitan Museum of Art in New York City, USA. This portrait procured his election into the Academy of St. Luke. Purportedly Vel\u00e1zquez created this portrait as a warm-up of his skills before his portrait of the Pope. It captures in great detail Pareja's countenance and his somewhat worn and patched clothing with an economic use of brushwork. In November 1650, Juan de Pareja was freed by Vel\u00e1zquez. The legal document exists.\nDuring his time in Rome, Vel\u00e1zquez commissioned twelve bronze copies of the Medici lions by Matteo Bonucelli da Lucca for the Room of Mirrors at the Royal Alcazar of Madrid, now in the Royal Palace of Madrid and the Museo del Prado.\n\nReturn to Spain and later career\nKing Philip wished that Vel\u00e1zquez return to Spain; accordingly, after a visit to Naples, where he saw his old friend Jose Ribera, he returned to Spain via Barcelona in 1651, taking with him many pictures and 300 pieces of statuary, which afterwards were arranged and catalogued for the king. Undraped sculpture was, however, abhorrent to the Spanish Church, and after Philip's death these works gradually disappeared. Elisabeth of France had died in 1644, and the king had married Mariana of Austria, whom Vel\u00e1zquez now painted in many attitudes. He was specially chosen by the king to fill the high office of aposentador mayor, which imposed on him the duty of looking after the quarters occupied by the court\u2014a responsible function which was no sinecure and one which interfered with the exercise of his art. Yet far from indicating any decline, his works of this period are amongst the highest examples of his style.\n\nLas Meninas\nOne of the infantas, Margaret Theresa, the eldest daughter of the new Queen, appears to be the subject of Las Meninas (1656, English: The Maids of Honour), Vel\u00e1zquez's magnum opus. However, in looking at the various viewpoints of the painting it is unclear as to who or what is the true subject. Is it the royal daughter, or perhaps the painter himself? The answer may lie in the image on the back wall, depicting the King and Queen. Is this image a mirror, in which case the King and Queen are standing where the spectator stands? Are they the subject of Vel\u00e1zquez's work? Or is the work simply a court painting?\nCreated four years before his death, it serves as an outstanding example of European baroque art. An apotheosis of the work has been effected since its creation; Luca Giordano, a contemporary Italian painter, referred to it as the \"theology of painting\", and in the eighteenth century the Englishman Thomas Lawrence cited it as the \"philosophy of art\", so decidedly capable of producing its desired effect. That effect has been variously interpreted; Dale Brown points out an interpretation that, in inserting within the work a faded portrait of the king and queen hanging on the back wall, Vel\u00e1zquez has ingeniously prognosticated the fall of the Spanish empire that was to gain momentum following his death. Another interpretation is that the portrait is in fact a mirror, and that the painting itself is in the perspective of the King and Queen, hence their reflection can be seen in the mirror on the back wall.\nIt is said the king painted the honorary Cross of Saint James of the Order of Santiago on the breast of the painter as it appears today on the canvas. However, Vel\u00e1zquez did not receive this honor of knighthood until three years after execution of this painting. Even the King of Spain could not make his favorite a belted knight without the consent of the commission established to inquire into the purity of his lineage. The aim of these inquiries would be to prevent the appointment to positions of anyone found to have even a taint of heresy in their lineage\u2014that is, a trace of Jewish or Moorish blood or contamination by trade or commerce in either side of the family for many generations. The records of this commission have been found among the archives of the Order of Santiago. Vel\u00e1zquez was awarded the honor in 1659. His occupation as plebeian and tradesman was justified because, as painter to the king, he was evidently not involved in the practice of \"selling\" pictures.\nIn the 1966 book Les Mots et Les Choses (The Order of Things), philosopher Michel Foucault devotes the opening chapter to a detailed analysis of Las Meninas. He describes the ways in which the painting problematizes issues of representation through its use of mirrors, screens, and the subsequent oscillations that occur between the image's interior, surface, and exterior. In his book, The Dying Animal, Philip Roth uses Las Meninas as a metaphor for the distracted attraction of courtship.\n\nFinal years\nHad it not been for this royal appointment, which enabled Vel\u00e1zquez to escape the censorship of the Inquisition, he would not have been able to release his La Venus del espejo (c. 1644-1648, English: Venus at her Mirror) also known as The Rokeby Venus. It is the only surviving female nude by Vel\u00e1zquez.\nThere were essentially only two patrons of art in Spain\u2014the church and the art-loving king and court. Bartolom\u00e9 Esteban Murillo was the artist favored by the church, while Vel\u00e1zquez was patronized by the crown. One difference, however, deserves to be noted. Murillo, who toiled for a rich and powerful church, left little means to pay for his burial, while Vel\u00e1zquez lived and died in the enjoyment of a good salary and pension.\nOne of his final works was Las hilanderas (The Spinners), painted circa 1657, representing either the interior of the royal tapestry works or a depiction of Ovid's Fable of Arachne, depending on interpretation. The tapestry in the background is based on Titian's The Rape of Europa, or, more probably, the copy that Rubens painted in Madrid. It is full of light, air and movement, featuring vibrant colors and careful handling. Anton Raphael Mengs said this work seemed to have been painted not by the hand but by the pure force of will. It displays a concentration of all the art-knowledge Vel\u00e1zquez had gathered during his long artistic career of more than forty years. The scheme is simple\u2014a confluence of varied and blended red, bluish-green, gray and black.\nVel\u00e1zquez' final portraits of the royal children are among his finest works and in the Infanta Margarita Teresa in a Blue Dress the painter's personal style reached its high-point here: shimmering spots of color on wide painting surfaces produce an almost impressionistic effect - the viewer must stand at a suitable distance to get the impression of complete, three-dimensional spatiality.\nHis only surviving portrait of the delicate and sickly Prince Felipe Prospero is remarkable for its combination of the sweet features of the child prince and his dog with a subtle sense of gloom. The hope that was placed at that time in the sole heir to the Spanish crown is reflected in the depiction: fresh red and white stand in contrast to late autumnal, morbid colors. A small dog with wide eyes looks at the viewer as if questioningly, and the largely pale background hints at a gloomy fate: the little prince was barely four years old when he died. As in all of the artist's late paintings, the handling of the colors is extraordinarily fluid and vibrant.\nIn 1660 a peace treaty between France and Spain was consummated by the marriage of Maria Theresa with Louis XIV, and the ceremony took place on the Island of Pheasants, a small swampy island in the Bidassoa. Vel\u00e1zquez was charged with the decoration of the Spanish pavilion and with the entire scenic display. He attracted much attention from the nobility of his bearing and the splendor of his costume. On June 26 he returned to Madrid, and on July 31 he was stricken with fever. Feeling his end approaching, he signed his will, appointing as his sole executors his wife and his firm friend named Fuensalida, keeper of the royal records. He died on August 6, 1660. He was buried in the Fuensalida vault of the church of San Juan Bautista, and within eight days his wife Juana was buried beside him. Unfortunately, this church was destroyed by the French in 1811, so his place of interment is now unknown. There was much difficulty in adjusting the tangled accounts outstanding between Vel\u00e1zquez and the treasury, and it was not until 1666, after the death of King Philip, that they were finally settled.\n\nPainting materials\nVel\u00e1zquez is known for using a rather limited palette, but he used to mix the available paints with great skill to achieve varying hues. His pigments were not significantly different from those of his contemporaries and he mainly employed azurite, smalt, vermilion, red lake, lead-tin-yellow and ochres.\n\nIn modernity\nUntil the nineteenth century, little was known outside of Spain of Vel\u00e1zquez's work. His paintings mostly escaped being stolen by the French marshals during the Peninsular War. In 1828 Sir David Wilkie wrote from Madrid that he felt himself in the presence of a new power in art as he looked at the works of Vel\u00e1zquez, and at the same time found a wonderful affinity between this artist and the British school of portrait painters, especially Henry Raeburn. He was struck by the modern impression pervading Vel\u00e1zquez's work in both landscape and portraiture. Presently, his technique and individuality have earned Vel\u00e1zquez a prominent position in the annals of European art, and he is often considered a father of the Spanish school of art. Although acquainted with all the Italian schools and a friend of the foremost painters of his day, he was strong enough to withstand external influences and work out for himself the development of his own nature and his own principles of art.\nVel\u00e1zquez is often cited as a key influence on the art of \u00c9douard Manet, important when considering that Manet is often considered the bridge between realism and impressionism. Calling Vel\u00e1zquez the \"painter of painters\", Manet admired Vel\u00e1zquez's use of vivid brushwork in the midst of the Baroque academic style of his contemporaries and built upon Vel\u00e1zquez's motifs in his own art.\n\nModern recreations of classics\nThe importance of Vel\u00e1zquez's art even today is evident in considering the respect with which twentieth century painters regard his work. Pablo Picasso presented the most durable homages to Vel\u00e1zquez in 1957 when he recreated Las Meninas in 58 variations, in his characteristically cubist form. Although Picasso was concerned that his reinterpretations of Vel\u00e1zquez's painting would be seen merely as copies rather than unique representations, the enormous works\u2014including the largest he had produced since Guernica in 1937\u2014obtained a position of importance in the canon of Spanish art. Picasso retained the general form and positioning of the original in the context of its avant-garde cubist style.\nSalvador Dal\u00ed, as with Picasso in anticipation of the tercentennial of Vel\u00e1zquez's death, created in 1958 a work entitled Vel\u00e1zquez Painting the Infanta Margarita With the Lights and Shadows of His Own Glory. The color scheme shows Dal\u00ed's serious tribute to Vel\u00e1zquez; the work also functioned, as in Picasso's case, as a vehicle for the presentation of newer theories in art and thought\u2014nuclear mysticism, in Dal\u00ed's case.\nThe Anglo-Irish painter Francis Bacon found Vel\u00e1zquez's portrait of Pope Innocent X to be one of the greatest portraits ever made. He created several expressionist variations of this piece in the 1950s; however, Bacon's paintings presented a more gruesome image of the pope, who had now been dead for centuries. One such famous variation, entitled Figure with Meat (1954), shows the pope between two halves of a bisected cow.\n\nRecent rediscoveries of Vel\u00e1zquez originals\nIn 2009, the Portrait of a Man in the collection of the Metropolitan Museum of Art, which had long been associated with the followers of Vel\u00e1zquez' style of painting, was cleaned and restored. It was found to be by Vel\u00e1zquez himself, and the features of the man match those of a figure in the painting \"the Surrender of Breda\". The newly cleaned canvas may therefore be a study for that painting. Although the attribution to Vel\u00e1zquez is regarded as certain, the identity of the sitter is still open to question. Some art historians regard this new study to be a self-portrait by Vel\u00e1zquez.\nIn 2010 it was reported that a damaged painting long relegated to a basement of the Yale University Art Gallery might be an early work by Vel\u00e1zquez. Thought to have been given to Yale in 1925, the painting has previously been attributed to the 17th-century Spanish school. Some scholars are prepared to attribute the painting to Vel\u00e1zquez, though the Prado Museum in Madrid is reserving judgment. The work, which depicts the Virgin Mary being taught to read, will be restored by conservators at Yale.\nIn October 2011 it was confirmed by art historian Dr. Peter Cherry of Trinity College Dublin through x-ray analysis that a portrait found in the UK in the former collection of the 19th-century painter Matthew Shepperson is a previously unknown work by Vel\u00e1zquez. The portrait is of an unidentified man in his fifties or sixties, who could possibly be Juan Mateos, the Master of the Hunt for Vel\u00e1zquez's patron, King Philip IV of Spain. The painting measures 47 x 39 cm and was sold at auction on December 7, 2011, for \u00a33,000,000.\n\nDescendants\nVel\u00e1zquez, through his daughter Francisca de Silva Vel\u00e1zquez y Pacheco (1619-1658), is an ancestor of the Marquesses of Monteleone, including Enriquetta (Henrietta) Casado de Monteleone (1725-1761) who in 1746 married Heinrich VI, Count Reuss zu K\u00f6stritz (1707-1783). Through them are descended a number of European royalty, among them Queen Sof\u00eda of Spain, Queen Beatrix of the Netherlands, King Carl XVI Gustaf of Sweden, King Albert II of Belgium, Hans-Adam II, Prince of Liechtenstein, and Henri, Grand Duke of Luxembourg.\n\n400th anniversary of birth\nSpain's celebration of the 400th anniversary of Vel\u00e1zquez's birth included major exhibitions of his work at the Prado Museum, as well as a renewed search for his tomb. International media covered the dig, which began April 30, 1999, at the Plaza de Ramales, one block from the Royal Palace, because that is where the medieval Church of San Juan stood until it was wrecked during the last century. In early 2000, The Telegraph announced that the search for Vel\u00e1zquez's body would be abandoned: \"A CAR park is to be built over what is widely believed to be the site of the tomb of Vel\u00e1zquez, one of Spain's greatest artists, after the authorities abandoned attempts to find his body...thought to have been buried in Madrid at the Iglesia de San Juan Bautista. For 18 months the authorities have been excavating the site of the church which is buried under a residential area. But now they have bowed to residents' demands for underground parking.\"\n\nSelected works\nVel\u00e1zquez was not prolific; he is estimated to have produced between only 110 and 120 known canvases. Among these paintings, however, are many widely known and influential works.\nApollo in the Forge of Vulcan (Apolo en la Fragua de Vulcano) (1630) - Oil on canvas, 223 x 290 cm, Museo del Prado, Madrid\nChrist in the House of Martha and Mary (1618) - Oil on canvas, 63 x 103.5 cm, National Gallery, London\nCristo crucificado (1631) - Oil on canvas, 248 x 169 cm, Museo del Prado, Madrid\nDemocritus (c. 1630) - Oil on canvas, 101 x 81 cm, Mus\u00e9e des Beaux-Arts, Rouen\nEl Triunfo de Baco (Los borrachos) (1628-1629) - Oil on canvas, 165 x 225 cm, Museo del Prado, Madrid\nTemptation of St. Thomas (1632) - Oil on canvas, 244 x 203 cm, Museum of Orihuela Cathedral, Spain\nEquestrian portrait of Duke de Olivares (1634) - Oil on canvas, 313 x 239 cm, Museo del Prado, Madrid\nAesop (1639-1640) - Oil on canvas, 179 \u00d7 94 cm, Museo del Prado, Madrid\nImposici\u00f3n de la casulla a San Ildefonso (1623) - Oil on canvas, 165 \u00d7 115 cm, Museo de Bellas Artes, Seville\nOld Woman Frying Eggs (c. 1618) - Oil on canvas, 105 \u00d7 119 cm, National Gallery, Edinburgh\nLa reina Isabel de Borb\u00f3n a caballo (1629) - Oil on canvas, 301 x 314 cm, Museo del Prado, Madrid\nLas Hilanderas (The Fable of Arachne) (c. 1657) -Oil on canvas, 167 \u00d7 252 cm, Museo del Prado, Madrid\nLas Meninas (1656) - Oil on canvas, 318 \u00d7 276 cm\nMars Resting (1640) - Oil on canvas, 179 \u00d7 95 cm, Museo del Prado, Madrid\nMenipo (1639-1640) - Oil on canvas, 179 \u00d7 94 cm, Museo del Prado, Madrid\nMercury and Argus (1659) - Oil on canvas, 127 \u00d7 248 cm, Museo del Prado, Madrid\nPortrait of Count Duke of Olivares (1624) - Oil on canvas, 202 x 107 cm, S\u00e3o Paulo Museum of Art, S\u00e3o Paulo\nPortrait of Duke de Olivares (1635) - Oil on canvas, 67 \u00d7 54.5 cm, Hermitage Museum, St. Petersburg\nPortrait of Innocent X (c. 1650) - Oil on canvas, 141 x 119 cm, Galleria Doria Pamphilj, Rome\nPortrait of Juan de Pareja (1650) - Oil on canvas, 81.3 x 69.9 cm, Metropolitan Museum of Art, New York City\nInfanta Margarita Teresa in a Pink Dress (c. 1653/1654) - Oil on canvas, 128 x 99,5 cm, Kunsthistorisches Museum, Vienna\nInfanta Margarita Teresa in a Blue Dress (1659) - Oil on canvas, 127 x 107 cm, Kunsthistorisches Museum, Vienna\nMargarita Teresa, Infanta of Spain (c. 1655) -Oil on canvas, Lobkowicz Palace, Prague\nInfant Philipp Prosper (1659) - Oil on canvas, 129 x 99 cm, Kunsthistorisches Museum, Vienna\nPortrait of Mother Jer\u00f3nima de la Fuente (1620) - Oil on canvas, 79 x 51 cm, Museo del Prado, Madrid\nRokeby Venus (La Venus del espejo, c. 1648-1651) - Oil on canvas, 122 \u00d7 177 cm, National Gallery, London\nThe Surrender of Breda (1633-1635) - Oil on canvas, 307 \u00d7 367 cm, Museo del Prado, Madrid\nThe Adoration of the Magi (1619) - Oil on canvas, 203 \u00d7 125 cm, Museo del Prado, Madrid\nThe Lady with a Fan, (c. 1638-1639) - Oil on wood, 69 x 51 cm, The Wallace Collection, London\nThe Lunch (c. 1617) - Oil on canvas, 108 x 102 cm, Hermitage Museum, St. Petersburg\nThe Waterseller of Seville (c. 1620) - Oil on canvas, 105 \u00d7 80 cm, Apsley House, London\nSant Paul (Vel\u00e1zquez) (ca. 1619) - Oil on canvas, 99.5 cm \u00d7 80 cm, Museu Nacional d'Art de Catalunya, Barcelona\n\nFictional portrayals\nVel\u00e1zquez (played by Juli\u00e1n Villagr\u00e1n) works as a sketch artist at The Ministry of Time TV series, and complains future artists are spoiling his paintings with touch-ups.\n\nNotes\nReferences\nFurther reading\nExternal links\nDiego Vel\u00e1zquez at Encyclop\u00e6dia Britannica\nVel\u00e1zquez works at the Web Gallery of Art\nVel\u00e1zquez at Artcyclopedia.com\n202 paintings by Diego Vel\u00e1zquez at DiegoVelazquez.org\nDiego Vel\u00e1zquez at WikiPaintings.org\nDiego Velazquez's Online Exhibition at Owlstand.com\nDiego Vel\u00e1zquez, Collection of resources and illustrated pigment analyses. ColourLex.",
+    "y_true": [
+        "apollo in the forge of vulcan",
+        "christ crucified",
+        "christ in the house of martha and mary",
+        "don luis de g\u00f3ngora",
+        "do\u00f1a antonia de ipe\u00f1arrieta y gald\u00f3s and her son don luis",
+        "el buf\u00f3n barbarroja",
+        "equestrian portrait of count duke of olivares",
+        "equestrian portrait of philip iii",
+        "francisco lezcano, el ni\u00f1o de vallecas",
+        "infanta margarita teresa in a blue dress",
+        "joseph's tunic",
+        "juan mart\u00ednez monta\u00f1\u00e9s",
+        "las hilanderas (the fable of arachne)",
+        "las meninas",
+        "old woman frying eggs",
+        "pablo de valladolid or",
+        "philip iv in brown and silver",
+        "portrait of count duke de olivares",
+        "portrait of juan de pareja",
+        "portrait of mar\u00eda anna",
+        "portrait of sebasti\u00e1n de morra",
+        "portrait of a man",
+        "portrait of the count-duke of olivares",
+        "portrait of the infanta margaret theresa",
+        "portrait of the infante don carlos",
+        "prince balthasar charles with a dwarf",
+        "prince philip prospero,",
+        "saint paul",
+        "temptation of st. thomas",
+        "the adoration of the magi",
+        "the coronation of the virgin",
+        "the farmers' lunch",
+        "the jester don diego de acedo",
+        "the lady with a fan",
+        "the lunch",
+        "the needlewoman",
+        "the surrender of breda",
+        "the triumph of bacchus",
+        "the waterseller of seville",
+        "the infanta maria theresa aged 14",
+        "view of the garden of the villa medici"
+    ],
+    "type": "test",
+    "title": "Diego Vel\u00e1zquez"
+}

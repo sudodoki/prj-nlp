@@ -1,0 +1,44 @@
+name:                rozetka
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/k-bx/rozetka#readme
+license:             BSD3
+author:              Kostiantyn Rybnikov
+maintainer:          k-bx@k-bx.com
+copyright:           All Rights Reserved
+category:            Unclassified
+extra-source-files:
+- README.md
+
+dependencies:
+  - aeson
+  - base >= 4.7 && < 5
+  - cld2
+  - rio
+  - http-client
+  - lens
+  - optparse-simple
+  - safe
+  - scalpel-core
+  - string-class
+  - text
+  - lens-aeson
+  - wreq
+  - naiveml
+  - hashable
+
+executables:
+  rozetka:
+    source-dirs:      src
+    main:             Main.hs
+    default-extensions:
+      - NoImplicitPrelude
+      - OverloadedStrings
+      - RecordWildCards
+      - TemplateHaskell
+      - TypeApplications
+      - DeriveGeneric
+      - Strict
+      - ScopedTypeVariables
+    ghc-options: -Wall -O -funbox-strict-fields

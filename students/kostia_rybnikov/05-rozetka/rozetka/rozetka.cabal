@@ -1,0 +1,46 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: d9de5208484f2c0d787b389a45cf2d792b53a816898980d40c3e84c5729af194
+
+name:           rozetka
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/rozetka#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable rozetka
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  default-extensions: NoImplicitPrelude OverloadedStrings RecordWildCards TemplateHaskell TypeApplications DeriveGeneric Strict ScopedTypeVariables
+  ghc-options: -Wall -O -funbox-strict-fields
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , cld2
+    , hashable
+    , http-client
+    , lens
+    , lens-aeson
+    , naiveml
+    , optparse-simple
+    , rio
+    , safe
+    , scalpel-core
+    , string-class
+    , text
+    , wreq
+  other-modules:
+      Paths_rozetka
+  default-language: Haskell2010
