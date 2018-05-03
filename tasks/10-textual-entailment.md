@@ -16,7 +16,7 @@
 - [Recognizing Textual Entailment](http://l2r.cs.uiuc.edu/~danr/Teaching/CS546-12/TeChapter.pdf), 2012
 - [Textual entailment](http://www.lsi.upc.edu/~ageno/anlp/textualEntailment.pdf), 2014
 
-Для тренування та тестування використате [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/).
+Для тренування та тестування використайте [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/).
 
 Домашня робота повинна містити хоча б одну ітерацію покращення результатів.
 
