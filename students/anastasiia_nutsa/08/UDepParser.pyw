@@ -79,11 +79,10 @@ def execute_action(stack, queue, relations, action, log = False):
 ##    if log:    
 ##        print(action, relations)    
 
-def extract_features(stack, queue, heads):
+def extract_features(stack, queue):
     features = dict()
     if len(stack) > 0:
         stack_top = stack[-1]
-        features["hs0-tag"] = heads[stack_top['head']] if stack_top['head'] else None
         features["s0-word"] = stack_top["form"]
         features["s0-lemma"] = stack_top["lemma"]
         features["s0-tag"] = stack_top["upostag"]
@@ -94,7 +93,6 @@ def extract_features(stack, queue, heads):
         features["s1-tag"] = stack_top["upostag"]
     if queue:
         queue_top = queue[0]
-        features["hq0-tag"] = heads[queue_top['head']] if queue_top['head'] else None
         features["q0-word"] = queue_top["form"]
         features["q0-lemma"] = queue_top["lemma"]
         features["q0-tag"] = queue_top["upostag"]
@@ -103,7 +101,6 @@ def extract_features(stack, queue, heads):
                 features["q0-" + k] = v
     if len(queue) > 1:
         queue_next = queue[1]
-        features["hq1-tag"] = heads[queue_next['head']] if queue_next['head'] else None
         features["q1-word"] = queue_next["form"]
         features["q1-tag"] = queue_next["upostag"]
     if len(queue) > 2:
@@ -124,22 +121,20 @@ def get_data(trees):
     features, labels = [], []
     for tree in trees:
         stack, queue, relations = [ROOT], tree[:], []
-        heads = {x['id']: x['upostag'] for x in queue}
         while stack or queue:
             action = choose_action(stack[-1] if stack else None, queue[0] if queue else None, relations)
-            features.append(extract_features(stack, queue, heads))
+            features.append(extract_features(stack, queue))
             labels.append(action.value)
             execute_action(stack, queue, relations, action)
     return features, labels, trees
 
 def dep_parse(sentence, oracle, vectorizer, imputer, log = False):
     stack, queue, relations = [ROOT], sentence[:], []
-    heads = {x['id']: x['upostag'] for x in queue}
     while stack or queue:
         if stack and not queue:
             stack.pop()
         else:
-            features = extract_features(stack, queue, heads)
+            features = extract_features(stack, queue)
             vectorized_features = vectorize_data([features], vectorizer, imputer)
             action = Actions(oracle.predict(vectorized_features))
             execute_action(stack, queue, relations, action, log)
@@ -154,16 +149,13 @@ def vectorize_data(data, vectorizer, imputer):
 train_features, train_labels, train_trees = prepare_data('uk_iu-ud-train.conllu')
 test_features, test_labels, test_trees = prepare_data('uk_iu-ud-test.conllu')
 
-vectorizer = DictVectorizer()#(sparse=False)
+vectorizer = DictVectorizer()
 imputer = Imputer()
 vec = vectorizer.fit(train_features + test_features)
 imp = imputer.fit(vectorizer.transform(train_features + test_features))
 
 train_features_vectorized = vectorize_data(train_features, vec, imp)
 test_features_vectorized = vectorize_data(test_features, vec, imp)
-
-#train_features_vectorized = buffered_transform(train_features[0:10000], 5000)
-#test_features_vectorized = buffered_transform(test_features[0:10000], 5000)
 
 ##print("Naive Bayes Classifier")
 ##gnb = GaussianNB().fit(train_features_vectorized.toarray(), train_labels)
@@ -184,14 +176,14 @@ test_features_vectorized = vectorize_data(test_features, vec, imp)
 ##print('\n' + 50*'#' + '\n')
 
 ##print("SVM Classifier")
-##svc = OneVsRestClassifier(svm.LinearSVC(random_state=42))
+##svc = OneVsRestClassifier(svm.LinearSVC(random_state=7, C=0.1, dual=False))
 ##svc.fit(train_features_vectorized, train_labels)
 ##predicted = svc.predict(test_features_vectorized)
 ##print(classification_report(test_labels, predicted))
 ##print('\n' + 50*'#' + '\n')
 
 print("Logistic Regression Classifier")
-lrc = LogisticRegression(random_state=42)
+lrc = LogisticRegression(random_state=0, multi_class='multinomial', solver='saga', C=0.05, n_jobs=-1, max_iter=1500)
 lrc.fit(train_features_vectorized, train_labels)
 predicted = lrc.predict(test_features_vectorized)
 print(classification_report(test_labels, predicted))
