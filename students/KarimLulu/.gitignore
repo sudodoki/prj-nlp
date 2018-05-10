@@ -70,9 +70,14 @@ target/
 .ipynb_checkpoints/
 
 # Environments
-hw3
+hw*
 
 # WARC files
 *.warc*
 *.bz2
 *.gz
+
+*.dill
+*.bin
+*.zip
+homework-10/*.txt
