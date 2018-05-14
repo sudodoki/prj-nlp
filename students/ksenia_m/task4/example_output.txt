@@ -1,0 +1,79 @@
+# Unfortunately it takes a lot of time to run on full list and sometimes java 
+# fails with OOM even with xmx-3G
+
+Test line: Augustin-Jean Fresnel:Fresnel lens
+Contraptions found from Wiki: [' catadioptric Fresnel lens', ' transverse motions', ' vacancy', ' either', ' theories'] , mathces test line: True
+Inventor found from Wiki: [' French physicist Fresnel', ' multi-part lens'] , matches test line: False
+
+Test line: Dennis Gabor:Holography
+Contraptions found from Wiki: [' holography', ' he', ' laser', ' re-holography', ' synthesis technique', ' it', ' holographic method', ' time', ' holography', ' interest', ' lasers', ' holography applications'] , mathces test line: True
+Inventor found from Wiki: [' holographic method', ' Dennis Gabor', ' bother', ' atomic holograms', ' rear-projecting images', ' laser', ' laser', ' point', ' amateurs', ' commercial applications', ' basic elements', ' physics', ' atomic mirrors'] , matches test line: True
+
+Test line: Mardi bin Ali al-Tarsusi:Mangonel
+Contraptions found from Wiki: [] , mathces test line: False
+Inventor found from Wiki: [' impact'] , matches test line: False
+
+Test line: Abu al-Qasim al-Zahrawi:Surgical suture
+Contraptions found from Wiki: [' used', ' new instrument', ' instruments', ' forceps', ' criterion', ' historic inventionsAvicennaSources Sammy', ' material designs', ' lithotomy'] , mathces test line: False
+Inventor found from Wiki: [' millennia', ' 10th century', ' 1950s'] , matches test line: False
+
+Test line: Henry Maudslay:Micrometer
+Contraptions found from Wiki: [' 1800', ' slide-rest', ' first bench micrometer', ' steam hammer', ' uniformity', ' mass production', ' first lathe', ' interest', ' machine', ' mechanical engineering', ' machine tools'] , mathces test line: True
+Inventor found from Wiki: [' William Gascoigne', ' William Gascoigne', ' handheld micrometer-screw calipers'] , matches test line: False
+
+Test line: Coaxial rotor:Smalt
+Contraptions found from Wiki: [' small helicopter model', ' coaxial helicopters'] , mathces test line: False
+/usr/local/lib/python3.6/site-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 182 of the file 2_invention_oracle.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+ to this:
+
+  BeautifulSoup(YOUR_MARKUP, "html.parser")
+
+    markup_type=markup_type))
+    wiki is busy, wait... n of try: 5
+    wiki is busy, wait... n of try: 4
+    wiki is busy, wait... n of try: 3
+    wiki is busy, wait... n of try: 2
+    wiki is busy, wait... n of try: 1
+    Inventor found from Wiki: [] , matches test line: False
+
+    Test line: Vladimir Simonov:SPP-1 underwater pistol
+    Contraptions found from Wiki: [] , mathces test line: False
+    Inventor found from Wiki: [' late 1960s'] , matches test line: False
+
+    Test line: William Shockley:Transistor
+    Contraptions found from Wiki: [' junction transistor', ' new type', ' bipolar transistor', ' transistor', ' transistor', ' new variants', ' transistor'] , mathces test line: True
+    Inventor found from Wiki: [' 1947', ' 1907', ' 1947', ' 1948', ' them', ' William Shockley', ' 20th century', ' first transistor', ' transistor', ' silicon', ' Philco', ' Chrysler corporations', ' Bell Labs', ' base', ' various applications'] , matches test line: True
+
+    Test line: Nikolai Korotkov:Blood pressure
+    Contraptions found from Wiki: [' auscultatory technique'] , mathces test line: False
+    Inventor found from Wiki: [' children', ' walls'] , matches test line: False
+
+    Test line: Igor Gorynin:Radiation hardening
+    Contraptions found from Wiki: [' hardened steels', ' many titanium', ' number', ' high-strength aluminum alloys', ' structural materials'] , mathces test line: False
+    Inventor found from Wiki: [' CMOS devices', ' entire body', ' nuclear weapon', ' NIISI', ' space'] , matches test line: False
+
+    Test line: Ivan Polzunov:Steam engine
+    Contraptions found from Wiki: [' first steam engine'] , mathces test line: True
+    Inventor found from Wiki: [' 1797-1799', ' Corliss engine', ' Thomas Newcomen', ' time', ' 1804', ' first piston engine', ' commercial steam engine', ' 1698', ' manufacturing techniques', ' Trevithick', ' 1800', ' internal combustion technology', ' steam engines', ' high speed inventor', ' thermodynamic theory', ' separate condenser', ' modern high-pressure'] , matches test line: False
+
+    Test line: Adolph Giesl-Gieslingen:Giesl ejector
+    Contraptions found from Wiki: [' rectangular chimney design', ' Giesl ejector'] , mathces test line: True
+    Inventor found from Wiki: [' 1951'] , matches test line: False
+
+    Test line: Charles F. Kettering:Tetra ethyl lead
+    Contraptions found from Wiki: [' Charles Kettering', ' Freon refrigerant', ' all-electric starting', ' Kettering Center', ' Duco lacquers', ' Bug', ' improvements', ' Complications', ' EMD', ' first missiles', ' leaded gasoline', ' Freon', ' idea', ' diesel engines'] , mathces test line: False
+    Inventor found from Wiki: [' 1924'] , matches test line: False
+
+    Test line: Evgeniy Chertovsky:Pressure suit
+    Contraptions found from Wiki: [' Yevgeny Chertovsky'] , mathces test line: False
+    Inventor found from Wiki: [' Davis Set', ' pressure suits', ' David Company', ' full pressure suit', ' pressure suit'] , matches test line: False
+
+    Test line: Dean Kamen:IBOT
+    Contraptions found from Wiki: [' Segway', ' product', ' Kamen', ' first drug pump', ' compressed air device', ' FIRST competition', ' Segway', ' 2003', ' AutoSyringe', ' Wheel', ' machines', ' intricate presents', ' robotic chess player', ' DEKA System'] , mathces test line: False
+    Inventor found from Wiki: [' iBOT', ' Dean Kamen'] , matches test line: True
+   

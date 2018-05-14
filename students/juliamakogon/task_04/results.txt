@@ -1,0 +1,184 @@
+SpaCy en model loaded
+cinderella_db.csv
+------------------------------
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\A_Cinderella_Story__Once_Upon_a_Song.txt
+(False, 'A Cinderella Story: Once Upon a Song', '2012', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Charming__film_.txt
+(False, 'Charming', '0', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella_III__A_Twist_in_Time.txt
+(False, 'Cinderella III: A Twist in Time', '0', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella_II__Dreams_Come_True.txt
+(False, 'Cinderella II: Dreams Come True', '1950', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella__1977_film_.txt
+(False, 'The Other Cinderella)', '1977', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella__1994_film_.txt
+(False, 'Cinderella, originally released directly to video in 1994,', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\CinderElmo.txt
+(False, 'CinderElmo', '1999', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderfella.txt
+(False, 'Cinderfella', '1959', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Ella_Cinders__film_.txt
+(False, 'Ella Cinders', '1926', 'the syndicated comic strip of the same name by William M Conselman and Charles Plumb')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Ella_Enchanted__film_.txt
+(False, 'Ella Enchanted', '2004', "Gail Carson Levine 's novel of the same name")
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Falling_for_Grace.txt
+(False, 'Falling for Grace', '2006', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Happily_N_Ever_After.txt
+(False, "Happily N'Ever After", '2007', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Puteri_Impian.txt
+(False, 'Puteri Impian', '1997', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Rags__2012_film_.txt
+(False, 'Rags', '0', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\The_10th_Kingdom.txt
+(False, 'The 10th Kingdom', '0', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\The_Glass_Slipper.txt
+(False, 'The Glass Slipper', '0', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Tři_oříšky_pro_Popelku.txt
+(False, 'Tři oříšky pro Popelku, also known as Three Wishes for Cinderella and broadcast in the UK under the title Three Gifts for Cinderella)', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Bella_at_Midnight.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Campbell-Johnston_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Carrie__novel_.txt
+(False, 'The first adaption of Carrie', '1976', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Chinchen_Collection.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Cinder__novel_.txt
+(False, 'Meyer has confirmed there has', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Confessions_of_an_Ugly_Stepsister.txt
+(False, 'There', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Contributions_Agency_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Eight_Miles_High__film_.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Ella_Enchanted.txt
+(False, 'Levine stated that the film is "so different from the book that it', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Ewen_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\H_M__Stationery_Office_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\I_Love_You,_Alice_B__Toklas.txt
+(False, 'Toklas', '1968', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\I_Was_a_Rat__or_The_Scarlet_Slippers.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Just_Ella.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Langmead_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Mondo_Hollywood.txt
+(False, 'Mondo Hollywood', '1967', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Princess_of_Glass.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Psych-Out.txt
+(False, 'Psych-Out', '1968', 'a recent successful reissue of Psycho')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Revolting_Rhymes.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Coachman_Rat.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Fairy_Godmother__novel_.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Happening__1967_film_.txt
+(False, 'The Happening', '1967', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Love-Ins.txt
+(False, 'The Love-Ins', '1967', 'the s American figure Timothy Leary')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Strawberry_Statement__film_.txt
+(False, 'The Strawberry Statement', '1970', 'the non fiction book by James Simon Kunen who has a cameo appearance in the film about the Columbia University protests of')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Trial_of_Billy_Jack.txt
+(False, 'The Trial of Billy Jack', '1974', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Turner_Collection_of_Railway_Letter_Stamps.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Voulez-vous_coucher_avec_God_.txt
+(False, 'Voulez-vous coucher avec God?', '1972', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Where_Have_All_the_Flowers_Gone___film_.txt
+(False, None, '2008', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\You_Are_What_You_Eat__film_.txt
+(False, 'You Are What You Eat', '1968', None)
+true+   false-
+false+  true-
+24      17
+0       29
+Statistics for the classifier:          f1      0.86179 precision       1.00000 recall  0.75714
+Statistics for the 'positive' category: f1      0.73846 precision       1.00000 recall  0.58537
+Statistics for the 'negative' category: f1      0.77333 precision       0.63043 recall  1.00000
+------------------------------
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella__1977_film_.txt
+(False, 'The Other Cinderella)', '1977', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Cinderella__1994_film_.txt
+(False, 'Cinderella, originally released directly to video in 1994,', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\CinderElmo.txt
+(False, 'CinderElmo', '1999', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Ella_Cinders__film_.txt
+(False, 'Ella Cinders', '1926', 'the syndicated comic strip of the same name by William M Conselman and Charles Plumb')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Ella_Enchanted__film_.txt
+(False, 'Ella Enchanted', '2004', "Gail Carson Levine 's novel of the same name")
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Falling_for_Grace.txt
+(False, 'Falling for Grace', '2006', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Puteri_Impian.txt
+(False, 'Puteri Impian', '1997', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\pos\Tři_oříšky_pro_Popelku.txt
+(False, 'Tři oříšky pro Popelku, also known as Three Wishes for Cinderella and broadcast in the UK under the title Three Gifts for Cinderella)', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Bella_at_Midnight.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Campbell-Johnston_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Carrie__novel_.txt
+(False, 'The first adaption of Carrie', '1976', 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Chinchen_Collection.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Cinder__novel_.txt
+(False, 'Meyer has confirmed there has', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Confessions_of_an_Ugly_Stepsister.txt
+(False, 'There', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Contributions_Agency_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Eight_Miles_High__film_.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Ella_Enchanted.txt
+(False, 'Levine stated that the film is "so different from the book that it', None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Ewen_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\H_M__Stationery_Office_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\I_Love_You,_Alice_B__Toklas.txt
+(False, 'Toklas', '1968', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\I_Was_a_Rat__or_The_Scarlet_Slippers.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Just_Ella.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Langmead_Collection.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Mondo_Hollywood.txt
+(False, 'Mondo Hollywood', '1967', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Princess_of_Glass.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Psych-Out.txt
+(False, 'Psych-Out', '1968', 'a recent successful reissue of Psycho')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Revolting_Rhymes.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Coachman_Rat.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Fairy_Godmother__novel_.txt
+(False, None, None, 'Cinderella')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Happening__1967_film_.txt
+(False, 'The Happening', '1967', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Love-Ins.txt
+(False, 'The Love-Ins', '1967', 'the s American figure Timothy Leary')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Strawberry_Statement__film_.txt
+(False, 'The Strawberry Statement', '1970', 'the non fiction book by James Simon Kunen who has a cameo appearance in the film about the Columbia University protests of')
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\The_Trial_of_Billy_Jack.txt
+(False, 'The Trial of Billy Jack', '1974', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Turner_Collection_of_Railway_Letter_Stamps.txt
+(False, None, None, None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Voulez-vous_coucher_avec_God_.txt
+(False, 'Voulez-vous coucher avec God?', '1972', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\Where_Have_All_the_Flowers_Gone___film_.txt
+(False, None, '2008', None)
+C:\work\jul\prj-nlp\students\juliamakogon\task_04\testset\neg\You_Are_What_You_Eat__film_.txt
+(False, 'You Are What You Eat', '1968', None)
+true+   false-
+false+  true-
+33      8
+0       29
+Statistics for the classifier:          f1      0.93939 precision       1.00000 recall  0.88571
+Statistics for the 'positive' category: f1      0.89189 precision       1.00000 recall  0.80488
+Statistics for the 'negative' category: f1      0.87879 precision       0.78378 recall  1.00000
