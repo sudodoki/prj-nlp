@@ -78,6 +78,9 @@ hw*
 *.gz
 
 *.dill
+*.bin
+*.zip
+homework-10/*.txt
 
 cornell_movie_dialogs_corpus.zip
 2554/
