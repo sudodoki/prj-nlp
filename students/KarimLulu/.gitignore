@@ -76,3 +76,6 @@ hw3
 *.warc*
 *.bz2
 *.gz
+*.bin
+*.zip
+homework-10/*.txt
