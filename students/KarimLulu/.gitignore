@@ -76,6 +76,7 @@ hw*
 *.warc*
 *.bz2
 *.gz
+*.dill
 
 *.dill
 *.bin
