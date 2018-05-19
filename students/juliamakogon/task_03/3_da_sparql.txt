@@ -1,0 +1,8 @@
+﻿SELECT DISTINCT ?s ?p ?o
+{
+?s ?p ?o.
+?s a dbo:Person.
+?s foaf:name ?slabel.
+FILTER (str(?slabel) = "Barack Obama").
+
+}

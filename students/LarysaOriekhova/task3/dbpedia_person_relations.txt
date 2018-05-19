@@ -1,6 +1,0 @@
-SELECT DISTINCT *
-{
-?person1 a dbo:Person. 
-?person1 ?rel ?person2.
-?person2 a dbo:Person
-} LIMIT 1000

@@ -77,3 +77,16 @@ hw*
 *.bz2
 *.gz
 *.dill
+
+*.dill
+*.bin
+*.zip
+homework-10/*.txt
+
+cornell_movie_dialogs_corpus.zip
+2554/
+cmv/
+ngrams.dill
+data.txt
+train_data.csv
+w2_.txt

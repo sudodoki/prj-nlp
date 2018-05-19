@@ -1,0 +1,2462 @@
+pelúcia {1: {'peluche', 'pelo', 'urso de peluche'}}
+peluche {1: {'pelúcia'}, 2: {'pluche', 'pelucher', 'peluchier', 'AFI', 'toutou'}}
+contribuição {1: {'contributo'}}
+caos {1: {'desordem', 'anarquia'}, 2: {'confusione', 'disordine', 'AFI', 'casino', 'caotico'}}
+gibi {1: {'revistinha'}}
+livre {1: {'independente', 'desimpedido'}}
+dicionário {1: {'glossário', 'léxico'}}
+granel {1: {'celeiro', 'tulha', 'manancial'}}
+reificação {1: {'hispostatização', 'coisificação', 'depersonalização'}}
+português {1: {'última flor do Lácio'}}
+espanhol {1: {'castelhano'}}
+holandês {1: {'neerlandês'}}
+brasileiro {1: {'brasiliense', 'brasílico', 'brasiliano', 'brasílio'}, 2: {'brasiliense', 'brasiliano', 'brasílio', 'brazuca', 'brasílico'}}
+polonês {1: {'polaco'}, 2: {'polaco'}}
+polaco {1: {'polonês', 'polónio'}}
+flamengo {1: {'flamingo', 'neerlandês'}}
+húngaro {1: {'magiar', 'hungárico'}}
+israelita {1: {'israelense', 'judeu', 'hebreu'}, 2: {'israelense', 'judeu', 'hebreu'}}
+judeu {1: {'hebraico', 'israelita', 'judaico', 'hebreu'}, 2: {'israelense', 'israelita', 'hebreu'}}
+gaúcho {1: {'gaudério'}}
+belga {1: {'embelga'}}
+estoniano {1: {'estônio', 'estónio', 'estónico'}}
+israelense {1: {'israelita'}, 2: {'israelita', 'Israel'}}
+osseto {1: {'ossético', 'osseta'}}
+abacelar {1: {'bacelar', 'embacelar'}}
+abafar {1: {'encobrir', 'asfixiar', 'apagar', 'roubar', 'sufocar', 'esmagar', 'dominar', 'amortecer', 'agasalhar', 'furtar', 'fanar', 'ocultar', 'aniquilar', 'surripar', 'atenuar'}}
+nada {1: {'xongas', 'necas', 'neca'}, 2: {'patavinas', 'jota'}}
+ele {1: {'elebidun', 'hitz', 'ele egin'}}
+filipino {1: {'tagalo', 'tagal', 'pilipino'}}
+ilongo {1: {'hiligaynon'}, 2: {'AFI'}}
+tétum {1: {'teto'}}
+duplicar {1: {'dobrar'}}
+tai {1: {'siamês'}}
+nauruense {1: {'nauruano'}}
+brasiliense {1: {'brasílico', 'brasileiro', 'brasiliano', 'brasílio'}, 2: {'brasílico', 'brasileiro', 'brasiliano', 'brasílio'}}
+americano {1: {'ianque', 'estadunidense'}, 2: {'ianque', 'estadunidense'}}
+nome de código {1: {'codinome'}}
+medieval {1: {'Medievo', 'Médio', 'Mediévico'}}
+inumação {1: {'sepultamento', 'enterro', 'enterramento'}}
+registrar {1: {'averbar', 'tomar termo'}}
+pechisbeque {1: {'ouropel', 'mistificação'}}
+extensão {1: {'ramal'}}
+pastor {1: {'capellà', 'sacerdot'}, 2: {'reverendo'}, 3: {'pegureiro'}, 4: {'zielszorger', 'pastoor', 'predikant', 'priester', 'zielverzorger', 'dominee', 'voorganger', 'geestelijke'}, 5: {'predikant', 'prest', 'forstander', 'eldste'}, 6: {'pastor loci', 'pastorat', 'kyrkoherde', 'präst', 'prost', 'vice pastor', 'AFI', 'pasta'}}
+zoncá {1: {'dzonga', 'butanês'}}
+tâmil {1: {'tâmul'}}
+baranga {1: {'bozenga', 'estrupício', 'trubufu', 'bugiranga', 'horrendo', 'canhão'}}
+bugiranga {1: {'tribufu', 'trubufu', 'mocreia', 'canhão', 'baranga'}}
+indescritível {1: {'inefável', 'formidável', 'colossal', 'inexplicável', 'indizível', 'espantoso'}}
+ajuda {1: {'help'}, 2: {'socorro', 'amparo', 'auxílio', 'remédio', 'assistência'}}
+peruano {1: {'peruviano'}}
+peruviano {1: {'peruano'}}
+piá {1: {'curumim', 'pivete', 'moleque', 'pirralho', 'piazito', 'guri', 'menino'}}
+bracarense {1: {'brácaro'}, 2: {'braguês', 'brácaro'}}
+atualmente {1: {'presentemente', 'agora', 'hoje', 'arestora'}}
+nhô {1: {'sinhô', 'nhonhô', 'ioiô'}}
+nhonhô {1: {'nhô', 'sinhô', 'nonô', 'ioiô'}}
+braguês {1: {'bracarense'}, 2: {'bracarense', 'sufixo', 'brácaro'}}
+paulatino {1: {'gradativo'}}
+télugo {1: {'télego'}}
+manicômio {1: {'hospício'}}
+manicómio {1: {'hospício'}}
+gado {1: {'rebanho'}}
+persa {1: {'persiano', 'pérsio', 'pérsico'}, 2: {'persiano', 'pérsio', 'pérsico'}}
+zanzar {1: {'zanzear', 'vaguear'}}
+natural {1: {'instintivo', 'lógico', 'nato', 'maquinal', 'congênito', 'inato'}}
+germânico {1: {'germano', 'alemão'}, 2: {'alemão', 'germanófilo', 'germano', 'teutão', 'germanofobia', 'germanófobo', 'germanofilia'}}
+hebreu {1: {'hebraico', 'judeu'}, 2: {'hebraico', 'judeu'}}
+mental {1: {'mentalizável', 'mentalizador', 'mentalizante', 'mentalizar', 'queixo', 'mentalizado', 'mentecapto', 'mentalização', 'mente', 'mento', 'mentalista', 'relativo', 'mentalístico', 'latim', 'intelectual', 'mentalismo', 'mentalidade', 'pertencente'}}
+hospício {1: {'manicómio', 'manicômio', 'hospital'}}
+alvião {1: {'picareta', 'enxadão'}}
+freedom {1: {'liberty'}}
+latim {1: {'grego', 'chinês'}}
+orégão {1: {'ourégão', 'orégano'}}
+outrora {1: {'antigamente'}}
+computador {1: {'calculadora', 'calculista'}}
+lisboano {1: {'lisboês', 'lisbonino', 'lisbonês', 'olisiponense', 'lisbonense', 'lisboeta', 'alfacinha'}, 2: {'lisboês', 'lisbonês', 'olisiponense', 'lisbonense', 'lisboeta', 'alfacinha'}}
+medicina {1: {'medicamento', 'remédio', 'medicação'}}
+médico {1: {'medical', 'medicinal'}, 2: {'asclépio', 'clínico', 'esculápio'}}
+tribufu {1: {'trubufu', 'medonho', 'horrendo', 'estrupício', 'bugiranga', 'horrível', 'pavoroso', 'canhão', 'baranga'}}
+trubufu {1: {'tribufu', 'estrupício', 'bugiranga', 'canhão', 'baranga'}}
+asilo {1: {'abrigo', 'refúgio', 'albergue', 'orfanato', 'hospício'}}
+orfanato {1: {'orfandade'}}
+mês {1: {'menstruação', 'salário', 'história', 'mensalidade', 'chica', 'regra'}}
+lei {1: {'norma', 'combinado', 'regra'}, 2: {'bestuur'}, 3: {'leisteen'}}
+baço {1: {'abaçanado', 'castanho', 'trigueiro'}}
+aliá {1: {'elefanta', 'elefoa'}}
+estrupício {1: {'excêntrico', 'tribufu', 'anormal'}}
+escravo {1: {'serviçal', 'servo'}}
+canato {1: {'canado'}}
+abigeato {1: {'abacto'}}
+Wikcionario {1: {'Galizionario'}}
+cobrir {1: {'tapar', 'acobertar', 'proteger', 'encobrir'}}
+desordem {1: {'alvoroço', 'confusão', 'bagunça', 'motim', 'indisciplina', 'tumulto', 'furdunço', 'espandongamento', 'baderna', 'desarranjo', 'caos'}}
+remédio {1: {'socorro', 'solução', 'droga', 'ajuda', 'medicamento'}}
+ano {3: {'anuko'}}
+tempero {1: {'condimento'}}
+hospital {1: {'nosocômio'}}
+antes {1: {'anteriormente', 'primeiro', 'primeiramente'}}
+ângulo {1: {'canto', 'aresta', 'esquina'}}
+belo {1: {'gato', 'avião', 'brasa', 'lindo', 'gostoso', 'bonito', 'bomba'}}
+cã {1: {'cão', 'khan'}}
+confusão {1: {'cafarnaum', 'kanvuanza', 'tumulto', 'barulho', 'desordem', 'barafunda', 'baderna', 'babel'}}
+segmento {1: {'pedaço', 'secção'}}
+year {1: {'twelvemonth', 'calendar year'}}
+vértice {1: {'ápice', 'sumidade', 'cimo', 'pináculo', 'topo', 'cume'}}
+encobrir {1: {'mascarar', 'receptar', 'omitir', 'abrigar', 'esconder', 'acolher', 'hospedar', 'disfarçar', 'nublar', 'albergar', 'dissimular', 'toldar', 'cobrir', 'tapar', 'agasalhar', 'anuviar', 'ocultar'}, 2: {'AFI'}}
+ordem {1: {'série', 'sucessão', 'disciplina', 'mando', 'mandado', 'organização', 'mandato', 'sequência', 'mandamento', 'arrumação', 'ordenação'}}
+cão {1: {'cachorro', 'cusco', 'cã', 'perro'}}
+hebraico {1: {'hebreu'}}
+itálico {1: {'italiano', 'ítalo'}, 2: {'italiano', 'ítalo'}}
+chinês {1: {'chino', 'chim', 'china'}}
+cãs {1: {'canas'}}
+grogue {1: {'aguardente', 'cachaça', 'pinga'}, 2: {'mamado', 'bêbado', 'embriagado', 'chapado', 'alcoolizado'}}
+octógono {1: {'octágono'}}
+avião {1: {'aeroplano'}}
+brasa {1: {'avião', 'belo', 'bomba', 'maravilha'}}
+álacre {1: {'alegre', 'jovial', 'contente'}}
+dobrar {1: {'inclinar', 'dublar', 'duplicar', 'domar', 'curvar', 'submeter', 'amansar', 'fletir', 'virar', 'flectir', 'vergar'}}
+ovelhum {1: {'ovino'}}
+horrendo {1: {'monstruoso', 'tribufu', 'medonho', 'assustador', 'horripilante', 'hórrido', 'estrupício', 'horrífico', 'horroroso', 'bugiranga', 'horrível', 'canhão', 'baranga'}}
+cabrum {1: {'caprino', 'caprídeo'}}
+bomba {1: {'abacaxi', 'ecler', 'problema', 'explosivo', 'bombilha', 'complicação', 'petardo', 'pepino'}, 2: {'puma', 'bombastický', 'sexbomba', 'bombička', 'tlaková lahev', 'bombardovat', 'bombový', 'výbušnina', 'AFI'}, 3: {'bombardér', 'vybuchnúť', 'bombardovanie', 'puma', 'bombastický', 'bombička', 'bombardovať', 'bombový', 'AFI'}, 4: {'bombar', 'pompa', 'corazón', 'globo', 'bombo', 'gasolinera', 'embriaguez'}, 5: {'atombomba', 'bombaszerva', 'bombakráter', 'pokolgép', 'bombavető', 'bombatölcsér', 'bombasiker', 'bombasztikus', 'bombamerénylet', 'bombarobbanás', 'bombakioldó', 'bombabiztos', 'felrobban', 'bombáz', 'bombatámadás', 'bombaszilánk', 'bombasérült', 'AFI', 'hidrogénbomba'}, 6: {'autobomba', 'bombare', 'bombetta', 'krapfen', 'bombolone', 'diminutivo'}, 7: {'bombus', 'pyrobolus'}, 8: {'pam'}, 9: {'bombe', 'bomben'}, 10: {'bombet'}, 11: {'sabog', 'poso', 'pampasabog'}}
+lindo {1: {'belo', 'gato', 'avião', 'brasa', 'gostoso', 'bonito', 'bomba'}}
+gostoso {1: {'avião', 'brasa', 'bomba'}}
+canhão {1: {'tribufu', 'estrupício', 'trubufu', 'bugiranga', 'horrendo', 'baranga'}, 2: {'cânion', 'canyon'}}
+bonito {1: {'lindo', 'belo', 'maravilhoso'}, 3: {'gato', 'beleza', 'avião', 'gostoso', 'sentido', 'atum', 'brasa', 'bomba'}}
+ótimo {1: {'magnífico', 'supimpa', 'excelente'}}
+basquetebol {1: {'cestobol', 'basquete'}}
+desporto {1: {'desporte', 'esporte'}}
+futebol {1: {'balípodo', 'ludopédio', 'pedibola'}}
+handebol {1: {'alemão', 'mão', 'handball', 'bola', 'andebol'}}
+natação {1: {'nado'}}
+animal {1: {'bicho'}}
+célula {1: {'cela'}}
+germano {1: {'alemão', 'germânico'}, 2: {'alemão', 'germanófilo', 'germânico', 'germanofobia', 'germanófobo', 'germanofilia'}}
+voleibol {1: {'vôlei'}}
+bambara {1: {'bamana'}, 2: {'bambarafolk'}}
+angústia {1: {'aflição', 'estreiteza'}}
+acobertar {1: {'encobertar'}}
+sul-rio-grandense {1: {'gaúcho'}}
+rio-grandense-do-sul {1: {'gaúcho'}}
+ich {2: {'AFI', 'fish'}}
+zero {1: {'not any', 'no'}, 2: {'zeroth', 'no', 'nil', '0', 'goose egg', 'naught', 'null', 'cipher'}, 3: {'root', 'origin', 'nothing', 'zip', 'nada', 'naught', 'zilch', 'nonentity', 'nobody', 'null', 'cipher', 'nought', 'zero point'}, 4: {'zeroise', 'zeroize', 'zero out'}}
+dois {1: {'dous'}, 2: {'dous'}}
+retângulo {1: {'quadrilátero equiângulo'}}
+agora {1: {'presentemente', 'atualmente'}}
+pentadecágono {1: {'quindecágono'}}
+adjetivo {1: {'adjunto', 'adjacente', 'contíguo'}}
+derrabado {1: {'derrabar', 'desrabado'}}
+er {1: {'insan', 'eril', 'adam', 'erke', 'erkeklik', 'asker', 'erkek', 'erin', 'erkekçe', 'erk', 'erkân'}}
+zurro {1: {'rebusno', 'zurrada', 'azurrar', 'zurra', 'ornejo', 'zurrar', 'orneio', 'burro'}}
+cruzamento {1: {'acasalamento', 'encruzilhada'}}
+híbrido {1: {'misto', 'hibridação', 'hibridização', 'hibridismo', 'misturado', 'mesclado', 'hibridizar', 'hibridez', 'mestiço'}}
+ornejo {1: {'ornejar', 'zurro', 'onomatopeia', 'burro'}}
+quadrúpede {1: {'tetrápode'}}
+burro {1: {'jerico', 'mula', 'anta'}, 2: {'mulo', 'burra', 'comento', 'besta', 'mu', 'transfogueiro'}}
+mioleira {1: {'juízo', 'siso', 'miolos', 'cérebro', 'miolo'}}
+autumn {1: {'fall', 'AFI'}}
+español {2: {'latim vulgar', 'pejorativo', 'España', 'provençal', 'aumentativo', 'diminutivo'}, 3: {'AFI', 'latim vulgar', 'provençal'}, 5: {'AFI', 'latim vulgar', 'provençal'}, 6: {'latim vulgar', 'provençal'}, 7: {'latim vulgar', 'provençal'}}
+salto {1: {'pulo'}}
+yellow {1: {'yellow pages', 'Yellow River', 'yellow horde', 'yellowly', 'yellow dog contract', 'yellow dwarf', 'yellow wood anemone', 'yellow sheet', 'yellow anemone', 'yellow pine', 'yellow jessamine', 'yellow jersey', 'Yellow Sea', 'yellow fever', 'yellow card', 'yellow journalism', 'yellow spot', 'yellow warbler', 'double yellow lines', 'cowardly', 'yellow light', 'yellow jack', 'yellow peril', 'yellowness', 'yellowhammer', 'yellowface', 'yellow bile', 'yellow birch', 'yellow rattle', 'high yellow', 'yellow perch', 'yellow phosphorus', 'yellow menace', 'yellow brick road', 'yellow terror', 'yellowbelly', 'yellowbird', 'yellow cake', 'yellow poplar', 'yellow press', 'yellow oriole', 'yellowish', 'yellow dog', 'yellowtail', 'yellow pocket'}}
+carro {1: {'automóvel', 'viatura', 'veículo'}}
+bicicleta {1: {'camelo', 'bici', 'magrela'}}
+guarda {1: {'vigia', 'vigilância', 'guardião', 'vigilante'}}
+palco {1: {'tablado', 'estrado'}}
+mambembe {1: {'zambembe'}}
+busílis {1: {'cerne', 'ponto crítico'}}
+xairel {1: {'xarel'}}
+empecilho {1: {'empecimento', 'embrechada', 'impedimento'}}
+brilhoso {1: {'fulguroso', 'tremeluzente', 'luzente', 'brilhante', 'luminoso', 'nítido', 'fulgurante', 'lustrilho', 'lúcido', 'luzidio', 'cintilante', 'rutilante', 'ardente', 'resplandecente', 'lustroso', 'reluzente', 'luzido', 'lustrino', 'fulgente', 'fúlgido', 'lustrado'}}
+famigerado {1: {'célebre', 'famoso'}}
+entropia {1: {'haje'}}
+hiperespaço {1: {'gopherespaço', 'ciberespaço'}}
+kiwi {1: {'Chinese gooseberry', 'kiwi fruit'}}
+preto {1: {'negro', 'lascado'}, 2: {'negro'}}
+prato {1: {'címbalo'}}
+Estados Unidos {1: {'Estados Unidos da América', 'América', 'Esteites'}}
+sorvete {1: {'baleizão', 'gelado'}}
+alimento {1: {'comida', 'refeição'}}
+planta {1: {'pranta'}}
+ação {1: {'obra', 'pleito', 'feito', 'ato', 'energia', 'demanda', 'movimento'}}
+acção {1: {'aução'}}
+boicote {1: {'boicotagem'}}
+gruta {1: {'lapa', 'caverna', 'antro', 'grota'}}
+sebo {1: {'alfarrabista', 'gordura'}}
+neve {1: {'cãs'}}
+acionista {1: {'sócio'}}
+vermelho {1: {'encarnado', 'escarlate', 'rubro'}, 2: {'ígneo', 'hemácia', 'ferrugem', 'alazão', 'abrasado', 'araçá', 'encarnado', 'acaju', 'rubicundo', 'vinho tinto', 'ouros', 'brasino', 'escarlata', 'rubro', 'sangue', 'ruborizar', 'rubrica', 'copas', 'colorau', 'avermelhado', 'inflamar', 'escarlate', 'vermelhar', 'carmesim', 'infravermelho', 'amarilho', 'magenta'}}
+encarnado {1: {'rubro', 'escarlate', 'vermelho'}, 2: {'rubro', 'escarlate', 'vermelho', 'encarnar'}}
+pássaro {1: {'passarinho'}}
+branco {1: {'alvo'}, 2: {'alvo'}}
+velho {1: {'provecto', 'caquético'}, 2: {'provecto', 'caquético'}}
+novo {1: {'inexperiente', 'moço', 'novato', 'iniciante', 'principiante', 'recente', 'corrente'}}
+cesta {1: {'cesto'}}
+chapéu {1: {'lençol'}}
+tomate {1: {'pomme du Pérou', 'AFI', 'pomme dorée'}}
+janela {1: {'ventana'}}
+soteropolitano {1: {'salvadorense'}, 2: {'grego antigo', 'salvadorense'}}
+malgaxe {1: {'madagascarense'}, 2: {'madagascarense'}}
+ilação {1: {'conclusão', 'dedução', 'inferência'}}
+lista {1: {'listra', 'arrolamento', 'relação', 'rol'}}
+abricó {1: {'alperceiro', 'damasqueiro', 'abricoteiro', 'alperce', 'alpercheiro', 'abricote', 'alperche', 'damasco'}}
+aba {1: {'beirada', 'orla', 'separador', 'orelha', 'borda', 'beiral', 'rebordo', 'beira', 'guia', 'beirado'}}
+africâner {1: {'africânder', 'africanês'}, 2: {'boer', 'africânder', 'africanês', 'bôer'}, 3: {'africânder', 'africanês'}}
+italiano {1: {'itálico', 'ítalo'}, 2: {'itálico', 'ítalo'}}
+jabuticaba {1: {'jaboticaba'}}
+jaca {1: {'buldra'}}
+jenipapo {1: {'caruto'}}
+jerimu {1: {'abóbora', 'abobra', 'jerimum'}}
+jerimum {1: {'abóbora'}}
+imbu {1: {'umbuzeiro', 'imbuzeiro', 'umbu'}}
+gabirova {1: {'mirtácea', 'guabiroba', 'gabiroba', 'guabirobeira'}}
+febre {1: {'pirexia', 'crescimentos'}}
+pinote {1: {'pincho', 'pulo', 'pirueta', 'pino'}}
+legal {1: {'excelente', 'maravilhoso', 'lícito', 'bom', 'fixe', 'legalismo', 'legalidade', 'legalista', 'legalmente'}}
+fixe {1: {'porreiro', 'baril', 'bacana'}}
+ababelado {1: {'desordenado', 'babélico', 'confuso'}}
+abacaxi {1: {'ananás', 'pepino', 'complicação', 'dificuldade'}}
+abacá {1: {'bandala', 'alvacá'}}
+abacate {1: {'abacado'}}
+abio {1: {'abieiro', 'abiu'}}
+abiu {1: {'abio'}}
+abóbora {1: {'abobra', 'jerimum'}}
+abobra {1: {'jerimu', 'jerimum'}}
+açaí {1: {'frutífero', 'tupi', 'fruto', 'pé', 'açaizeiro', 'botânica'}}
+ameixa {1: {'amêixoa', 'ameixeira'}}
+amora {1: {'mora'}}
+araçá {1: {'frutífero', 'araçazeiro'}}
+ata {1: {'pinha', 'saúva', 'ateira'}, 4: {'tártaro', 'arcaico', 'germânico'}, 6: {'ئاتا'}}
+azeitona {1: {'oliva'}}
+bacuri {1: {'criança', 'bacurizeiro', 'garoto', 'acuri', 'guri', 'menino'}}
+banana {1: {'pacova', 'bananeira', 'manguito'}, 2: {'bundão', 'indolente', 'bananzola', 'molenga', 'banazola'}, 3: {'espanhol', 'uolofe', 'português'}, 4: {'espanhol', 'uolofe', 'português', 'AFI'}, 5: {'espanhol', 'uolofe', 'português'}, 6: {'AFI', 'uolofe'}, 7: {'espanhol', 'uolofe', 'português'}, 8: {'espanhol', 'uolofe', 'português', 'AFI'}}
+berinjela {1: {'beringela', 'brinjela'}}
+brinjela {1: {'beringela', 'berinjela'}}
+cabaça {1: {'boi', 'catuto', 'cuia', 'grogoiô', 'porongo', 'cumbuca', 'maricas', 'cabaço'}}
+café {1: {'café da manhã', 'cafezeiro', 'cafeeiro'}}
+cajá {1: {'pomar', 'fruta', 'taperebá', 'cajazeira', 'botânica'}}
+caju {1: {'cajueiro'}}
+cambucá {1: {'pomar', 'frutífera', 'cambucazeiro', 'planta'}}
+caqui {1: {'cáqui', 'dióspiro'}}
+castanha {1: {'castanhola'}}
+disco {1: {'disco voador'}}
+em {1: {'de'}}
+nosocómio {1: {'manicómio', 'hospital', 'medicina'}}
+janta {1: {'jantar'}}
+morbidade {1: {'morbilidade'}}
+ludo {1: {'lusório'}}
+dígrafo {1: {'digrama'}}
+cem {1: {'çoğul', 'cemi'}}
+glossário {1: {'léxico', 'vocabulário', 'dicionário'}}
+desinquieto {1: {'inquieto'}}
+primeiro {1: {'primitivo', 'primaz', 'primevo', 'primogênito', 'primário'}}
+leite {1: {'látex'}}
+maranhão {1: {'do', 'natural', 'Maranhão', 'maranhense', 'Brasil', 'estado', 'habitante', 'ou'}, 2: {'mentira', 'grande', 'maranhense', 'maranha'}, 3: {'fileira', 'prado', 'faco de agrear', 'asturiano', 'baranho', 'garanhão', 'galego', 'AFI', 'mato'}}
+jesuíta {1: {'jesuitista'}, 2: {'jesuitista'}}
+bimestral {1: {'quadrimestral', 'bimestralidade', 'semestral', 'trimestral', 'bimensal', 'bimestre'}}
+chuchu {1: {'bonito', 'paquera'}, 2: {'maxuxo', 'pimpinela', 'chuchuzeiro'}}
+mil {1: {'isáng líbo', 'sanlibo'}}
+coco {1: {'coqueiro'}}
+cuia {1: {'cuieté', 'cabaceira', 'coité', 'cuia de garimpeiro', 'cuité', 'cabaça', 'cuieira'}}
+lícito {1: {'válido', 'legal'}}
+galicismo {1: {'francesismo'}}
+quatre-vingt-dix {1: {'nonante'}}
+premier {1: {'deuxième', 'unième', 'première'}}
+décimo primeiro {1: {'undécimo', 'onzeno'}}
+cupu {1: {'copu', 'botânica', 'cupuaçu'}}
+décimo segundo {1: {'dozeno', 'doze', 'décimo terceiro', 'décimo primeiro', 'elemento', 'duodécimo'}}
+antropófago {1: {'homem', 'άνθρωπος'}}
+criminólogo {1: {'criminologista'}}
+sim {1: {'afirmação', 'aprovação', 'aceitação', 'consentimento'}}
+seguimento {1: {'prosseguimento', 'continuação', 'acompanhamento', 'andamento', 'continuidade'}}
+tre {1: {'AFI', 'tri', 'terzso'}}
+cupuaçu {1: {'cupu'}}
+dendê {1: {'dendezeiro', 'óleo de palma', 'óleo'}}
+gabiroba {1: {'mirtáceo', 'gabirova', 'guabiroba', 'guabirobeira'}}
+guabiroba {1: {'mirtáceo', 'guabirobeira', 'gabirova', 'guavira', 'gabiroba'}}
+glande {1: {'cabeça', 'bolota'}}
+goiaba {1: {'vitamina', 'goiabada', 'abobalhado', 'bocó', 'bobo', 'botânica', 'guaiaba', 'tolo'}}
+grumixama {1: {'grumixameira'}}
+escalabitano {1: {'santareno'}, 2: {'santareno'}}
+albicastrense {1: {'castraleucense'}, 2: {'castraleucense'}}
+albigense {1: {'albicense', 'cátaro'}, 2: {'albicense', 'cátaro'}}
+epopeia {1: {'poema épico'}}
+poema épico {1: {'epopeia'}}
+aberração {1: {'anormalidade', 'distorção'}}
+decretação {1: {'decretar', 'decretamento'}}
+inefável {1: {'indescritível', 'indizível'}}
+unus {1: {'unu'}}
+Angola {4: {'AFI'}, 13: {'AFI'}, 19: {'AFI'}, 22: {'AFI'}, 31: {'AFI'}, 49: {'português'}}
+duo {1: {'dupla', 'dueto'}}
+sex {1: {'sexuality', 'copula', 'gender', 'sexual intercourse', 'genitalia'}, 2: {'asexuat', 'gen', 'latim', 'sexism', 'sexist', 'asexual', 'sexos', 'neam', 'francês'}}
+computar {1: {'incluir', 'avaliar', 'contar'}}
+boboca {1: {'idiota', 'pacóvio', 'paspalhão', 'pateta', 'maluco', 'imbecil', 'bobo', 'parvo', 'palerma', 'tolo'}}
+bocó {1: {'idiota', 'pacóvio', 'bocoió', 'paspalhão', 'pateta', 'maluco', 'imbecil', 'bobo', 'boboca', 'parvo', 'palerma'}}
+Brasil {1: {'Brazil', 'Pindorama'}, 2: {'República Federativa do Brasil'}}
+idiota {1: {'pacóvio', 'néscio', 'estúpido', 'lorpa', 'bobo', 'bocó', 'estroso', 'otário', 'palerma', 'tolo', 'estulto', 'paspalhão', 'pateta', 'maluco', 'imbecil', 'lerdo', 'boboca', 'parvo', 'ignorante', 'burro'}, 6: {'AFI'}}
+bobo {1: {'pacóvio', 'lorpa', 'bocó', 'mané', 'leso', 'abirobado', 'débil', 'aparvalhado', 'tonto', 'palerma', 'estulto', 'idiota', 'paspalhão', 'abobalhado', 'pateta', 'maluco', 'imbecil', 'boboca', 'abobado', 'parvo', 'apatetado', 'zé mané', 'basbaque'}, 2: {'palhaço', 'bobô', 'bobinho', 'pato', 'basbaque', 'tolo'}}
+imbecil {1: {'idiota', 'pacóvio', 'paspalhão', 'paspalho', 'pateta', 'maluco', 'lorpa', 'bobo', 'bocó', 'boboca', 'bobão', 'parvo', 'palerma'}}
+maluco {1: {'louco', 'idiota', 'pacóvio', 'paspalhão', 'pateta', 'imbecil', 'bocó', 'bobo', 'boboca', 'doido', 'parvo', 'palerma'}}
+pacóvio {1: {'idiota', 'paspalhão', 'pateta', 'maluco', 'imbecil', 'bobo', 'bocó', 'boboca', 'parvo', 'palerma'}}
+palerma {1: {'toleirão', 'pacóvio', 'papalvo', 'paspalho', 'lorpa', 'bocó', 'bobo', 'pascácio', 'otário', 'tonto', 'tanso', 'tolo', 'idiota', 'retardado', 'paspalhão', 'pateta', 'maluco', 'imbecil', 'boboca', 'tantã', 'cretino', 'parvo'}, 2: {'sambanga'}}
+pateta {1: {'patetinha', 'idiota', 'pacóvio', 'patetito', 'paspalhão', 'maluco', 'imbecil', 'bocó', 'boboca', 'bobo', 'parvo', 'palerma'}}
+paspalhão {1: {'idiota', 'pacóvio', 'pateta', 'maluco', 'imbecil', 'bocó', 'bobo', 'boboca', 'parvo', 'palerma'}}
+parvo {1: {'idiota', 'pacóvio', 'babaca', 'paspalhão', 'pateta', 'imbecil', 'bocó', 'bobo', 'otário', 'palerma', 'tolo'}}
+abulia {1: {'hipobulia'}}
+moçambique {1: {'simongoiá', 'samanguaiá', 'cernambi', 'simanguaiá', 'maçambique', 'sapinhanguá'}}
+abolish {1: {'destroy', 'do away with'}}
+meretriz {1: {'latim'}}
+bagunça {1: {'confusão', 'barafunda', 'arerê', 'zona', 'zorra', 'baderna', 'muvuca', 'piseiro'}}
+habitante {1: {'residente'}, 2: {'residente'}}
+baderna {1: {'barafunda', 'bagunça', 'confusão', 'zorra'}}
+zorra {1: {'confusão', 'baderna', 'bagunça', 'raposa', 'caos', 'desordem'}, 2: {'zorro', 'fêmea', 'zorrar', 'derivado', 'zorra', 'português', 'raposa', 'AFI'}}
+barafunda {1: {'confusão', 'zorra', 'baderna', 'bagunça', 'desordem'}}
+pouco {1: {'insuficiente'}}
+rede {1: {'rede de pesca', 'internet', 'internete'}}
+gringo {1: {'estrangeiro'}, 2: {'griego', 'estrangeiro', 'grego'}}
+estrangeiro {1: {'gringo', 'ádvena'}}
+pacova {1: {'banana', 'bananal', 'bananada'}}
+abominable {1: {'abominably', 'loathsome', 'AFI'}}
+papiamento {3: {'keel'}}
+abominate {1: {'abhor'}}
+camponês {1: {'campônio', 'rústico', 'campónio', 'capiau'}}
+pêssego {1: {'malacatão'}}
+septemdecim {1: {'decem et septem'}}
+pericarpo {1: {'pericárpio'}}
+epicarpo {1: {'pericarpo', 'mesocarpo', 'exocarpo', 'endocarpo', 'casca', 'pele'}}
+absolutely {1: {'completely'}}
+absence {1: {'lack', 'absent'}}
+absolution {1: {'indulgence', 'forgiveness', 'pardon', 'remission', 'redemption'}}
+abstain {1: {'abstinence', 'refrain', 'withhold', 'deny oneself', 'relinquish', 'give up', 'evitar', 'abstinent', 'forbear', 'refrear', 'abstention'}}
+filho da puta {1: {'filho duma égua', 'FDP', 'filho da mãe', 'filho de rapariga', 'fideputa'}}
+tagalo {1: {'tagal'}}
+banda desenhada {1: {'gibi', 'tira cômica', 'história em quadrinhos', 'minissérie', 'fanzine', 'tira de banda desenhada', 'charge', 'série limitada', 'história completa', 'romance gráfico', 'cartum'}}
+tcheco {1: {'checo'}}
+cento {1: {'centena', 'cem'}}
+C {1: {'cong'}}
+abstract {1: {'impalpable', 'abstraho'}}
+puta {1: {'bela', 'guria', 'menina', 'garota', 'puela', 'baita', 'rapariga', 'senhora', 'prostituta'}}
+magusto {1: {'magosto'}}
+verbete {1: {'apontamento', 'entrada'}}
+cornudo {1: {'cornuto', 'cornígero', 'bicudo', 'chifrudo', 'cornífero', 'lunado', 'complicado'}, 2: {'cornaça', 'cabrão', 'corno', 'chifrudo'}}
+Timor-Leste {2: {'Osttimor', 'AFI'}, 3: {'República Democrática de Timor Oriental', 'Timor Oriental', 'timorense'}}
+sofisma {1: {'logro', 'enganação', 'falácia'}}
+pitaco {1: {'AFI', 'piruada', 'chute', 'opinião'}}
+laparotomia {1: {'celiotomia'}}
+café da manhã {1: {'matapichu', 'pequeno almoço', 'desjejum', 'café'}}
+sem-número {1: {'infinidade', 'sem', 'número'}}
+pequeno almoço {1: {'dejejum', 'café da manhã', 'desjejum'}}
+desjejum {1: {'café da manhã', 'pequeno almoço'}}
+conjunto {1: {'próximo', 'junto', 'ligado', 'contíguo'}, 2: {'coleção', 'equipe', 'grupo'}}
+videolog {1: {'vlog', 'videoblog'}}
+videoblog {1: {'vlog'}}
+vlog {1: {'videoblog', 'videolog'}}
+palpite {1: {'terceira pessoa', 'negativo', 'presente', 'imperativo', 'modo subjuntivo', 'singular', 'pitaco', 'afirmativo', 'palpitar'}}
+trini {1: {'bini', 'terni', 'tres', 'tria', 'triplex', 'quaterni'}}
+opinião {1: {'juízo', 'julgamento', 'pensamento', 'ideia', 'convicção', 'voto', 'parecer'}}
+fidedigno {1: {'verdadeiro', 'confiável'}}
+confuso {1: {'perturbado', 'indistinto', 'obtuso', 'babélico', 'aturdido', 'desconcertado', 'abstruso', 'embaraçado', 'vago', 'ababelado', 'atrapalhado', 'impreciso', 'torvado', 'caótico', 'misturado', 'tumultuoso', 'obscuro', 'vasconço', 'atordoado', 'complicado'}}
+plantar {1: {'semear'}}
+haxixe {1: {'maconha'}}
+fluvial {1: {'fluviátil'}}
+alter {1: {'secundus'}}
+camalote {1: {'tarope', 'aguapé'}}
+replemento {1: {'explemento', 'ângulo conjugado'}}
+dia {1: {'jornada'}}
+ami {1: {'copain', 'flirt', 'amant'}}
+je {4: {'terceira pessoa', 'do', 'verbo', 'byť', 'pessoa', 'singular', 'AFI', 'biti', 'indicativo'}, 8: {'latim vulgar', 'latim'}}
+prótio {1: {'monotério', 'deutério', 'trítio', 'hidrogenio leve'}}
+δεκατρία {1: {'δώδεκα', 'δεκατέσσερα', 'δεκατρείς'}}
+δεκατρείς {1: {'δεκατρία', 'δώδεκα', 'δεκατέσσερα'}}
+δεκατέσσερα {1: {'δεκατρία', 'δεκαπέντε', 'δεκατρείς'}}
+laranja {1: {'alaranjado'}}
+άνθρωπος {1: {'άντρας', 'άνδρας', 'σύζυγος', 'ἄνθρωπος'}}
+zigoto {1: {'ovo'}}
+feliz aniversário {1: {'parabéns'}}
+cinza {1: {'cinzento'}, 2: {'álcali'}}
+arco {1: {'curva', 'tiara', 'testeira'}}
+mulher {1: {'molher'}}
+deutério {1: {'hidrogênio pesado', 'hidrogénio pesado'}}
+hibridismo {1: {'hibridez', 'híbrido'}}
+april {1: {'AFI', 'måned', 'år'}, 2: {'leto'}, 3: {'jier'}, 4: {'maand', 'AFI', 'jaar'}, 6: {'AFI'}, 8: {'mesec', 'година', 'godina', 'месец'}, 9: {'månad', 'AFI'}}
+clique {1: {'estalo', 'som clicante', 'som estalante'}, 2: {'panelinha', 'clicante', 'clicável', 'clicado', 'clicar'}}
+grampeador {1: {'agrafador'}}
+prefácio {1: {'antelóquio', 'proêmio', 'prólogo', 'prolegômenos', 'introdução', 'prefação', 'anteâmbulo', 'apresentação', 'prolusão', 'preliminar', 'prelúdio', 'preâmbulo', 'exórdio'}}
+música {1: {'filarmônica', 'filarmónica', 'orquestra', 'musiqueta'}}
+trítio {1: {'trício'}}
+indenização {1: {'reparação', 'recompensa'}}
+e.g. {1: {'AFI', 'exempli gratia', 'for example'}}
+άνδρας {1: {'άντρας', 'ανδράποδο', 'άνθρωπος', 'ανδρεία'}}
+nódoa {1: {'opróbio', 'estigma', 'latim tardio', 'mácula'}}
+notável {1: {'célebre', 'perceptível'}}
+pai {1: {'papá', 'painho', 'Velho', 'papai'}}
+mãe {1: {'iara', 'ialorixá'}}
+ligação {1: {'chamada', 'ligada', 'chamada telefônica', 'chamada telefónica'}}
+filho de rapariga {1: {'filho da puta'}}
+exempli gratia {1: {'ablativo', 'genitivo', 'ad hoc', 'ex officio', 'sine die', 'ab initio', 'exemplum', 'ad nutum'}}
+anaconda {1: {'cingalês', 'sucuri'}}
+ab initio {1: {'ad hoc', 'sine die', 'ex officio', 'ab ovo', 'ad æternum'}}
+duplo {1: {'simples', 'dois', 'dobro', 'triplo', 'dublê', 'dúplice'}}
+triplo {1: {'tresdobro', 'tríplice'}}
+acutângulo {1: {'oxígono', 'ângulo'}}
+congênito {1: {'conatural', 'conato', 'conveniente', 'acomodado', 'inato'}}
+anomalia {1: {'desigualdade', 'aberração'}}
+história {1: {'período', 'regras', 'chico', 'chica', 'estória'}}
+enólogo {1: {'barista', 'mestre cervejeiro', 'sommelier', 'barman', 'cachacista', 'mixólogo'}}
+palatável {1: {'aceitável', 'tolerável', 'palatabilidade'}}
+servus {1: {'famulus', 'servio', 'servitus', 'serva', 'servitudo'}}
+esclerótica {1: {'esclera'}}
+derme {1: {'dermobrânquio', 'dermoflebite', 'dermotropia', 'dermacentroxênico', 'dermovacínida', 'dermovacinóide', 'dermorrexia', 'dermítico', 'dermovacinogenia', 'dermeano', 'dermofítico', 'dermócibe', 'derméstide', 'dermocele', 'dermolítico', 'dermoterapêutico', 'dermópio', 'dermossifilítico', 'dermovacinação', 'dermanissídeo', 'dermovacinoterápico', 'dermólito', 'dermorrinco', 'dermomicose', 'dermopapilograma', 'dermopático', 'dermoblastio', 'dermodermáptero', 'dermótomo', 'dermanaplástico', 'dermectático', 'dermovacinia', 'dermocimo', 'dermoterapeuta', 'dermovacinoprofiláctico', 'dermanisso', 'dermoterapista', 'dermovacinoprofilaxia', 'dermalgia', 'dermáptero', 'dermolabial', 'dermabrasivo', 'dermaníssio', 'dermoflebítico', 'dermovacinófobo', 'dermovacinofóbico', 'dermografismo', 'dermacentor', 'dermotropístico', 'dermotômico', 'dermofagia', 'dermoplastia', 'derma', 'dermesto', 'dermodontia', 'dermoblasto', 'dermal', 'dermomicótico', 'dermovacinar', 'dermoplástico', 'dermogênico', 'dermovacinador', 'dermopapilografia', 'dermoterapia', 'dermomiíase', 'dermoterapismo', 'dermopapilógrafo', 'dermonecrose', 'dermóglifo', 'dermografista', 'dermogenia', 'dermectasia', 'dermossinovite', 'dermopatia', 'dermocélico', 'dermolisia', 'dermotomia', 'dermanissíneo', 'epiderme', 'dermossinovítico', 'dermovacínico', 'dermologia', 'dermite', 'dermodinia', 'dermol', 'dermosteose', 'dermoquelídeo', 'dermomuscular', 'dermógrafo', 'dermorréxico', 'dermabrasão', 'dermoblástico', 'dermovacinado', 'dermesta', 'dermacentroxeno', 'dermoterápico', 'dermopapiloscópico', 'dermovacinoterapia', 'dermestes', 'dermocima', 'dermóptero', 'dermoabrasão', 'dermápteros', 'dermovacinofobia', 'dermosqueleto', 'dermovacínide', 'dermóquelis', 'dermovacinal', 'córion', 'dermólise', 'dermossífilis', 'dermosteótico', 'dermoidectômico', 'dérmea', 'dermológico', 'dermotáctil', 'dermologista', 'dermanaplastia', 'dermopapilográfico', 'dermólico', 'dermófago', 'dermálgico', 'dermográfico', 'dermografia', 'dermoidectomia', 'dermófito', 'derméstida', 'dermestídeo', 'dermotrópico', 'dermodonte', 'dermopapiloscopia', 'dérmico', 'dermólogo', 'dermovacinogênico', 'dermectásico', 'dermáfito', 'dermótropo', 'dermovacinífero', 'dérmeo', 'dermovacina', 'dermopapilar', 'dermóide', 'dermotropismo', 'influência'}}
+endinheirado {1: {'rico', 'abastado'}}
+vir {1: {'ocorrer', 'surgir'}, 2: {'homo', 'mas'}}
+mare {1: {'aqua'}}
+pinga {1: {'cachaça'}}
+malus {2: {'malum', 'maleficium'}}
+verbi gratia {1: {'ad hoc', 'sine die', 'ex officio', 'exempli gratia', 'ab initio', 'ad nutum'}}
+Jeová {1: {'Javé'}}
+pequeno {1: {'pichititinho', 'pichinchinho'}}
+carta {1: {'linhas', 'menu', 'cardápio', 'carta de condução', 'missiva', 'escrito', 'epístola', 'carta de motorista', 'habilitação'}, 2: {'charta'}}
+oi {1: {'olá'}}
+olá {1: {'buenas'}}
+bombeiro {1: {'zabumbeiro', 'bumbeiro', 'artilheiro'}}
+militar {1: {'milico'}}
+comprar {1: {'subornar'}}
+hebdomadário {1: {'semanário'}}
+portugais {1: {'lusitanien'}, 2: {'ibérique', 'perífrase', 'Portugal', 'langue de Camões', 'lusophone'}}
+extinção {1: {'arrancamento', 'extinto', 'erradicação', 'abolição', 'desenraizamento', 'extinguido', 'cessação', 'eliminação', 'revogação', 'debelação', 'extintivo', 'extinguível', 'extinguir', 'desarraigamento', 'extintor', 'extinguidor'}}
+ônus {1: {'sobrecarga', 'contribuição', 'imposto', 'obrigação', 'vínculo', 'carga', 'tributo', 'encargo', 'gravame', 'peso'}}
+adquirente {1: {'adquiridor'}}
+colendo {1: {'precolendo', 'latim', 'venerando', 'venerável'}}
+inacreditável {1: {'incrível'}}
+rapidamente {1: {'rápido', 'depressa', 'de relance'}}
+calmamente {1: {'placidamente', 'tranquilamente', 'pacificamente'}}
+tu {2: {'formal', 'AFI'}, 4: {'AFI'}, 5: {'formal', 'particípio passado', 'verbo', 'calado', 'silenciado', 'AFI', 'francês antigo', 'tutoyer'}, 6: {'formal', 'masculino', 'feminino'}, 7: {'AFI'}, 8: {'AFI'}, 9: {'formal'}, 10: {'formal', 'AFI'}, 12: {'AFI'}, 13: {'formal', 'dumneata', 'polido', 'AFI', 'dumneavoastră'}, 14: {'espanhol', 'italiano'}, 15: {'forma', 'två', 'AFI'}, 16: {'formal'}}
+test {1: {'ezmûn', 'îmtîhan', 'cerribandin', 'cêrribandin', 'prove', 'taqî'}}
+there {1: {'thither', 'thereby', 'therefore'}}
+staff {1: {'personnel', 'stave'}}
+média {1: {'mídia', 'mediante', 'media', 'mediar', 'medial', 'meio', 'mediana', 'mediastino', 'mediação', 'mediatário'}}
+fulfill {1: {'comply with', 'satisfy', 'obey'}}
+purpose {1: {'objetivo', 'objective', 'function', 'função'}}
+este {1: {'oriente', 'levante'}}
+bias {1: {'AFI', 'prejudice'}}
+assess {1: {'appraise', 'value', 'assessment', 'evaluate', 'measure', 'AFI', 'assessor', 'valuate'}}
+χρυσός {2: {'AFI', 'grego antigo'}}
+ouro {1: {'oiro'}}
+starvation {1: {'eat', 'derivação por sufixação', 'nourish', 'AFI'}}
+bœuf {1: {'latim', 'AFI', 'pelo', 'francês antigo', 'bouse'}}
+boi {1: {'grogoiô', 'maricas', 'cabaça'}}
+toro {1: {'bocelão'}}
+bumbo {1: {'zabumba', 'bombo'}}
+odor {1: {'cheiro'}}
+trovador {1: {'vate', 'cantador', 'trovadorismo', 'poeta', 'cantautor', 'bardo', 'aedo', 'menestrel'}}
+bravo {1: {'bravus', 'destemido', 'brabo', 'corajoso'}}
+portuguès {1: {'AFI'}}
+portugál {1: {'português', 'Portugália', 'AFI', 'Portugal'}}
+uomo {1: {'omuncolo', 'omaccio', 'operaio', 'moglie', 'omino', 'affiliato', 'marito', 'ometto', 'ominide', 'omone', 'latim', 'bambino', 'ragazzo', 'incaricato', 'AFI', 'ominino', 'complice'}}
+sol {1: {'fá dobrado sustenido', 'lá dobrado bemol'}, 3: {'inglês', 'espanhol', 'latim'}, 9: {'latim'}}
+ήλιος {1: {'AFI', 'grego antigo', 'άστρο'}}
+ferramenta {1: {'instrumento'}}
+ημέρα {1: {'μέρα', 'σήμερα'}}
+μέρα {1: {'ημέρα'}}
+mouse {1: {'mause', 'periférico', 'cursor', 'informática', 'rato'}}
+calendário {1: {'calendairo', 'folhinha'}}
+fotografia {1: {'foto', 'retrato'}}
+pantera {1: {'tigresa'}}
+ser {1: {'existir', 'haver'}, 2: {'ésser'}, 3: {'baş', 'kafa'}}
+problem {1: {'trouble', 'latim', 'πρόβλημα', 'AFI', 'grego antigo'}}
+recife {1: {'arrecife'}}
+therefore {1: {'then', 'consequently', 'accordingly'}, 2: {'there', 'for', 'thus', 'on that ground', 'for that reason', 'AFI', 'as a result', 'hence', 'because of this'}}
+spurious {1: {'false', 'fake'}}
+pôr-do-sol {1: {'ocaso', 'poente'}}
+ocaso {1: {'anoitecer', 'oeste', 'poente', 'anoutecer', 'ocidente'}}
+new {1: {'newbie', 'fresh', 'brand new', 'newe', 'newly', 'renew', 'current', 'inglês antigo', 'anew', 'recent', 'niwe', 'AFI', 'news', 'newo', 'inglês médio'}}
+until {1: {'till'}, 2: {'till', 'AFI', 'SAMPA'}}
+accent {1: {'decorative'}, 2: {'emphasis', 'decor', 'decoration'}}
+união {1: {'clube', 'acordo', 'sindicato', 'ligação', 'matrimonial', 'reunião', 'aliança', 'laço', 'luva', 'sociedade', 'adesão', 'junção'}}
+porco {1: {'cochino', 'reco', 'cerdo', 'suíno'}}
+arruela {1: {'anina', 'anilha'}}
+cabeça {1: {'chefe', 'juízo', 'comandante', 'líder'}}
+venusiano {1: {'venusino'}}
+lama {1: {'lodo', 'barro'}}
+μητέρα {1: {'οικογένεια', 'γονείς', 'μήτηρ', 'μάνα'}}
+mère {1: {'maman'}}
+indumento {1: {'indúvia', 'induto'}}
+papa {1: {'Sumo Pontífice'}, 2: {'patata'}, 3: {'pappa', 'pappie', 'AFI', 'vaartje', 'pa'}, 4: {'dada', 'daddy', 'pappa', 'dad', 'pa', 'bebê', 'linguagem', 'pop', 'pater'}, 5: {'pontefice'}}
+an {1: {'arg'}, 2: {'de'}, 3: {'année'}, 5: {'so long as', 'if'}, 6: {'each', 'per'}, 9: {'AFI'}}
+first {1: {'least'}, 3: {'AFI', 'anterior'}}
+for {1: {'passado'}, 2: {'because'}, 3: {'supporting', 'direct', 'because', 'towards', 'intend'}, 4: {'ær', 'beforan'}, 5: {'dico', 'fatum', 'infans', 'affor', 'interfor'}, 6: {'fordi'}}
+and {1: {'in addition to', 'plus', 'too', 'with', 'as well as', 'together', 'also', 'then'}}
+node {1: {'cruïlla', 'nus'}}
+what {1: {'such'}}
+look {1: {'appearance'}}
+بنت {1: {'ابنة'}}
+computation {1: {'calcul'}, 2: {'compute', 'calcul', 'computer', 'computing'}}
+least {1: {'first'}}
+cálculo {1: {'conjetura', 'pedra', 'cômputo'}}
+eigenvalue {1: {'value', 'eigenroot', 'characteristic value', 'characteristic root', 'latent value', 'alemão', 'eigen', 'AFI'}}
+sparse {1: {'scanty'}}
+dado {1: {'agradável', 'habituado', 'permitido', 'inclinado', 'propenso', 'tratável', 'doado', 'facultado', 'entregue', 'oferecido', 'afável', 'acostumado'}, 3: {'árabe clássico', 'dar', 'latim', 'AFI', 'número'}}
+data {1: {'databas', 'dator', 'information'}}
+أب {1: {'والد'}}
+Mutter {1: {'Stiefmutter', 'Ma', 'Mammi', 'Muttersprache', 'porca', 'Schwiegermutter', 'Großmutter', 'Muttchen', 'Mami', 'Muttel', 'Pflegemutter', 'parafuso', 'Urgroßmutter', 'Mutti', 'Muttl', 'Mama'}}
+friend {1: {'befriend', 'friendship', 'lover', 'bud', 'inglês antigo', 'friendly', 'crony', 'buddy', 'frend', 'pal', 'boyfriend', 'schoolfriend', 'girlfriend', 'mate', 'fellow', 'AFI', 'chum'}}
+mirandês {1: {'mirandense', 'corvino'}}
+anticonstitucionalissimamente {1: {'Macau', 'inconstitucionalissimamente', 'Portugal', 'AFI', 'PALOPs'}}
+cérebro {1: {'mioleira'}}
+face {1: {'cara', 'chipala', 'rosto'}}
+brain {1: {'brains', 'mind'}}
+cara {1: {'rostru'}}
+gato {1: {'gatão', 'borracho'}, 2: {'gatuno', 'ladrão'}}
+mamalia {1: {'hewan menyusui'}}
+amanhã {1: {'crás'}}
+Ιανουάριος {1: {'Γενάρης'}}
+Φεβρουάριος {1: {'Φλεβάρης'}}
+Μάρτιος {1: {'Μάρτης'}}
+Απρίλιος {1: {'Απρίλης'}}
+Δεκέμβριος {1: {'Δεκέμβρης'}}
+olho {1: {'broto', 'sagacidade', 'gema', 'óculo', 'olho de boi', 'rebento', 'buraco', 'perspicácia'}}
+about {1: {'almost', 'approximately', 'just about'}}
+tramp {1: {'vagabond', 'bum', 'hobo'}}
+mart {1: {'market'}}
+taxonomia {1: {'taxinomia', 'taxionomia'}}
+casa {1: {'patamar', 'nível'}}
+رئيس {1: {'رأس'}}
+TI {1: {'TIC'}}
+muxapira {1: {'mosapyr', 'iepê', 'erundi'}}
+erundi {1: {'pô', 'irundic', 'guaxuni', 'muxapira'}}
+orifício {1: {'buraco', 'abertura'}}
+install {1: {'installation'}}
+ma {1: {'até', 'AFI', 'moeder'}, 4: {'më'}, 5: {'enfatizado'}, 8: {'mä', 'minä'}, 9: {'AFI', 'moeder'}, 10: {'AFI'}, 11: {'AFI'}, 13: {'AFI'}, 15: {'AFI', 'mieć'}, 18: {'maua', 'AFI'}}
+não {1: {'nanja'}}
+guaxuni {1: {'muxuni', 'xe pó', 'erundi', 'irundic', 'pó'}}
+motorista {1: {'chofer'}}
+bi {1: {'bissexual'}, 2: {'sexo', 'masculino', 'biba', 'homossexual', 'bicha'}}
+abá {1: {'apyaba', 'avá', 'abaré', 'abaetê'}}
+mies {2: {'merimies', 'palomies'}}
+avá {1: {'avaeté', 'avaré'}, 2: {'abaré', 'abaeté', 'abá'}}
+foto {1: {'AFI', 'fotografaĵo'}, 2: {'kiekje'}, 3: {'gambar'}, 4: {'gambar'}}
+practice {1: {'AFI', 'exercise'}}
+concede {1: {'ir', 'dar', 'deixar', 'suffer', 'yield', 'surrender', 'entregar', 'grant', 'concedere'}}
+assent {1: {'permission', 'acquiescence', 'approval', 'consent', 'agreement'}, 2: {'inglês médio', 'AFI', 'acquiesce', 'yield', 'francês médio', 'accede'}}
+faixa {1: {'faixa de pedestres'}}
+ornato {1: {'ornamento', 'enfeite', 'adorno'}}
+dinheiro {1: {'grana', 'tutu', 'gaita', 'bufunfa', 'pecúnia', 'dindim', 'móni', 'pataco', 'turu', 'cobre', 'mango'}}
+cimo {1: {'cume', 'tope', 'topo'}}
+neo- {1: {'grego', 'novo'}}
+unwilling {1: {'hesitant', 'willing', 'disinclined'}}
+responsibility {1: {'responsibly', 'accountability', 'AFI', 'respond', 'response', 'responsible', 'responsibleness'}}
+attempt {1: {'try'}}
+lawmaker {1: {'legislator', 'maker', 'law'}}
+carona {1: {'bigu', 'boleia'}, 2: {'passageiro'}}
+one {1: {'only'}, 2: {'any', 'they'}, 3: {'single', 'anterior', 'inglês médio'}}
+peixe-boi {1: {'manati', 'guaraguá'}}
+homossexual {1: {'homossexualmente', 'homoerótico'}}
+make {1: {'crack', 'drop'}}
+bat {1: {'varan', 'balawan', 'ipmin', 'batn', 'sivlen'}}
+anta {1: {'tapir'}}
+lentoasema {1: {'voo', 'lento', 'lentokenttä', 'estação', 'asema'}}
+por {1: {'per'}, 2: {'AFI'}, 3: {'latim'}, 4: {'AFI', 'latim'}}
+I {1: {'aetá'}}
+categoria {1: {'rubrica', 'classificação', 'tema'}}
+borguinhão {1: {'Borgonhês'}}
+get {1: {'have', 'come down with', 'cause', 'obtain', 'take', 'dig', 'perplex', 'get hold of', 'come by', 'commence', 'make', 'give', 'begin', 'stump', 'follow', 'catch', 'receive', 'arrive', 'bring', 'beget', 'forget', 'reach', 'go', 'move', 'understand', 'be', 'confuse', 'take possession of', 'acquire', 'fetch', 'make sense of', 'start', 'hear', 'be able to', 'become'}}
+fato {1: {'facto', 'terno'}, 2: {'boubexo', 'paneco', 'papaleisón', 'paparote', 'panoco', 'papamoscas', 'paspán', 'babiolo', 'palimoco', 'parvallán', 'pampo', 'paparón', 'estulto', 'papahostias', 'palermo', 'papaxoubas', 'babeco', 'papón', 'paiolo', 'pandio', 'boubo', 'parallán', 'paduán', 'papán', 'papafilloas', 'papaina', 'parvo', 'papaverzas', 'pánfilo'}}
+breque {1: {'freio', 'travão'}}
+pedra {1: {'rebo', 'calhau'}}
+de {1: {'acerca de', 'diante de', 'por causa de', 'a respeito de', 'dentre', 'pelo', 'sobre', 'pela', 'como', 'para', 'com'}, 2: {'deu'}, 5: {'AFI'}, 6: {'diante de'}, 8: {'diante de'}, 9: {'AFI'}, 12: {'AFI'}}
+teto {1: {'plafom', 'plafond'}}
+assurini {1: {'açurini'}}
+want {1: {'wanting', 'nórdico antigo', 'would', 'like', 'want ads', 'wanted', 'inglês médio', 'require', 'want for', 'be', 'unwanted', 'in need of', 'wish', 'need', 'vanta', 'AFI', 'desire', 'wanna'}}
+homosexual {1: {'gay', 'lesbian'}, 2: {'gay', 'lesbian'}}
+hundur {1: {'rakki'}, 2: {'rakki'}}
+σκύλος {1: {'grego antigo', 'σκυλί'}}
+σκυλί {1: {'σκύλος', 'κύων'}}
+κύων {1: {'AFI', 'grego antigo', 'κυνικός', 'κυνοφιλία', 'σκύλος', 'σκυλί'}}
+κυνικός {1: {'ωμός'}}
+nazismo {1: {'hitlerismo'}}
+se {1: {'sebe'}, 2: {'sebe'}}
+två {2: {'rengöra', 'tvätta'}}
+nheengatu {1: {'tupi moderno', 'tupi do norte', 'tupi amazônico', 'língua geral amazônica', 'língua brasílica', 'língua geral da Amazônia'}, 2: {'tupi', 'língua'}}
+beringela {1: {'brinjela', 'berinjela'}}
+irundic {1: {'mossapyr', 'xe pó', 'muxapira', 'erundi', 'guaxuni', 'pó'}}
+xe pó {1: {'muxuni', 'erundi', 'guaxuni', 'irundic', 'pó'}}
+oixé {1: {'oixepé', 'xeié', 'xe pó mossapyr'}}
+κεφαλή {1: {'κεφαλιου', 'κεφαλί'}}
+apyaba {1: {'avá', 'abá'}}
+gronelandês {1: {'groenlandês'}}
+feto {1: {'embrião'}}
+amanajé {1: {'ararandeuara', 'manaié'}}
+fazer {1: {'fabricar', 'gerar', 'proporcionar', 'criar', 'construir', 'conseguir', 'ser', 'praticar', 'terminar', 'formar', 'excretar', 'concluir', 'inventar', 'produzir', 'executar', 'perfazer', 'evacuar', 'proceder', 'vir', 'tornar', 'realizar'}}
+começar {1: {'encetar', 'iniciar', 'inaugurar', 'principiar'}}
+oceano {1: {'oceânico'}, 2: {'mar'}}
+cocô {1: {'bosta', 'merda'}}
+nu {2: {'ni'}, 3: {'nun', 'jetzt'}, 4: {'AFI'}, 6: {'èpsilon', 'Ξ', 'κ', 'β', 'Τ', 'ψ', 'Δ', 'ξ', 'ε', 'Γ', 'Ρ', 'χ', 'Χ', 'Ε', 'Κ', 'τ', 'Λ', 'ω', 'Andorra', 'π', 'Ι', 'ípsilon', 'catalão antigo', 'Φ', 'Ο', 'φ', 'ν', 'AFI', 'Η', 'nu', 'Ζ', 'Σ', 'ζ', 'Ν', 'alfabeto grego', 'υ', 'Β', 'Α', 'ρ', 'Π', 'α', 'Υ', 'σ', 'γ', 'Ψ', 'òmicron', 'latim', 'θ', 'ι', 'λ', 'Θ', 'η', 'μ', 'ο', 'ς', 'Ω', 'δ', 'Μ'}, 10: {'latim'}, 12: {'so', 'well', 'so what'}, 14: {'käna', 'šu', 'käwa', 'käzhan', 'gänu', 'ngai', 'käšu'}}
+cor {1: {'cores'}}
+fechar {1: {'choer'}}
+significado {1: {'sentido', 'significação'}}
+thesaurus {1: {'tesauro'}}
+unu {1: {'AFI'}, 2: {'yaku'}}
+ou {1: {'isto é'}, 6: {'possivelmente', 'Estados Unidos', 'entre', 'homem', 'derivado', 'guy', 'Reino Unido', 'velho', 'AFI', 'holandês'}}
+feminino {1: {'fêmeo', 'mulheril'}}
+comply with {1: {'comply', 'with', 'fulfill', 'obey'}}
+cona {1: {'crica', 'conedo', 'mexilhão', 'pão de mafra', 'pardal', 'pardaloca', 'chinquilha', 'senaita', 'racha', 'canesgo', 'bejelga', 'xoxota', 'chocha', 'pipi', 'patareca', 'greta', 'parreca', 'vulva', 'boca do corpo', 'parreco', 'pachacha', 'parrachita', 'prima', 'boca sem dentes', 'xarolo', 'clarinete', 'rata', 'papovski', 'viscosa', 'murfinha', 'vagina', 'enconar', 'caverna', 'xoxa', 'pechenica', 'papo seco', 'beiça', 'xarola', 'Xanfra', 'gralha', 'lola', 'pomba', 'pita', 'gruta', 'lambreta', 'xota', 'xarifa', 'bacalhau', 'ninho de varejeiras', 'pito', 'papo', 'pachacho', 'pintxa', 'piriquita', 'boceta', 'passareca', 'enconicar', 'xaroca', 'grelo'}}
+cópula {1: {'conjunção carnal', 'copulação'}}
+oixepé {1: {'peyé', 'oixé', 'xe pó irundic', 'xe pó erundi'}}
+peyé {1: {'onze', 'mokõe pó', 'oixepé'}}
+islame {1: {'islão', 'islã'}}
+islão {1: {'islame', 'islã'}}
+islã {1: {'islão', 'islame'}}
+sílaba {1: {'palavra'}}
+cotejar {1: {'colacionar', 'confrontar', 'contrastar', 'comparar', 'contrapor', 'acarear', 'acarar'}}
+verdelhão {1: {'verderol', 'verdilhão', 'verdizelo', 'verdelha'}}
+cunhá {1: {'cuña', 'kuña', 'cunhataĩ', 'cunumi'}}
+bicentenário {1: {'bissecular', 'ducentenário'}, 2: {'ducentenário'}}
+sucinto {1: {'sintético', 'breve', 'sinóptico', 'resumido', 'restrito', 'curto', 'conciso', 'reduzido', 'lacônico', 'lacónico'}, 2: {'AFI'}}
+vela {1: {'sentinela', 'candeia', 'vela de ignição', 'círio', 'pano', 'vigia', 'vigília'}, 2: {'velar'}}
+fini {1: {'perdu', 'limité', 'foutu', 'achevé', 'fait'}, 2: {'assez'}}
+codorniz {1: {'cotorniz', 'calhota', 'cracolé', 'calcaré', 'paspalhás'}}
+avô {1: {'vô', 'vovô'}}
+avó {1: {'vó', 'vovó'}}
+bílis {1: {'bile', 'fel'}}
+fel {1: {'hûd'}, 2: {'fell', 'hyd'}, 3: {'húngaro', 'soi', 'stil', 'gen', 'mod', 'AFI', 'planta'}, 4: {'förvillelse', 'misstag'}}
+tanga {1: {'cueca', 'peta'}}
+tela {1: {'ecrã', 'pintura', 'quadro', 'pantalha'}}
+manauara {1: {'manauense'}}
+pequeno-almoço {1: {'desjejum'}}
+beleza {1: {'belê'}}
+Mann {1: {'Ehemann'}}
+maður {1: {'karl', 'mannvera', 'taflmaður', 'manneskja', 'eiginmaður', 'karlmaður'}}
+muž {1: {'manžel'}}
+idioma {1: {'linguagem', 'língua'}}
+язык {1: {'substantivo', 'adjetivo', 'AFI'}}
+lua {1: {'lüa', 'luma'}}
+varão {1: {'macho', 'homem'}, 2: {'cavalheiro', 'macho', 'homem'}}
+rato {1: {'mouse', 'mause'}}
+refrigerante {1: {'gasosa', 'refri'}}
+AIDS {1: {'SIDA'}}
+auga {1: {'chuvia'}, 2: {'diminutivo'}, 3: {'AFI', 'øye'}}
+trem {1: {'comboio', 'xitimela'}}
+carne {1: {'polpa'}}
+meat {1: {'meat hook', 'clan', 'flesh', 'meat pie', 'totem', 'dead meat', 'meaty', 'inglês antigo', 'sweet spot', 'AFI', 'meatball'}}
+esporte {1: {'desporte', 'desporto'}}
+grão-de-bico {1: {'gravanço', 'garavanço', 'ervanço'}}
+norte-americano {1: {'americano', 'ianque', 'estadunidense'}, 2: {'estadunidense', 'interamericano', 'ianque', 'americano', 'norte'}}
+colombiano {1: {'colombino'}}
+frango {1: {'peru'}, 2: {'nabo'}}
+sapato {1: {'pisante'}}
+tomato {1: {'AFI'}}
+azzurro {1: {'blu'}}
+blu {1: {'azzurro'}}
+limon {1: {'AFI'}}
+nós {1: {'a gente'}}
+toucinho {1: {'lardo', 'toicinho'}}
+javali {1: {'porco selvagem', 'javardo', 'javari', 'javaril'}}
+mel {1: {'maciez', 'macieza', 'brandura', 'suavidade'}}
+warthog {1: {'common warthog'}}
+rabies {1: {'hydrophobia', 'rabio', 'raiva'}}
+thou {1: {'you', 'AFI', 'ðəu', 'though'}}
+comboio {1: {'trem', 'combói'}}
+martelo {1: {'malho'}}
+fluvius {1: {'rivus', 'fluvus'}}
+final de semana {1: {'fim de semana', 'fds', 'FDS', 'weekend'}}
+fim de semana {1: {'final de semana', 'finde', 'FDS', 'weekend', 'fds'}}
+αριθμός {1: {'αριθμητική', 'αριθμητικό', 'αριθμητικός', 'cálculo', 'λογαριασμός', 'numérico', 'aritmética'}}
+die {1: {'alto alemão médio'}, 3: {'stop', 'fade', 'cease'}}
+bêbado {1: {'bêbedo', 'ébrio'}}
+mater {1: {'eslavo'}, 2: {'eslavo'}, 4: {'arbusto', 'AFI', 'espanhol', 'final'}, 6: {'AFI', 'mother'}, 7: {'eslavo'}}
+me {1: {'forma'}, 3: {'AFI'}, 5: {'raramente', 'usado'}, 6: {'dativo', 'accusativo', 'e', 'inglês antigo', 'caso', 'de', 'AFI', 'inglês médio'}, 7: {'em', 'que', 'selbri', 'relação', 'argumento', 'partícula', 'um', 'sumti'}, 9: {'AFI'}, 10: {'latim'}, 11: {'origem'}, 13: {'AFI', 'mẹ'}, 14: {'AFI'}}
+nabo {1: {'pênis'}}
+ativar {1: {'disparar', 'acionar'}}
+bahamiano {1: {'lucaiano', 'baamiano', 'lucaiense', 'bahamense', 'bahamês', 'baamense', 'baamês'}}
+canadense {1: {'canadiano'}, 2: {'canadiano'}}
+dominicano {1: {'frade preto'}, 2: {'dominico', 'República Dominicana', 'dominicanismo'}}
+nicaraguense {1: {'nicaraguano'}, 2: {'Nicarágua', 'nicaraguano'}}
+estado-unidense {1: {'americano', 'ianque', 'estadunidense'}, 2: {'americano', 'ianque', 'estadunidense'}}
+irlandês {1: {'gaélico irlandês'}}
+garfo {1: {'forcado', 'ouriçador', 'forca', 'forquilha', 'forqueta'}}
+guisado {1: {'afonso', 'fervido', 'cozido'}}
+canariense {1: {'canario'}}
+noite {1: {'noute'}}
+fermento {1: {'germe', 'enzima', 'levedura'}}
+levedura {1: {'lêvedo', 'levadura', 'fermento', 'biológico', 'levedo'}}
+rebuçado {1: {'bala'}}
+jejum {1: {'privação', 'abstinência', 'abstenção', 'alimentar', 'inédia'}}
+bolo {1: {'bodoque', 'francolino', 'embriagado', 'ebrio', 'simplón', 'bobo', 'curado', 'ignorante', 'borracho'}}
+kudjér {1: {'káta'}}
+corno {1: {'chifrado', 'franqueiro', 'cornudo', 'chifrudo'}, 2: {'cornudo', 'galheiro', 'chifre', 'galho', 'galhudo', 'chavelho', 'chifrudo', 'haste'}}
+tucano {1: {'peessedebista', 'betoia'}}
+lápu-lápu {1: {'lembi'}}
+malgós {1: {'salobra'}}
+homosexuel {1: {'gay'}}
+escabrosidade {1: {'incoveniência', 'indecência', 'indecorosidade', 'aspereza', 'indecoro'}}
+rúcula {1: {'AFI', 'latim'}}
+homewards {1: {'Homeward'}}
+nitrogénio {1: {'azoto'}}
+βασιλεύς {1: {'βασιλεία', 'βασιλέας', 'βασιλιάς', 'βασιλείο', 'βασιλικός'}}
+fulano {1: {'fuão', 'fulaninho'}}
+cognome {1: {'sobrenome', 'alcunha', 'apelido'}}
+nitrogênio {1: {'azoto'}}
+moreia {1: {'caramuru'}}
+massa {1: {'tropo'}, 2: {'massoca'}}
+terceirização {1: {'externalizar'}}
+lamber {1: {'lamer', 'lambiar'}, 2: {'leccar', 'latim'}}
+itá {1: {'itaoca', 'pedra', 'itabyra', 'itambé', 'ita', 'itayubá', 'itapemirim', 'itauna', 'itacolomi'}}
+zona {1: {'bagunça', 'algazarra'}}
+gol {1: {'goleira', 'meta', 'vala', 'golo', 'arco', 'baliza'}}
+pênis {1: {'pirrola', 'benga', 'gregório', 'picareta', 'nenuco', 'pinguelo', 'choriço', 'pirulito', 'trolhão', 'pénis', 'belingueu', 'pica', 'piça', 'rola', 'ferro', 'pemba', 'pomba', 'pau', 'rolo', 'mastro', 'catatau', 'porreta', 'bráulio', 'penca', 'giromba', 'caralho', 'gurizão', 'cacete', 'jeba', 'pinto', 'tico', 'piroca', 'peru', 'mijão', 'pene', 'cajado'}}
+falo {1: {'fálus'}}
+cômputo {1: {'apuramento', 'contagem', 'computação', 'soma', 'número', 'suputação', 'computista', 'resultado', 'conto', 'apuração', 'liquidação', 'cálculo', 'conta'}}
+at {1: {'dörtnal', 'katır', 'midilli', 'satranç', 'beygir', 'eşek', 'merkep', 'aygır'}}
+xocolatl {1: {'chocolatl'}}
+rádon {1: {'radônio'}}
+radônio {1: {'rádão', 'rádon', 'radão'}}
+exordial {1: {'peça vestibular', 'petição', 'AFI', 'preâmbulo', 'peça preambular', 'petição inicial'}}
+pelágico {1: {'marino', 'mareiro', 'pelágio', 'marítimo', 'marinho'}}
+stufa {1: {'stufare', 'AFI', 'latim tardio'}}
+negociar {1: {'transacionar'}}
+testículo {1: {'tomate', 'bola', 'colhão', 'culhão', 'bago'}}
+açúcar {1: {'sacarose'}}
+produtivo {1: {'fértil', 'prolífico', 'fecundo', 'gratificante', 'frutuoso'}}
+earnest {1: {'serious', 'insistent', 'sincere'}}
+engolir {1: {'suportar'}}
+satisfação {1: {'prazer', 'muito gosto'}}
+controle {1: {'controlo', 'manete'}}
+ymbyra {1: {'ymbyrassu', 'ymbyrussu', 'ybyrá', 'ybyra'}}
+ybyra {1: {'ymbyra'}}
+embira {1: {'envira', 'embirado', 'embirar', 'tupi', 'mutamba', 'imbira', 'ou'}}
+baitola {1: {'boiola', 'veado'}}
+taxista {1: {'motorista de táxi'}}
+katu {1: {'maracatu', 'catu', 'paracatu', 'afrodisíaco', 'nu', 'gatu', 'rio', 'nheengatu', 'catuana', 'presságio', 'catussaba', 'despido', 'catuaba', 'dança', 'saúde', 'paz', 'gaturama', 'bonito', 'catupei'}}
+gatu {4: {'maracatu', 'catu', 'paracatu', 'catuaba', 'katu', 'nheengatu', 'catuana', 'gaturama', 'catussaba', 'catupei'}}
+caapor {1: {'urubu'}}
+aberration {1: {'deviation'}}
+able {1: {'talented', 'capable', 'be able to'}}
+abomination {1: {'disgust'}}
+abrade {1: {'erode'}}
+acclaim {1: {'acclamation'}}
+accord {1: {'treaty', 'agreement'}}
+according to {1: {'in conformity with', 'de conformidade com', 'de acordo com', 'in accordance with'}}
+act {1: {'pretense', 'action', 'deed'}, 2: {'take action'}}
+admit {1: {'assent', 'acknowledge', 'AFI', 'accept', 'let in', 'accede'}}
+paraná {1: {'caudaloso', 'paranaã', 'paranaguá', 'rio', 'largo', 'paranã', 'paranapanema', 'pará', 'naã'}}
+ato {1: {'lei', 'estatuto', 'edito', 'ação'}, 2: {'ajo', 'ai', 'ata'}}
+kala {2: {'AFI'}, 3: {'sânscrito'}}
+akan {2: {'AFI'}, 3: {'AFI', 'kieli', 'akka'}, 4: {'grande', 'inteligência', 'akangapé', 'borduna', 'akangussu', 'tacape', 'akangaguá', 'lucidez', 'memória', 'cabeça', 'akanga', 'crânio', 'clava', 'akangatu'}}
+vita {1: {'AFI', 'latim'}, 2: {'viti', 'kunna', 'vit'}, 3: {'AFI', 'färg', 'vit'}}
+flumen {1: {'fluvus', 'fluvius'}}
+kuka {1: {'kumpi', 'kumpikaan', 'kukaan', 'joka', 'ken', 'se'}}
+muringu {1: {'póti', 'moringue'}}
+póti {1: {'muringu'}}
+machimbombo {1: {'maxambomba'}}
+selha {1: {'bretão'}}
+bailiwick {1: {'field', 'bailiff'}}
+baptize {1: {'batizar', 'baptise', 'christen', 'βαπτίζω', 'imergir'}}
+barber {1: {'surgeon', 'hairdresser', 'shaver', 'coiffeur'}}
+entomologia {1: {'entomologista', 'insetologia', 'insectologia', 'entomólogo', 'entomológico'}}
+bash {1: {'party', 'gala event'}}
+been {1: {'sido', 'AFI', 'be', 'estado'}, 2: {'AFI'}}
+befuddle {1: {'daze', 'befuddler', 'stupefy', 'confuse', 'muddle', 'bewilder', 'drunk', 'dazzle', 'AFI', 'befuddlement', 'baffle', 'perplex'}}
+begin {1: {'aanbreek', 'aanvang'}, 2: {'start', 'aanvang'}, 3: {'initiate', 'commence', 'start'}}
+bewildered {1: {'confused', 'baffled', 'uncertain', 'mystified'}}
+brood {1: {'broad'}, 2: {'meditate', 'hatch', 'AFI', 'ponder', 'anterior', 'inglês médio'}}
+by {1: {'near'}}
+penico {1: {'urinol', 'vaso', 'noite', 'pote', 'mictório', 'pitó', 'bacio', 'bispote'}}
+peixe-agulha {1: {'agulha', 'agulhão', 'espadarte', 'ratinho', 'marabumbo'}}
+aro {1: {'airo'}}
+cunning {1: {'wily'}}
+cut {3: {'francês antigo', 'faca', 'germânico'}}
+deceivable {1: {'gullible'}}
+deception {1: {'phoniness', 'wile', 'disingenuousness', 'fake', 'traitorousness', 'disappointment', 'sanctimoniousness', 'hoax', 'deceptive smartness', 'delusion', 'ignis fatuus', 'charade', 'artificiality', 'sanctimony', 'sophistry', 'jig', 'scam', 'falseness', 'decepção', 'decoy', 'con', 'speciousness', 'snare', 'ruse', 'mockery', 'inveracity', 'sophism', 'sleight of hand', 'trap', 'swindle', 'hyprocrisy', 'pretense', 'seditiousness', 'counterfeit', 'trick', 'mendacity', 'sleight', 'sham', 'spoof', 'illusion', 'legerdemain', 'color', 'deceit', 'sellout', 'imposture', 'pharisaism', 'subterfuge', 'tartuffery', 'casuistry', 'catch', 'innacuracy', 'insincerity', 'fraud', 'victimization', 'falsehood', 'tergiversation', 'cheating', 'quackery', 'cheat', 'equivoque', 'bluff', 'fallacy', 'treason', 'equivocation', 'stratagem', 'lie', 'masquerade', 'ambidexterity', 'artifice', 'spuriousness', 'prevarication', 'shiftiness', 'perjury'}}
+tempus {1: {'aevum'}}
+rapariga {1: {'guria', 'menina', 'moça'}}
+hindustani {1: {'indostano'}}
+guarda-roupa {1: {'closet'}}
+roupa {1: {'indumentária', 'vestuário'}}
+menina {1: {'puta', 'rapariga', 'guria', 'garota', 'puela'}}
+escopo {1: {'objetivo', 'alvo'}}
+pequena {1: {'miúda'}}
+assu {1: {'guassu'}}
+encanador {1: {'picheleiro', 'encanar', 'canalizador'}}
+aduzir {1: {'transportar', 'carregar', 'conduzir'}}
+vagina {2: {'AFI'}, 3: {'kvinde'}, 5: {'AFI'}, 7: {'AFI'}, 11: {'AFI'}, 13: {'perempuan'}, 14: {'AFI'}, 17: {'AFI', 'kvinna'}, 18: {'kadın'}}
+romano {1: {'romão'}, 2: {'romão'}}
+voltar {1: {'rodar', 'virar', 'voltear', 'regressar', 'transformar', 'volver'}}
+reflexo {1: {'revérbero'}}
+SIDA {1: {'AIDS', 'aids'}}
+fixom {1: {'português'}}
+beldroega {1: {'portulaca', 'verdoega'}}
+verdejante {1: {'vicejante', 'verdoso'}}
+abacateiro {1: {'abacado'}}
+babosa {1: {'aloe vera'}}
+aloés {1: {'babosa'}}
+herdeiro {1: {'heréu'}}
+anho {1: {'borrego', 'cordeiro', 'latim', 'galego'}}
+limpar {1: {'recurar', 'depurar', 'assear'}}
+logar {1: {'lugar'}}
+tecer {1: {'entretecer'}}
+slash {2: {'over', 'slit', 'stroke', 'gash', 'leak', 'box', 'beaver', 'snatch', 'pussy', 'piss'}}
+disfarçar {1: {'embuçar'}}
+descarregar {1: {'transferir', 'sacar', 'baixar'}}
+vencer {1: {'ganhar'}}
+pau-brasil {1: {'ibirapuitá', 'arubatã', 'arabutã', 'ibirapitanga', 'muirapiranga', 'imbirapatanga', 'cuuracuão', 'sapão', 'ibirapiranga', 'brasil', 'ibirapitá', 'orabutã'}}
+círculo {1: {'disco', 'circunferência', 'roda'}}
+tempo {1: {'tempo técnico'}}
+accueil {1: {'accueillant', 'hospitalidade', 'aceitação', 'accueillir', 'SAMPA', 'recepção', 'AFI', 'boas vindas'}}
+semáforo {1: {'sinaleira', 'farol', 'sinal'}}
+enxotar {1: {'axotar', 'xotar'}}
+sair {1: {'tirar', 'puxar'}}
+pelo {1: {'cabelo'}}
+subir {1: {'ascender', 'elevar', 'upar', 'adolescer', 'crescer'}}
+paneleiro {1: {'boiola', 'qualira', 'viado'}, 2: {'picolho', 'caga para dentro', 'baiola', 'bicha', 'boiola', 'maricas', 'viado', 'rabeta', 'panasca', 'panina', 'larilas', 'roto', 'baitola'}}
+pum {1: {'traque', 'peido', 'flato'}}
+traque {1: {'fedor'}}
+peido {1: {'fanfarra', 'bufa', 'traque', 'ventosa', 'pum', 'espirro'}}
+ourives {1: {'aurífice'}}
+vago {1: {'vacante'}}
+derelito {1: {'derrelito', 'abandonado'}}
+aldeia {1: {'tribo'}}
+alpendre {1: {'alboio', 'marquise', 'pendelho'}}
+axioma {1: {'actioma'}}
+submerso {1: {'submergido'}}
+ágar-ágar {1: {'ágar'}}
+despair {1: {'hopelessness', 'desperation', 'despondecy'}}
+afórico {1: {'agenesia', 'esterilidade'}}
+aforia {1: {'agenesia', 'afórico'}}
+malafaia {1: {'biltre', 'patife', 'aguardente'}}
+finalidade {1: {'fim', 'alvo', 'objetivo'}}
+beltrano {1: {'beltrão', 'fulano', 'sicrano'}}
+anatoliano {1: {'anatólico'}}
+osso {1: {'moiado', 'tenso'}, 2: {'ossada', 'dificuldade'}}
+anódino {1: {'medíocre', 'banal', 'paliativo', 'antálgico', 'insignificante'}, 2: {'paliativo', 'antálgico'}}
+anófele {1: {'anofélio', 'anófelo'}}
+anopia {1: {'anópsia', 'anópico', 'anopsia'}}
+anopsia {1: {'anoopsia', 'hiperforia', 'anópsia', 'anopia'}}
+anorquídio {1: {'anórquido'}}
+agüente {1: {'aguante'}}
+agrafador {1: {'grampeador'}}
+atacador {1: {'cadarço', 'cordão'}}
+aldrabeiro {1: {'aldrabagata', 'aldrabagato', 'aldrabice', 'aldrabada', 'aldrabagate', 'aldrabado', 'aldrabar', 'trapaceiro', 'aldrabação', 'aldraba', 'aldrabão', 'aldrabista', 'mentiroso'}}
+água-viva {1: {'vivo', 'água', 'caravela'}}
+autocarro {1: {'carro', 'auto'}}
+fala {1: {'discurso', 'locução', 'falar', 'verbalizar', 'dicção', 'fala de Xálima', 'gasguita', 'alocução', 'AFI'}}
+ineludível {1: {'inescapável', 'inevitável'}}
+eludir {1: {'subterfugir', 'esquivar', 'evadir'}}
+mexerica {1: {'bergamota', 'tangerina', 'vergamota', 'mandarina', 'mimosa'}}
+camioneta {1: {'camionete'}}
+seção {1: {'espetáculo', 'departamento', 'divisão', 'encruzilhada'}}
+teste {1: {'exame', 'ponto', 'prova'}}
+absurdo {1: {'absurdidade'}}
+small {1: {'minute', 'SAMPA', 'little', 'wee', 'AFI', 'tiny', 'smæl', 'minuscule', 'incy wincy'}}
+way {1: {'manner', 'mode'}}
+propriedade {1: {'possessão', 'oportunidade', 'inconveniência', 'posse', 'pertence', 'adequação'}}
+ónibus {1: {'ómnibus'}}
+adequar {1: {'adaptar'}}
+pelado {2: {'pelar', 'AFI'}}
+sobrenome {1: {'cognome', 'alcunha', 'apelido'}}
+mucuta {1: {'bornal'}}
+mucumbabém {1: {'bundá', 'muafos', 'cacaria', 'mucumbagem', 'quibembes', 'cacarecos', 'tralhada', 'candibá', 'brogúncias', 'mucufos', 'tralha', 'mucumbu', 'afavecos', 'xurumbambo', 'caraminguás', 'bagulho'}}
+aportuguesar {1: {'portuguesar'}}
+orina {1: {'mixa'}}
+origone {1: {'orégone', 'orijone'}}
+urinol {1: {'ourinol'}}
+quitute {1: {'biju', 'indigestão'}}
+muçulmano {1: {'islâmico'}, 2: {'mafomista'}}
+islamismo {1: {'islão', 'islame', 'islã'}}
+colibri {1: {'cuitelo'}}
+beija-flor {1: {'cuitelão', 'cuitelo', 'colibri'}}
+entretenimento {1: {'entretimento'}}
+foco {1: {'AFI'}}
+estrada {1: {'expediente', 'direção', 'rumo', 'autoestrada', 'caminho', 'rodovia'}, 2: {'caminho', 'expressão', 'pavimentado', 'latim'}}
+secular {1: {'mundano', 'profano', 'temporal', 'leigo', 'laico', 'leigal', 'laical'}}
+zé-povinho {1: {'povão', 'povinho', 'ralé'}}
+gota {1: {'pingo', 'doença da gota', 'artrite gotosa', 'doença gotosa', 'gota úrica', 'hiperuricemia', 'doença gota'}}
+sinä {1: {'AFI', 'persoonapronomini'}}
+eco {1: {'bleh', 'uh', 'eca'}, 2: {'tornaveu'}}
+hipocalemia {1: {'hipocaliemia', 'hipopotassemia'}}
+hipercalemia {1: {'hiperpotassemia', 'hipercaliémia'}}
+insignificante {1: {'cagativo'}}
+inútil {1: {'baldado', 'vão', 'desnecessário'}, 2: {'inutilidade', 'latim', 'inutilização', 'inutilizador', 'inutilizado', 'imprestável', 'inutilizável', 'inutilizante', 'inutilizar'}}
+bombo {1: {'zabumbeiro', 'bumbeiro', 'bumbo', 'bombeiro', 'zabumba'}}
+sana {1: {'AFI'}, 2: {'sanakirja', 'AFI', 'sanasto'}, 3: {'AFI'}}
+zabumba {1: {'zabumbada', 'bombeiro', 'zabumbar', 'bombo', 'zabumbeiro', 'bumbeiro', 'bumbo', 'zabumbado'}}
+mijo {1: {'mijoca', 'mijar'}}
+informática {1: {'computação'}}
+almocreve {1: {'arrieiro'}}
+molhar {1: {'enchoupar'}}
+musse {1: {'mousse'}}
+guria {1: {'jovem', 'rapariga', 'guri', 'menina', 'garota'}}
+guri {1: {'petiz', 'jovem', 'moleque', 'piá', 'pueril', 'puto', 'infante', 'fedelho', 'pivete', 'garoto', 'menino'}}
+epistaxe {1: {'coanorragia', 'hemorrinia'}}
+trivial {1: {'medíocre', 'banal', 'vulgar', 'usual', 'baixo', 'comum'}}
+mal {1: {'custosamente', 'errado', 'escassamente', 'equivocadamente', 'insatisfatoriamente', 'pouco', 'precariamente'}, 2: {'besete', 'bedol'}, 3: {'bjeshkë'}, 4: {'Mal', 'imperativo', 'einmal', 'singular', 'pinte', 'tu', 'manchmal'}, 6: {'malèfic'}, 7: {'AFI', 'dolencia'}, 8: {'méchant', 'mauvais', 'merdique', 'vilain'}, 9: {'douleur', 'AFI', 'malade', 'travail', 'maladie', 'difficulté'}, 10: {'doenza'}, 11: {'lachwekkend', 'gek', 'belachelijk'}, 12: {'toonbeeld', 'voorbeeld', 'AFI', 'matrijs'}, 13: {'dolore', 'AFI', 'malattia', 'morbo'}}
+OVNI {1: {'óvni', 'ufo'}}
+rizicultura {1: {'orizicultura'}}
+hemorragia {1: {'sangramento'}}
+sangramento {1: {'sangradura', 'hemorragia', 'sangria'}}
+iletrado {1: {'analfabeto'}, 2: {'analfabeto'}}
+土曜日 {1: {'土曜'}}
+tubi {1: {'tubiba', 'ânus', 'tapiçuá'}, 2: {'pênis', 'ânus'}, 3: {'pênis'}}
+太陽 {1: {'日', '太空衣', '太陽燈', '以太網絡', '太陽能', '太陰', '乙太', '恒星', '太空時代', '以太', '乙太網路', '以太網', '太空人', '阳光', '太阳', '太空船', '太陽系'}, 2: {'日', '太陽灯', '太陽熱', '太陽神', '太陽黒点', '太陽暦', '太陽熱冷暖房', '太陽熱温水器', '太陽電波雑音', '太陽炉', '太陽崇拝', '太陽熱発電', '太陽年', '太陽熱利用', '太陽熱暖房住宅', '太陽系'}}
+戰士 {1: {'士', '戦士', '战士', '戰'}}
+日 {1: {'阳光', '恒星', '太阳', '太陽', '天'}}
+destripar {1: {'estripar'}}
+terráqueo {1: {'terrestre'}}
+AP {1: {'amapaense', 'OLP', 'ANP'}}
+CE {1: {'AD', 'Anno Domini'}}
+AL {2: {'AM'}, 3: {'ISO', 'ALB'}}
+MA {1: {'BA', 'Artium Magister', 'mature', 'adult', 'arts', 'master', 'audience', 'Magister Artium', 'AM'}}
+AI {1: {'AR'}}
+IML {1: {'DML', 'legal', 'instituto', 'médico'}}
+FUNAI {1: {'Funai'}}
+sálvia {1: {'salva'}}
+tomilho {1: {'timo'}}
+expelir {1: {'ressudar'}}
+fora {1: {'forma', 'AFI', 'plural', 'forums'}, 2: {'forum'}}
+dragão {1: {'amoreia', 'maiulira', 'morongo', 'maiuíra', 'muçurango', 'cobra', 'amboré', 'aimoré', 'babosa', 'emboré', 'amoré', 'cundunda'}}
+afora {1: {'menos', 'com exceção de'}}
+sal {1: {'sal de mesa', 'sal de cozinha', 'sal comum'}, 2: {'cloruru sódicu', 'latim'}, 3: {'sal comuna', 'clorur sòdic', 'sal de cuina', 'sal de taula'}, 4: {'rêbendan', 'stêra', 'şev', 'sedsal', 'berf', 'rezber', 'pûşber', 'berfanbar', 'tav', 'salane', 'bahoz', 'avrêl', 'meh', 'sarmawaz', 'sał', 'roj', 'ewr', 'barîn', 'şems', 'dehsal', 'gijlok', 'dem', 'bihar', 'tîrmeh', 'payiz', 'havîn', 'seet', 'berfîn', 'zivistan', 'hezarsal', 'kewçêr', 'terg', 'salname', 'reşemeh', 'adar', 'gilavêj', 'demsal', 'baran', 'gulan'}, 6: {'sal marina', 'cloruro sódico'}, 7: {'cloruro de sódio', 'latim'}, 8: {'sal communis'}, 9: {'sal de cosina', 'latim', 'clorur sodic'}, 12: {'turco', 'AFI'}, 13: {'sałe', 'latim'}}
+prostituta {1: {'leia', 'cotruvia', 'biscaia', 'mulher de vida fácil', 'côngria', 'cocote', 'croia', 'zoina', 'tamanqueira', 'mulher do fado', 'rabaceira', 'mulher da rua', 'baronesa', 'rascoa', 'querrenca', 'biscate', 'minota', 'rasgadeira', 'puteira', 'taioba', 'perdida', 'fuleira', 'ficha rosa', 'minólia', 'biralha', 'canganha', 'jupira', 'mangue', 'prejereba', 'madama', 'polaca', 'carapanã', 'acompanhante', 'putana', 'catraia', 'pega', 'chobrega', 'cadela', 'xenoca', 'fubana', 'xerete', 'reboque', 'madalena', 'gabirua', 'galvinhão', 'lafranha', 'juruveva', 'xandra', 'frega', 'piroqueira', 'rapariga', 'decaída', 'militriz', 'safadona', 'canguicha', 'cachorra', 'horizontal', 'camélia', 'menina de programa', 'leona', 'mulher pública', 'puriba', 'mulher de bará', 'CJ', 'farpela', 'mulher de vida licenciosa', 'tolerada', 'surrubango', 'culatrão', 'micheteira', 'mulher de janela', 'puara', 'jereba', 'mulher errada', 'piturisca', 'salomé', 'mulher da vida', 'rampeira', 'barregã', 'prima', 'biraia', 'ratuína', 'mulher de esquina', 'marafona', 'meretriz', 'fúnfia', 'sutanha', 'pirara', 'bagaxa', 'mulher do facho', 'vasculho', 'pistoleira', 'galiquenta', 'rampideira', 'morubixaba', 'piranha', 'acompanhante de luxo', 'putéfia', 'mulher do mundo', 'crota', 'jerianta', 'cantoneira', 'mulher perdida', 'quenga', 'rota', 'bisca', 'hetaira', 'michê', 'galega', 'menina da gari', 'mariposa', 'mulher da zona', 'messalina', 'puta', 'rongó', 'garrucha', 'vaqueta', 'garota de programa', 'ganapa', 'miraia', 'marca', 'zabaneira', 'mulher do fandango', 'fusa', 'galdéria', 'tia', 'mundana', 'coia', 'cortesã', 'michela', 'vagabunda', 'fuampa', 'minestra', 'tigrona', 'marafaia', 'carcaia', 'profissional do sexo', 'mulher de programa', 'rameira', 'china'}}
+cu {1: {'ré', 'cofrinho', 'edi', 'rosnelo', 'copinho', 'brioche', 'fundo', 'rabicó', 'fundão', 'bozó', 'rabiosque', 'olho', 'edir'}}
+Mercosul {1: {'CACM', 'SACN', 'Unasul', 'TAFTA', 'Unasur', 'CAN', 'FTAA'}}
+Mercosur {1: {'CACM', 'SACN', 'Unasul', 'TAFTA', 'Unasur', 'CAN', 'FTAA'}}
+RG {1: {'identidade'}}
+tesão {1: {'tusa', 'libido'}}
+baxinha {1: {'karádju', 'pixóti'}}
+pixóti {1: {'karádju', 'baxinha'}}
+katchampóra {1: {'pixinga', 'frisól'}}
+pixinga {1: {'frisól', 'katchampóra'}}
+xofra {1: {'moka'}}
+sobrado {1: {'demasiado', 'restante'}, 2: {'vivenda'}, 4: {'AFI'}}
+conjectura {1: {'pressuposto', 'prognóstico', 'pressuposição', 'conjetura', 'sonho', 'suspeita', 'desconfiança', 'cisma', 'suposto', 'entressonho', 'fantasia', 'devaneio', 'estimativa', 'suposição', 'prognose', 'presunção', 'imaginação', 'hipótese'}}
+abajur {1: {'lucivéu', 'lucivelo'}}
+torda-mergulheira {1: {'tordeia', 'tordeira'}}
+abandonar {1: {'desamparar', 'deixar', 'ceder', 'descuidar'}}
+一月 {1: {'一', '月', '一ヶ月', '正月', 'いち', '睦月', 'がつ'}}
+total {1: {'inteiro', 'completo'}}
+Vénus {1: {'boieira', 'pastor', 'Vésper', 'manhã', 'tarde', 'estrela'}, 2: {'vénérologique', 'vénéréologie', 'vénéréologue', 'vénérologue', 'vénéridé', 'vénusien', 'matin', 'vénérite', 'vénusiaque', 'latim', 'vénérien', 'vénérologie', 'soir', 'vénéréologique', 'vénéricarde', 'étoile', 'AFI', 'Vénusien', 'vénusté', 'berger'}}
+二月 {1: {'衣更着', '二ヶ月', '月', 'がつ', '如月', '二', 'に'}}
+三月 {1: {'月', 'さん', 'がつ', '弥生', '三', '三ヶ月'}}
+四月 {1: {'月', '四ヶ月', 'よん', '卯月', '四', 'がつ'}}
+desamparo {1: {'abandono'}}
+cunilíngua {1: {'minete', 'cunete'}}
+segurança {1: {'proteção'}}
+proteção {1: {'abrigo', 'refúgio', 'defesa', 'preservação', 'imunidade', 'segurança'}}
+色 {1: {'顏色'}}
+黄色 {1: {'イエロー', '黄色い'}}
+黄 {1: {'huỳnh', 'hoàng', '黄色', 'vàng'}}
+grosso {1: {'grosseiro'}}
+青 {1: {'thanh', 'verde', 'thênh', 'xanh', 'azul', 'ブルー'}}
+tranquilizar {1: {'aquietar', 'acalmar', 'sossegar', 'apaziguar'}, 2: {'AFI'}}
+hemácia {1: {'glóbulo vermelho', 'eritrócito'}}
+赤 {1: {'红', '丹', '緋', '紅', '朱'}, 2: {'红', '丹', '緋', '紅', '朱'}}
+plaqueta {1: {'plaquinha', 'plaquete', 'trombócito'}}
+orogenia {1: {'orogênese'}}
+keel {1: {'AFI', 'kelen'}}
+humectante {1: {'humectativo'}}
+umidade {1: {'umidificabilidade', 'umidificador', 'umidificado', 'umidóstato', 'umedém', 'humidade', 'umidofobia', 'umidófobo', 'umidificação', 'umidificar', 'umidificante', 'umidífobo', 'umidostático', 'umidífugo', 'umidificável', 'úmido'}}
+extensível {1: {'extensivo'}}
+intestino {1: {'interno', 'interior'}}
+Oriente Médio {1: {'Médio Oriente'}}
+gnoseologia {1: {'teoria do conhecimento'}}
+e-mail {1: {'correio eletrônico', 'correio eletrónico', 'email', 'eletrônico'}}
+secção {1: {'seccionador', 'seccionar', 'sectio', 'seccionamento', 'sectionis', 'seccionado', 'seção', 'seccionável', 'seccional', 'corte'}}
+si {1: {'ele mesmo', 'ele próprio'}, 2: {'lá dobrado sustenido', 'si', 'dó bemol'}}
+ac {1: {'atque'}}
+pa {1: {'pan'}, 2: {'ou'}, 3: {'AFI'}, 5: {'AFI', 'vader'}, 6: {'AFI', 'papai'}}
+psicografar {1: {'escrita', 'canalizar'}}
+銀色 {1: {'白銀色', 'シルバー'}}
+pôr {1: {'ponher'}}
+portfólio {1: {'portefólio'}}
+malsucedido {1: {'Malogrado'}}
+dossier {1: {'dossiê'}}
+nulle {1: {'mauvaise', 'zéro', 'AFI', 'aucune', 'nul'}, 2: {'nullificar', 'nullo', 'no', 'non', 'necun', 'nihil', 'nullemente', 'annullar', 'nusquam', 'AFI', 'nullitate', 'alique'}, 3: {'tukšumu', 'skaitlis'}}
+qui {1: {'quis'}}
+lábio {1: {'beiço'}}
+beiço {1: {'ressalto', 'lábio'}}
+divisão {1: {'desarmonia', 'desavença', 'discórdia', 'fracionamento', 'desmembramento', 'porção', 'inimizade', 'dissenção', 'separação', 'cisão', 'setor', 'pedaço', 'repartição', 'subdivisão', 'troço', 'fragmentação', 'partição', 'seção', 'excisão', 'destacamento', 'desdobramento', 'perturbação', 'quinhão', 'fração', 'classificação', 'parte', 'compartimento', 'desunião', 'distribuição', 'partilha', 'distinção', 'segmentação'}}
+corre-corre {1: {'debandada', 'correria'}}
+a céu aberto {1: {'ao ar livre'}}
+insulto {1: {'ofensa', 'injúria'}}
+ancinho {1: {'ciscador', 'rastelo', 'garamanha', 'gadanho'}}
+bácoro {1: {'rancho', 'leitão'}}
+bailarico {1: {'salsifré', 'bailar'}}
+caprino {1: {'caprídeo', 'cabrum'}}
+caprídeo {1: {'cabrum'}}
+abhor {1: {'detest', 'abhorrere', 'abominate'}}
+esconder {1: {'dissimular', 'camuflar', 'mascarar', 'encobrir', 'ocultar', 'disfarçar'}}
+early {1: {'soon'}}
+east {1: {'Orient'}}
+factsheet {1: {'fact sheet'}}
+fetter {1: {'shackle', 'unfettered', 'fett', 'footcuff', 'legcuff', 'leg iron'}}
+fruit {1: {'conséquence', 'profit', 'enfant', 'avantage', 'effet', 'bénéfice', 'résultat', 'récompense', 'AFI', 'produit'}, 2: {'vrucht', 'ooft'}}
+grasp {1: {'understanding'}, 2: {'snatch', 'hold', 'comprehend', 'understand', 'clutch', 'seize', 'catch'}}
+tiara {1: {'gigolete', 'diadema', 'gigolé', 'testeira', 'arco', 'travessa', 'bandolete'}}
+holy {1: {'sacred'}}
+berma {1: {'acostamento'}}
+biatómico {1: {'diatómico'}}
+acostamento {1: {'berma'}}
+acostagem {1: {'atracação'}}
+bicha {1: {'fila'}}
+litter {1: {'bedding', 'bedding material'}}
+mislead {1: {'deceive', 'cheat', 'lead', 'delude', 'beguile'}}
+parlance {1: {'jargon', 'parler', 'falar'}}
+palmistry {1: {'chiromancy', 'AFI', 'palm reading'}}
+coletivo {1: {'colectivo', 'latim'}}
+colecionação {1: {'colecionador', 'colecionamento', 'coleccionação', 'compilação', 'colecionista', 'colecionar', 'coleção'}}
+colecionador {1: {'coleccionador', 'colecionista'}}
+colecionista {1: {'colecionador', 'colecionação', 'colecionamento', 'colecionar', 'coleção'}}
+parts {1: {'part'}}
+presumptuousness {1: {'presumption'}}
+psychological {1: {'psychologic', 'psychologically'}}
+rift {1: {'chasm'}}
+秋 {1: {'秋季'}}
+flawless {1: {'flaw', 'flawlessly', 'AFI'}}
+άνοιξη {1: {'grego antigo', 'AFI', 'έαρ'}}
+καλοκαίρι {1: {'tempo', 'AFI', 'grego antigo', 'θέρος', 'καλός', 'καιρός', 'bom'}}
+χειμώνας {1: {'tempo', 'χειμονιά', 'AFI', 'grego antigo'}}
+夏 {1: {'夏期', '夏季', 'hạ', 'hè'}}
+quadrinhos {1: {'gibi', 'história em quadrinhos', 'BD', 'HQ', 'livro aos quadradinhos', 'banda desenhada'}}
+的 {1: {'まと', 'てき', '之', 'あきらか'}}
+coisa {2: {'cousa'}}
+ta {4: {'AFI'}, 5: {'AFI'}}
+au {1: {'ui', 'ai'}}
+menino {1: {'pequeno', 'piá', 'puto', 'curumi', 'rapaz', 'curumim', 'crila', 'miúdo', 'garoto', 'guri'}}
+y-eté {1: {'yg', 'ygarapé', 'yguassu', 'y', 'tyeté'}}
+slander {2: {'latim eclesiástico', 'ofensa', 'AFI', 'calumniate', 'francês antigo'}}
+soothsayer {1: {'diviner', 'palm reader', 'prognosticator', 'augur', 'palmist', 'clairvoyant', 'vaticinator', 'seer', 'predictor', 'predicter'}}
+syllabication {1: {'latim medieval', 'AFI'}}
+take {1: {'receive', 'accept'}}
+tap {1: {'handle', 'spigot', 'AFI', 'faucet', 'spout'}}
+tyeté {1: {'ygapó', 'caudaloso', 'ygara', 'ygarassu', 'yg', 'rio', 'caudal', 'mata', 'navio', 'ygarapé', 'água', 'canoa', 'yguassu', 'y'}}
+suassu {1: {'sooguassu', 'grande', 'soó', 'assu', 'guassu', 'sooassu', 'bicho'}}
+thrust {1: {'lift', 'break', 'point', 'push'}, 2: {'charge', 'attack', 'AFI', 'reach', 'force'}}
+top {1: {'şerrker', 'kom', 'esker', 'şerrvan', 'esfera', 'bêsîleh', 'tifeng', 'cebilxane', 'pêşmerge', 'cengawer', 'serbaz', 'çekdar', 'fîşek', 'sipa', 'arpîcî', 'jenderme', 'ordî', 'leşker', 'moşek', 'şûr', 'bombe', 'bola', 'cêş', 'artêş'}, 2: {'voleybolê', 'girovirr', 'pêlîstika', 'yariyên', 'futbol', 'gog', 'basketbolê', 'bancarrota', 'falência'}}
+tough {1: {'hard', 'brave', 'difficult', 'toilsome', 'arduous', 'strong', 'vigorous'}}
+ubiquitous {1: {'ubiquity', 'ubiquitousness', 'latim', 'ubique', 'ubiquitously', 'omnipresent', 'AFI', 'ubiquarian'}}
+underwear {1: {'undergarment', 'under', 'wear'}}
+warlock {1: {'inglês antigo', 'wizard', 'AFI', 'traidor', 'mentiroso', 'inglês médio'}}
+desenvolução {1: {'desenvolvimento'}}
+portagem {1: {'pedágio', 'transporte'}}
+yeah {1: {'yep', 'yes', 'aye', 'yup', 'yea'}}
+yes {1: {'yeah', 'yep', 'aye', 'yup'}}
+embaralhar {1: {'baralhar'}}
+yore {1: {'formerly'}}
+almôndega {1: {'polpeta', 'porpeta', 'pelota de carne'}}
+calção {1: {'shorthorn', 'shortita', 'shorts', 'calça'}}
+dodo {1: {'dodó', 'dodô'}}
+frigorífico {1: {'cuvete', 'geladeira', 'Brasil'}}
+refrigerador {1: {'geleira', 'geladeira', 'frigorífico'}}
+geladeira {1: {'geleira', 'refrigerador', 'frigorífico'}}
+congelador {1: {'congelante'}}
+abridgement {1: {'summarization'}}
+polo {1: {'lo', 'pelo', 'por'}}
+robô {1: {'títere', 'fantoche'}}
+eletricidade {1: {'energia', 'corrente', 'força', 'corrente alternada'}}
+desenhista {1: {'ilustrador', 'desenhador'}}
+chamba {1: {'faena', 'tarea', 'palillo', 'trabajo', 'champa', 'michinche', 'quehacer'}}
+grão {1: {'partícula', 'cereal', 'grânulo'}}
+nobre {1: {'majestoso', 'distinto', 'honroso', 'ilustre'}}
+cromo {1: {'crômio', 'crómio', 'figura'}}
+atônito {1: {'attonitus', 'obstúpido'}}
+diretor {1: {'dirigente', 'gerente'}}
+demônio {1: {'romãozinho', 'dianho', 'cabrunco', 'manfarrico', 'temba', 'tição', 'diacho', 'farrico', 'capeta', 'diabo', 'dialho', 'malino', 'demo', '666', 'coxo', 'tentador', 'Lúcifer', 'cujo', 'gramunhão', 'belzebu', 'maligno', 'príncipe das trevas', 'cão', 'mofino', 'rabudo', 'rapaz', 'cramulhão', 'besta fera', 'tinhoso', 'canheta', 'satã', 'anhangá', 'gadelha', 'capiroto', 'fute', 'taneco', 'satanás'}}
+comité {1: {'delegação', 'junta', 'reunião', 'comissão'}, 2: {'francês', 'AFI', 'comisión'}}
+comitê {1: {'delegação', 'junta', 'reunião', 'comissão'}}
+accept {1: {'receive', 'take', 'admit'}}
+acceptance {1: {'assent', 'approval', 'accept', 'recognition', 'take', 'agreement', 'proposal', 'AFI'}}
+accordingly {1: {'consequently', 'thus', 'on that ground', 'because of this', 'for that reason', 'by consequence', 'as a result', 'hence', 'then', 'therefore'}}
+nom {1: {'nam', 'nõ', 'no', 'non', 'naom'}, 2: {'nommer', 'nomen', 'latim', 'renommée', 'surnom', 'prénom', 'pronom', 'nome', 'nomenclature', 'substantif'}}
+nam {1: {'não', 'nom'}}
+nay {1: {'nope', 'no'}, 2: {'não', 'nope', 'naysayer', 'no'}}
+polémico {1: {'controverso'}}
+polêmico {1: {'controverso'}}
+entity {1: {'Reino Unido', 'Estados Unidos', 'AFI', 'relationship'}}
+acquiesce {1: {'assent', 'acquiescence', 'francês', 'AFI', 'agree', 'consent', 'accede'}}
+actually {1: {'literally', 'in reality', 'AFI', 'truthfully', 'really'}}
+ambiguidade {1: {'anfibologia'}}
+direto {1: {'direto e reto'}}
+land {2: {'AFI', 'vatn'}, 3: {'AFI', 'landen', 'lande'}, 4: {'landscape'}, 5: {'country', 'AFI', 'anterior', 'inglês médio'}, 7: {'AFI', 'jörð'}, 8: {'AFI', 'lande'}, 9: {'AFI'}}
+ridente {1: {'álacre', 'jovial', 'risonho', 'alegre', 'sorridente'}}
+Brazil {1: {'Pindorama', 'Brasili', 'Brasil'}, 2: {'nome', 'AFI', 'oficial'}, 4: {'nome', 'oficial'}, 6: {'nome', 'oficial'}, 7: {'nome', 'oficial'}}
+wolf {1: {'gobble', 'devour', 'gulp down', 'wolf down'}}
+conquanto {1: {'apesar de', 'embora'}}
+after {1: {'later'}}
+tembé {1: {'Teneteara'}}
+automóvel {1: {'veículo', 'viatura', 'carro'}}
+guarvaia {1: {'garvaia', 'garnacha', 'granaia'}}
+celular {1: {'telefone celular', 'telemóvel', 'cell'}}
+aid {1: {'helper', 'help', 'auxiliary'}, 2: {'help out'}}
+nihil {1: {'nil'}}
+tua {1: {'sua'}}
+common {1: {'ordinary', 'standard', 'mutual', 'simple', 'commoner'}, 2: {'neuter', 'latim', 'AFI', 'francês antigo', 'AHD', 'inglês médio'}}
+monitor {1: {'computacional', 'televisão', 'prefeito', 'aparelho', 'visualmente', 'mostrar', 'sistema'}, 2: {'ecrã'}}
+alarm {1: {'consternation', 'alarm clock', 'dismay'}, 2: {'appall', 'appal', 'dismay', 'alert'}}
+alcohol {3: {'ethanol'}}
+palavrão {1: {'turpilóquio'}}
+allure {1: {'apparence'}, 2: {'allurer', 'seduce', 'entice', 'tempt', 'attract', 'iludir', 'AFI', 'francês antigo', 'decoy'}}
+diarreia {1: {'aguaceiro', 'sedeca', 'chicotinho', 'zoura', 'ligeirinha'}}
+wood {1: {'timber', 'AFI', 'wooden'}}
+unto {1: {'banha', 'untar', 'pingo'}}
+suscetível {1: {'suscetivo', 'suscetibilidade'}, 2: {'suscetivo', 'susceptível'}}
+behold {1: {'see', 'gaze'}}
+ally {1: {'friend'}}
+altar {1: {'altá'}}
+tocar {1: {'desconfiar'}}
+decasségui {1: {'dekassegui', 'decassêgui', 'decassegui'}}
+に {1: {'dois', 'へ', 'には'}}
+五月 {1: {'ご', '五月雨', '五ヶ月', '五', '月', '皐月', '早月', 'がつ'}}
+六月 {1: {'水無月', '月', 'がつ', '六', 'ろく', '六ヶ月'}}
+七月 {1: {'月', '文月', '七', 'しち', 'がつ', '七ヶ月'}}
+八月 {1: {'はち', '月', '葉月', '八', '八ヶ月', 'がつ'}}
+九月 {1: {'九', '月', '長月', '九ヶ月', 'がつ'}}
+十月 {1: {'月', '神有月', '十', '十ヶ月', '神在月', 'がつ', '神無月'}}
+十一月 {1: {'十一ヶ月', '月', '十一', '霜月', 'がつ'}}
+十二月 {1: {'師走', '十二', '月', '十二ヶ月', 'がつ'}}
+adapter {1: {'AFI', 'adaptor'}}
+adaptor {1: {'adapter'}}
+craque {1: {'crec', 'crac'}, 2: {'crack'}}
+gémeo {1: {'gemelgo'}}
+direcionar {1: {'direccionar'}}
+fasten {1: {'fix', 'attach', 'fastener'}}
+backpack {1: {'backpacker'}}
+acordar {1: {'combinar', 'negociar', 'despertar', 'concordar'}}
+dedução {1: {'aumento', 'ilação', 'latim', 'francês'}}
+analisar {1: {'estudar', 'olhar', 'examinar', 'observar', 'esquadrinhar'}}
+cold {1: {'unfriendly', 'hostile', 'cool'}}
+corner {1: {'angle'}}
+oiampi {1: {'Oiampim', 'wayampi'}, 2: {'Oiampim', 'wayampi'}}
+adar {1: {'axlêve', 'avdar'}}
+母 {1: {'分母', '祖母', '庶母', '外祖母', '水母', '母親節', '師母', '弒母', '母音', '母馬', '父母親', '丈母娘', '母牛', '母雞', '字母', '母語', '公分母', '教母', '父母', '母板', '母親', '伯母', '後母', '母係'}}
+ruba {1: {'tuba'}}
+espigueiro {1: {'hôrreo', 'espiga'}}
+cachorro {1: {'escora', 'amigo', 'cão', 'consolo', 'cachorrão', 'consola'}}
+canalha {1: {'pirralho', 'criança', 'puto'}}
+bode expiatório {1: {'cristo'}}
+assassino {1: {'homicida', 'matador', 'mortificador'}, 2: {'homicida', 'matador', 'mortificador'}}
+ódio {1: {'indiferença', 'desamor'}}
+verivérbio {1: {'étimo', 'etimologia'}}
+roxo {1: {'negro', 'violeta', 'preto', 'púrpura'}, 2: {'violeta', 'púrpura'}}
+grandiloquente {1: {'grandíloquo', 'grandiloquento'}}
+almotacé {1: {'almotacel'}}
+net {1: {'benet'}}
+ambiance {1: {'ambience', 'feeling', 'atmosphere', 'mood'}}
+ambiguous {1: {'ambiguously', 'ambiguousness', 'equivocal'}}
+pitanga {1: {'piranga'}}
+fish {1: {'fisherman', 'fishing', 'fishnet', 'fishhook', 'fishery', 'fisheries'}}
+velhusco {1: {'velhustro'}}
+fisherman {1: {'angler', 'AFI', 'fisher'}}
+fishnet {1: {'net', 'fishing net'}}
+eté {1: {'teté'}}
+pingar {1: {'gotejar'}}
+among {1: {'amidst', 'mingle', 'between', 'amongst', 'amid'}}
+chumbo {1: {'saturno'}}
+amplify {1: {'amplificatory', 'amplifiable', 'amplification', 'intensify', 'extend', 'francês', 'amplifier', 'ample', 'AFI', 'expand', 'enlarge'}}
+guineense {1: {'Guiné', 'guineano'}}
+raça {1: {'espécie'}}
+Januar {1: {'Jänner'}}
+oktober {1: {'jaor', 'Johr'}, 2: {'AFI', 'måned', 'år'}, 4: {'ár', 'AFI'}, 6: {'AFI'}, 7: {'AFI'}, 8: {'AFI'}, 11: {'AFI'}}
+Dezember {1: {'AFI', 'Julmond'}}
+amusement {2: {'divertissement', 'AFI', 'entreter'}, 4: {'entertainment'}}
+cavalariano {1: {'cavaleiro'}, 2: {'cavaleiro'}}
+cachorro quente {1: {'dogão'}}
+nynorsk {1: {'landsmål', 'bokmål'}}
+léxico {1: {'glossário', 'dicionário'}}
+sólo {1: {'Solo'}}
+pero {1: {'péro'}, 2: {'pera'}, 3: {'variedade', 'silvestre', 'sabor', 'maçã', 'ácido', 'pereira', 'rodízio', 'pero', 'pera'}}
+girafa {1: {'camelopárdale'}}
+magnetismo {1: {'magnetismo pessoal'}}
+refrão {1: {'provérbio', 'máxima', 'estribilho'}}
+abater {1: {'combalir'}}
+uai {1: {'ué'}}
+caro {1: {'querido', 'custoso'}}
+conforme {1: {'concorde', 'análogo', 'idêntico'}, 2: {'de acordo com', 'segundo'}, 3: {'como', 'segundo'}, 4: {'pero'}, 5: {'como', 'en tanto', 'tan pronto como', 'cuando', 'según', 'de acuerdo con'}}
+sobremaneira {1: {'muito', 'sobremodo'}}
+basquete {1: {'basquetebol'}}
+muito {1: {'bagarai', 'mui', 'sobremodo', 'sobremaneira'}}
+mui {1: {'muito'}}
+amid {1: {'accompanied by', 'in the middle of', 'AFI'}}
+gordo {1: {'oleoso', 'untuoso', 'graxento', 'gordurento', 'obeso', 'cheio', 'corpulento', 'humoso'}, 2: {'elefante', 'baleia', 'boi', 'hipopótamo'}}
+ara {1: {'perruche', 'perroquet', 'ara'}}
+brecar {1: {'frear'}}
+frear {1: {'brecar', 'frenar'}}
+άντρας {1: {'ανδρεία', 'ανδράποδο', 'άνδρας', 'άνθρωπος', 'σύζυγος'}}
+ala {1: {'fileira', 'alinhamento', 'fila', 'renque', 'asa'}, 8: {'AFI'}, 11: {'stem', 'nose', 'room', 'fruit', 'flower', 'seed', 'AFI', 'petal'}, 13: {'alare', 'pipistrello', 'AFI', 'uccello'}, 14: {'āla'}}
+alaris {1: {'alarius'}}
+quente {1: {'picante', 'apimentado'}}
+grau {1: {'unauffällig', 'öde', 'unscheinbar', 'karg'}, 2: {'skier', 'griis'}}
+Zucker {1: {'AFI', 'Zuckerkrankheit', 'sânscrito', 'Diabetes'}}
+sucre {1: {'sucrière', 'ose', 'sucrer', 'sucre simple', 'sucrase', 'sucré', 'morceau', 'zucchero', 'saccharose', 'sucrage', 'susucre', 'sukkar', 'sucrerie', 'sucrier', 'sucrant', 'sucrin', 'sucrate', 'sucrette'}}
+history {1: {'last', 'story', 'chapter', 'tale', 'yesterday', 'past', 'record', 'tell', 'prehistory', 'chronicle', 'AFI', 'AHD', 'ago'}}
+grémio {1: {'agremiação'}}
+grêmio {1: {'agremiação'}}
+table {1: {'vector', 'grid'}}
+tavola {1: {'tavolo', 'tavolata', 'pannello', 'tavoletta', 'tavella', 'tavola rotonda', 'tavolato', 'tabulato', 'tavola calda', 'lastra', 'latim', 'tavola pitagorica', 'tavoliere', 'tavolame', 'tavolaccio', 'capotavola', 'AFI', 'tavola reale', 'tavolozza', 'asse', 'tabella', 'intavolare'}}
+telephone {1: {'phone'}}
+cataménio {1: {'mênstruo', 'menstruação', 'menorreia', 'regra'}}
+mênstruo {1: {'menstruação', 'menorreia', 'cataménio', 'catamênio', 'regra'}}
+bile {1: {'bílis', 'fel'}}
+peão {1: {'caubói'}}
+coruja {1: {'murutucu'}}
+manha {1: {'manhoso', 'mumunha', 'molejo'}}
+doido {1: {'deleriado', 'doudo'}, 2: {'deleriado', 'doudo'}}
+egípcio {1: {'egipciano', 'egipcíaco'}, 2: {'egipciano', 'egipcíaco'}}
+palmatória {1: {'férula', 'palma', 'pavana'}}
+chavasca {1: {'AFI', 'chavascal', 'chavasco', 'chavascar'}}
+larica {1: {'joio'}}
+menos {1: {'pouco', 'tampouco'}, 2: {'tirando', 'exceto', 'tirante', 'afora', 'fora', 'salvo'}, 3: {'mínimo'}, 4: {'tampoco'}, 5: {'quitando'}, 6: {'excepto', 'salvo'}, 7: {'tirante', 'quitando', 'bardante', 'agás', 'fóra', 'excepto', 'salvo', 'sacado'}, 8: {'minoría'}}
+furacão {1: {'ciclone tropical'}}
+musicista {1: {'musicalista'}}
+jumento {1: {'jegue', 'burro', 'asno'}, 2: {'AFI'}}
+veado {1: {'boiola', 'cervo', 'bicha', 'baitola'}}
+bem-aventurança {1: {'glória'}}
+animoso {1: {'ânimo', 'animado', 'animosidade'}}
+oval {1: {'ovo', 'ovoide'}}
+definir {1: {'decretar'}}
+claro {1: {'brilhante', 'luminoso'}}
+fero {1: {'temível', 'medonho'}}
+mala {1: {'bucho', 'bunda'}, 3: {'conselheira', 'sânscrito', 'raiva', 'guirlanda'}, 4: {'francês antigo', 'AFI', 'sânscrito', 'guirlanda'}, 5: {'sânscrito', 'guirlanda'}, 6: {'sânscrito', 'guirlanda'}, 8: {'sânscrito', 'prayer', 'guirlanda'}, 9: {'nórdico antigo'}, 10: {'AFI', 'sânscrito', 'guirlanda'}, 12: {'sânscrito', 'guirlanda'}}
+malho {1: {'martelo'}}
+consenso {1: {'consentimento', 'anuência'}}
+شمس {1: {'خورشید', 'آفتاب'}}
+far {1: {'pappa'}}
+coragem {1: {'valor', 'denodo', 'ânimo', 'bravura'}}
+salvante {1: {'salvador'}, 2: {'salvar', 'salvador'}}
+sanguífico {1: {'sanguificativo', 'sanguificar'}}
+in conformity with {1: {'according to', 'in accordance with'}}
+as far as {1: {'AFI', 'up to'}}
+imóvel {1: {'parado', 'inerte', 'imoto'}}
+opção {1: {'preferência', 'escolha'}}
+venda {1: {'empório', 'mercearia', 'vendição', 'bodega', 'vendagem'}}
+sanguinho {1: {'sanguinheiro', 'sanguinhal', 'sanguíneo'}}
+sanguissedento {1: {'sedento', 'sangue', 'sanguinário'}}
+e-dicionário {1: {'edicionário', 'e dicionário'}}
+negro {1: {'preto'}, 2: {'preto'}}
+as of {1: {'as from', 'desde'}}
+ténia {1: {'solitária'}}
+ténue {1: {'etéreo', 'fino', 'rarefeito', 'débil', 'etérico', 'sutil'}}
+subvenção {1: {'subsídio'}}
+sítio {1: {'website', 'site'}}
+alcachofra {1: {'alcachofa'}}
+under {1: {'germânico comum', 'visão'}, 2: {'below', 'beneath'}, 3: {'inglês antigo', 'underneath', 'beneath', 'AFI', 'below'}, 4: {'germânico comum', 'visão'}, 5: {'germânico comum', 'AFI', 'visão'}}
+nivoso {1: {'nevoso'}}
+pluvioso {1: {'chuvoso'}}
+sua {1: {'suum', 'suar', 'seu', 'suus', 'dele', 'dela', 'tua'}}
+dália {1: {'dáhlia'}}
+endívia {1: {'escariola', 'escarola', 'chicarola'}}
+acelga {1: {'celga'}}
+celga {1: {'acelga'}}
+vigor {1: {'vitalidade'}}
+perfeito {1: {'perfeitamente'}}
+ameixeira {1: {'ameixoeira', 'ameixieira'}}
+encruzilhada {1: {'intercepção', 'cruzada', 'cruzo', 'encruzamento', 'atravessamento', 'cruzamento', 'cômpito', 'interceptação', 'reunião', 'seção', 'ambívio', 'junção', 'encruzada'}}
+amoreira {1: {'felosa real', 'flecha'}}
+avelaneira {1: {'aveleira', 'avelã', 'avelãzeira'}}
+crédulo {1: {'ingénuo', 'ingênuo'}}
+azálea {1: {'azaleia'}}
+agitação {1: {'alvoroço', 'bulício', 'bulha', 'motim', 'tumulto', 'arruaça', 'vascolejamento', 'distúrbio'}}
+excessivo {1: {'dispensável', 'desnecessário', 'excedente', 'supérfluo'}}
+oliveira {1: {'azeitoneira'}}
+sagitta {1: {'latim'}}
+castanheiro {1: {'castiro'}}
+cerejeira {1: {'cerdeira'}}
+vozeria {1: {'alvoroço', 'barulhada', 'algazarra', 'balbúrdia', 'barulheira', 'tumulto'}}
+vozerio {1: {'alvoroço', 'barulhada', 'algazarra', 'balbúrdia', 'barulheira', 'tumulto'}}
+vozearia {1: {'alvoroço', 'barulhada', 'algazarra', 'balbúrdia', 'barulheira', 'tumulto'}}
+algazarra {1: {'assuada'}}
+noise {1: {'thud'}}
+barulhento {1: {'estrepitante'}, 2: {'arrelia', 'barulho', 'zipedede'}}
+espargo {1: {'aspargo', 'aspárago'}}
+das {1: {'singular', 'plural'}, 2: {'AFI'}}
+soberba {1: {'arrogância', 'presunção', 'altivez'}}
+loftiness {1: {'arrogance', 'presumption', 'haughtiness'}}
+vainglory {1: {'presumptuousness', 'presumption'}}
+embaciar {1: {'embaçar'}}
+vaunt {1: {'boast', 'brag'}}
+brag {1: {'boast', 'vanity'}, 2: {'nórdico', 'boast', 'braka', 'bragr', 'inglês antigo', 'antigo', 'braggart', 'bragging rights', 'vaunt'}}
+puhelinkioski {1: {'puhelinkoppi', 'puhelin', 'puhelinluettelo', 'telefone', 'puhelinnumero', 'quiosque', 'AFI', 'puhelinkeskus'}}
+haughtiness {1: {'presumptuousness', 'arrogance', 'presumption'}}
+romãzeira {1: {'marguedeira'}}
+lofty {1: {'arrogant', 'pretentious', 'haughty', 'presumptuous', 'AFI', 'SAMPA', 'disdainful'}}
+acutum {1: {'acute', 'acucula', 'acumen', 'acus', 'acutus', 'aculeus'}}
+acumen {1: {'acucula', 'acutum', 'acus', 'acutus', 'aculeus'}}
+aculeus {1: {'acucula', 'acumen', 'acutum', 'acus', 'acutus'}}
+mas {1: {'no entanto', 'porém', 'todavia', 'entretanto', 'contudo', 'ainda assim'}}
+hidrângea {1: {'hortênsia'}}
+proxeneta {1: {'cafetão', 'cafetina'}, 2: {'padrote', 'cafiolo', 'Argentina', 'bacán', 'rufián', 'México', 'madrota', 'cafishio'}}
+pomo {1: {'AFI', 'latim'}}
+lírio {1: {'lis'}}
+louro {1: {'fulvícomo', 'fulvo', 'loiro', 'laurícomo', 'lauro', 'flavo', 'flavícomo'}, 2: {'fulvo', 'loiro', 'loureiro', 'lauro', 'flavo', 'papagaio'}}
+loureiro {1: {'louro'}}
+macieira {1: {'mançaneira', 'maçãzeira', 'maceira'}}
+aueté {1: {'aueto'}}
+canvas {1: {'background', 'context', 'environment', 'setting'}}
+آب {1: {'پانی'}}
+narciso {1: {'narcisista', 'adamado', 'narcisismo', 'planta', 'vaidoso', 'narcisar'}}
+devagar {1: {'devagarinho', 'lentamente', 'vagarosamente'}}
+terciarização {1: {'terceirização', 'outsourcing', 'setor terciário'}}
+rosa {1: {'rosado', 'róseo', 'rosáceo'}, 2: {'rosado', 'róseo', 'rosáceo'}, 3: {'orvalho', 'cai'}, 6: {'skär'}, 7: {'prisa'}}
+tamareira {1: {'datileira'}}
+baggage {1: {'luggage'}}
+duro {1: {'rígido', 'esgrêvio'}}
+hard {1: {'trying', 'hardened', 'intense', 'excessive', 'difficult', 'toilsome', 'arduous', 'solid', 'tough'}, 2: {'severely', 'intensely', 'sharply'}}
+sanitarista {1: {'sanitário', 'higienista'}}
+rigor {1: {'strictness', 'sternness', 'rigidity', 'AFI'}}
+offense {1: {'insult', 'affront'}}
+ofensa {1: {'afronta'}}
+vinha {1: {'vir', 'vinhedo', 'ampelídeo'}}
+absinto {1: {'absíntio', 'absintro', 'absintista', 'absínteo', 'losna', 'absintado', 'absíntico', 'absintiado', 'sintro', 'absintioso', 'absintiol', 'absintita', 'absintoso', 'absintemia', 'absintol', 'absintínico', 'absintático', 'absintiar', 'absintina', 'absintite', 'absintismo', 'absintato', 'absintêmico', 'alosna', 'absintar', 'absintiato', 'absintístico'}}
+legume {1: {'vaíña'}, 2: {'baccello'}}
+alfavaca {1: {'alfádega', 'alfávega', 'basílico'}}
+audiofone {1: {'audifónio', 'audifone', 'audiofónio', 'audifono'}}
+vomitar {1: {'regurgitar'}}
+indiano {1: {'índico'}, 2: {'índico'}}
+maçom {1: {'mação'}}
+maçonaria {1: {'maçonizar', 'francês', 'maçom', 'mação', 'maçonismo'}}
+pedreiro {1: {'alvanel'}}
+hispanófono {1: {'hispanofalante'}}
+sinófono {1: {'sinofalante', 'sinoparlante'}}
+sino- {1: {'cenológico', 'sinófono', 'sinologia', 'sinólogo', 'sinológico', 'cinológico', 'cenologia', 'cinologia'}}
+irracional {1: {'insensato', 'ilógico'}}
+hotel {1: {'AFI', 'aproximadamente'}, 5: {'AFI'}, 7: {'AFI'}}
+tartaruga {1: {'tracajá'}}
+papeira {1: {'papo', 'trasorelho'}}
+varicela {1: {'catapora', 'tatapora'}}
+azinheira {1: {'enzinha', 'sardão', 'azinho', 'enzinho', 'bolota', 'enzinheira', 'azinha'}}
+tronchuda {1: {'troncha'}}
+torto {1: {'ingembrado'}, 2: {'sbieco'}}
+uva-do-monte {1: {'monte', 'airela', 'uva', 'vacínio', 'mirtilo'}}
+angélica {1: {'angélico'}}
+de sotaque {1: {'de supetão'}}
+abrupto {1: {'repentino'}}
+principal {1: {'primordial', 'essencial'}}
+mandarin tree {1: {'tree', 'mandarin', 'mandarin orange tree'}}
+mandarin orange tree {1: {'tree', 'orange', 'mandarin tree', 'mandarin'}}
+islamita {1: {'maometano', 'muçulmano'}}
+turíbulo {1: {'incensório', 'incensário'}}
+tchau {1: {'ciao', 'chau'}}
+brasileirismo {1: {'brasilianismo', 'brasilismo', 'brasileiro'}}
+brasiliano {1: {'brasiliense', 'brasileiro', 'brasílico', 'brasílio'}, 2: {'brasiliense', 'brasileiro', 'brasílico', 'brasílio'}}
+silvícola {1: {'silvano'}}
+bergamota {1: {'mexerica', 'tangerina', 'vergamota', 'mandarina', 'mimosa'}}
+vergamota {1: {'bergamota', 'mexerica', 'tangerina', 'mandarina', 'mimosa'}}
+laranja-cravo {1: {'cravo', 'laranja'}}
+laranja-mimosa {1: {'bergamota', 'mexerica', 'tangerina', 'vergamota', 'mandarina', 'mimosa'}}
+mandarina {1: {'bergamota', 'mexerica', 'tangerina', 'vergamota', 'mimosa'}}
+citrusy {1: {'citrus', 'lemony'}}
+big gun {1: {'bigwig', 'big wheel', 'big shot'}}
+jamais {1: {'jamé'}}
+quand {1: {'lorsque', 'mais que', 'AFI'}}
+big cheese {1: {'big wheel', 'big shot', 'big gun'}}
+caçoar {1: {'mangar', 'caçoada', 'caçoísta'}}
+anda {1: {'andor', 'andar'}}
+bai {1: {'até mais ver', 'até logo', 'inté', 'até mais', 'até à vista', 'chau', 'até', 'tchau'}}
+barbari {1: {'villimaður', 'skrælingi'}}
+fantoche {1: {'títere', 'bonifrate'}}
+haf {1: {'þurrlendi', 'ægir', 'land', 'jörð'}}
+lusitanismo {1: {'lusitanidade', 'portuguesismo', 'lusismo', 'lusitano'}}
+trepada {1: {'queca', 'trepado'}}
+beneficiamento {1: {'beneficiação'}}
+taturana {1: {'embira', 'tatarana'}}
+mandorová {1: {'marandová'}}
+bira {1: {'bra'}, 2: {'su', 'portakal suyu', 'votka', 'bardak', 'kutu', 'konyak', 'şampanya', 'kahve', 'viski', 'şarap', 'şişe', 'arpa suyu', 'cin', 'çay', 'kokteyl', 'rom', 'sodası'}}
+bota {1: {'lars'}}
+fantasma {1: {'sombra', 'espectro', 'avantesma', 'fantom', 'abantesma'}}
+king {1: {'monarch', 'emperor', 'sovereign', 'ruler', 'AFI'}}
+til {1: {'شوونتل', 'پێچیک', 'bêçî', 'pêçîk', 'médio', 'pêçî', 'mínimo', 'polegar', 'indicador', 'şehdey', 'mindinho', 'anular', 'پێچی', 'beran', 'nîv', 'gustîl', 'şûntil', 'بێچی', 'qeleqîç'}, 2: {'over', 'for', 'om', 'på'}, 3: {'AFI'}, 7: {'latim', 'superescrito', 'espanhol', 'derivado', 'título'}, 10: {'urdu', 'hindi', 'sânscrito', 'AFI'}}
+necrófago {1: {'detritívoro'}}
+necrofobia {1: {'tanatofobia'}}
+celeuma {1: {'celeumar', 'conflito', 'discussão', 'grego', 'latim'}}
+fogo {1: {'bolas', 'xiça', 'foda', 'porra'}, 2: {'lume', 'bebedeira', 'labareda', 'porre', 'tiroteio', 'chama', 'bombardeio'}}
+fumo {1: {'fumaça'}}
+supermercado {1: {'súper'}}
+acidente {1: {'percalço'}}
+acrílico {1: {'acroleico'}, 2: {'plexiglas'}}
+afia-lápis {1: {'afia'}}
+aluguer {1: {'aluguel'}}
+anis {1: {'anisete'}}
+antologia {1: {'florilégio', 'crestomatia'}}
+anúncio {1: {'publicidade', 'prognóstico', 'proclamação', 'previsão', 'indício', 'predição', 'presságio', 'prenúncio', 'publicação', 'antevisão', 'participação'}}
+dunkel {1: {'lichtlos', 'finster'}}
+armadura {1: {'armamento'}}
+dorminhoco {1: {'dorminhão'}, 2: {'dorminhão'}}
+bandeja {1: {'charola'}}
+beijo {1: {'beijar', 'beijaço', 'ósculo'}}
+bijuteria {1: {'bijutaria'}}
+bolacha {1: {'biscoito'}, 2: {'rosquinha'}}
+borracha {1: {'safa'}}
+cabina {1: {'cockpit'}}
+cachecol {1: {'echarpe'}}
+trabalhar {1: {'trampar', 'batalhar'}}
+descarrilar {1: {'carril', 'desencarrilar', 'descarrilhar'}}
+cais {1: {'molhe'}}
+câmara {1: {'câmera'}}
+canja {1: {'sopa'}}
+caspa {1: {'carepa', 'dermatite seborreica'}}
+catedral {1: {'catedrático'}, 2: {'sé'}, 4: {'AFI', 'aumentativo', 'diminutivo'}, 5: {'AFI'}}
+cave {1: {'terceira pessoa', 'porão', 'negativo', 'cava', 'presente', 'imperativo', 'modo subjuntivo', 'singular', 'afirmativo', 'cavar', 'subterrâneo'}}
+Vater {1: {'Erzeuger'}}
+reza {1: {'oração', 'prece'}}
+Nacht {1: {'dunkel', 'Dunkelheit', 'Schwärze', 'Finsternis'}}
+Sinn {1: {'Bedeutung', 'besinnen', 'sinnenfroh', 'alto alemão antigo', 'Sinnsuche', 'sinnig', 'Sinneswandel', 'sinnlich', 'sinnvoll', 'sinnlos', 'sinnentleert', 'AFI', 'Gesinnung', 'Sinnestäuschung', 'sinnen'}}
+verruga {1: {'berruga'}}
+hipocrisia {1: {'falsidade', 'fingimento', 'dissimulação'}}
+conhecimento {1: {'sabedoria', 'erudição', 'ciência', 'informação', 'saber', 'entendimento'}}
+sabedoria {1: {'conhecimento', 'juízo', 'discernimento', 'erudição', 'sapiência', 'cultura', 'saber'}}
+ignorância {1: {'agnosia'}}
+mentira {1: {'caô', 'inverdade', 'farsa', 'embuste', 'fraude', 'pabulagem', 'trapaça', 'poçoca', 'lorota'}}
+deus {1: {'divindade'}}
+lau {1: {'AFI', 'lauwarm'}}
+Frühling {1: {'AFI', 'früh', 'Frühjahr'}}
+apelido {1: {'cognome', 'alcunha', 'sobrenome'}}
+big enchilada {1: {'boss', 'top banana', 'leader', 'big cheese', 'chief'}}
+enfarte {1: {'enfartamento', 'infarto'}}
+responsible {1: {'in charge', 'big enchilada'}}
+decerto {1: {'de', 'certamente', 'certo'}}
+schön {1: {'hübsch'}}
+trusty {1: {'trust', 'trustworthy'}}
+reliable {1: {'dependable', 'honest', 'responsible', 'trusty', 'trustworthy'}}
+dependable {1: {'reliable', 'honest', 'responsible', 'trusty', 'trustworthy'}}
+Wipfel {1: {'Pflanze', 'AFI', 'Baum'}}
+Mond {1: {'Sommermond', 'Weinmond', 'Mondkrater', 'Marsmond', 'Mondbasis', 'Mondfinsternis', 'Halbmondkeil', 'Mondphase', 'Erdtrabant', 'Mondfähre', 'Saturnmond', 'Hintern', 'Mondtrichter', 'Mondorbit', 'Mondeinfluss', 'Neumond', 'Erntemond', 'Mondkalender', 'Mondkalb', 'Möndchen', 'Heilmond', 'Mondstein', 'Luna', 'Viertelmond', 'Wonnemond', 'mondhell', 'Halbmondring', 'Brachmond', 'Mondschein', 'Mondprogramm', 'Mondumlaufbahn', 'Mondstation', 'Neptunmond', 'Mondsucht', 'mondfühlig', 'Mondlandschaft', 'Mondlandung', 'Mondoberfläche', 'Mondzyklus', 'mondsüchtig', 'Mondfahrzeug', 'Mondsichel', 'Frühjahrsmond', 'Plutomond', 'Eismond', 'Mondgesicht', 'Vollmond', 'Halbmond', 'Mondlicht', 'Julmond', 'alto alemão antigo', 'Mondkonstellation', 'Monduntergang', 'Lunula', 'Erdmond', 'Gesäß', 'Mondgebirge', 'Mondmonat', 'AFI', 'Lenzmond', 'Ostermond', 'Wintermond', 'mondlos', 'Begleiter', 'Heumond', 'Mondfisch', 'Mondzahl', 'Mondaufgang', 'Uranusmond', 'Frau Luna', 'Mondstaub', 'Herbstmond', 'Jupitermond', 'Trabant'}}
+churrasco {1: {'barbecue'}}
+cidade {1: {'burgo', 'urbe'}}
+confirmação {1: {'constatação', 'crisma'}}
+congelado {1: {'gélido'}}
+conto {1: {'pila'}}
+costeleta {1: {'patilha'}}
+couro {1: {'coiro'}}
+Haar {1: {'Kopfhaar'}}
+diamante {1: {'adamante'}}
+embraiagem {1: {'embreagem'}}
+embrulho {1: {'embrulhada', 'trouxa', 'burla', 'volume', 'trapaça', 'pacote', 'logro'}}
+escola {1: {'educandário', 'método', 'seita', 'corrente', 'aprendizagem', 'estilo', 'sistema'}}
+esquina {1: {'curruncho'}}
+excesso {1: {'auge', 'demasia', 'sobejo', 'troco', 'sobra', 'desmando', 'extremo', 'excedente'}}
+aluno {1: {'aprendiz', 'discente', 'estudante', 'discípulo', 'educando'}}
+farol {1: {'almenara'}}
+funcho {1: {'fiuncho', 'fiolho'}}
+galinha {1: {'churra'}}
+ganso {1: {'carraspana', 'bebedeira'}}
+gastar {1: {'passar', 'viver'}}
+gorjeta {1: {'jabaculê', 'molhadela', 'jabá', 'lambuja'}}
+hambúrguer {1: {'hamburger'}}
+índice {1: {'índex'}}
+froh {1: {'lebhaft', 'munter', 'fröhlich'}}
+Haus {1: {'Haushalt', 'Wohnhaus', 'Eigenheim', 'alto alemão antigo', 'Bundesrat', 'Haustier', 'Hausaufgabe', 'Hausfrau', 'Bundestag', 'Krankenhaus', 'Parlament', 'Geschäft', 'Domizil', 'Gebäude'}}
+jarra {1: {'quartião', 'talha de barro', 'jarro', 'purrão', 'pote', 'bilha', 'quarta', 'quartinha', 'muringue', 'quartilha', 'moringa', 'talha de água'}}
+jornal {1: {'latim', 'honorários', 'ordenado', 'diário', 'matutino', 'remuneração', 'gratificação', 'recompensa'}}
+lanterna {1: {'lucerna', 'lampadário'}}
+ginástica {1: {'malhação', 'exercício'}}
+leme {1: {'timão'}}
+chefe {1: {'cabecilha', 'cabeceira', 'comandante', 'maioral', 'cabeça', 'capitão', 'mentor', 'diretor', 'corifeu', 'condutor', 'principal', 'dirigente', 'líder', 'caudilho', 'pastor', 'cabocir', 'cabo', 'guia', 'timoneiro', 'general'}}
+locomotiva {1: {'balduína'}}
+manicura {1: {'manicure'}}
+salada {1: {'ensalada'}}
+maquilhagem {1: {'maquiagem', 'maquilagem'}}
+marido {1: {'homem', 'consorte', 'esposo'}}
+marmelada {1: {'amasso'}}
+medalhão {1: {'astro', 'masculino', 'feminino', 'estrela'}}
+hoch {1: {'hinauf', 'herauf', 'aufwärts'}, 2: {'chlapec'}}
+monumento {1: {'lembrança', 'recordação', 'mausoléu'}}
+morcela {1: {'morcilha'}}
+morno {1: {'tíbio'}}
+móvel {1: {'mobile', 'móbile'}}
+navalheira {1: {'longueirão', 'nécora'}}
+negativo {1: {'adverso', 'restritivo', 'contrário', 'desfavorável', 'nulo', 'inútil', 'pessimista', 'infrutífero', 'contraproducente', 'inócuo', 'mau', 'indesejável', 'proibitivo', 'coibitivo'}, 7: {'AFI', 'pellicola', 'revelado', 'negare'}}
+onda {1: {'barato'}}
+papel {1: {'personagem', 'função'}, 2: {'personaje', 'función', 'rol'}}
+pasta {1: {'masa', 'amasijo'}}
+película {1: {'filme'}}
+pérola {1: {'perla'}}
+pintado {1: {'surubim', 'loango', 'jaraíva', 'moleque'}}
+piscina {1: {'aquário', 'pequeno', 'bebedouro'}}
+suíço {1: {'helvético'}, 2: {'Suíça', 'helvético'}}
+noun {1: {'non', 'nome', 'substantive', 'nom'}}
+ponteiro {1: {'apontador', 'cursor'}}
+porta-chaves {1: {'chaveiro'}}
+presunto {1: {'supuesto'}}
+pulôver {1: {'pullover'}}
+mi {1: {'fá bemol', 'ré dobrado sustenido'}, 3: {'mnie'}}
+quiosque {1: {'quiosco'}}
+recheado {1: {'atulhado'}, 2: {'recheio', 'recheadura'}}
+rim {1: {'wil'}, 2: {'rimfrost', 'julklappsrim', 'rimma'}}
+rímel {1: {'rimmel'}}
+robalo {1: {'robaliça'}}
+salgado {1: {'esfirra', 'coxinha', 'pão de queijo', 'croquete', 'salgadinho', 'fogaça', 'pastel', 'torta', 'salgar', 'empada', 'enroladinho', 'risole'}}
+salva-vidas {1: {'banhista'}}
+século {1: {'centúria'}}
+senhor {1: {'baita', 'puta'}, 2: {'muchique', 'sô'}}
+suave {1: {'arielesco'}}
+suplemento {1: {'acréscimo', 'aditamento', 'apêndice', 'ângulo', 'anexo', 'suplementar', 'complemento'}}
+tamboril {1: {'recaimão', 'tamborino', 'tamborim'}}
+tio {1: {'titio', 'paterno', 'materno', 'afinidade'}, 2: {'AFI'}}
+tripé {1: {'trempe'}}
+tripulação {1: {'equipagem'}}
+vaso {2: {'AFI'}}
+nun {1: {'jetzt'}, 2: {'AFI'}, 4: {'hebraico', 'latim tardio', 'sister'}}
+palm reading {1: {'palm', 'palmistry', 'chiromency', 'reading', 'cheiromancy', 'chirology'}}
+palm reader {1: {'diviner', 'prognosticator', 'magic', 'augur', 'palmist', 'palmistry', 'clairvoyant', 'divination', 'predictor', 'soothsayer'}}
+diviner {1: {'prognosticator', 'palm reader', 'augur', 'palmist', 'clairvoyant', 'seer', 'predictor', 'soothsayer'}}
+fortune-teller {1: {'diviner', 'palm reader', 'prognosticator', 'augur', 'palmist', 'clairvoyant', 'vaticinator', 'seer', 'predictor', 'soothsayer', 'predicter'}}
+seer {1: {'sé', 'sede'}, 2: {'diviner', 'palm reader', 'prognosticator', 'augur', 'palmist', 'clairvoyant', 'vaticinator', 'predictor', 'soothsayer', 'predicter'}}
+truísmo {1: {'tautologia'}}
+verossímil {1: {'provável', 'plausível'}}
+tautologia {1: {'pleonasmo vicioso', 'truísmo'}}
+predictor {1: {'diviner', 'palm reader', 'prognosticator', 'augur', 'palmist', 'clairvoyant', 'vaticinator', 'seer', 'soothsayer', 'predicter'}}
+augur {1: {'diviner', 'palm reader', 'prognosticator', 'palmist', 'clairvoyant', 'vaticinator', 'seer', 'predictor', 'soothsayer', 'predicter'}}
+adivinho {1: {'adivinhão', 'adivinhador', 'adivinhadeiro', 'vidente'}, 2: {'adivinhão', 'adivinhador', 'haríolo', 'adivinhadeiro', 'bruxo', 'vidente'}}
+adivinhador {1: {'adivinho', 'adivinhão', 'adivinhadeiro'}}
+vidente {1: {'sagaz', 'visual'}, 2: {'adivinho', 'clarividente', 'profeta', 'canal'}}
+vaticinador {1: {'clarividente', 'previsor', 'olhador de sorte', 'adivinhadeiro', 'adivinhão', 'adivinho', 'agoureiro', 'adivinhador', 'vidente'}}
+vaticinator {1: {'diviner', 'palm reader', 'prognosticator', 'augur', 'palmist', 'clairvoyant', 'seer', 'predictor', 'soothsayer', 'predicter'}}
+agoureiro {1: {'agoireiro', 'agourento'}}
+aguar {1: {'ougar', 'molhar'}}
+açougue {1: {'matadouro', 'morticínio', 'carniçaria', 'açougada', 'tumulto', 'carnificina', 'algazarra', 'abatedouro', 'escarcéu'}}
+ik {1: {'teuso'}, 2: {'ipk'}}
+สอง {1: {'สาม', 'โท'}}
+gut {1: {'fein', 'schön', 'positiv'}}
+enjoativo {1: {'nauseante', 'enjoar'}}
+Brasilien {2: {'brasilianska', 'brasilianare', 'AFI', 'brasiliansk', 'brasilianer', 'Brasil'}}
+entlang {1: {'neben'}, 2: {'AFI', 'längs'}}
+Botsuana {1: {'Botswana'}}
+unquam {1: {'umquam'}}
+mandioca {1: {'macaxeira', 'aipim', 'pajuru'}}
+anacrônico {1: {'extemporâneo'}}
+dinossauro {1: {'dino', 'dinossáurio'}}
+batalha {1: {'prélio'}}
+significação {1: {'significado', 'denotação', 'acepção'}}
+funcionar {1: {'funfar'}}
+ferner {1: {'zudem', 'außerdem', 'weiterhin', 'fern'}}
+raciocínio {1: {'dedução', 'inferência'}}
+retórica {1: {'facundidade', 'loquela', 'facúndia'}}
+amazing {1: {'surprising', 'fabulous', 'incredible', 'marvelous', 'impressive', 'AFI', 'wonderful'}}
+machen {1: {'kaputtmachen', 'heilmachen', 'abmachen', 'Schuhmacher', 'aufmachen', 'Hutmacher', 'Machwerk', 'Machart', 'draufmachen', 'niedermachen', 'fortmachen', 'ausmachen', 'Mache', 'kleinmachen', 'tun', 'Korbmacher', 'hinmachen', 'reinemachen', 'hermachen', 'zumachen', 'Macher', 'vermachen', 'Segelmacher', 'heruntermachen', 'anmachen', 'Uhrmacher', 'wegmachen', 'durchmachen', 'bekanntmachen', 'miesmachen', 'saubermachen', 'nachmachen', 'einmachen'}}
+deprecar {1: {'suplicar', 'carta precatória'}}
+defecar {1: {'estrampar', 'dar uma barrigada', 'fraguear'}}
+ponto {1: {'ponto eletrônico', 'ponto de ônibus'}}
+ата {1: {'äti', 'arcaico', 'tártaro'}, 2: {'ئاتا'}}
+бут {1: {'аяк'}}
+Glück {1: {'Massel', 'Schwein', 'Dusel'}}
+χέρι {1: {'χείρ', 'χείρα'}}
+χείρ {1: {'χειρονομία', 'χειρομαντεία', 'χέρι', 'quiromancia', 'cirurgia', 'χειραψία', 'manufatura', 'χειρόγραφο', 'χείρα', 'χειροτεχνία', 'artesanato', 'manuscrito', 'χειρουργική', 'gesticulação'}}
+moto {1: {'motocicleta', 'motoca', 'mota'}}
+chato {1: {'pentelho', 'chatonildo'}}
+category {1: {'genus', 'categorically', 'family', 'supercategory', 'race', 'subcategory', 'categorical', 'grego antigo', 'group', 'category theory', 'kingdom', 'class', 'tribe', 'categorization', 'category mistake', 'order', 'categorize', 'type', 'catégorie', 'phylum', 'latim tardio', 'AFI', 'κατηγορία'}}
+paralelogramo {1: {'retângulo', 'rombóide', 'quadrilongo'}}
+pentagrama {1: {'pentapauta'}}
+صحفي {1: {'صحيفة', 'imprensa', 'صحافة', 'jornal', 'صحافي', 'artigo', 'مقالة'}}
+summation {1: {'value', 'sum', 'amount', 'addition', 'worth', 'quantity', 'total'}}
+somatório {1: {'somatória'}}
+irgendwo {1: {'sonstwo'}}
+ĉevalo {1: {'francês', 'kavaliro', 'AFI'}}
+rubrica {1: {'apontamento', 'quadro', 'almagre', 'lembrete'}}
+serra-negrense {1: {'serrano'}, 2: {'serrano', 'Serra Negra'}}
+ат {1: {'aygır'}}
+längst {1: {'lang', 'AFI', 'lange'}}
+exoftalmia {1: {'proptose'}}
+capaz {1: {'possível', 'provável'}}
+melhoria {1: {'melhora', 'melhorada', 'melhoramento'}}
+ver {1: {'juízo', 'opinião'}, 2: {'imaginar', 'conhecer', 'trazer', 'checar', 'verificar', 'tentar', 'testemunhar', 'experimentar', 'descobrir', 'constatar', 'aperceber', 'concluir', 'examinar', 'visitar', 'ponderar', 'avistar', 'averiguar', 'atentar', 'provar', 'observar', 'relembrar', 'notar', 'receber', 'prever', 'experienciar', 'admirar', 'aceitar', 'conferir', 'considerar', 'analisar', 'arrumar', 'evocar', 'antever', 'deduzir', 'reputar', 'presenciar', 'contemplar', 'reparar', 'perceber', 'inferir', 'admitir', 'reconhecer', 'entender', 'apreciar', 'olhar', 'aprender', 'guardar', 'avaliar', 'cuidar', 'recordar', 'providenciar', 'convencer', 'fantasiar', 'testar', 'enxergar', 'divisar'}, 4: {'AFI'}, 6: {'AFI'}, 7: {'vera', 'norueguês', 'aparentado', 'origem', 'proteger', 'líquido', 'barco', 'nórdico antigo', 'inglês antigo', 'provavelmente', 'mar', 'verja', 'porto', 'local', 'atracar', 'pesca', 'vilarejo'}}
+cathedra {1: {'catedral', 'sedes'}}
+vacca {1: {'vaccherella', 'vacchetta', 'vaccaro', 'latim', 'vaccheria', 'toro', 'mucca', 'vaccaio', 'vaccino', 'AFI'}}
+velario {1: {'AFI'}}
+saudável {1: {'salubre', 'hígido'}}
+solidão {1: {'isolamento'}}
+Nafarroa {1: {'Gipuzkoa', 'Lapurdi', 'Araba', 'Nafarroa Garaia', 'Bizkaia', 'Zuberoa', 'Nafarroa Beherea'}}
+altruísmo {1: {'filantropia'}}
+קאַפֿע {1: {'francês', 'AFI'}}
+rings {1: {'still rings', 'ring', 'do', 'verbo', 'genitivo', 'pessoa', 'presente', 'passivo', 'singular', 'de', 'rings', 'indefinido', 'AFI'}}
+elefante {1: {'alifante'}}
+vademécum {1: {'livro de cabeceira', 'manual'}}
+bem-estar {1: {'sentir bem', 'estar bem', 'conforto'}}
+chafariz {1: {'fonte', 'chorão', 'tanque'}}
+compêndio {1: {'sumário', 'epítome', 'síntese'}}
+pomerano {1: {'pomerânio'}}
+$ {1: {'cifrão'}}
+caralho {1: {'pau', 'vira tripas'}, 2: {'cacete', 'mangalevas', 'bosta', 'merda', 'carvalho', 'casso', 'porra', 'baralho', 'caray'}}
+mãos-rotas {1: {'esbanjador', 'gastador', 'perdulário'}}
+saudosismo {1: {'nostalgia', 'saudoso'}}
+passado {1: {'transato'}}
+confisco {1: {'confiscação'}}
+confiscar {1: {'expropriar'}}
+conspirata {1: {'conluio'}}
+impoluto {1: {'imaculado', 'impollutu', 'latim'}}
+Kissen {1: {'Kopfkissen'}}
+presente {1: {'regalo'}}
+extemporâneo {1: {'intempestivo', 'inoportuno', 'anacrônico'}}
+pressentimento {1: {'presciência', 'presságio', 'premonição', 'intuição'}}
+redirecionar {1: {'reendereçar', 'reorientar', 'reencaminhar', 'desviar'}}
+funny feeling {1: {'funny', 'feeling', 'sinking feeling', 'gut feeling', 'creepy feeling'}}
+aidético {1: {'sidoso'}}
+palo {1: {'bastón', 'cachiporra', 'porra'}}
+felicidade {1: {'alegria', 'graça'}}
+também {1: {'igualmente'}}
+empirismo {1: {'empiricismo'}}
+dîner {1: {'déjeuner', 'petit déjeuner', 'repas du soir', 'souper', 'repas du midi', 'dîner'}}
+déjeuner {1: {'repas du midi'}}
+Frühstück {1: {'Crossaint', 'Ei', 'Butter', 'Gebäck', 'Abendessen', 'Marmelade', 'Brot', 'frühstücken', 'Zmorgen', 'Morgenessen', 'AFI', 'Mittagessen', 'Kaffee', 'Tee', 'Orangensaft', 'Milch'}}
+acçom {1: {'atuar', 'acionar', 'verbo', 'obra', 'pleito', 'atividade', 'feito', 'ato', 'energia', 'movimento', 'demanda'}}
+creepy feeling {1: {'feeling', 'sinking feeling', 'creepy', 'gut feeling', 'funny feeling'}}
+gut feeling {1: {'feeling', 'sinking feeling', 'gut', 'funny feeling', 'creepy feeling'}}
+sinking feeling {1: {'feeling', 'gut feeling', 'funny feeling', 'sinking', 'creepy feeling'}}
+famulus {1: {'servus'}}
+famula {1: {'serva', 'ancilla'}}
+amar {1: {'querer', 'adorar', 'gostar'}}
+soer {1: {'costumar'}}
+long-delayed {1: {'belated', 'tardy'}}
+νέο {1: {'jovem', 'masculino', 'acusativo', 'singular', 'neutro', 'AFI', 'nominativo', 'vocativo', 'novo'}}
+βουνό {1: {'όρος', 'AFI'}}
+pessoal {1: {'próprio'}}
+belated {1: {'tardy'}}
+tardy {1: {'belated', 'delayed'}}
+farseeing {1: {'perceptive', 'sagacious', 'judicious', 'discerning', 'intuitive', 'clairvoyant', 'visionary', 'perspicacious', 'penetrating'}}
+poika {1: {'poikanen', 'tyttö', 'jäbä', 'poikamies', 'radical', 'poikaparka', 'poikavauva', 'poikamainen', 'pojanpoika', 'poikakuoro', 'pyykkipoika', 'poikia', 'poikuus', 'lapsi', 'kundi', 'tyttärenpoika', 'poikavuodet', 'poikaystävä', 'AFI', 'talonpoika'}}
+hän {1: {'AFI', 'persoonapronomini'}}
+dizer {1: {'proferir', 'falar'}}
+intuitive {1: {'instinctive', 'innate', 'inborn', 'spontaneous'}}
+piranema {1: {'fedor', 'pira', 'nema'}}
+pressentir {1: {'antessentir'}}
+tardio {1: {'serôdio'}}
+demorado {1: {'demoroso'}}
+policial {1: {'tira', 'polícia', 'cachorro', 'javardo', 'fardinha azul', 'guarda', 'gambé'}}
+sena {1: {'tentera', 'sânscrito'}, 2: {'övgü', 'övme', 'árabe'}}
+estendal {1: {'varal'}}
+floppy disk {1: {'floppy', 'diskette'}}
+common sense {1: {'horse sense', 'sense', 'common'}}
+cacto {1: {'cáctus'}}
+jalkinekorjaamo {1: {'jalankulkija', 'jalkakäytävä', 'jalkapallo', 'jalkinelline', 'jalka', 'jalkine', 'kivijalka', 'jalkavaimo'}}
+fadiga {1: {'lida', 'afadigo', 'fadigar', 'cansaço', 'faina', 'fadigação', 'canseira', 'descansar', 'afadigar', 'fadigamento', 'labutação', 'labuta', 'cansativo', 'afadigado', 'fatigado'}}
+portuga {1: {'brazuca', 'português', 'tuga', 'contração'}}
+pocilga {1: {'labanheiro', 'chiqueiro', 'cortelho'}}
+bosta {1: {'bolas', 'cacete', 'merda'}, 2: {'matéria fecal', 'caca', 'cocô'}}
+icterícia {1: {'iterícia', 'triz', 'trízia'}}
+chayote {1: {'mirliton', 'chouchou', 'christophine', 'mango squash', 'vegetable pear', 'chocho'}}
+grenadine {1: {'pomegranate'}}
+pomegranate {1: {'AFI', 'grenadine'}}
+romã {1: {'margueda'}}
+groove {1: {'indentation', 'habit', 'satisfaction', 'custom', 'appreciation'}, 2: {'enjoy', 'intertwine', 'love', 'appreciate', 'overlap'}}
+mirliton {1: {'AFI', 'chayote'}}
+Roma {1: {'Urbs'}}
+goês {1: {'goense'}}
+parentesco {1: {'consanguinidade'}}
+punhalada {1: {'facada', 'punhal'}}
+verstecken {1: {'AFI', 'Versteck', 'Verstecken'}}
+umbuzeiro {1: {'imbuzeiro'}}
+inferno {1: {'Averno', 'báratro', 'profundas', 'caldeira de Pedro Botelho', 'orco', 'Tártaro', 'quintos', 'geena', 'fogo eterno'}}
+accidentally {1: {'accidently'}}
+acoustical {1: {'acoustic', 'acoustically'}}
+ursada {1: {'traição', 'abraço de urso'}}
+ad {1: {'isim'}, 2: {'isim'}}
+advertisement {1: {'ad'}}
+adaptability {1: {'adaptedness', 'adaptableness'}}
+adaptableness {1: {'adaptedness', 'adaptability'}}
+adaptedness {1: {'adaptability', 'adaptableness'}}
+adaptational {1: {'adaptive'}}
+vielleicht {1: {'möglicherweise', 'eventuell', 'bitte', 'leicht', 'viel', 'womöglich', 'alto alemão médio', 'AFI'}}
+adjacent {1: {'adjoining', 'near', 'juxtaposed', 'AFI', 'contiguous'}}
+futessal {1: {'futsal', 'futebol de salão'}}
+afeard {1: {'amedrontado', 'afraid', 'fear'}}
+digladiar {1: {'gladiar'}}
+crestomatia {1: {'antologia', 'florilégio'}}
+afoot {1: {'by foot', 'on foot'}}
+alas {5: {'húngaro', 'magiar'}}
+gládio {1: {'espada'}}
+autocrata {1: {'déspota', 'ditador'}}
+alien {1: {'extraterrestrial', 'foreign'}, 2: {'foreigner', 'extraterrestrial'}, 3: {'alienate'}}
+otário {1: {'haule'}}
+espada {1: {'gládio'}}
+anjo {1: {'anjinho'}}
+mensageiro {1: {'postilhão'}}
+jamanta {1: {'maroma', 'manta'}}
+sacavenense {1: {'sacaveno'}, 2: {'sacaveno'}}
+sacaveno {1: {'sacavenense'}, 2: {'sacavenense'}}
+bastante {1: {'a migueli'}}
+abençoar {1: {'abendiçoar', 'bendizer', 'benzer'}, 2: {'persignar'}}
+cavalgar {1: {'cavalear', 'caracolar', 'caracolear', 'galopar', 'esquipar', 'encavalgar', 'ginetear', 'campear'}}
+Andorra {1: {'Principado de Andorra'}, 5: {'AFI'}, 11: {'AFI'}, 12: {'AFI'}, 17: {'AFI'}, 29: {'AFI'}, 30: {'AFI'}, 32: {'AFI'}, 40: {'AFI'}, 44: {'AFI'}, 50: {'AFI'}}
+diluição {1: {'diluimento'}}
+eficiência {1: {'eficácia'}}
+bonde {1: {'bofe', 'carro elétrico', 'trolley', 'elétrico', 'trebufu', 'bagulho'}}
+caradura {1: {'caradurismo', 'desfaçatez'}, 2: {'atirado', 'cara'}}
+vai {1: {'galinha', 'vehie', 'vu', 'gallina', 'vay'}}
+epifania {1: {'teofania'}}
+salmantino {1: {'salmanticense', 'salamanquense', 'salamanquino'}}
+expatriado {1: {'degredado', 'exilado', 'desterrado'}}
+autogiro {1: {'girocóptero'}}
+traduzir {1: {'transladar', 'verter', 'trasladar'}}
+mina {1: {'grafite'}, 2: {'myna'}}
+madura {1: {'madurar', 'mal de madura', 'micetoma', 'pé de madura', 'maduro'}}
+luta {1: {'quibeto', 'recontro'}}
+lingua {1: {'lingüística', 'dialecto', 'xerga', 'idioma', 'linguaxe'}, 2: {'dente', 'interlingua', 'philologia', 'linguista', 'linguistica', 'leccar', 'gusto', 'AFI', 'bucca', 'linguage', 'parlar', 'idioma'}, 3: {'leccare', 'bocca', 'sapore', 'linguaccia', 'linguale', 'linguella', 'linguacciuto', 'idioma', 'linguina', 'linguardo', 'pejorativo', 'parlare', 'linguiforme', 'linguetta', 'linguaio', 'lingula', 'linguista', 'linguettare', 'linguistica', 'linguata', 'AFI', 'linguaiolo', 'linguaggio', 'diminutivo'}, 4: {'linguach', 'lungaitg', 'linguatg', 'lingual', 'lungatg'}}
+satirismo {1: {'satiríase'}}
+Schnee {1: {'Kokain', 'Koks'}}
+vulva {1: {'conaça', 'pardal', 'pardaloca', 'racha', 'cona', 'lola', 'xoxota', 'chocho', 'cono', 'boca do corpo', 'pachacha', 'xarifa', 'precheca', 'xarolo', 'pito', 'felpudo', 'pachacho', 'xarola', 'chichi'}, 2: {'figa', 'xima', 'gall', 'xona', 'gallonet', 'parrús', 'poma', 'anxova', 'cony', 'cleca', 'patata'}, 3: {'kep', 'lůno'}, 4: {'crica'}, 5: {'figa', 'bufa', 'pachòla', 'bergamòta', 'con'}, 6: {'blygd'}}
+espuma {1: {'escuma'}}
+Brief {1: {'Brieffreund', 'Schreiben', 'Briefmarke', 'AFI', 'Epistel', 'Sendschreiben', 'Briefpapier'}}
+ur {1: {'urd'}, 4: {'AFI'}, 5: {'AFI', 'nórdico antigo'}}
+вода {1: {'влага'}}
+atl {1: {'chocolatl', 'atzintli'}}
+su {1: {'portakal suyu', 'votka', 'ma', 'bardak', 'kutu', 'ab', 'konyak', 'şampanya', 'kahve', 'viski', 'şarap', 'şişe', 'cin', 'çay', 'kokteyl', 'rom', 'sodası', 'bira'}}
+anticlockwise {1: {'counterclockwise'}}
+capacity {1: {'capability'}}
+capability {1: {'capacity'}}
+incapacity {1: {'incapability'}}
+incapability {1: {'incapacity'}}
+capacidade {1: {'potencial'}}
+true {1: {'loyal', 'genuine', 'faithful', 'legitimate'}}
+untrue {1: {'false'}}
+false {1: {'untrue'}}
+intrinsic {1: {'intrinsical'}}
+program {1: {'programme'}}
+ridicule {1: {'ridiculous'}}
+ridiculous {1: {'surreal', 'ridicule', 'laughable', 'unreasonable', 'silly', 'goofy', 'absurd', 'AFI', 'prepostrous', 'foolish'}}
+phenomenon {1: {'miracle', 'latim tardio', 'AFI', 'event', 'AHD', 'wonder'}}
+scarcity {1: {'want', 'rareness', 'dearth', 'deficiency', 'paucity', 'penury', 'lack', 'rarity', 'infrequency'}}
+Bürger {1: {'Bourgeois', 'Einwohner'}}
+octogésimo {1: {'oitenta', 'avo'}}
+porém {1: {'no entanto', 'todavia', 'mas', 'entretanto', 'contudo', 'só que', 'ainda assim'}}
+nem {1: {'sequer'}}
+wai {1: {'way'}, 2: {'hane'}}
+sobrolho {1: {'sobrancelha', 'supercílio'}}
+schizophrenia {1: {'dividida', 'disorder', 'psychosis', 'dementia praecox', 'alemão', 'schizophrenic', 'AFI', 'grego antigo', 'mente'}}
+boletim {1: {'newsletter'}}
+sense {1: {'feeling', 'sensation'}}
+vidalino {1: {'lablachiano'}}
+espaçonave {1: {'astronave', 'nave espacial', 'cosmonave', 'nave', 'navio espacial'}}
+aiboj {1: {'ren'}}
+tiếng Bồ Đào Nha {1: {'Bồ Đào Nha', 'língua', 'tiếng', 'Portugal', 'tiếng Bồ'}}
+glossary {1: {'idioticon', 'glossarist', 'vocabulary', 'clavis'}}
+enseada {1: {'baía', 'recôncavo'}}
+real {1: {'dinglich', 'sachlich', 'realitätsbezogen', 'bestehend', 'faktisch', 'gegenständlich', 'existent', 'tatsächlich', 'wirklich'}, 2: {'genuine', 'authentic', 'true', 'actual'}, 3: {'latim'}}
+benjamim {1: {'ficha tripla', 'tê', 'tripla'}}
+alicerce {1: {'aliceres', 'fundação'}}
+chorar {1: {'planhir'}}
+pegajoso {1: {'pegajento'}}
+ke {1: {'AFI'}}
+historia {1: {'relato', 'cuento'}}
+historiador {1: {'historiógrafo'}}
+exemplo {1: {'adágio', 'punição', 'provérbio', 'rifão', 'reprimenda', 'anexim'}}
+ampere {1: {'ampère'}}
+cafona {1: {'simplório', 'mocorongo', 'tosco', 'desatualizado', 'matuto', 'caipira', 'grosseiro', 'brega', 'bocomoco'}}
+existir {1: {'ser', 'haver'}}
+inestimável {1: {'precioso', 'inestimabilidade', 'inimaginável', 'inapreciável', 'caro', 'incalculável'}}
+мир {1: {'спокойствие'}}
+paroxítono {1: {'παροξύτονος', 'grave', 'oxítono', 'παρά', 'lado', 'οξύτονος', 'proparoxítono'}}
+proparoxítono {1: {'esdrúxulo'}, 2: {'esdrújulo'}, 3: {'oxítono', 'esdrújulo', 'llano', 'paroxítono'}}
+esdrúxulo {1: {'esdrucho', 'ultraesdrúxulo', 'estapafúrdio', 'proparoxítono'}}
+dejeto {1: {'fezes', 'excremento'}}
+dejetar {1: {'cagar', 'defecar'}}
+dejectar {1: {'cagar', 'defecar'}}
+sêmen {1: {'esperma', 'semente'}}
+esperma {1: {'leite', 'langanho', 'esporra', 'semente', 'luxúria', 'porra', 'sêmen', 'esporro', 'gala', 'espérmio', 'langonha'}}
+mamulengo {1: {'marionete'}}
+beyaz {1: {'ak'}}
+albus {1: {'albicolor', 'Albion', 'albarius', 'albicapillus', 'albumen', 'albatus', 'albinus', 'albor', 'candidus', 'albugo'}}
+alba {1: {'amanecer'}}
+rapaz {1: {'rapace', 'rapinante'}, 2: {'moço'}}
+gentílico {1: {'nacionalidade', 'pátrio'}}
+cegonha {1: {'cegonho', 'burra', 'picota', 'gaivota'}}
+ubiquity {1: {'latim', 'lugar', 'ability', 'ubiquitous', 'AFI', 'francês médio', 'todo'}}
+Löffel {1: {'Schmelzlöffel', 'Eimer', 'Hasenohr', 'Kaninchenohr', 'Kelle', 'Rührlöffel', 'Schöpflöffel', 'Schöpfkelle'}}
+soberbo {1: {'imperioso'}}
+curinga {1: {'joker', 'coringa', 'bufão', 'jóquer', 'melé'}}
+humano {1: {'humanitário', 'humanal'}}
+binominal {1: {'binomial'}}
+panglossiano {1: {'otimista'}}
+cio {1: {'estro'}}
+pedagogo {1: {'educador'}}
+esqueleto {1: {'cavername', 'ossada'}}
+sela {1: {'arreio'}}
+bitch {1: {'kvetch', 'moan', 'whinge', 'piss and moan', 'gripe', 'whine'}}
+enska {1: {'enhskat', 'tiotierenhton'}}
+lésbica {2: {'Lesbos', 'Grécia', 'ilha'}}
+enter {1: {'go inside', 'come in', 'entre', 'come inside'}}
+cacique {1: {'figurão', 'chefe', 'capataz', 'líder', 'patrão', 'cacicão', 'gerente', 'empregador', 'magnata', 'morubixaba', 'mandarim'}}
+porra {1: {'orra'}, 2: {'joder', 'puñeta'}}
+homossexualidade {1: {'uranismo', 'homossexualismo'}}
+depurar {1: {'purificar', 'latim'}}
+desterro {1: {'degredo', 'exílio', 'desterrar'}}
+egoístico {1: {'egoísta'}}
+ninfeta {1: {'lolita'}}
+gerente {1: {'feitor', 'organizador', 'supervisor', 'superintendente', 'chefe', 'capataz', 'controlador'}}
+gestor {1: {'administrador', 'gerente'}}
+mata {1: {'mar', 'montão', 'infinidade', 'arvoredo', 'bosque', 'selva', 'matagal', 'monte', 'floresta', 'mato'}, 2: {'esteira', 'latim tardio'}, 7: {'AFI'}}
+galga {1: {'galgar', 'cutelo'}}
+afeição {1: {'afetividade', 'afeto'}}
+abacisco {1: {'abáculo', 'ábaco'}}
+cipriota {1: {'cíprio'}, 2: {'cíprio'}}
+logo {1: {'precisamente', 'a qualquer momento', 'dentro de instantes', 'já já', 'ainda hoje', 'ainda por cima', 'sem hesitação', 'sequencialmente', 'brevemente', 'rapidamente', 'bem no começo', 'daqui a pouco', 'em curto espaço de tempo', 'prontamente', 'nos primeiros instantes', 'neste instante', 'justo', 'sem tardança', 'logo mais', 'desde logo', 'sem demora', 'de imediato', 'imediatamente', 'pouco depois', 'depois', 'em seguida', 'agora mesmo', 'depois de algum tempo', 'hoje mesmo', 'justamente', 'desde aquele momento', 'numa série', 'em pouco tempo', 'logo logo', 'depois de algum espaço de tempo', 'de pronto', 'exatamente', 'dentro em pouco', 'com a maior urgência', 'em futuro próximo', 'muito em breve', 'por cúmulo', 'em breve', 'bem no início', 'nessora', 'para logo', 'sem mais delongas'}, 2: {'assim', 'portanto', 'por conseguinte', 'por esta razão', 'então', 'por causa disto', 'consequentemente', 'com base nisto', 'por consequência'}, 3: {'logotipo'}}
+corcova {1: {'corcovo', 'gibosidade', 'giba', 'sinuosidade', 'volta', 'corcunda', 'cupim', 'bossa', 'cacunda', 'geba'}}
+gagá {1: {'xexé'}}
+boiola {1: {'viado', 'homossexualidade', 'gay', 'boiolice', 'bicha'}}
+bragantino {1: {'bragancense'}, 2: {'bragançano', 'bragancês', 'braganção', 'brigantino'}, 3: {'bragancense'}, 4: {'bragançano', 'bragancês', 'braganção', 'brigantino'}}
+dobradinha {1: {'buchada'}}
+calvário {1: {'martírio', 'tormento', 'sofrimento'}}
+Ära {1: {'Zeitalter', 'Epoche'}}
+bissexual {1: {'bissexualidade', 'bissexualmente', 'bissexualismo'}}
+careful {1: {'meticulous', 'cautious'}}
+traição {1: {'ursada'}}
+xerocar {1: {'fotocopiar'}}
+kind {1: {'sauður', 'sauðkind'}, 2: {'ætt', 'kyn'}}
+suma {1: {'ilość'}, 2: {'sma'}}
+divindade {1: {'deusa', 'deidade'}}
+gaita {1: {'acordeona', 'harmónica', 'acordeom', 'harmônica', 'acordeão'}}
+bicho {1: {'fera'}}
+vor {1: {'vortími'}}
+artemia {1: {'camarão de salmora'}}
+pau {1: {'justiça'}}
+tama {1: {'tamá', 'wastô', 'hustó', 'tamà'}}
+ferro {1: {'ferro de passar'}}
+kastigu {1: {'kastigo'}}
+chulo {1: {'barregão', 'proxeneta', 'bronco', 'malcriado', 'canalha'}}
+pinto {1: {'pintudo', 'pintinho', 'pintainho', 'primeira pessoa', 'pintar', 'presente', 'indicativo'}}
+joder {1: {'jolín'}}
+tri {1: {'baita'}}
+trocista {1: {'pilheriador', 'graçola', 'gaiteiro', 'brincalhão', 'chacoteiro', 'caçoante', 'escarninho', 'lascarinho', 'sarcástico', 'gozador', 'caçoísta', 'moteteiro', 'gracejador', 'zombeirão', 'dizedor', 'chacoteador', 'gracioso', 'escarnecedor', 'pulhista', 'galhofeiro', 'motejador', 'mofador', 'lépido', 'piadista', 'caçoador', 'troça', 'mangador', 'brodista', 'mangão', 'galhofento', 'debochado', 'zombador', 'burlador', 'zombeteiro'}}
+Öl {1: {'Petrol', 'Petroleum'}}
+pneumoultramicroscopicossilicovulcanoconiose {1: {'pneumoconiose', 'silicose'}}
+boné {1: {'barrete', 'boina'}}
+luni {1: {'AFI'}}
+recanto {1: {'canto', 'rincão', 'recesso', 'esconderijo'}}
+tanan {1: {'kapalo', 'tana'}}
+elephantus {1: {'manus', 'elephas'}}
+bovinocultura {1: {'bovinocultor', 'bovino', 'bovinotecnia'}}
+compreender {1: {'depreender'}}
+caprinocultura {1: {'caprinotecnia', 'caprinocultor', 'caprino'}}
+ovinocultura {1: {'ovino', 'ovinotecnia', 'ovinocultor'}}
+ahû {1: {'xezal', 'ceylan', 'antîlop', 'ask'}}
+guambra {1: {'muchacho', 'adolescente', 'niño'}}
+embusteiro {1: {'embuste', 'echacorvos', 'paroleiro'}}
+analfabeto {1: {'iletrado'}}
+tosco {1: {'rudimentar'}}
+tico {1: {'pênis'}}
+esposa {1: {'mulher'}}
+alinhar {1: {'perfilar'}}
+aquarista {1: {'aquário', 'aquariófilo'}}
+abadessa {1: {'badessa'}}
+언어 {1: {'AFI', 'hanja'}}
+belicoso {1: {'revolto', 'belígero'}}
+cachorra {1: {'cachorro', 'devassa', 'catulus', 'cadela'}}
+cachorrada {1: {'cachorro', 'caterva', 'malta', 'súcia', 'canalha'}}
+cachorrice {1: {'torpeza', 'vilania', 'cachorro', 'cachorrismo', 'cachorrada'}}
+bor {1: {'bore'}}
+buá {1: {'ué', 'unhé'}}
+nav {1: {'paşgir', 'navê mê', 'pêşgir', 'navdêr', 'rêziman', 'hejmar', 'cînav', 'lêker', 'kurtenav', 'navbendik', 'isim', 'zarrok', 'navê nêr', 'hoker', 'daçek'}}
+naunas {1: {'naujas'}}
+cheiene {1: {'cheyenne'}}
+comunicação {1: {'timidez'}}
+sujeição {1: {'submissão', 'dependência', 'latim'}}
+jetom {1: {'francês'}}
+marinho {1: {'marino', 'mareiro', 'pelágico', 'pelágio', 'marítimo'}}
+dar {1: {'criar', 'desembocar', 'atirar', 'contagiar', 'introduzir', 'renunciar a', 'gastar', 'manifestar', 'parir', 'soar', 'propagar', 'conceder', 'receber', 'tributar', 'causar', 'penetrar', 'pegar', 'dotar com', 'restituir', 'praticar', 'dizer', 'ser bom', 'admitir', 'exalar', 'bater', 'confiar', 'render juro', 'embolsar', 'ferir', 'entregar', 'avisar', 'prescrever', 'gratificar', 'auxiliar', 'emitir', 'registar', 'assinalar', 'suportar', 'pôr em poder de', 'aplicar', 'impor', 'dispensar', 'pagar', 'alienar', 'prestar', 'desferir', 'preceituar', 'beneficiar', 'fixar', 'participar', 'publicar', 'concordar', 'proferir', 'servir', 'investir', 'prestar para', 'expor', 'golpear', 'produzir', 'outorgar', 'presentear', 'doar', 'brindar', 'indicar'}}
+varrer a sua testada {1: {'logo', 'reta', 'tirar o corpo fora', 'tirar o seu da reta'}}
+procurar {1: {'investigar', 'tentar', 'buscar', 'pesquisar'}, 2: {'infinitivo', 'AFI', 'verbo'}}
+antípoda {1: {'antecos', 'antíctono', 'antíscios', 'periecos', 'antíctone'}}
+isopor {1: {'esferovite'}}
+canoa {1: {'chalana'}}
+benzer {1: {'abençoar'}}
+brotar {1: {'germinar'}}
+abrandar {1: {'embrandecer', 'mitigar', 'amolecer', 'amainar', 'moderar', 'temperar', 'suavizar'}, 2: {'entenrecer', 'conmover', 'suavizar', 'adondar', 'amolecer', 'amolentar', 'amolegar', 'temperar'}}
+borrifar {1: {'esborrifar', 'chuviscar', 'aspergir', 'salpicar', 'respingar'}}
+Ano Novo {1: {'basílico', 'ano', 'basiliano', 'Dia de São Basílio', 'novo', 'Basílio'}}
+xenônio {1: {'xênon'}}
+misturar {1: {'amecer'}}
+abanar {1: {'abanear'}}
+piruá {1: {'alimento', 'mururu'}}
+pudibundo {1: {'pudico'}}
+guei {1: {'gay'}}
+antagonista {1: {'adversário', 'opositor'}}
+অম্বু {1: {'জল'}}
+espartano {1: {'esparciata'}}
+necromante {1: {'nigromante'}}
+nigromante {1: {'necromante'}}
+nigromancia {1: {'necromancia'}}
+circuito integrado {1: {'microchip', 'chip'}}
+burgo {1: {'cidade', 'urbe'}}
+esculápio {1: {'jaleco', 'hospital', 'puericultura', 'exame', 'iatrogênico', 'remédio', 'prescrição', 'urgência', 'doença', 'curandeiro', 'eletrocardiograma', 'cliente', 'dentista', 'nefrologista', 'médico', 'otorrinolaringologista', 'anamnese', 'clínico', 'doutor', 'urologista', 'alienista', 'paciente', 'psiquiatra', 'tratamento', 'charlatão', 'droga', 'engessar', 'óbito', 'asclépio', 'eletrocardiografia'}}
+musical {1: {'harmonioso', 'melodioso'}}
+uísque {1: {'whisky', 'whiskey'}}
+esperanto {5: {'AFI'}, 7: {'AFI'}}
+koira {1: {'humano', 'masculino'}}
+gracioso {1: {'triste', 'alegre'}, 2: {'triste', 'alegre'}}
+feio {1: {'horrendo', 'horrível'}, 2: {'catreva', 'trubufu', 'bugiranga', 'canhão', 'baranga'}}
+múrice {1: {'múrex'}}
+vendor {1: {'supplier', 'merchant', 'contract of sale', 'vendedor', 'vender', 'candy man', 'food court', 'shop around', 'auctioneer', 'discounter', 'street food', 'seller'}}
+mexer {1: {'ziving', 'şikeft', 'mixer', 'qefa', 'zang'}}
+competição {1: {'concorrência', 'disputa'}}
+conotação {1: {'intenção'}}
+efémero {1: {'efemeridade', 'transitório', 'breve', 'passageiro', 'curto'}}
+ininteligível {1: {'engrimanço', 'ininteligibile', 'incompreensível', 'anfiguri'}}
+incompreensível {1: {'ininteligível'}}
+cortelha {1: {'curral', 'cortelho', 'pocilga', 'corte'}}
+〇 {1: {'零'}, 2: {'円', '丸'}, 3: {'零'}}
+ゼロ {1: {'〇', '零'}}
+prestar {1: {'dar', 'executar', 'conceder', 'dispensar', 'fazer', 'conferir', 'render', 'realizar'}}
+valerioduto {1: {'petrolão', 'pixuleco', 'metrolão', 'petralha', 'mensalão', 'duto', 'dinheiroduto', 'privataria', 'mensaleiro', 'petralhice', 'propinoduto', 'eletrolão', 'petralhada', 'trensalão'}}
+Abdomen {1: {'AFI', 'Bauch', 'latim'}}
+After {1: {'Poloch', 'Anus', 'Arschloch', 'AFI', 'Darmausgang'}}
+Airport {1: {'Flugplatz', 'Flughafen'}}
+Amor {1: {'Amandina', 'Eros', 'Amorosa', 'Amado', 'Amadino', 'Amada', 'Amadina', 'Cupido', 'Amandino', 'Amando', 'Amorim', 'Amoroso', 'Amador', 'Amadora', 'Amanda'}}
+Antiguidade {1: {'Idade Antiga'}}
+Antonym {1: {'Gegenwort'}}
+Aquário {1: {'Aquarius'}}
+Autobus {1: {'Omnibus', 'Bus'}}
+Ball {1: {'Tanzveranstaltung'}}
+Bank {1: {'Geldinstitut', 'alto alemão antigo', 'AFI', 'Geldhaus', 'Kreditinstitut'}}
+Base {1: {'AFI', 'Lauge'}}
+Bronchitis {1: {'Bronchialkatarrh'}}
+Caranguejo {1: {'Cancer', 'Câncer'}}
+Carneiro {1: {'Aries', 'Áries'}}
+Cisne {1: {'Cygnus'}}
+Copyright {1: {'Urheberrecht'}}
+Cruzeiro {1: {'Cruz', 'cruzeirense', 'Cruzeiro do Sul'}}
+Deus {1: {'Criador', 'Infinito', 'papai do céu', 'Luz', 'Senhor', 'Javé', 'Ele', 'Altíssimo', 'Todo Poderoso', 'Pai', 'Jeová', 'Adonai'}}
+Divi {1: {'Maldivae'}}
+Dom {1: {'Kathedrale', 'Basilika', 'Münster'}}
+Drainage {1: {'Dränung', 'Dränage', 'Entwässerung'}}
+Epifania {1: {'Dia de Reis', 'latim', 'Quaresma', 'Advento', 'Reisado', 'epifânico', 'teofânico', 'grego antigo', 'manifestação', 'Teofania'}}
+Ernst {1: {'Seriosität'}}
+Estados Unidos da América {1: {'Estados Unidos', 'América', 'Esteites'}}
+Februar {1: {'AFI', 'Feber'}}
+Foto {1: {'Fotografie', 'Fotoapparat', 'Fotoatelier', 'Fotodiode', 'Fotomontage', 'Fotograf', 'Fotoroman', 'fotogen', 'Fotomodell', 'Bild', 'Lichtbild', 'Photo', 'Fotoalbum', 'Fotolabor'}}
+Fructidor {1: {'Fruchtmonat'}}
+Funeral {1: {'Leicht'}}
+Hai {1: {'Haifisch', 'AFI', 'nórdico antigo'}}
+Hospital {1: {'Krankenhaus'}}
+Inferno {1: {'Hölle'}}
+Lebre {1: {'Lepus'}}
+Libra {1: {'Balança'}}
+Oktober {3: {'AFI'}}
+Orixalá {1: {'Gunocô', 'Orixaguinã', 'Oxalá', 'Obatalá'}}
+Oxalá {1: {'Gunocô', 'Orixalá', 'Orixaguinã', 'Obatalá'}}
+Papa {1: {'Papi', 'Vati'}}
+Pé-de-cabra {1: {'pan', 'pã', 'fauno'}}
+Rede {1: {'Retículo', 'Reticulum'}}
+Statue {1: {'Plastik', 'Bildwerk', 'Kunst', 'AFI', 'Standbild', 'estar', 'Skulptur'}}
+Temmuz {1: {'Iulai'}}
+Touro {1: {'Taurus'}}
+Tétum {1: {'Tetum', 'Tetun', 'Belu'}}
+Universum {1: {'Weltall', 'Kosmos', 'Weltraum'}}
+Venus {1: {'AFI', 'latim'}, 2: {'AFI', 'latim'}, 3: {'AFI', 'latim'}, 4: {'desejar'}}
+Verb {1: {'Tunwort', 'Tätigkeitswort', 'Zeitwort', 'Tuwort', 'Verbum'}}
+Verbo {1: {'Jesus Cristo', 'Filho'}}
+Verstecken {1: {'AFI', 'esconder', 'Versteck'}}
+Viro {1: {'Viron tasavalta', 'Eesti'}}
+Übel {1: {'Misere', 'Missstand'}}
+organigrama {1: {'organograma'}}
+pequi {1: {'piqui'}}
+graviola {1: {'pinha', 'anona', 'ata'}}
+brasil {1: {'brasilina'}}
+náilon {1: {'nalho', 'nylon'}}
+perfume {1: {'odor', 'essência', 'doce', 'fragrância', 'cheiro', 'aprazível'}}
+acre {1: {'azedo', 'atroz', 'mordaz', 'terrível', 'doloroso', 'cruel', 'seco', 'ríspido', 'áspero', 'ácido', 'sarcástico', 'indelicado'}, 5: {'superlativo', 'AFI'}}
+cismar {1: {'encasquetar', 'encafifar'}}
+poder {1: {'habilidade'}}
+n {1: {'nsp'}}
+y {1: {'yg', 'ygua'}}
+damasco {1: {'alperce', 'abricó'}}
+egipto {1: {'egiptano'}}
+ingá {1: {'leguminoso', 'ingazeira', 'ingazeiro'}}
+lesoto {1: {'lesotense', 'lesotiano'}}
+perú {1: {'pirú'}}
+angst {1: {'vrees', 'schrik'}}
+auge {1: {'suprassumo', 'ponto alto', 'topo', 'culminante', 'apogeu', 'culminância', 'clímax', 'ponto'}}
+brot {1: {'eanraich'}}
+dichter {1: {'dicht', 'poëet'}}
+diplomat {2: {'ambassador', 'diplomacy', 'AFI'}}
+duft {1: {'ostaduft', 'paprikuduft', 'ryk'}}
+haus {1: {'höfuð'}}
+interview {1: {'entrevue'}, 2: {'vraaggesprek'}}
+morgen {1: {'goedemorgen'}, 3: {'om morgenen'}}
+ost {1: {'AFI'}}
+sinn {1: {'enfático'}, 2: {'intensivo', 'AFI'}}
+stein {1: {'steinn', 'AFI', 'alemão', 'pedra'}}
+ära {1: {'moral', 'hämnd', 'etik', 'rang', 'integritet', 'godhet', 'heder', 'AFI', 'ättesamhälle'}}
+öl {1: {'bjór'}}
+canhengue {1: {'sovina'}}
+conjunção {1: {'síndeto', 'conectivo', 'conetivo'}}
+período {1: {'andaina'}}
+CNPJ {1: {'CIC', 'CGC', 'RG', 'CPF'}}
+serigueiro {1: {'sirgueiro'}}
+administrador {1: {'organizador', 'chefe', 'capataz', 'controlador', 'gerente', 'feitor', 'supervisor', 'superintendente'}}
+herança {1: {'herdança', 'espólio', 'legado', 'hereditariedade'}}
+menstruação {1: {'menorreia', 'cataménio', 'catamênio', 'mênstruo', 'regra'}}
+levantar {1: {'alevantar'}}
+suspender {1: {'sobrestar'}}
+embrulhar {1: {'embalar'}}
+pesquisa {1: {'procura', 'investigação'}}
+vitória {1: {'conquista'}}
+ensinar {1: {'lecionar'}}
+abraçar {1: {'amplexar'}}
+papaia {1: {'ababaia', 'pinoguaçu', 'mamoeiro', 'bepaia', 'papaieira', 'mamão', 'mamoa', 'papaeira'}}
+muslimisch {1: {'mosleminisch'}}
+mosleminisch {1: {'muslimisch'}}
+sacerdote {1: {'crego'}}
+inchar {1: {'abaloufar'}}
+tronco {1: {'torso'}}
+acusar {1: {'mostrar', 'indicar'}}
+bater {1: {'desligar'}, 2: {'colidir', 'tocar'}}
+soar {1: {'zumbir', 'zunir', 'vibrar', 'bater'}}
+transformar {1: {'transfigurar'}}
+etéreo {1: {'tênue', 'invisível', 'rarefeito', 'sutil', 'imaterial'}}
+sutil {1: {'etéreo', 'grácil', 'tênue', 'primoroso', 'fino'}}
+subtil {1: {'zart', 'unterschwellig', 'schwierig', 'latim', 'scharfsinnig', 'spitzfindig', 'fein'}}
+tacto {1: {'tato'}}
+tato {1: {'tacto'}}
+afeto {1: {'afetividade', 'afeição', 'afecto'}}
+grupo {1: {'agremiação', 'classe', 'mentira', 'quantidade'}}
+mais {1: {'e'}}
+fruto {1: {'fruito'}}
+Begriff {1: {'Ausdruck', 'Konzept', 'Idee', 'Wort', 'Vorstellung', 'Auffassung', 'Meinung'}}
+evaporar {1: {'vaporizar', 'evaporação'}}
+satisfazer {1: {'ser suficiente', 'bastar', 'chegar'}}
+vazar {1: {'bazar'}, 2: {'entornar', 'despejar', 'verter', 'esvaziar', 'descarregar', 'derramar'}}
+duvidar {1: {'bobear'}}
+sacudir {1: {'estimular', 'comover', 'chocalhar'}}
+agradecer {1: {'parabenizar', 'felicitar', 'congratular'}}
+cafuné {1: {'chamotim'}}
+virtude {1: {'retitude', 'bondade'}}
+revestir {1: {'guarnecer', 'armar', 'cobrir', 'acobertar', 'drapejar', 'rechear'}, 2: {'entapissar', 'folrar'}}
+arrepiar {1: {'erriçar'}}
+amuleto {1: {'figa', 'talismã'}}
+receber {1: {'incorporar'}}
+select {1: {'selection', 'opt', 'AFI', 'selective', 'choose'}}
+baobá {1: {'adansónia', 'imbondeiro', 'calabaceira', 'adansônia', 'embondeiro'}}
+legislar {1: {'legiferar'}}
+capataz {1: {'administrador', 'organizador', 'supervisor', 'superintendente', 'chefe', 'controlador'}}
+opróbrio {1: {'maldição', 'afronta'}}
+hipertensão arterial {1: {'hipertensão arterial sistêmica'}}
+Schmerz {1: {'Weh'}}
+Iran {1: {'nome', 'oficial'}, 10: {'AFI'}, 13: {'AFI'}, 26: {'AFI'}}
+create {1: {'AFI', 'generate', 'invent'}}
+merge {1: {'combine', 'AFI'}}
+working {1: {'provisional', 'functioning', 'work', 'draft', 'basic', 'temporary', 'employed'}}
+unlike {1: {'dissimilar', 'diversified', 'heterogeneous', 'different', 'diverse'}}
+barriga {1: {'padulha', 'abdômen', 'panturra', 'abdome', 'ventrulho'}}
+Börse {1: {'Portemonnaie', 'Geldbeutel', 'Geldtasche', 'Geldbörse', 'Brieftasche'}}
+obsceno {1: {'impuro', 'indecoroso', 'perverso', 'imoral', 'impudico', 'indecente', 'sórdido'}}
+aqui é que a porca torce o rabo {1: {'é aí que a porca torce orabo', 'é aqui que a porca torce o rabo', 'aí que a porca torce o rabo'}}
+iluminar {1: {'clarear'}}
+mencionar {1: {'expor', 'citar', 'referir', 'narrar', 'relatar'}}
+bajular {1: {'adular'}}
+baloiçar {1: {'balouçar'}}
+sovar {1: {'esbordoar', 'espancar', 'bater', 'malhar'}}
+enrolar {1: {'convolver'}}
+lidar {1: {'lutar', 'esfalfar'}}
+amadurecer {1: {'amadurar', 'madurecer', 'madurar'}}
+enfeitiçar {1: {'arrebatar', 'embruxar', 'maravilhar', 'seduzir', 'encantar', 'fascinar'}}
+mau-olhado {1: {'enguiço'}}
+magoar {1: {'molestar', 'afligir'}}
+enganar {1: {'ludibriar', 'lograr', 'burlar', 'trapacear', 'intrujar', 'chiconelar', 'engrupir', 'iludir'}}
+curandeiro {1: {'nganga', 'balobeiro', 'curar'}}
+insistir {1: {'persistir', 'teimar', 'marralhar', 'perseverar', 'ateimar', 'recalcar', 'embirrar'}}
+encher {1: {'encher o saco', 'encher os picuás', 'encher os pacovás', 'encher o pacová'}}
+afugentar {1: {'escorrentar'}}
+assustar {1: {'assarapantar'}}
+amedrontar {1: {'assustar'}}
+Fußball {1: {'Leder'}}
+pintor {1: {'pintador'}}
+mulherengo {1: {'mulhereiro'}}
+pescador {1: {'peixeiro'}}
+secretária {1: {'escrivaninha'}}
+escrivaninha {1: {'secretária'}}
+chita {1: {'onça africana', 'guepardo'}}
+proselitismo {1: {'doutrinação', 'catequese'}}
+tapete {1: {'alcatifa'}}
+tremer {1: {'renguear', 'estremecer'}}
+estourar {1: {'estoupar'}}
+circassiano {1: {'adigue'}}
+zombar {1: {'cachetar'}, 2: {'zoupar'}}
+uivar {1: {'ulear'}}
+acabar {1: {'romper', 'encerrar', 'findar', 'arruinar', 'terminar', 'matar', 'rematar', 'concluir'}}
+terminar {1: {'acabar'}}
+estragar {1: {'escaralhar'}}
+chatear {1: {'caningar'}}
+roubar {1: {'afanar'}}
+definhar {1: {'enlanguescer'}}
+enfraquecer {1: {'desfortalecer', 'infirmar'}}
+turvar {1: {'turbar'}}
+mordiscar {1: {'amorsegar'}}
+amarilho {1: {'palomino'}}
+palomino {1: {'amarilho'}}
+arteriosclerose {1: {'slagaderverharding'}}
+Gericht {1: {'Hauptgericht', 'Richter', 'Gerichtshof', 'gerecht', 'Gang', 'Essen', 'Richterkollegium', 'Speise', 'Tribunal'}}
+Flughafen {1: {'landen', 'Abflug', 'Hafen', 'Aerodrom', 'Airport', 'Landung', 'Flugplatz', 'abfliegen', 'Terminal', 'Tower', 'Flug', 'AFI', 'Gepäck', 'Flugzeug'}}
+descer {1: {'decrescer', 'retroceder', 'cair', 'descender', 'decer'}}
+fingir {1: {'simular', 'inventar', 'fantasiar'}}
+forrar {1: {'aforrar'}}
+arranhar {1: {'agatanhar'}}
+fundir {1: {'coliquar'}}
+despedaçar {1: {'quebrar', 'romper', 'espatifar', 'destroçar', 'esbandalhar', 'esmigalhar', 'estilhaçar'}}
+agradar {1: {'gorentar', 'aprouver'}}
+gerar {1: {'procriar', 'germinar', 'criar', 'produzir', 'desenvolver'}}
+esvaziar {1: {'baleirar'}}
+queimar {1: {'tostar'}}
+conversar {1: {'confabular', 'dialogar', 'conferenciar', 'negociar', 'entrevistar', 'tagarelar'}}
+coser {1: {'costurar'}}
+fluir {1: {'derivar', 'manar', 'descender', 'nascer', 'afluir'}}
+arrumar {1: {'sistematizar', 'ordenar', 'organizar', 'dispor'}}
+pálpebra {1: {'capela dos olhos', 'párpado'}}
+vadio {1: {'ocioso', 'sapeca', 'vagabundo', 'errante', 'tunante', 'malandro', 'inaplicado', 'desocupado'}}
+conta-giros {1: {'taquímetro', 'giro', 'contar', 'tacômetro'}}
+astúcia {1: {'esperteza', 'sagacidade', 'sapiência', 'inteligência'}}
+chifre {1: {'corno'}}
+alfaiate {1: {'xastre'}}
+ema {1: {'nhandu', 'nandu'}}
+Recherche {1: {'Investigation'}}
+Sackgasse {1: {'Stichstraße'}}
+chamar {1: {'tocar'}}
+resumo {1: {'abstract'}}
+apertar {1: {'impor', 'pressionar', 'comprimir', 'resposta', 'adstringir', 'coagir', 'ajustar'}, 2: {'apertuna', 'apertador', 'apertadouro', 'aperto', 'apertômetro', 'aperto libro', 'apertucho', 'apertório', 'apertada', 'apertométrico', 'apertinente', 'apertadoiro', 'recrudescer', 'comprimir', 'apertura', 'apertante', 'apertado', 'apertadela', 'apertamento', 'apertão'}}
+puxar {1: {'tirar', 'sair'}}
+Säuberung {1: {'Reinigung'}}
+latgaliano {1: {'latgálio', 'alto letão', 'letão oriental'}, 3: {'AFI'}}
+larva {1: {'larvato', 'larvicida', 'AFI', 'larvale', 'bruco'}}
+ajudar {1: {'adjuvar'}}
+ahi {1: {'AFI'}, 2: {'havaiano', 'AFI', 'tuna', 'fish'}, 4: {'árabe'}}
+taat {1: {'yuum', 'taatáa'}}
+ahu {1: {'persa'}}
+saliva {1: {'cuspe', 'baba', 'cuspo'}}
+stuff {1: {'thing'}}
+camelo {2: {'grego antigo', 'compensar', 'latim', 'devolver'}, 3: {'compensar', 'devolver', 'latim', 'AFI', 'grego antigo'}}
+domo {1: {'zimbório', 'braquianticlinal', 'cúpula'}, 2: {'AFI'}, 3: {'domar', 'eu', 'AFI'}, 4: {'domar', 'eu'}, 5: {'AFI'}}
+cuspo {1: {'guspe'}}
+Ermordung {1: {'Mord'}}
+diligente {1: {'aplicado', 'ativo', 'agencioso', 'dedicado', 'trabalhador', 'zeloso'}}
+purse {1: {'handbag'}}
+leave {1: {'ignore', 'forsake', 'relinquish', 'abandon', 'renounce', 'desert', 'forbear', 'forget'}}
+bálsamo {1: {'perfume', 'aroma', 'conforto'}}
+авар {1: {'магӀарул', 'болмацӀ'}}
+tata {2: {'AFI'}}
+Wirtschaft {1: {'Ökonomie'}}
+bin {1: {'dustbin'}, 2: {'celta', 'gaulês', 'berço', 'being', 'inglês antigo', 'been', 'AFI', 'AHD', 'anterior', 'inglês médio'}}
+sukul {1: {'inglês'}}
+viado {1: {'guei', 'gay', 'bicha', 'boiola', 'maricas', 'xibungo', 'viadagem', 'veado', 'baitola'}}
+verdete {1: {'zinabre', 'verde', 'azebre', 'cardenilho'}}
+talha {1: {'quartião', 'talhar', 'porrão', 'moringa', 'purrão', 'pote', 'quartinha'}}
+jargon {1: {'parlance'}}
+riddle {1: {'conundrum', 'enigma', 'siever'}, 2: {'pervade', 'permeate', 'screen'}}
+bufarinheiro {1: {'mascate', 'bufarinha', 'quinquilheiro', 'quinquilharia'}}
+resolução {1: {'solução', 'decisão'}}
+andrógino {1: {'androgínico'}}
+balangandã {1: {'pendurado', 'bereguendém', 'objetos', 'barangandã', 'ruído'}}
+can {1: {'conhecer', 'SAMPA', 'know', 'may', 'como', 'be allowed to', 'AFI', 'be able to', 'cunnan'}}
+Schule {1: {'Bildungsstätte'}}
+Lehrer {1: {'Tutor', 'Mentor'}}
+cosmopolizar {1: {'universalizar'}}
+despoletar {1: {'disparar'}}
+lide {1: {'terceira pessoa', 'lida', 'pendência', 'negativo', 'faina', 'presente', 'imperativo', 'modo subjuntivo', 'peleja', 'singular', 'contenda', 'litígio', 'lidar', 'disputa', 'afirmativo'}}
+den {1: {'maouez', 'AFI', 'gwaz'}}
+controlador {1: {'gerente', 'feitor', 'organizador', 'supervisor', 'superintendente', 'chefe', 'capataz'}}
+hígido {1: {'salubre', 'saudável', 'sadio', 'higidez', 'higiene'}}
+ик {1: {'ordinal', 'simultâneo', 'simultaneamente', 'ик жапысе', 'ик жапыште'}, 2: {'ordinal'}}
+resenha {1: {'recensão', 'crítica'}}
+majorar {1: {'avultar'}}
+bak {1: {'ba'}, 4: {'bakken', 'AFI'}, 6: {'AFI'}}
+alfândega {1: {'aduana'}}
+arcane {1: {'esoteric', 'arcana'}}
+overseer {1: {'head', 'organizer', 'foreman', 'administrator', 'chief', 'head man', 'comptroller', 'supervisor', 'superintendent', 'controller'}}
+penmanship {1: {'calligraphy', 'AFI'}}
+feitor {1: {'administrador', 'organizador', 'supervisor', 'superintendente', 'chefe', 'capataz', 'controlador'}}
+miiodopsia {1: {'escotopsia'}}
+administrator {1: {'head', 'organizer', 'foreman', 'SAMPA', 'chief', 'overseer', 'head man', 'comptroller', 'supervisor', 'AFI', 'superintendent', 'controller'}}
+azurum {1: {'azúrium', 'cerúleum', 'ultramarinum'}}
+ignorante {1: {'incompetente', 'idiota', 'néscio', 'estúpido', 'orelhudo', 'insipiente', 'mentecapto', 'burgesso', 'ignorantão', 'apedeuta', 'apedeuto', 'burro'}}
+organizador {1: {'gerente', 'feitor', 'supervisor', 'superintendente', 'chefe', 'capataz', 'controlador'}}
+ubiquidade {1: {'onipresença', 'ubiqüidade', 'omnipresença', 'ubiquité', 'ubíquo', 'ubiquação'}}
+desconhecido {1: {'incógnito'}}
+ab-rogação {1: {'anulação', 'revogação', 'supressão'}}
+indígena {1: {'tamugão', 'índio', 'latim'}}
+corpse {1: {'cadaver', 'body', 'carcass'}}
+semimetal {1: {'metaloide'}}
+Wüste {1: {'Wueste', 'AFI'}}
+misantropia {1: {'misantropo', 'antropofobia'}}
+flock {1: {'throng', 'rabble', 'horde', 'host', 'nest', 'gaggle', 'litter', 'legion', 'swarm', 'bunch'}}
+chuvasco {1: {'chuva', 'AFI'}}
+prostituição {1: {'putaria', 'meretrício'}}
+mulher da vida {1: {'mulher', 'vida'}}
+armado {1: {'armígero'}}
+naujas {1: {'naunas'}}
+abrigo {1: {'refúgio'}}
+alciôneo {1: {'alciônico'}}
+bab {1: {'bav', 'mirov', 'bavkal', 'jin', 'mêr', 'afret', 'zelam'}}
+web {1: {'World Wide Web', 'www'}}
+war {3: {'inglês', 'potência'}}
+façade {1: {'apparel'}}
+elaborar {1: {'fabricar', 'projetar', 'produzir', 'programar', 'construir', 'edificar', 'intricar', 'planificar', 'refinar', 'sofisticar', 'formar', 'planejar', 'desenvolver'}, 2: {'AFI'}, 3: {'AFI'}}
+marítimo {1: {'marino', 'mareiro', 'pelágico', 'pelágio', 'marinho'}}
+Wahl {1: {'Option', 'Kür', 'Wahlsieg', 'Wahlkabine', 'Abstimmung', 'Wahlversprechen', 'Auswahl', 'Wahlurne', 'desejar', 'AFI', 'wählen', 'Entscheidung', 'Wahlkampf', 'Wahllokal', 'Stichwahl'}}
+todo-poderoso {1: {'onipotente'}}
+superb {1: {'AFI', 'excellent', 'superlative'}}
+buenas {1: {'olá', 'AFI', 'bueno', 'oi', 'alô', 'saudações'}, 2: {'bueno', 'AFI'}}
+hispano {1: {'hispânico'}, 2: {'español', 'latino', 'hispánico'}, 3: {'estadounidense', 'hispanohablante', 'hispanofobia', 'europeo', 'latino', 'España', 'Hispania'}}
+acreano {1: {'acriano'}, 2: {'acriano', 'Acre'}}
+olhar {1: {'ver', 'observar'}}
+imarcescível {1: {'incorruptível'}}
+superintendente {1: {'organizador', 'chefe', 'capataz', 'controlador', 'administrador', 'gerente', 'feitor', 'supervisor'}}
+supervisor {1: {'head', 'organizer', 'foreman', 'headman', 'administrator', 'chief', 'overseer', 'superintendent', 'controller'}}
+isomorfo {1: {'isomórfico'}}
+Photo {1: {'Foto', 'Bild', 'Lichtbild', 'Fotografie'}}
+lembrança {1: {'inspiração', 'sequela', 'reminiscência', 'lembrete', 'alvitre', 'recordação'}}
+ꆈꌠ {1: {'彝'}}
+soberania {1: {'supremacia', 'hegemonia'}}
+Yahveh {1: {'Jehovah'}}
+progresso {1: {'evolução', 'melhoria'}}
+justiça {1: {'retidão', 'legalidade'}}
+ambição {1: {'sofreguidão', 'avidez'}}
+era {1: {'època', 'període'}, 2: {'AFI', 'ser'}, 3: {'masa', 'jaman', 'periode'}, 4: {'epoch', 'period', 'AFI'}, 5: {'epoca', 'essere', 'AFI', 'età'}, 6: {'kasi'}, 7: {'edra'}}
+inteligência {1: {'conhecimento', 'sabedoria'}}
+erfolgreich {1: {'sieghaft', 'siegreich', 'vielversprechend'}}
+conspiração {1: {'conspirata', 'maquinação'}}
+cabular {1: {'gazear'}}
+meetkunde {1: {'geometrie', 'AFI', 'kunde', 'meten', 'medir'}}
+conformable {1: {'similar', 'corresponding', 'alike', 'suitable'}}
+laticínio {1: {'produto lácteo'}}
+represa {1: {'barreira', 'barragem', 'açude', 'represamento'}, 2: {'contido', 'latim'}}
+Institution {1: {'Anstalt', 'Organisation', 'Behörde', 'Einrichtung', 'Organisationselement'}}
+wichtig {1: {'mächtig', 'substanziell', 'brennend', 'wirkmächtig', 'unentbehrlich', 'entscheidend', 'wirkungsvoll', 'ausschlaggebend', 'elementar', 'pressant', 'repräsentativ', 'zentral', 'bedeutungsvoll', 'einflussreich', 'grundlegend', 'eingreifend', 'lebenswichtig', 'triftig', 'unerlässlich', 'hauptsächlich', 'beherrschend', 'akut', 'eilig', 'unabkömmlich', 'einschneidend', 'unabweisbar', 'bedeutend', 'erstrangig', 'tiefgreifend', 'unverzichtbar', 'erforderlich', 'vordringlich', 'wesentlich', 'belangvoll', 'fundamental', 'signifikant', 'unaufschiebbar', 'aufschlussreich', 'gewichtig', 'essenziell', 'dringend', 'obligat', 'relevant', 'dringlich', 'notwendig', 'autoritativ', 'stark', 'vonnöten', 'wirkungskräftig', 'erheblich', 'potent', 'wert', 'erwägenswert', 'schwerwiegend'}}
+concordante {1: {'concorde', 'conforme'}}
+concorde {1: {'conforme', 'concordante'}}
+zahlreich {1: {'zahllos', 'vielzählig'}}
+amarelado {1: {'amarelecido'}}
+Arbeit {1: {'Auftrag', 'Beschäftigung', 'Job', 'Aufgabe', 'Handlung', 'Tätigkeit', 'Beruf', 'Arbeitsplatz'}}
+lila {1: {'gredelin', 'violettt', 'AFI'}}
+braço-curto {1: {'ocioso', 'vadio', 'vagabundo'}}
+abacaxi-de-tingir {1: {'tingir', 'abacaxi'}}
+meistens {1: {'meist'}}
+viel {1: {'oft', 'reichlich', 'häufig', 'genügend'}}
+mandioca-puba {1: {'carimã'}}
+mandioquinha-salsa {1: {'cerefólio', 'cerefolho'}}
+lixeiro {1: {'coletor de lixo', 'lixo'}}
+carnaval {1: {'entroido', 'entrudo', 'entruito', 'entruido'}}
+não-oficial {1: {'inoficial'}}
+cronômetro {1: {'cronoscópio'}}
+uacima-do-campo {1: {'uacima', 'uaicima'}}
+uaicima-da-praia {1: {'uacima', 'uaicima', 'uacima da praia'}}
+uambé-curuá {1: {'uambé', 'curuba', 'tracua', 'ambé'}}
+uapuim-açu {1: {'caxinguba', 'lombrigueira'}}
+achego {1: {'encosto', 'achegar'}}
+abelha-europa {1: {'abelha'}}
+fronteira {1: {'limite'}}
+aerial {1: {'airy'}}
+llingua {2: {'latim'}}
+sport {1: {'sports'}}
+ajudante {1: {'ajudador'}}
+globalização {1: {'internacionalização'}}
+burocracia {1: {'chichilaria'}}
+plutocracia {1: {'milionocracia'}}
+a neném {1: {'duro', 'liso'}}
+gulosa {1: {'guloso'}}
+aposento {1: {'hospedagem', 'casa', 'moradia'}}
+apa {2: {'latim'}, 3: {'AFI', 'apă', 'latim'}}
+mara {6: {'espanhol'}}
+terror {1: {'pavor'}}
+Glühbirne {1: {'Glühlampe', 'ˈglyːbɪʁnə', 'brilhar', 'ˈglyːbɪʁnən', 'pera'}}
+Glühlampe {1: {'Glühbirne'}}
+Kugelschreiber {1: {'Kuli'}}
+Stuhl {1: {'Sessel'}}
+melificar {1: {'adocicar'}}
+dependurar {1: {'pendurar'}}
+toxicólogo {1: {'toxicologista', 'atóxico', 'atoxicar'}}
+diabrete {1: {'furacão', 'diabinho', 'peste'}}
+burlesco {1: {'chocarreiro', 'escarnecedor', 'satírico'}}
+trampa {1: {'parany', 'trampós'}, 2: {'pedal'}}
+ceia {1: {'ceia do Senhor', 'última ceia', 'judeu', 'graal', 'cenatório', 'smörgasbord', 'réveillon', 'cenário', 'cenáculo', 'ceado', 'consoada', 'cear', 'ceata', 'A Santa Ceia'}}
+onzeneiro {1: {'avarento'}}
+solha {1: {'latim'}}
+ferida {1: {'golpe', 'dor', 'dodói', 'úlcera', 'pereba', 'ulceração', 'bostela', 'mágoa', 'machucado', 'chaga', 'ferimento'}, 2: {'lesionada', 'machucada'}, 3: {'ferit'}, 4: {'ferit', 'AFI', 'particípio'}, 5: {'ferido'}, 6: {'ferit', 'AFI'}}
+inócuo {1: {'inofensivo'}}
+harmonia {1: {'consonância', 'concerto', 'cadência'}}
+lenho {1: {'xilema'}}
+teste caixa-branca {1: {'teste de caixa de vidro'}}
+porko {1: {'hochi'}}
+hochi {1: {'porko'}}
+araña {1: {'haraña'}}
+abeha {1: {'bei'}}
+bei {1: {'abeha'}}
+mosquito {1: {'dengue', 'fiebre amarilla', 'zancudo', 'malaria'}}
+borboleta {1: {'torniquete', 'mariposa', 'volúvel'}}
+costurar {1: {'suturar', 'coser'}}
+cachaça {1: {'cachacipançudo', 'cachacinha', 'cachaço', 'cachação', 'cachaceira', 'cachaceiro', 'cachaçada', 'cachaçudo'}}
+softening {1: {'mollifying', 'emollient', 'extenuating'}, 2: {'mollification', 'debilitation', 'attenuation', 'wearing', 'lessening', 'decrease', 'soothing', 'wear', 'weakening'}}
+combustível {1: {'inflamável', 'incendiável', 'queimável'}}
+rabeca {1: {'rebeca', 'rabecão', 'ramaldeira', 'violino', 'rabeca chuleira', 'resto', 'árabe', 'francês', 'rabecada', 'rabela', 'fancho', 'sanfona', 'rebec', 'provençal'}}
+Mikrowelle {1: {'Mikrowellenherd'}}
+Schublade {1: {'Lade'}}
+pícaro {1: {'moleque', 'travesso', 'astuto'}}
+feminil {1: {'feminal', 'femeal', 'adamado', 'fêmea', 'feminista', 'femíneo', 'latim', 'feminilidade', 'feminifloro', 'femeeiro', 'feminino', 'feminidade', 'femeaço', 'fêmeo', 'feminizar'}}
+factótum {1: {'factoto', 'mão direita', 'mordomo', 'feitor'}}
+iguana {1: {'sinumbu', 'senembi', 'senembu', 'sinimbu', 'tijibu'}}
+konènchi {1: {'koneu'}}
+koneu {1: {'konènchi'}}
+investigação {1: {'inquérito', 'inquisição', 'inquirimento', 'averiguação', 'apuração', 'inquisa', 'sindicância'}}
+replete {1: {'preencher', 'AFI', 'encher', 'surfeited', 'satiated'}}
+много {1: {'несметное', 'немало', 'несчётное', 'количество', 'тьма', 'уйма', 'множество', 'не счесть', 'куча', 'бездна', 'легион'}}
+fó {1: {'traque', 'fofó', 'ventosidade', 'dar', 'pum', 'peido'}}
+helicóptero {1: {'avião de rosca'}}
+biju {1: {'bijupirá', 'joia', 'bijou', 'bijuteria'}}
+brand {1: {'marque', 'brand name', 'logo', 'tradename', 'trademark'}}
+fofoqueiro {1: {'intrigante', 'mexeriqueiro'}, 2: {'intrigante', 'fofoca', 'mexeriqueiro'}}
+búzio {1: {'uatapu', 'itapu', 'atapu', 'vatapu', 'guatapi', 'vapuaçu'}}
+cabeço {1: {'colina', 'cume'}}
+sematologia {1: {'semiótica', 'semântica', 'semasiologia'}}
+жопа {1: {'idiota', 'срака', 'задница', 'chato', 'попа', 'nádegas', 'cuzão', 'зад'}}
+kiitos {1: {'kiitti'}}
+Essen {1: {'Mahl', 'Mahlzeit', 'Speise', 'Gericht'}}
+origem {1: {'causa', 'desenlace', 'ascendência'}}
+calada {1: {'assuada', 'estrondo'}}
+capote {1: {'sobretudo'}}
+casacão {1: {'manto', 'capote', 'casaco', 'sobretudo'}}
+catuto {1: {'cabaço', 'porongo', 'cabaça'}}
+corisco {1: {'relâmpago', 'coriscante', 'coriscação', 'mandado', 'coriscado', 'coriscar'}}
+federal {1: {'policial federal'}}
+conluio {1: {'colusão', 'colludiu'}}
+abespinhar {1: {'embespinhar'}}
+surra {1: {'espancamento', 'carcaço', 'sumanta'}}
+sambaqui {1: {'sarnambi', 'caleira', 'caieira', 'ostreira', 'cernambi', 'casqueiro', 'samauqui', 'berbigueira', 'concheira', 'samaqui', 'banco conchífero', 'mina de sernambi'}}
+debulhar {1: {'pindocar'}}
+deleriado {1: {'desmaiado', 'desfalecido'}}
+bruxa {1: {'bruaca', 'serpe', 'jabiraca', 'coruja', 'muxiba', 'seresma', 'xaveco', 'cuca', 'urucaca', 'carcaça', 'canhão'}}
+macérrimo {1: {'magríssimo', 'magérrimo'}}
+desertor {1: {'prófugo'}}
+acaçapado {1: {'acaçapar', 'acachapado'}}
+corar {1: {'colorir', 'causado', 'face', 'envergonhar', 'sol', 'embaraço', 'apresentar', 'disfarçar', 'tingir', 'atenuar', 'cor', 'branquear', 'algum', 'corado', 'enrubescer', 'textura', 'estímulo', 'dourar', 'consequência', 'vergonha', 'avermelhado', 'clarear', 'desculpar', 'pintar', 'exposição', 'mais', 'tornar', 'rubor', 'adquirir'}, 2: {'rubificar', 'ruborizar', 'enrubescer', 'quarar', 'dourar', 'coradoiro'}}
+perda {1: {'perca'}}
+esconjurar {1: {'conjurar', 'latim', 'exorcismar'}}
+acalcanhado {1: {'cambado', 'acalcanhar', 'calcado'}}
+aceiro {1: {'atalhada'}}
+cócoras {1: {'cócaras'}}
+padroeiro {1: {'defensor'}}
+porvir {1: {'vir', 'por', 'devir'}}
+paquerar {1: {'galantear', 'xavecar', 'cortejar', 'azarar'}}
+alcaguete {1: {'alcahuete', 'dedo duro', 'delator', 'cagueta', 'dedo de seta', 'cabueta', 'dedo de cimento armado'}}
+sossegar {1: {'acadimar', 'repousar', 'descansar', 'assossegar', 'aquietar', 'acalmar', 'tranquilizar'}}
+maquinar {1: {'urdir', 'tramar', 'conspirar', 'enredar'}}
+frente {1: {'espanhol', 'cara'}}
+progrès {1: {'AFI'}}
+イデオロギー {1: {'思想', 'Ideologie'}}
+bandeira {1: {'pendão', 'flâmula', 'vexilo', 'entrada', 'pavilhão', 'estandarte', 'lábaro'}}
+evolução {1: {'teoria evolucionista'}}
+vit {1: {'AFI'}, 2: {'bite', 'voir', 'aproximadamente', 'AFI', 'vivre', 'queue'}, 4: {'AFI', 'färg'}}
+vendola {1: {'bitaca', 'venda', 'ola'}}
+sprawiedliwość {1: {'AFI'}}
+juiz {1: {'árbitro'}}
+힘 {1: {'효력', '능력', '에너지', '동력', '전력', '활력', '억셈'}}
+moc {1: {'mocnina', 'mocnář', 'mocný', 'nemoc', 'moci', 'možnost', 'mocněnec', 'mocnářství', 'mocnost', 'odmocnina', 'možný', 'mocnitel', 'pomoc', 'sila', 'moct'}, 2: {'siła'}}
+valta {1: {'germânico', 'valtaistuin', 'vallata', 'valtakunta', 'AFI', 'tasavalta'}}
+macht {1: {'fermogen'}, 2: {'vermogen', 'sterkte', 'kracht', 'heerschappij', 'gezag', 'mogendheid'}}
+władza {1: {'siła', 'panowanie', 'valdžia', 'przywództwo', 'rząd', 'potęga'}}
+อำนาจ {1: {'เขตอำนาจ', 'มหาอำนาจ'}}
+tendência {1: {'cadência'}}
+espiritual {1: {'spiritual'}}
+venéreo {1: {'sensual', 'erógeno', 'erótico'}, 2: {'doença', 'sexo'}}
+revolutie {1: {'omwenteling', 'staatsgreep', 'coup'}}
+vallankumous {1: {'valta', 'kumous', 'mullistus', 'vallan'}}
+혁명 {1: {'혁신'}}
+embaciado {1: {'fosco', 'embaciar'}}
+papagaio {1: {'louro', 'pandorga', 'tagarela', 'quadrado', 'raia', 'pipa'}}
+regular {1: {'invariável', 'normal', 'comum', 'típico'}}
+autoritarismo {1: {'despotismo'}}
+empate {1: {'empatar', 'hesitação'}}
+revanche {1: {'revanchismo', 'revanchístico', 'desforra', 'vingança', 'revanchista'}}
+encantar {1: {'fascinar'}}
+enfarado {1: {'entediado', 'enfarar'}}
+engruvinhado {1: {'engruvinhar', 'enrugado', 'encarquilhado'}}
+gravidez {1: {'gravidação', 'prenhidão', 'prenhez', 'estado interessante', 'cioforia', 'gestação', 'embaraço', 'ciese'}}
+desligado {1: {'prevenido'}}
+farra {1: {'jiquipanga'}}
+gaio {1: {'alegre'}, 2: {'alegria', 'alegre', 'provençal', 'latim tardio'}}
+galhada {1: {'galharada'}}
+gambá {1: {'ticaca', 'micurê', 'sarigueia', 'cassaco', 'sariguê', 'tacaca', 'mucura', 'saruê', 'raposa', 'taibu', 'timbu'}}
+gabarola {1: {'gabachista', 'gangento', 'gabazola', 'gabarrista', 'gabanista'}, 2: {'gabola', 'gabachão', 'gabagola', 'gabar', 'gabomela'}}
+fanfarrão {1: {'gabola', 'farrombeiro', 'pimpão', 'pabuloso', 'bazófio', 'farromeiro', 'farfante', 'farofeiro', 'darandão', 'blasonador'}}
+tolo {1: {'abestado', 'zuzuto', 'bilé', 'abestalhado'}}
+grude {1: {'gororoba', 'grudar'}}
+guapuruvu {1: {'garapuva', 'bandarra', 'guapiruvu', 'guapuruva', 'paricá', 'pinho', 'bucurubu', 'gabiruvu', 'guavirova', 'baageiro', 'guapurubu', 'bagiro', 'bacurubu', 'pataca', 'guaripivu', 'bacumbu', 'faveira', 'guaparuva', 'beri', 'bacuparu', 'tambor', 'guaporuba', 'ficheira', 'caixeta', 'guaperevu', 'ficheiro', 'guaperuvu', 'guaviroba', 'guaporuva', 'garipuvu', 'baquerubu', 'guaburuvu', 'guapiruva', 'guarupuvu', 'baqueruvu', 'breu', 'bacuva', 'bandar', 'guapiruvi', 'faveiro', 'bageiro', 'guapuruba', 'guapivuçu', 'guarapuvu', 'garipivu', 'ficha', 'gapuvuru', 'garapuvu', 'garapivu', 'pataqueira', 'guaperubu', 'guavirovo', 'bacuruvu', 'grapibu'}}
+cuspir {1: {'atirar'}}
+parado {1: {'cediço'}}
+romani {1: {'romany', 'romanho', 'romanês'}}
+banheiro {1: {'sintina'}}
+excremento {1: {'fezes', 'bosta', 'cocô', 'merda'}}
+quizila {1: {'desinteligência', 'enquizilado', 'repulsão', 'quizilar', 'quijila', 'amofinação', 'quimbundo', 'quezila', 'quizília'}}
+devaneio {1: {'devanear', 'veleidade'}}
+Nachtisch {1: {'Nachspeise', 'Dessert'}}
+digno {1: {'capaz', 'nobre', 'honrado', 'elevado', 'honesto', 'decoroso'}}
+aquiescência {1: {'anuência', 'assentimento', 'aprovação', 'permissão', 'licença'}}
+assoalho oceânico {1: {'piso oceânico', 'assoalho', 'oceânico'}}
+bolinar {1: {'bolina', 'esfregar', 'sarrar', 'amassar', 'xumbregar', 'apalpar', 'chinchar'}}
+onça {1: {'jaguaretê', 'jaguar'}}
+jacuba {1: {'tiquara', 'garapa', 'xibé', 'chibé', 'gonguinha', 'sebereba'}}
+Nachspeise {1: {'Nachtisch', 'Dessert'}}
+einstênio {1: {'einstêinnio', 'einstânio'}}
+nombre {1: {'AFI', 'xifra', 'numerus', 'número'}, 2: {'nomen', 'apellido', 'designación', 'sobrenombre', 'pronombre', 'título', 'sustantivo', 'agnomen', 'cognomen', 'denominación', 'nome', 'AFI'}, 3: {'chiffre', 'numéro'}}
+plonger {1: {'immerger', 'tremper', 'baigner', 'nager', 'plongée'}}
+belge {1: {'belgesel', 'belgemek', 'evrak', 'vesika', 'belgeli'}}
+medir a febre {1: {'tirar a febre', 'febre', 'ver a febre', 'medir'}}
+miserável {1: {'miserento'}}
+ambidestro {1: {'ambidéster'}}
+ambidesteridade {1: {'ambidestrismo', 'ambidestria', 'ambidestro', 'ambidestreza'}}
+ambidestria {1: {'ambidestrismo', 'ambidesteridade', 'ambidestro', 'ambidestreza'}}
+shopping {1: {'shopping center'}}
+provocar {1: {'acicar', 'inticar', 'atiçar', 'chacoalhar'}}
+darmstácio {1: {'ununílio', 'darmstádio', 'ununnilium', 'darmestádio'}}
+roentgênio {1: {'ununúnio'}}
+ununnilium {1: {'IUPAC', 'darmstadtium'}}
+unúnbio {1: {'copernício'}}
+macumba {1: {'macumbeiro', 'quimbundo', 'feitiço'}}
+nos tempos afonsinos {1: {'no tempo dos afonsinhos'}}
+unúntrio {1: {'ununtrium'}}
+passar de pato a ganso {1: {'mudar de pato para ganso'}}
+approval {1: {'commendation', 'approbation', 'sanction'}}
+argument {1: {'parameter', 'argumentation', 'argumentative', 'argue', 'arguable'}}
+comprehensive {1: {'exhaustive', 'comprehend', 'comprehensively', 'thorough'}}
+pé-de-cana {1: {'cana', 'alcoólico', 'pé', 'beberrão', 'bebum', 'alcoolista'}}
+bunda-mole {1: {'covarde', 'bundão', 'mole', 'inativo', 'bunda', 'pusilânime', 'desencorajado'}}
+sobrançaria {1: {'sobranceria', 'altivez'}}
+construir {1: {'desenhar', 'edificar'}}
+realizar {1: {'perceber', 'cair em si'}}
+uxório {1: {'uxórico', 'uxoriano'}}
+Klavier {1: {'Piano'}}
+amianto {1: {'asbesto'}}
+compositor {1: {'typesetter', 'AFI', 'typographer', 'setter', 'composer'}}
+pinante {1: {'garoto'}}
+chumbar {1: {'apaixonar', 'imobilizar', 'afundar', 'lograr', 'enfeitiçar', 'selar', 'solidificar', 'enamorar', 'chumbear', 'balear', 'falhar', 'enganar'}}
+pila {1: {'real', 'conto'}, 2: {'batería'}, 3: {'vitsi'}}
+consequência {1: {'consectário'}}
+provincianismo {1: {'provincialismo'}}
+agonia {1: {'angústia', 'tormento', 'sofrimento', 'aflição'}, 2: {'AFI', 'kuolinkamppailu'}}
+corruptela {1: {'corrutela'}}
+baixo-latim {1: {'latim tardio'}}
+kaufen {1: {'aufkaufen', 'zukaufen', 'abkaufen', 'alto alemão antigo', 'ankaufen', 'Kaufmann', 'verkaufen', 'Käufer', 'anschaffen', 'Kauf', 'AFI', 'ausverkaufen', 'erwerben', 'einkaufen'}}
+ie {1: {'ile'}, 2: {'AFI', 'enfático'}}
+cara de pau {1: {'caradura', 'pau', 'cara'}}
+イタリア {1: {'伊太利亜', 'Italia', '伊太利'}}
+意大利 {1: {'義大利共和國', '義大利'}}
+Holanda {1: {'Países Baixos'}}
+levar pau {1: {'tomar pau'}}
+meter o pau {1: {'descer a lenha', 'meter', 'pau'}}
+maracutaia {1: {'negociata'}}
+acaso {1: {'casualidade'}}
+é {1: {'não diga', 'sério', 'mentira', 'mesmo', 'brincou', 'verdade'}}
+atmómetro {1: {'atmidômetro', 'evaporímetro'}}
+atmômetro {1: {'atmidômetro', 'evaporímetro'}}
+träumen {1: {'phantasieren', 'schnarchen', 'alto alemão antigo', 'schlafen', 'drōmen', 'pennen', 'ratzen', 'Tagträumer', 'troumen', 'schlummern', 'Träumer', 'AFI', 'Traum'}}
+Gaststätte {1: {'Restaurant'}}
+lagartixa {1: {'taruíra'}}
+pisar {1: {'espezinhar'}}
+pitium {1: {'pituí', 'pitiú'}}
+poitar {1: {'poutar'}}
+dicionarista {1: {'lexicógrafo', 'wikcionarista'}}
+semantema {1: {'lexema', 'base'}, 2: {'AFI'}}
+condenar {1: {'obrigar', 'increpar', 'zagunchar', 'vituperar', 'incriminar', 'censurar', 'verberar', 'acriminar', 'glosar', 'reprovar', 'desaprovar', 'acoimar', 'critiquizar', 'denunciar', 'tachar', 'criminar', 'punir', 'desculpar', 'criticar'}}
+portada {1: {'portal', 'frontispício', 'porta'}}
+ravina {1: {'voçoroca'}}
+rapina {1: {'roubo', 'rapinar', 'latim', 'rapinagem'}}
+banaan {1: {'pisang'}}
+zoen {1: {'kus'}}
+subjugar {1: {'sujigar'}}
+invernada {1: {'inverno', 'inverna'}}
+rajada {1: {'ventania', 'lufada', 'lufa'}}
+esmola {1: {'óbolo'}}
+bula {1: {'papežská bula', 'bola', 'latim'}, 2: {'papeška bula', 'bola', 'latim'}, 3: {'bola', 'latim', 'AFI', 'bula papal', 'bula pontificia'}}
+gunga {1: {'elande'}}

@@ -1,0 +1,56 @@
+nid = 1 annotator1 = 33 annotator2 = 45 mistakes = 53   agreed = 25     precision = 0.4716981132075472  kappa = 0.9058471217771429
+nid = 2 annotator1 = 43 annotator2 = 54 mistakes = 70   agreed = 27     precision = 0.38571428571428573 kappa = 0.9144250868342056
+nid = 3 annotator1 = 57 annotator2 = 87 mistakes = 103  agreed = 41     precision = 0.39805825242718446 kappa = 0.8915761980620094
+nid = 4 annotator1 = 50 annotator2 = 101        mistakes = 113  agreed = 30     precision = 0.26548672566371684 kappa = 0.7291991785580866
+nid = 5 annotator1 = 48 annotator2 = 70 mistakes = 79   agreed = 35     precision = 0.4430379746835443  kappa = 0.8697485981903196
+nid = 6 annotator1 = 48 annotator2 = 56 mistakes = 79   agreed = 24     precision = 0.3037974683544304  kappa = 0.8298405779326656
+nid = 7 annotator1 = 57 annotator2 = 82 mistakes = 97   agreed = 42     precision = 0.4329896907216495  kappa = 0.8432940135869965
+nid = 8 annotator1 = 34 annotator2 = 91 mistakes = 97   agreed = 27     precision = 0.27835051546391754 kappa = 0.8200371866732867
+nid = 9 annotator1 = 37 annotator2 = 71 mistakes = 78   agreed = 30     precision = 0.38461538461538464 kappa = 0.8733672994643354
+nid = 10        annotator1 = 61 annotator2 = 83 mistakes = 104  agreed = 40     precision = 0.38461538461538464 kappa = 0.8206224116324241
+nid = 11        annotator1 = 64 annotator2 = 64 mistakes = 88   agreed = 39     precision = 0.4431818181818182  kappa = 0.8056437832509062
+nid = 12        annotator1 = 47 annotator2 = 62 mistakes = 80   agreed = 29     precision = 0.3625      kappa = 0.8766958836042722
+nid = 13        annotator1 = 64 annotator2 = 66 mistakes = 91   agreed = 38     precision = 0.4175824175824176  kappa = 0.884211020650378
+nid = 14        annotator1 = 33 annotator2 = 45 mistakes = 56   agreed = 22     precision = 0.39285714285714285 kappa = 0.8867536162790258
+nid = 15        annotator1 = 73 annotator2 = 86 mistakes = 111  agreed = 46     precision = 0.4144144144144144  kappa = 0.8178729677635871
+nid = 16        annotator1 = 54 annotator2 = 57 mistakes = 79   agreed = 32     precision = 0.4050632911392405  kappa = 0.869778420527961
+nid = 17        annotator1 = 23 annotator2 = 54 mistakes = 63   agreed = 9      precision = 0.14285714285714285 kappa = 0.9022578638954823
+nid = 18        annotator1 = 44 annotator2 = 65 mistakes = 78   agreed = 31     precision = 0.3974358974358974  kappa = 0.898748906895627
+nid = 19        annotator1 = 37 annotator2 = 62 mistakes = 73   agreed = 23     precision = 0.3150684931506849  kappa = 0.9241790344729708
+nid = 20        annotator1 = 33 annotator2 = 62 mistakes = 66   agreed = 25     precision = 0.3787878787878788  kappa = 0.9050837636199957
+nid = 21        annotator1 = 25 annotator2 = 46 mistakes = 54   agreed = 17     precision = 0.3148148148148148  kappa = 0.8942222332339909
+nid = 22        annotator1 = 29 annotator2 = 56 mistakes = 63   agreed = 21     precision = 0.3333333333333333  kappa = 0.8871634625109089
+nid = 23        annotator1 = 54 annotator2 = 67 mistakes = 88   agreed = 31     precision = 0.3522727272727273  kappa = 0.8076789207862031
+nid = 24        annotator1 = 49 annotator2 = 67 mistakes = 87   agreed = 29     precision = 0.3333333333333333  kappa = 0.8427439457556346
+nid = 25        annotator1 = 52 annotator2 = 42 mistakes = 73   agreed = 20     precision = 0.273972602739726   kappa = 0.858274686718396
+nid = 26        annotator1 = 55 annotator2 = 88 mistakes = 100  agreed = 41     precision = 0.41        kappa = 0.8117145573923494
+nid = 27        annotator1 = 44 annotator2 = 80 mistakes = 83   agreed = 37     precision = 0.4457831325301205  kappa = 0.8859609507526085
+nid = 28        annotator1 = 61 annotator2 = 83 mistakes = 105  agreed = 38     precision = 0.3619047619047619  kappa = 0.860749646289057
+nid = 29        annotator1 = 57 annotator2 = 89 mistakes = 105  agreed = 40     precision = 0.38095238095238093 kappa = 0.8699986331133245
+nid = 30        annotator1 = 44 annotator2 = 57 mistakes = 71   agreed = 29     precision = 0.4084507042253521  kappa = 0.9378659628820323
+nid = 31        annotator1 = 20 annotator2 = 62 mistakes = 64   agreed = 16     precision = 0.25        kappa = 0.8744147221264863
+nid = 32        annotator1 = 48 annotator2 = 96 mistakes = 108  agreed = 35     precision = 0.32407407407407407 kappa = 0.8428373766484134
+nid = 33        annotator1 = 24 annotator2 = 57 mistakes = 61   agreed = 14     precision = 0.22950819672131148 kappa = 0.8845622896574064
+nid = 34        annotator1 = 42 annotator2 = 80 mistakes = 92   agreed = 29     precision = 0.31521739130434784 kappa = 0.8716390334030243
+nid = 35        annotator1 = 20 annotator2 = 45 mistakes = 50   agreed = 14     precision = 0.28        kappa = 0.9269740920615269
+nid = 36        annotator1 = 75 annotator2 = 70 mistakes = 96   agreed = 48     precision = 0.5 kappa = 0.8446737797681058
+nid = 37        annotator1 = 32 annotator2 = 53 mistakes = 60   agreed = 25     precision = 0.4166666666666667  kappa = 0.8905538896868351
+nid = 38        annotator1 = 75 annotator2 = 75 mistakes = 107  agreed = 43     precision = 0.40186915887850466 kappa = 0.8337313353903926
+nid = 39        annotator1 = 49 annotator2 = 45 mistakes = 65   agreed = 28     precision = 0.4307692307692308  kappa = 0.8997161603068529
+nid = 40        annotator1 = 51 annotator2 = 58 mistakes = 72   agreed = 35     precision = 0.4861111111111111  kappa = 0.8700982246732085
+nid = 41        annotator1 = 26 annotator2 = 39 mistakes = 50   agreed = 14     precision = 0.28        kappa = 0.9202076998795623
+nid = 42        annotator1 = 50 annotator2 = 64 mistakes = 80   agreed = 34     precision = 0.425       kappa = 0.8738905005918814
+nid = 43        annotator1 = 97 annotator2 = 85 mistakes = 128  agreed = 53     precision = 0.4140625   kappa = 0.8216453561405944
+nid = 44        annotator1 = 27 annotator2 = 62 mistakes = 67   agreed = 20     precision = 0.29850746268656714 kappa = 0.9266864265489978
+nid = 45        annotator1 = 41 annotator2 = 62 mistakes = 74   agreed = 22     precision = 0.2972972972972973  kappa = 0.9014087685867329
+nid = 46        annotator1 = 62 annotator2 = 65 mistakes = 91   agreed = 34     precision = 0.37362637362637363 kappa = 0.8442910537365713
+nid = 47        annotator1 = 46 annotator2 = 55 mistakes = 73   agreed = 28     precision = 0.3835616438356164  kappa = 0.8940188202115242
+nid = 48        annotator1 = 77 annotator2 = 93 mistakes = 118  agreed = 52     precision = 0.4406779661016949  kappa = 0.8082931413003512
+nid = 49        annotator1 = 72 annotator2 = 73 mistakes = 99   agreed = 46     precision = 0.46464646464646464 kappa = 0.842580516900005
+nid = 50        annotator1 = 53 annotator2 = 54 mistakes = 78   agreed = 27     precision = 0.34615384615384615 kappa = 0.8954782013245559
+Documents compared: 50
+Total mistakes: 4120
+Total agreed: 1535
+Overall precision (probability that error marked by both annotators): 0.3725728155339806
+Average precision for the doc: 0.36781358933706676
+Annotators agreement (by-char Cohen's kappa): 0.8696136623012661

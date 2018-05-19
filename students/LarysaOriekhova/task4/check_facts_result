@@ -1,0 +1,151 @@
+Database used: List of capitals of countries.
+Texts to search in: pages of big cities in wikipedia
+Summary:
+True positive (city is a capital, found correctly): 38
+True negative (city is not a capital, no country found): 75
+False positive (city is not a capital, but counry was found): 13
+False negative (city is a capital, but no country found): 13
+Error causes:
+Rules don't cover all possible sentence patterns;
+Small differences in country/city names in database and text (Kiyev is capital of Ukraine ->>>> False :( )
+
+All results:
+Chongqing is capital of China ->>>> False
+Lagos is not a capital ->>>> True
+Mumbai is capital of India ->>>> False
+Delhi is not a capital ->>>> True
+Shanghai is not a capital ->>>> True
+Tokyo is not a capital ->>>> False
+Dhaka is capital of Bangladesh ->>>> True
+Moscow is capital of Russia ->>>> True
+São Paulo is capital of Brazil ->>>> False
+Jakarta is capital of Indonesia ->>>> True
+Mexico City is capital of Mexico ->>>> True
+Lima is capital of Peru ->>>> True
+Chennai is not a capital ->>>> True
+Shenzhen is not a capital ->>>> True
+Quanzhou is not a capital ->>>> True
+Tehran is capital of Iran ->>>> True
+Baghdad is capital of Iraq ->>>> True
+Fuzhou is not a capital ->>>> True
+Hong Kong is not a capital ->>>> False
+Wuhan is capital of China ->>>> False
+Foshan is not a capital ->>>> True
+Zunyi is not a capital ->>>> True
+Qingdao is not a capital ->>>> True
+Hanoi is capital of Vietnam ->>>> True
+Riyadh is capital of Saudi Arabia ->>>> True
+Santiago is not a capital ->>>> False
+Ahmedabad is not a capital ->>>> True
+Singapore is not a capital ->>>> False
+Shantou is not a capital ->>>> True
+Casablanca is capital of Morocco ->>>> False
+Alexandria is not a capital ->>>> True
+Surat is not a capital ->>>> True
+Dar es Salaam is capital of Tanzania ->>>> False
+Johannesburg is not a capital ->>>> True
+Giza is not a capital ->>>> True
+İzmir is not a capital ->>>> True
+Los Angeles is not a capital ->>>> True
+Yokohama is not a capital ->>>> True
+Khartoum is capital of Sudan ->>>> True
+Ningbo is not a capital ->>>> True
+Xiamen is not a capital ->>>> True
+Berlin is capital of Germany ->>>> True
+Durban is not a capital ->>>> True
+Jeddah is not a capital ->>>> True
+Algiers is capital of Algeria ->>>> True
+Kabul is capital of Afghanistan ->>>> True
+Pyongyang is capital of North Korea ->>>> True
+Mashhad is not a capital ->>>> True
+City of Ekurhuleni Metropolitan Municipality is not a capital ->>>> True
+Faisalabad is not a capital ->>>> True
+Madrid is capital of Spain ->>>> True
+Zhongshan is not a capital ->>>> True
+Nairobi is capital of Kenya ->>>> True
+Pune is not a capital ->>>> True
+Incheon is not a capital ->>>> True
+Quezon City is not a capital ->>>> True
+Salvador is not a capital ->>>> True
+Buenos Aires is capital of Argentina ->>>> True
+Kiyev is capital of Ukraine ->>>> False
+Luanda is not a capital ->>>> False
+Rome is capital of Italy ->>>> True
+Kanpur is not a capital ->>>> True
+Kaohsiung is not a capital ->>>> True
+Surabaya is capital of Indonesia ->>>> False
+Taichung is not a capital ->>>> True
+Basra is not a capital ->>>> True
+Taipei is capital of Taiwan ->>>> True
+Chicago is not a capital ->>>> True
+Osaka is not a capital ->>>> True
+Quito is not a capital ->>>> False
+Chaozhou is not a capital ->>>> True
+Bandung is capital of Indonesia ->>>> False
+Managua is not a capital ->>>> False
+Brasília is capital of Brazil ->>>> True
+Chittagong is not a capital ->>>> True
+Douala is not a capital ->>>> True
+Yaoundé is capital of Cameroon ->>>> True
+Cali is not a capital ->>>> True
+Phnom Penh is capital of Cambodia ->>>> True
+Paris is capital of France ->>>> True
+Dalian is not a capital ->>>> True
+Havana is not a capital ->>>> False
+Medan is capital of Indonesia ->>>> False
+Rawalpindi is not a capital ->>>> True
+Gujranwala is not a capital ->>>> True
+Minsk is capital of Belarus ->>>> True
+Sapporo is not a capital ->>>> True
+Bhopal is not a capital ->>>> True
+Vienna is capital of Austria ->>>> True
+Maputo is capital of Mozambique ->>>> True
+Hamburg is not a capital ->>>> True
+Kuala Lumpur is capital of Malaysia ->>>> True
+Budapest is capital of Hungary ->>>> True
+Lusaka is capital of Zambia ->>>> True
+Kathmandu is not a capital ->>>> False
+Tabriz is capital of Azerbaijan ->>>> False
+Warsaw is capital of Poland ->>>> True
+Montréal is capital of Canada ->>>> False
+Harare is capital of Zimbabwe ->>>> True
+Caloocan is not a capital ->>>> True
+Barcelona is not a capital ->>>> True
+Maracaibo is not a capital ->>>> True
+Novosibirsk is not a capital ->>>> True
+Phoenix is not a capital ->>>> True
+Oran is not a capital ->>>> True
+Philadelphia is not a capital ->>>> True
+Kobe is not a capital ->>>> True
+Daejeon is not a capital ->>>> True
+Kampala is capital of Uganda ->>>> True
+Kawasaki is not a capital ->>>> True
+Vijayawada is not a capital ->>>> True
+Auckland is not a capital ->>>> True
+Fukuoka is not a capital ->>>> True
+Gwangju is not a capital ->>>> True
+Kyoto is not a capital ->>>> True
+San Antonio is not a capital ->>>> True
+Yekaterinburg is not a capital ->>>> True
+Makassar is not a capital ->>>> True
+San Diego is not a capital ->>>> True
+Mandalay is capital of Myanmar ->>>> False
+Saitama is not a capital ->>>> True
+Abuja is not a capital ->>>> False
+Sofia is capital of Bulgaria ->>>> True
+Montevideo is capital of Uruguay ->>>> True
+Dallas is not a capital ->>>> True
+Calgary is not a capital ->>>> True
+Rosario, Santa Fe is not a capital ->>>> True
+Belgrade is capital of Serbia ->>>> True
+Campinas is not a capital ->>>> True
+Ulsan is not a capital ->>>> True
+Dakar is capital of Senegal ->>>> True
+Tripoli is not a capital ->>>> False
+Rostov-on-Don is not a capital ->>>> True
+Fez is not a capital ->>>> True
+Birmingham is not a capital ->>>> True
+Berlin is capital of Germany ->>>> True
+Astana is not a capital ->>>> False
+Islamabad is not a capital ->>>> False
+Tunis is capital of Tunisia ->>>> True
