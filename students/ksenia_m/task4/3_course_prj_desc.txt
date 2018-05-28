@@ -1,0 +1,16 @@
+ - які метрики для оцінки якості ви будете використовувати?
+ - як ви бачите побудову бейзлайну?
+ - які готові рішення (включно зі state-of-the-art) вже існують та на яких підходах? (Якщо немає рішень для вашої задачі, дослідіть рішення для схожих задач.)
+
+Згідно цих робіт: http://talukdar.net/papers/slides/nnse_coling12_slides.pdf, http://www.cs.cmu.edu/~bmurphy/NNSE/nnse_coling12.pdf та https://www.lti.cs.cmu.edu/sites/default/files/dani_yogatama_sparse_models_of_natural_language_text.pdf
+
+Найбілш поширеним методом для побудови бейзлайну є SVD (Other reduce dimensionality technices: Clustering, Latent Dirichlet Allocation (LDA) Blei et al., 2003)), 
+що створює sparse model, але при цьому результати SVD важко інтепретувати (приклад top 5 words per demention for random dimension для SVD(300): 
+well, long, if, year, watch 
+та для NNSE(1000): inhibitor, inhibitors, antagonists, receptors, inhibition)
+Для того щоб оцінити зв'язок між словами тут http://www.cs.cmu.edu/~bmurphy/NNSE/nnse_coling12.pdf однією з технік було використано краудсорсінг, завдання полгягало у тому щоб визначити чи належать слова до одного семантичного ряду.
+Iнший спосіб визначити слова, що не належать данному виміру(Word Intrusion Task (Boyd-Graber et al., NIPS 2009)), тобто:
+intrude it with a low ranking word from this dimension, intruding word should be high ranking in another dimension
+
+Ще додатково якість NNSE можно перевірити:
+We also plan to compare the individual NNSE dimensions to other benchmarks that explicitly cover categories and properties, such as feature norms, WordNet, and other collections of human judgements such as the 20Q data (Palatucci et al., 2009).

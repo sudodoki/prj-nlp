@@ -1,0 +1,7 @@
+1. Буду використовувати f1 метрику, вона добре підходить для проблеми класифікації.
+2. За бейзлайн думаю взяти поділ за ознакою наявності в тексті скорочень 
+   (наприклад: Informal/Formal: aren’t/are not, can’t/cannot,didn’t/did not, hadn’t/had not, hasn’t/has no,t I’m/I am)
+   та абревіатур (asap. as/soon as possible, grad./graduate, HR/Human Resources)
+3. Готових рішень не знайшла. Є цікаве дослідження http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.364.4671&rep=rep1&type=pdf, 
+   на яке можна спиратися під час написання алгоритму класифікації. Планую використовувати логістичну регресію 
+   з використанням Decision Trees, Naïve Bayes та Support Vector Machines

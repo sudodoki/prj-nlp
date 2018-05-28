@@ -12,6 +12,8 @@ spacy = "*"
 pandas = "*"
 nltk = "*"
 tqdm = "*"
+scikit-learn = "*"
+scipy = "*"
 
 
 [dev-packages]

@@ -1,0 +1,8 @@
+Total num of pages:  61658
+Percent of domains starts with 'www' 60.84630979597119
+Percent of  .com  65.6299874908338
+Most popular domains:
+[('www.purplepride.org', 43), ('www.pandora.com', 42), ('votesmart.org', 41), ('www.metoperashop.org', 40), ('www.economist.com', 39), ('www.pbase.com', 39), ('www.kunsthaus.ch', 38), ('www.solarshop-europe.net', 38), ('www.pokecommunity.com', 37), ('mail-index.netbsd.org', 36)]
+Most popular langauges:
+[('en', 52246), ('es', 882), ('de', 860), ('fr', 619), ('pt', 347), ('it', 272), ('id', 223), ('nl', 166), ('pl', 127), ('tr', 126), ('ru', 122), ('vi', 105), ('sv', 103), ('ja', 100), ('ca', 99), ('ar', 79), ('da', 62), ('ko', 61), ('ro', 59), ('th', 58)]
+Number of domains with undetected language: 1172

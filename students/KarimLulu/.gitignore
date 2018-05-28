@@ -70,7 +70,7 @@ target/
 .ipynb_checkpoints/
 
 # Environments
-hw3
+hw*
 
 # WARC files
 *.warc*
@@ -79,3 +79,17 @@ hw3
 *.bin
 *.zip
 homework-10/*.txt
+*.dill
+
+*.dill
+*.bin
+*.zip
+homework-10/*.txt
+
+cornell_movie_dialogs_corpus.zip
+2554/
+cmv/
+ngrams.dill
+data.txt
+train_data.csv
+w2_.txt
