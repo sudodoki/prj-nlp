@@ -76,6 +76,10 @@ hw*
 *.warc*
 *.bz2
 *.gz
+*.bin
+*.zip
+homework-10/*.txt
+*.dill
 
 *.dill
 *.bin

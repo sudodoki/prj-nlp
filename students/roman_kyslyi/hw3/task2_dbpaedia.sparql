@@ -1,0 +1,28 @@
+# execution: https://dbpedia.org/sparql
+# select all persons from db, limit 1000
+SELECT ?person
+WHERE
+{
+   ?person a dbo:Person .
+} LIMIT 1000
+#result: https://goo.gl/gfHW7W
+
+
+
+# select person and all his relations
+SELECT ?person, ?relations
+WHERE
+{
+   ?person a dbo:Person .
+   ?person dbo:relation ?relations
+} limit 100
+#result: https://goo.gl/PiaLCb
+
+
+#select name and band name - for using not only dbo reference
+SELECT ?name ?bandname where {
+   ?person foaf:name ?name .
+   ?band dbo:bandMember ?person .
+   ?band foaf:name ?bandname .
+}
+#result: https://goo.gl/2CuShu

@@ -32,6 +32,8 @@ tokenize-uk = "*"
 python-rocksdb = "*"
 "pymorphy2-dicts-uk" = "*"
 "07bb735" = {path = "/Users/serhiinechyporhuk/courses/pymorphy2"}
+yalign = "*"
+textblob = "*"
 
 
 [requires]
