@@ -9,7 +9,7 @@ SMILES = {":‑)", ":)", ":-]", ":]", ":-3", ":3", ":->", ":>", "8-)", "8)", ":-
           "=)", ":‑D", ":D", "8‑D", "8D", "x‑D", "xD", "X‑D", "XD", "=D", "=3", "B^D", ":-))", ":‑(", ":(", ":‑c",
           ":c", ":‑<", ":<", ":‑[", ":[", ":-||", ">:[", ":{", ":@", ">:(", ":'‑(", ":'(", ":'‑)", ":')", ":-*", ":*",
           ":×", ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ":‑,", ";D", ":‑/", ":/", ":‑.", ">:\\", ">:/", ":\\",
-          "=/", "=\\", ":L", "=L", ":S", ":‑|", ":|", ":$", ":‑X", ":X", ":‑#", ":#", ":‑&", ":&", "%‑)", "%)"}
+          "=/", "=\\", ":L", "=L", ":S", ":s", ":‑|", ":|", ":$", ":‑X", ":X", ":‑#", ":#", ":‑&", ":&", "%‑)", "%)", "<3"}
 
 
 class Features():
@@ -25,7 +25,20 @@ class Features():
         self.punct_cnt = 0
         self.pos_dict = Counter()
         self.uniq_cnt = 0
+        self.words_len = 0
+        self.big_word_cnt = 0
         # RATES
+        # replace &nbsp; with a space
+        # deduplication + shuffle
+        # filler words - basically, actually, to be honest
+        # uncertainty - maybe, probably, could, possibly
+        # notional POS vs. functional POS -- lexical density, glue index
+        # slang words - gotta, whatcha, wanna, lemme; OMG, FYI, TTYL, CUL8R
+        # complex words - word length, number of syllables, number of senses, unigram frequency
+        # punctuation: !!!, ???, ?!? ...
+        # profanities - Wiktionary (pejorative, offensive, derogatory)
+        # grammatical complexity: XCOMP, RELCL, CCOMP, ADVCL
+        # he/she/I/we - animate pronouns (not it/they)
         self.punct_rate = 0.0
         self.punct_sent_rate = 0.0
         self.token_per_sent = 0.0
@@ -41,6 +54,8 @@ class Features():
         self.det_rate = 0.0
         self.conj_rate = 0.0
         self.unkn_rate = 0.0
+        self.words_len_rate = 0.0
+        self.big_words_rate = 0.0
         # POS
         self.PUNCT = 0
         self.SYM = 0
@@ -81,6 +96,8 @@ class Features():
             self.uniq_rate = self.uniq_cnt / self.word_cnt
             self.title_rate = self.title_cnt / self.word_cnt
             self.caps_rate = self.caps_cnt / self.word_cnt
+            self.words_len_rate = self.words_len / self.word_cnt
+            self.big_words_rate = self.big_word_cnt / self.word_cnt
 
     def to_array(self):
         return [self.sent_cnt,
@@ -92,6 +109,8 @@ class Features():
                 self.smiles_cnt,
                 self.punct_cnt,
                 self.uniq_cnt,
+                self.words_len,
+                self.big_word_cnt,
                 # RATES
                 self.punct_rate,
                 self.punct_sent_rate,
@@ -108,6 +127,8 @@ class Features():
                 self.det_rate,
                 self.conj_rate,
                 self.unkn_rate,
+                self.words_len_rate,
+                self.big_words_rate,
                 # POS
                 self.PUNCT,
                 self.SYM,
@@ -133,14 +154,13 @@ classes_map = {
 
 
 def prepare(text):
-    text = re.sub(r'[\s_]+', ' ', text).strip(' _')
+    text = re.sub(r'&nbsp;?|[\s_]+', ' ', text).strip(' _')
     doc = nlp(text)
     unique_lemmas = set()
     features = Features()
     for token in doc:
         features.token_cnt += 1
         features.sent_cnt += token.is_sent_start if token.is_sent_start else 0
-        features.word_cnt += token.is_alpha
         features.title_cnt += token.is_title
         features.caps_cnt += token.is_upper
         features.number_cnt += token.is_digit
@@ -150,8 +170,13 @@ def prepare(text):
             else:
                 features.punct_cnt += 1
         if token.is_alpha:
+            features.word_cnt += 1
             unique_lemmas.add(token.lemma_)
+            tok_len = len(token)
+            features.words_len += tok_len
+            features.big_word_cnt += 1 if tok_len > 6 else 0
         features.pos_dict[token.pos_] += 1
+        # features.
     features.uniq_cnt = len(unique_lemmas)
     features.set_pos_values()
     features.calculate_rates()
@@ -170,10 +195,10 @@ test_sample_10p.to_csv(DATA_DIR+'test_sample_10p.csv')
 """
 
 nlp = en_core_web_sm.load()
-data = pd.read_csv(DATA_DIR+BLOGS_PREP_EN_FILE, encoding='utf-8', compression='gzip', skiprows=400000, nrows=99999, header=None)
+data = pd.read_csv(DATA_DIR+BLOGS_PREP_EN_FILE, encoding='utf-8', compression='gzip', skiprows=1, nrows=99999, header=None)
 # test_sample_100 = pd.read_csv(DATA_DIR + 'test_sample_1000.csv', encoding='utf-8')[['text', 'age+sex']]
 
-with open('test_file5.tsv', 'a') as tf:
+with open('test_file1.tsv', 'a') as tf:
     for i, row in data.iterrows():
         z = prepare(row[0])
         z.append(classes_map[row[3]])
