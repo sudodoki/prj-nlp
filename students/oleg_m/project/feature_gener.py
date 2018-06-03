@@ -2,17 +2,52 @@ from collections import Counter
 import pandas as pd
 import re
 import spacy, en_core_web_sm
+import numpy as np
+from multiprocessing import Pool
+from wordfreq import word_frequency
 
 DATA_DIR = '/Users/admin/edu/NLP/practical_NLP_course/data/'
 BLOGS_PREP_EN_FILE = 'blog_authors_preped.csv.gzip'
+
 SMILES = {":‑)", ":)", ":-]", ":]", ":-3", ":3", ":->", ":>", "8-)", "8)", ":-}", ":}", ":o)", ":c)", ":^)", "=]",
           "=)", ":‑D", ":D", "8‑D", "8D", "x‑D", "xD", "X‑D", "XD", "=D", "=3", "B^D", ":-))", ":‑(", ":(", ":‑c",
           ":c", ":‑<", ":<", ":‑[", ":[", ":-||", ">:[", ":{", ":@", ">:(", ":'‑(", ":'(", ":'‑)", ":')", ":-*", ":*",
           ":×", ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ":‑,", ";D", ":‑/", ":/", ":‑.", ">:\\", ">:/", ":\\",
-          "=/", "=\\", ":L", "=L", ":S", ":s", ":‑|", ":|", ":$", ":‑X", ":X", ":‑#", ":#", ":‑&", ":&", "%‑)", "%)", "<3"}
+          "=/", "=\\", ":L", "=L", ":S", ":s", ":‑|", ":|", ":$", ":‑X", ":X", ":‑#", ":#", ":‑&", ":&", "%‑)", "%)",
+          "<3"}
+
+ANIMATE_PRON = {"i", "we", "he", "she"}
+FIRST_PERS = {'i', 'me', 'mine', 'my', 'myself'}
+UNCERTAN_WORDS = {'maybe', 'probably', 'possibly', 'perhaps', 'conceivably', 'feasibly', 'imaginably', 'potentially',
+                  'apparently', 'likely', 'believably'}
+FILLER_WORDS = {'basically', 'actually', 'that', 'really', 'slightly', 'almost', 'seemed',
+                'perhaps', 'maybe',  'somehow', 'absolutely', 'seriously', 'so', 'exactly', 'certainly'}
+INFORMAL_CONTR = {"ain't", 'gimme', 'gotta', 'gonna', 'kinda', 'lemme', 'wanna', 'whatcha', 'ya', 'oughta', 'lotsa',
+                  'outta', 'dunno', 'shoulda', 'coulda', 'woulda', 'cuz', 'coz', 'cos', 'haveta', 'sorta',
+                  'betcha', 'tseasy', 'willya', 'dontcha', 'didntcha', 'wontcha', 'whatcha', 'watcha', 'gotcha',
+                  'betcha', 'mighta', 'musta', 'couldna', 'shouldna', 'wouldna', 'she\'da', 'he\'da', 'I\'da',
+                  'they\'da', 'you\'da', 'lotta', 'cuppa', 'hafta', 'hasta', 'needa', 'supposeta', 'useta',
+                  "c'mon", "s'more"}
+NOTION_POS = {'ADJ', 'VERB', 'NOUN', 'ADV', 'PROPN'}
+FUNCTIONAL_POS = {'ADP', 'CONJ', 'AUX', 'CCONJ', 'DET', 'INTJ', 'SCONJ'}
+h = {'just', 'only', 'simply', 'very'}
+COMPLEX_DEPS = {'xcomp', 'acl', 'ccomp', 'advcl'}
+PEJORATIVE = set(line.strip().lower() for line in open('Pejorative.txt'))
+
+# replace &nbsp; with a space
+# deduplication + shuffle
+# filler words - basically, actually, to be honest
+# uncertainty - maybe, probably, could, possibly
+# notional POS vs. functional POS -- lexical density, glue index
+# slang words - gotta, whatcha, wanna, lemme; OMG, FYI, TTYL, CUL8R
+# complex words - word length, number of syllables, number of senses, unigram frequency
+# punctuation: !!!, ???, ?!? ...
+# profanities - Wiktionary (pejorative, offensive, derogatory)
+# grammatical complexity: XCOMP, RELCL, CCOMP, ADVCL
+# he/she/I/we - animate pronouns (not it/they)
 
 
-class Features():
+class Features(object):
     def __init__(self):
         self.unique_lemmas = set()
         self.sent_cnt = 1
@@ -27,18 +62,21 @@ class Features():
         self.uniq_cnt = 0
         self.words_len = 0
         self.big_word_cnt = 0
+        self.animate_prons = 0
+        self.first_person_pron = 0
+        self.reflexive_prons = 0
+        self.accent_punct = 0
+        self.uncertain_word = 0
+        self.filler_word = 0
+        self.notional_pos = 0
+        self.functional_pos = 0
+        self.syllables = 0
+        self.word_freq = 0.0
+        self.informal = 0
+        self.complex_dep = 0
+        self.pejorative = 0
+        self.unkn_lemmas = 0
         # RATES
-        # replace &nbsp; with a space
-        # deduplication + shuffle
-        # filler words - basically, actually, to be honest
-        # uncertainty - maybe, probably, could, possibly
-        # notional POS vs. functional POS -- lexical density, glue index
-        # slang words - gotta, whatcha, wanna, lemme; OMG, FYI, TTYL, CUL8R
-        # complex words - word length, number of syllables, number of senses, unigram frequency
-        # punctuation: !!!, ???, ?!? ...
-        # profanities - Wiktionary (pejorative, offensive, derogatory)
-        # grammatical complexity: XCOMP, RELCL, CCOMP, ADVCL
-        # he/she/I/we - animate pronouns (not it/they)
         self.punct_rate = 0.0
         self.punct_sent_rate = 0.0
         self.token_per_sent = 0.0
@@ -56,6 +94,18 @@ class Features():
         self.unkn_rate = 0.0
         self.words_len_rate = 0.0
         self.big_words_rate = 0.0
+        self.animate_rate = 0.0
+        self.first_rate = 0
+        self.reflexive_rate = 0.0
+        self.accent_punct_rate = 0.0
+        self.notional_pos_rate = 0.0
+        self.functional_pos_rate = 0.0
+        self.syllables_rate = 0.0
+        self.word_freq_rate = 0.0
+        self.informal_rate = 0.0
+        self.complex_dep_rate = 0.0
+        self.pejorative_rate = 0.0
+        self.unkn_lemmas_rate = 0.0
         # POS
         self.PUNCT = 0
         self.SYM = 0
@@ -72,6 +122,8 @@ class Features():
         self.PART = 0
         self.PRON = 0
         self.INTJ = 0
+        self.pos_corpus = ''
+        self.text_lemmas = ''
 
     def set_pos_values(self):
         for k, v in self.pos_dict.items():
@@ -89,6 +141,9 @@ class Features():
             self.det_rate = self.DET / self.token_cnt
             self.conj_rate = (self.ADP + self.CONJ) / self.token_cnt
             self.unkn_rate = self.X / self.token_cnt
+            self.notional_pos_rate = self.notional_pos / self.token_cnt
+            self.functional_pos_rate = self.functional_pos / self.token_cnt
+            self.complex_dep_rate = self.complex_dep / self.token_cnt
         if self.sent_cnt > 0:
             self.punct_sent_rate = self.punct_cnt / self.sent_cnt
             self.token_per_sent = self.token_cnt / self.sent_cnt
@@ -98,6 +153,17 @@ class Features():
             self.caps_rate = self.caps_cnt / self.word_cnt
             self.words_len_rate = self.words_len / self.word_cnt
             self.big_words_rate = self.big_word_cnt / self.word_cnt
+            self.syllables_rate = self.syllables / self.word_cnt
+            self.word_freq_rate = self.word_freq / self.word_cnt
+            self.informal_rate = self.informal / self.word_cnt
+            self.pejorative_rate = self.pejorative / self.word_cnt
+            self.unkn_lemmas_rate = self.unkn_lemmas / self.word_cnt
+        if self.PRON > 0:
+            self.animate_rate = self.animate_prons / self.PRON
+            self.first_rate = self.first_person_pron / self.PRON
+            self.reflexive_rate = self.reflexive_prons / self.PRON
+        if self.punct_cnt > 0:
+            self.accent_punct_rate = self.accent_punct / self.punct_cnt
 
     def to_array(self):
         return [self.sent_cnt,
@@ -111,6 +177,20 @@ class Features():
                 self.uniq_cnt,
                 self.words_len,
                 self.big_word_cnt,
+                self.animate_prons,
+                self.first_person_pron,
+                self.reflexive_prons,
+                self.accent_punct,
+                self.uncertain_word,
+                self.filler_word,
+                self.notional_pos,
+                self.functional_pos,
+                self.syllables,
+                self.word_freq,
+                self.informal,
+                self.complex_dep,
+                self.pejorative,
+                self.unkn_lemmas,
                 # RATES
                 self.punct_rate,
                 self.punct_sent_rate,
@@ -129,6 +209,18 @@ class Features():
                 self.unkn_rate,
                 self.words_len_rate,
                 self.big_words_rate,
+                self.animate_rate,
+                self.first_rate,
+                self.reflexive_rate,
+                self.accent_punct_rate,
+                self.notional_pos_rate,
+                self.functional_pos_rate,
+                self.syllables_rate,
+                self.word_freq_rate,
+                self.informal_rate,
+                self.complex_dep_rate,
+                self.pejorative_rate,
+                self.unkn_lemmas_rate,
                 # POS
                 self.PUNCT,
                 self.SYM,
@@ -144,7 +236,125 @@ class Features():
                 self.PROPN,
                 self.PART,
                 self.PRON,
-                self.INTJ]
+                self.INTJ,
+                self.pos_corpus,
+                self.text_lemmas]
+
+
+def count_syl(word):
+    count = 0
+    vowels = 'aeiouy'
+    word = word.strip(".:;?!")
+    if word[0] in vowels:
+        count += 1
+    for index in range(1, len(word)):
+        if word[index] in vowels and word[index-1] not in vowels:
+            count += 1
+    if word.endswith('e'):
+        count -= 1
+    if word.endswith('le'):
+        count += 1
+    if count == 0:
+        count += 1
+    return count
+
+
+def make_lemma_set(filename):
+    lemma_set = set([])
+    with open(filename, 'r', encoding='utf-8') as f1:
+        lines = f1.read().split('\n')
+        for lemma in lines:
+            lemma_set.add(lemma)
+    lemma_set.remove('')
+    return lemma_set
+
+
+def prepare(text):
+    text = re.sub(r'[0-9]+', '999', text)
+    text = re.sub(r'&nbsp;?|[\s_]+', ' ', text).strip(' _')
+    doc = nlp(text)
+    unique_lemmas = set()
+    features = Features()
+    lemma_text = ''
+    pos_corpus = 'START '
+    for token in doc:
+        features.token_cnt += 1
+
+        if token.is_sent_start:
+            features.sent_cnt += 1
+            pos_corpus += 'END START '
+
+        features.title_cnt += token.is_title
+        features.caps_cnt += token.is_upper
+        features.number_cnt += token.is_digit
+        features.notional_pos += 1 if token.pos_ in NOTION_POS else 0
+        features.functional_pos += 1 if token.pos_ in FUNCTIONAL_POS else 0
+        pos_corpus += '{} '.format(token.pos_)
+
+        if token.is_punct:
+            if token.string in SMILES:
+                features.smiles_cnt += 1
+            else:
+                features.punct_cnt += 1
+            if len(token.string) > 1 and re.match(r'[\?\!\.]', token.string):
+                features.accent_punct += 1
+
+        if token.is_alpha:
+            features.syllables += count_syl(token.lower_)
+            features.word_cnt += 1
+            unique_lemmas.add(token.lemma_)
+            tok_len = len(token)
+            features.words_len += tok_len
+            features.big_word_cnt += 1 if tok_len > 6 else 0
+            features.filler_word += 1 if token.lower_ in FILLER_WORDS else 0
+            features.informal += 1 if token.lower_ in INFORMAL_CONTR else 0
+            features.word_freq += word_frequency(token.lower_, 'en')
+            features.pejorative += 1 if token.lower_ in PEJORATIVE else 0
+            lemma_text += '{} '.format(token.lemma_)
+
+        if token.pos_ == 'PRON':
+            features.first_person_pron += 1 if token.lower_ in FIRST_PERS else 0
+            features.animate_prons += 1 if token.lower_ in ANIMATE_PRON else 0
+            features.reflexive_prons += 1 if token.lower_.endswith(('self', 'lves')) else 0
+        elif token.pos_ == 'ADV':
+            if token.lower_ in UNCERTAN_WORDS:
+                features.uncertain_word += 1
+
+        if token.pos_ in NOTION_POS:
+            features.unkn_lemmas += 0 if token.lemma_ in lemmas_set else 1
+
+        if token.dep_ in COMPLEX_DEPS:
+            features.complex_dep += 1
+
+        features.pos_dict[token.pos_] += 1
+    features.pos_corpus = pos_corpus
+    features.text_lemmas = lemma_text
+    features.uniq_cnt = len(unique_lemmas)
+    features.set_pos_values()
+    features.calculate_rates()
+    return features.to_array()
+
+
+def process_df(df):
+    class_counter = Counter()
+    from students.oleg_m.project import textgain
+    with open(DATA_DIR + 'sample2.tsv', 'a') as tf:
+        j = 0
+        for i, row in df.iterrows():
+            z = prepare(row[0])
+            # z.append(row[0])
+            z.append(row[2])
+            z.append(classes_map[row[3]])
+            tf.write('\t'.join(str(x) for x in z) + '\n')
+            j += 1
+            # age_pred = textgain.get_age(row[0])
+            # gen_pred = textgain.get_gender(row[0])
+            # print(row[2], classes_map[row[3]], age_pred, gen_pred)
+            # print()
+            if j % 500 == 0:
+                print(j, i)
+            # elif j == 100:
+            #     return
 
 
 classes_map = {
@@ -152,75 +362,16 @@ classes_map = {
     '(12.0, 17.0]female': '17F', '(17.0, 25.0]female': '25F', '(25.0, 48.0]female': '48F'
 }
 
-
-def prepare(text):
-    text = re.sub(r'&nbsp;?|[\s_]+', ' ', text).strip(' _')
-    doc = nlp(text)
-    unique_lemmas = set()
-    features = Features()
-    for token in doc:
-        features.token_cnt += 1
-        features.sent_cnt += token.is_sent_start if token.is_sent_start else 0
-        features.title_cnt += token.is_title
-        features.caps_cnt += token.is_upper
-        features.number_cnt += token.is_digit
-        if token.is_punct:
-            if token.string in SMILES:
-                features.smiles_cnt += 1
-            else:
-                features.punct_cnt += 1
-        if token.is_alpha:
-            features.word_cnt += 1
-            unique_lemmas.add(token.lemma_)
-            tok_len = len(token)
-            features.words_len += tok_len
-            features.big_word_cnt += 1 if tok_len > 6 else 0
-        features.pos_dict[token.pos_] += 1
-        # features.
-    features.uniq_cnt = len(unique_lemmas)
-    features.set_pos_values()
-    features.calculate_rates()
-    return features.to_array()
-
-
-""" # PREPARATION
-data = pd.read_csv(DATA_DIR+BLOGS_PREP_EN_FILE, compression='gzip')
-test_sample_100 = data.sample(n=100)
-test_sample_1000 = data.sample(n=1000)
-test_sample_10p = data.sample(frac=0.1)
-
-test_sample_100.to_csv(DATA_DIR+'test_sample_100.csv')
-test_sample_1000.to_csv(DATA_DIR+'test_sample_1000.csv')
-test_sample_10p.to_csv(DATA_DIR+'test_sample_10p.csv')
-"""
-
+n_cores = 8
 nlp = en_core_web_sm.load()
-data = pd.read_csv(DATA_DIR+BLOGS_PREP_EN_FILE, encoding='utf-8', compression='gzip', skiprows=1, nrows=99999, header=None)
-# test_sample_100 = pd.read_csv(DATA_DIR + 'test_sample_1000.csv', encoding='utf-8')[['text', 'age+sex']]
+lemmas_set = make_lemma_set('lemmas.txt')
+data = pd.read_csv(DATA_DIR+BLOGS_PREP_EN_FILE, encoding='utf-8', compression='gzip')
+# data = data[data['topic'] == 'Student']
+# sample1 = data.sample(n=24000, random_state=42)
+sample1 = data.sample(frac=1.0, random_state=42)
+sample1_split = np.array_split(sample1, n_cores)
+# process_df(sample1)
 
-with open('test_file1.tsv', 'a') as tf:
-    for i, row in data.iterrows():
-        z = prepare(row[0])
-        z.append(classes_map[row[3]])
-        tf.write('\t'.join(str(x) for x in z) + '\n')
-        if i % 1000 == 0:
-            print(i)
+with Pool(processes=n_cores) as pool:
+    pool.map(process_df, sample1_split)
 
-
-# test_sample_100['new'] = test_sample_100['text'].apply(prepare_features)
-# df = data.text.apply(prepare_features).apply(pd.Series).fillna(0).astype(int)
-# df['y'] = data['age+sex'].apply(lambda x: classes_map[x])
-
-# NEW FEATURE RATES
-# df['punct_rate'] = df['punct_cnt'] / df['token_cnt']
-# df['punct_sent_rate'] = df['punct_cnt'] / df['sent_cnt']
-# df['token_per_sent'] = df['token_cnt'] / df['sent_cnt']
-# df['word_rate'] = df['word_cnt'] / df['token_cnt']
-# df['uniq_rate'] = df['uniq_cnt'] / df['word_cnt']
-# df['title_rate'] = df['title_cnt'] / df['word_cnt']
-# df['caps_rate'] = df['caps_cnt'] / df['word_cnt']
-# df['verb_rate'] = df['pos_VERB'] / df['token_cnt']
-# df['adj_rate'] = df['pos_ADJ'] / df['token_cnt']
-# df['pron_rate'] = df['pos_PRON'] / df['token_cnt']
-
-# df.to_csv(DATA_DIR + 'blog_authors_features.csv.gzip', compression="gzip")
